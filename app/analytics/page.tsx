@@ -5,10 +5,14 @@ import { PlatformNav } from "@/components/analytics/platform-nav"
 import { StatRow, StatTile } from "@/components/analytics/stat-tile"
 import { ChartFrame } from "@/components/analytics/chart-frame"
 import { CategoryBar } from "@/components/analytics/category-bar"
-import { CategoryTable } from "@/components/analytics/category-table"
+import { PerformanceTable } from "@/components/analytics/performance-table"
 import { EmptyState } from "@/components/ui/empty-state"
 import { Badge } from "@/components/ui/badge"
-import { getCategoryPerformance, getPosts } from "@/lib/queries/analytics"
+import {
+  getCategoryPerformance,
+  getPosts,
+  getThemePerformance,
+} from "@/lib/queries/analytics"
 import { sumTotals } from "@/lib/aggregate"
 import { BRAND, PLATFORMS } from "@/lib/constants"
 import { formatCompact, formatPercent } from "@/lib/utils"
@@ -19,11 +23,14 @@ export default async function AnalyticsPage() {
   const perPlatform = await Promise.all(
     PLATFORMS.map(async (platform) => ({
       platform,
-      totals: sumTotals(await getPosts(platform.key, 1000)),
+      totals: sumTotals(await getPosts(platform.key)),
     })),
   )
 
-  const categories = await getCategoryPerformance()
+  const [categories, themes] = await Promise.all([
+    getCategoryPerformance(),
+    getThemePerformance(),
+  ])
   const grand = perPlatform.reduce(
     (acc, p) => ({
       posts: acc.posts + p.totals.posts,
@@ -53,6 +60,25 @@ export default async function AnalyticsPage() {
         entry.value += Number(row.total_views)
         entry.posts += Number(row.post_count)
         acc[row.category_slug] = entry
+        return acc
+      },
+      {},
+    ),
+  )
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 10)
+
+  const combinedThemes = Object.values(
+    themes.reduce<Record<string, { name: string; value: number; posts: number }>>(
+      (acc, row) => {
+        const entry = acc[row.theme_slug] ?? {
+          name: row.theme_name,
+          value: 0,
+          posts: 0,
+        }
+        entry.value += Number(row.total_views)
+        entry.posts += Number(row.post_count)
+        acc[row.theme_slug] = entry
         return acc
       },
       {},
@@ -119,10 +145,19 @@ export default async function AnalyticsPage() {
             ))}
           </section>
 
+          {combinedThemes.length > 0 && (
+            <ChartFrame
+              title="Views by theme"
+              caption="All platforms combined, top 10 themes"
+            >
+              <CategoryBar data={combinedThemes} />
+            </ChartFrame>
+          )}
+
           {combinedCategories.length > 0 && (
             <ChartFrame
-              title="Views by content category"
-              caption="All platforms combined, top 10 categories"
+              title="Views by series"
+              caption="All platforms combined, top 10 programmes"
             >
               <CategoryBar data={combinedCategories} />
             </ChartFrame>
@@ -131,10 +166,17 @@ export default async function AnalyticsPage() {
           {categories.length > 0 && (
             <section className="space-y-3">
               <h2 className="text-sm font-semibold tracking-tight">
-                Category performance by platform
+                Series performance by platform
               </h2>
               <div className="rounded-xl border">
-                <CategoryTable rows={categories} />
+                <PerformanceTable
+                  label="Series"
+                  rows={categories.map((c) => ({
+                    ...c,
+                    key: `${c.platform}-${c.category_slug}`,
+                    name: `${c.category_name}`,
+                  }))}
+                />
               </div>
             </section>
           )}

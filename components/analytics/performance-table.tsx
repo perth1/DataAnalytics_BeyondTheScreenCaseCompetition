@@ -7,16 +7,32 @@ import {
   TableRow,
 } from "@/components/ui/table"
 import { formatCompact, formatNumber, formatPercent } from "@/lib/utils"
-import type { CategoryPerformance } from "@/lib/types"
 
-export function CategoryTable({ rows }: { rows: CategoryPerformance[] }) {
+export interface PerformanceRow {
+  key: string
+  name: string
+  post_count: number
+  total_views: number
+  total_likes: number
+  total_comments: number
+  avg_views: number
+  avg_engagement_rate: number
+}
+
+export function PerformanceTable({
+  rows,
+  label,
+}: {
+  rows: PerformanceRow[]
+  label: string
+}) {
   const totalViews = rows.reduce((sum, r) => sum + Number(r.total_views), 0)
 
   return (
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead>Category</TableHead>
+          <TableHead>{label}</TableHead>
           <TableHead className="text-right">Posts</TableHead>
           <TableHead className="text-right">Views</TableHead>
           <TableHead className="text-right">Share</TableHead>
@@ -28,8 +44,8 @@ export function CategoryTable({ rows }: { rows: CategoryPerformance[] }) {
       </TableHeader>
       <TableBody>
         {rows.map((row) => (
-          <TableRow key={row.category_slug}>
-            <TableCell className="font-medium">{row.category_name}</TableCell>
+          <TableRow key={row.key}>
+            <TableCell className="font-medium">{row.name}</TableCell>
             <TableCell className="text-right tabular-nums">
               {formatNumber(row.post_count)}
             </TableCell>

@@ -96,6 +96,21 @@ export interface PostWithMetrics extends Post {
   engagement_rate: number | null
   category_slug: string | null
   category_name: string | null
+  theme_slug: string | null
+  theme_name: string | null
+}
+
+export interface ThemePerformance {
+  platform: Platform
+  theme_slug: string
+  theme_name: string
+  post_count: number
+  total_views: number
+  total_likes: number
+  total_comments: number
+  total_shares: number
+  avg_views: number
+  avg_engagement_rate: number
 }
 
 export interface CategoryPerformance {

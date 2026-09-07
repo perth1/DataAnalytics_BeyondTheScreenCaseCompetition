@@ -5,7 +5,7 @@ import { PlatformNav } from "@/components/analytics/platform-nav"
 import { StatRow, StatTile } from "@/components/analytics/stat-tile"
 import { ChartFrame } from "@/components/analytics/chart-frame"
 import { CategoryBar } from "@/components/analytics/category-bar"
-import { CategoryTable } from "@/components/analytics/category-table"
+import { PerformanceTable } from "@/components/analytics/performance-table"
 import { TimelineChart } from "@/components/analytics/timeline-chart"
 import { FormatSplit } from "@/components/analytics/format-split"
 import { TopContentTable } from "@/components/analytics/top-content-table"
@@ -17,6 +17,7 @@ import {
   getCategoryPerformance,
   getChannel,
   getPosts,
+  getThemePerformance,
   getViralPosts,
 } from "@/lib/queries/analytics"
 import { formatSplit, monthlyTimeline, sumTotals, topHashtags } from "@/lib/aggregate"
@@ -39,10 +40,11 @@ export default async function PlatformAnalyticsPage({
   const meta = PLATFORM_MAP[platform as Platform]
   if (!meta) notFound()
 
-  const [channel, posts, categories, viral] = await Promise.all([
+  const [channel, posts, categories, themes, viral] = await Promise.all([
     getChannel(meta.key),
-    getPosts(meta.key, 1000),
+    getPosts(meta.key),
     getCategoryPerformance(meta.key),
+    getThemePerformance(meta.key),
     getViralPosts(meta.key),
   ])
 
@@ -59,6 +61,14 @@ export default async function PlatformAnalyticsPage({
       name: c.category_name,
       value: Number(c.total_views),
       posts: Number(c.post_count),
+    }))
+    .slice(0, 10)
+
+  const themeChart = themes
+    .map((t) => ({
+      name: t.theme_name,
+      value: Number(t.total_views),
+      posts: Number(t.post_count),
     }))
     .slice(0, 10)
 
@@ -123,10 +133,33 @@ export default async function PlatformAnalyticsPage({
             </ChartFrame>
           </div>
 
+          {themeChart.length > 0 && (
+            <ChartFrame
+              title="Views by theme"
+              caption="What the content is about — assigned per post by Claude"
+            >
+              <CategoryBar data={themeChart} />
+            </ChartFrame>
+          )}
+
+          {themes.length > 0 && (
+            <section className="space-y-3">
+              <h2 className="text-sm font-semibold tracking-tight">
+                Theme performance
+              </h2>
+              <div className="rounded-xl border">
+                <PerformanceTable
+                  label="Theme"
+                  rows={themes.map((t) => ({ ...t, key: t.theme_slug, name: t.theme_name }))}
+                />
+              </div>
+            </section>
+          )}
+
           {categoryChart.length > 0 && (
             <ChartFrame
-              title="Views by content category"
-              caption={`${meta.label} only, top ${categoryChart.length} categories`}
+              title="Views by series"
+              caption={`${meta.label} programmes, top ${categoryChart.length}`}
             >
               <CategoryBar data={categoryChart} />
             </ChartFrame>
@@ -135,10 +168,13 @@ export default async function PlatformAnalyticsPage({
           {categories.length > 0 && (
             <section className="space-y-3">
               <h2 className="text-sm font-semibold tracking-tight">
-                Category performance
+                Series performance
               </h2>
               <div className="rounded-xl border">
-                <CategoryTable rows={categories} />
+                <PerformanceTable
+                  label="Series"
+                  rows={categories.map((c) => ({ ...c, key: c.category_slug, name: c.category_name }))}
+                />
               </div>
             </section>
           )}

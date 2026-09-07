@@ -1,6 +1,7 @@
 import { createServerClient, isSupabaseConfigured } from "@/lib/supabase/server"
 import type {
   CategoryPerformance,
+  ThemePerformance,
   Channel,
   CommentSummary,
   Platform,
@@ -26,18 +27,30 @@ export async function getChannel(platform: Platform): Promise<Channel | null> {
   return data ?? null
 }
 
-export async function getPosts(
-  platform: Platform,
-  limit = 200,
-): Promise<PostWithMetrics[]> {
+const PAGE = 1000
+
+/**
+ * Every post for a platform. PostgREST caps a single response at 1000 rows,
+ * so page until the tail comes back short.
+ */
+export async function getPosts(platform: Platform): Promise<PostWithMetrics[]> {
   if (!isSupabaseConfigured()) return []
-  const { data } = await createServerClient()
-    .from("v_post_latest_metrics")
-    .select("*")
-    .eq("platform", platform)
-    .order("published_at", { ascending: false })
-    .limit(limit)
-  return data ?? []
+  const db = createServerClient()
+  const rows: PostWithMetrics[] = []
+
+  for (let from = 0; ; from += PAGE) {
+    const { data, error } = await db
+      .from("v_post_latest_metrics")
+      .select("*")
+      .eq("platform", platform)
+      .order("published_at", { ascending: false })
+      .range(from, from + PAGE - 1)
+    if (error) throw error
+    rows.push(...((data ?? []) as PostWithMetrics[]))
+    if (!data || data.length < PAGE) break
+  }
+
+  return rows
 }
 
 export async function getTopPosts(
@@ -60,6 +73,19 @@ export async function getCategoryPerformance(
   if (!isSupabaseConfigured()) return []
   let query = createServerClient()
     .from("v_category_performance")
+    .select("*")
+    .order("total_views", { ascending: false })
+  if (platform) query = query.eq("platform", platform)
+  const { data } = await query
+  return data ?? []
+}
+
+export async function getThemePerformance(
+  platform?: Platform,
+): Promise<ThemePerformance[]> {
+  if (!isSupabaseConfigured()) return []
+  let query = createServerClient()
+    .from("v_theme_performance")
     .select("*")
     .order("total_views", { ascending: false })
   if (platform) query = query.eq("platform", platform)
