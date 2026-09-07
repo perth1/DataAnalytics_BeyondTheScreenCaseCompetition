@@ -1,0 +1,44 @@
+{
+  "name": "beyond-the-screen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "ingest:youtube": "tsx scripts/ingest/youtube.ts",
+    "ingest:csv": "tsx scripts/ingest/csv-import.ts",
+    "export:comments": "tsx scripts/export-comments.ts",
+    "build:summaries": "tsx scripts/build-summaries.ts",
+    "export:titles": "tsx scripts/export-titles.ts",
+    "apply:themes": "tsx scripts/apply-themes.ts",
+    "apply:categories": "tsx scripts/apply-categories.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.6",
+    "@supabase/supabase-js": "^2.116.0",
+    "@types/papaparse": "^5.5.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^1.42.0",
+    "next": "^16.3.4",
+    "papaparse": "^5.7.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "recharts": "^3.10.1",
+    "tailwind-merge": "^3.3.1",
+    "tsx": "^4.23.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.0"
+  }
+}
