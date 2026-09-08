@@ -1,0 +1,21 @@
+{
+  "post_id": "77d18be9-6144-43f7-9f3d-59f3ec719f83",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "An episode in which the cupid becomes the guest — one of the hosts is matched with the actor Mike, and the comment section is a small but unanimous shipping thread: they suit each other, stop treating it as fiction and make it real, and is there any chance of getting a series with the two of them. At 682K views this drew only 103 comments on the platform, far below the series norm, which is worth noting: the same format with a host in the guest seat and a non-idol partner produced a fraction of the engagement of the idol pairings.",
+  "themes": [
+    { "label": "Shipping the host with the guest", "share": 50, "example": "ดูทีไรยิ้มตามเลยก้อยไมค์จิ้นๆๆๆๆ" },
+    { "label": "Asking for it to be real, not fictional", "share": 30, "example": "คู่นี้เหมาะสมกันมากจริงๆ ไม่จิ้นได้ใหม ขอเป็นเรื่องจริง" },
+    { "label": "Wanting a drama series with the pair", "share": 20, "example": "จะมีบุญวาสนาได้ดูซีรี่ก้อยไมค์สักเรื่องไหมน้อ" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 4, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "Putting a host in the guest seat is a novelty that reads well but does not replicate the engagement of idol pairings — 103 comments on 682K views against nearly 4,000 on comparable idol episodes",
+    "The engagement in this series comes from the guests' existing fandoms, not from the format itself, which is the key strategic distinction for scaling it",
+    "Shipping demand extends beyond the channel: viewers want to see the pairing in scripted drama, an adjacent business the hosts could broker"
+  ],
+  "content_requests": [
+    "Make the pairing real rather than fictional",
+    "A drama series featuring the pair"
+  ]
+}

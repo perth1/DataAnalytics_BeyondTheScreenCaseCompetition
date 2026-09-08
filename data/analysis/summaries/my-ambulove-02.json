@@ -1,0 +1,25 @@
+{
+  "post_id": "0b83cbc0-21a0-4dff-9004-a141ed4dd637",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "5,531 comments on 1.23M views — the second most-commented post on the channel after the Pita episode. The single most-liked comment is not about this episode at all: it is a plea, with over 5,000 likes, to finally book a different pair and end the waiting. Below that, the reaction is physical — smiling from start to finish until it hurt, something in the air between them — plus a long comment laying out why this specific pairing would be legendary if real, citing her standing as a top female idol and his membership of three separate boy bands. The channel positions itself explicitly as cupid and asks who is next. One viewer offers to personally cover the petrol if the hosts will drive to Chiang Mai for the next episode.",
+  "themes": [
+    { "label": "Demanding a different, long-awaited pair", "share": 30, "example": "เติร์ดแฮนน่าก็เยอะนะ โปรดสิ้นสุดการรอคอยให้หน่อยนะคะ พลีสสสส" },
+    { "label": "Physical swoon reactions", "share": 25, "example": "คือ กุ ยิ้มค้าง ตั้งแต่ต้นจนจบ เหงือกแห้งหุบยิ้มไม่ได้ ... คู่นี้ เหมือนมีมวลสารบางอย่าง" },
+    { "label": "Arguing why the pairing would be legendary", "share": 21, "example": "ถ้าคบกันจริงคือตำนานมากค่ะ มาเบล ไอดอลสาวตัวท็อป ส่วนพี่เช่ ... อยู่ในวงบอยแบนด์ชื่อดังทั้ง 3 วง VRP 9by9 Trinity" },
+    { "label": "The channel as cupid, asking who's next", "share": 14, "example": "คู่ต่อไปใครดีคะ คอมเม้นมาเลย คิวปิดพร้อม" },
+    { "label": "Offering to fund the production", "share": 10, "example": "รบกวนพี่ก้อยขับรถไปเชียงใหม่เลยได้ไหมคะ เดี๋ยวค่าน้ำมันหนูจะโดเนทเองค่ะพี่" }
+  ],
+  "sentiment_breakdown": { "positive": 97, "neutral": 2, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "The channel's second most-commented post ever, and the top comment is a request for a different pairing — the format's demand backlog is larger than its output and is the clearest commissioning input the channel has",
+    "Viewers volunteer to fund production costs, which is a direct willingness-to-pay signal that no sponsorship deck currently uses",
+    "Pairing prestige is understood in industry terms — the audience knows which groups each guest belongs to and calculates the significance of the match",
+    "This series converts reach into conversation better than anything else on the channel, so it is the format to scale if engagement rather than views is the goal"
+  ],
+  "content_requests": [
+    "Book Third and Hanna",
+    "Travel to other provinces to film pairs",
+    "More episodes with idol pairings"
+  ]
+}

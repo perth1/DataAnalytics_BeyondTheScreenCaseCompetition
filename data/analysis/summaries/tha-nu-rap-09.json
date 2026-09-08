@@ -1,0 +1,25 @@
+{
+  "post_id": "6d986ba4-0982-45e3-9ddf-6b000161a0f9",
+  "model": "claude-opus-5",
+  "comment_count": 12,
+  "summary": "This episode exists because a shipping hashtag had already formed on Twitter, and the title says so outright — the audience wanted it off Twitter and onto camera. The comments deliver forensic behaviour reading: the most detailed one runs several hundred words analysing where the guest looks, whose words he tracks, and concludes he holds back only because he is afraid of rejection, then urges him to act now that the whole country is cheering. A second cluster is guest requests, again named and with pleading tone. A third is about Goy specifically, several commenters noting she is not conventionally the prettiest but lands the hardest, which is a recurring read of her appeal. Viewers report watching three times and finding new detail each pass, and one asks to see her as a guest on other channels' dating formats.",
+  "themes": [
+    { "label": "Forensic reading of the guest's real feelings", "share": 34, "example": "ถ้าเรารักใครซักคน ลองสังเกตดูนะ เวลาไปอยู่รวมกับคนหมู่มาก คำพูดและสายตาของเราจะมีแต่คนที่เราชอบ" },
+    { "label": "Named guest requests", "share": 22, "example": "อันนี้ขอเลยนะ..ขอ \"ซันนี่ สุวรรณเมธานนท์\" หน่อยได้มั้ยจ๊ะ" },
+    { "label": "Goy's unconventional appeal", "share": 18, "example": "ก้อยไม่ใช่คนสวยมากนะ แต่ดาเมจรุนแรงมากกกก เกินต้านมากกกก" },
+    { "label": "Repeat viewing and detail collecting", "share": 14, "example": "ผมดูวนไป 3 รอบแล้ว เก็บรายละเอียดเพิ่มขึ้นทุกรอบ" },
+    { "label": "The ship came from Twitter first", "share": 12, "example": "พี่โอ๊ตเอาพวกเเก๊งนี้ไป The Driver ด่วน" }
+  ],
+  "sentiment_breakdown": { "positive": 90, "mixed": 7, "neutral": 3, "negative": 0 },
+  "audience_signals": [
+    "This is a documented case of the channel converting off-platform fan demand into content — the pairing trended on Twitter first and the episode was built to satisfy it, which is a repeatable commissioning method",
+    "The audience performs long-form behavioural analysis unprompted; give them ambiguity and they will write the essay themselves",
+    "Reverse-booking demand exists — viewers want the hosts to appear as guests on other channels' dating shows, which is a cheap cross-promotion route",
+    "Goy is read as charismatic rather than conventionally beautiful, and that framing is used approvingly — worth protecting rather than polishing away"
+  ],
+  "content_requests": [
+    "Book Sunny Suwanmethanont and Ton Ach",
+    "Send the hosts onto other channels' dating formats as guests",
+    "A follow-up episode with the same guest"
+  ]
+}

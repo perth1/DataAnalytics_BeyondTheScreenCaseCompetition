@@ -1,0 +1,23 @@
+{
+  "post_id": "b7688ab3-235b-4a42-9e85-7dd5978e1100",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "A relationship Q&A with the three hosts plus one friend, and the reaction concentrates almost entirely on Natty — not on her looks primarily but on her outlook. One viewer quotes her line about not staying friends with someone who does not think you are worth their time, and says it broke a three-year stalemate she had been maintaining alone with a friend who had stopped reciprocating. Another writes a long character read: she looks intimidating, she is direct, she settles problems by talking them out, and she is the most grown-up of the group — and concludes that while he usually prefers Dream's type, he would marry someone like Natty. Around that are shipping observations about who is actually the jealous one, which the audience treats as new evidence about a relationship they were already tracking.",
+  "themes": [
+    { "label": "A host's advice changing a viewer's decision", "share": 32, "example": "\"ถ้ามันไม่เห็นมึงมีค่าพอจะไปเป็นเพื่อนกับมันทำไม\" คือเสียใจเรื่องเพื่อนมา3ปีได้ละ ... ฉุกคิดได้เลยคำพูดของพี่นัตตี้" },
+    { "label": "Long character reads of the hosts", "share": 30, "example": "น้องน่าจะเป็นที่มีความคิดเป็นเป็นผู้ใหญ่ที่สุดในแก๊งนี้แล้วมั้งจากที่ตามมาหลายตอน" },
+    { "label": "Natty as an ideal-woman figure", "share": 18, "example": "ชอบทัศนคติพี่นัตตี้มากกก ผู้หญิงในอุดมคติเลยแงงง" },
+    { "label": "Shipping evidence gathered from the answers", "share": 20, "example": "นัตตี้ขึ้หึงสุด! เข้าใจมาตลอดว่าก้อยขี้หึงสุดในกลุ่ม ถึงจะปากแข็งว่าชิล ๆ ก็เถอะ" }
+  ],
+  "sentiment_breakdown": { "positive": 92, "mixed": 6, "neutral": 2, "negative": 0 },
+  "audience_signals": [
+    "Host-only episodes work: with no guest at all this earned 1.6M views and produced the most personally consequential comment in the corpus — a viewer changing how she handles a real friendship because of a line in the video",
+    "The hosts' own opinions are the asset the audience is short of; six years in, the standing request for host-focused episodes is still only partially met",
+    "Viewers write detailed character studies of the hosts across many episodes, meaning consistency of persona matters more than any single episode",
+    "Q&A answers double as shipping evidence, so personal content compounds the romance narratives running elsewhere on the channel"
+  ],
+  "content_requests": [
+    "More Q&A episodes with just the hosts",
+    "Individual deep-dive episodes per host"
+  ]
+}

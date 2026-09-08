@@ -1,0 +1,27 @@
+{
+  "post_id": "d488d2f1-4143-4c29-8fb1-c7102f363f79",
+  "model": "claude-opus-5",
+  "comment_count": 141,
+  "summary": "The comment section reads as a confessional, not a music review. Viewers treat จางหาย as autobiography and respond by posting their own long-form breakup stories — several of the most-liked comments run 80-200 words about an ex they never got over, one about a partner lost to cancer. The second-largest cluster is career pride: viewers list everything Goy did herself (wrote lyrics and melody, sang, directed the MV) and frame her as an all-round talent rather than an actress who released a song. A third cluster reads the MV as a coded message to her real ex-partner Nicky, decoding specific shots (the football scene, the first book) and openly asking the pair to reunite. Lyric-quoting and timestamp comments show repeat listening. A visible minority arrived from the TV show The Wall Song rather than from the channel itself.",
+  "themes": [
+    { "label": "Viewers confessing their own heartbreak", "share": 34, "example": "ผมกับแฟนจากกันด้วยโรคมะเร็ง เขาไปเป็นนางฟ้าแล้วครับ ได้ฟังเพลงนี้แค่ประโยคแรกก็ทำให้ความคิดถึงกลับมา" },
+    { "label": "Pride in Goy as multi-talent creator", "share": 24, "example": "เต้นได้ ร้องได้ เขียนเพลง เขียนบท สอนการแสดง เป็นนักแสดง เป็นยูทูปเบอร์ คนๆนึงสุดที่ตรงไหน" },
+    { "label": "Decoding the MV as her real relationship / reunion wishes", "share": 22, "example": "ทำไมดูเอ็มวี แล้วนึกว่่าต้องเป็นนิ้กกี้แน่ๆ แสดงว่าไม่เป็นไร แต่ในใจคงเจ็บมาก" },
+    { "label": "Lyric quoting and favourite-moment timestamps", "share": 12, "example": "2:21 ชอบท่อนนี้" },
+    { "label": "Arrived from The Wall Song / cross-media discovery", "share": 8, "example": "ตามมาจาก the wall เพลงเพราะมากค่ะไม่รู้ว่าเพลงของก้อย" }
+  ],
+  "sentiment_breakdown": { "positive": 72, "mixed": 16, "neutral": 9, "negative": 3 },
+  "audience_signals": [
+    "Parasocial investment in Goy's real-life relationship is the single strongest engagement driver — viewers know the ex by name and read shots as evidence",
+    "The comment section functions as a safe space for personal confession; the most-liked comments are long first-person stories, not compliments",
+    "Long-tenure fanbase that tracks her across acting, stage, writing and YouTube — repeated 'ภูมิใจในตัวพี่ก้อย' framing signals ownership, not casual viewing",
+    "Terrestrial TV exposure (The Wall Song) imports viewers who did not know the song was hers — a proven top-of-funnel outside YouTube",
+    "Audience is protective: several comments ask her to prioritise self-love over the reunion narrative other fans push"
+  ],
+  "content_requests": [
+    "A live performance of the song / hear her sing it at a concert",
+    "The duet version with Hai from The Wall Song released as its own track",
+    "A reaction video from the Friendsfly friend group, especially Vee",
+    "More original songs written by her"
+  ]
+}

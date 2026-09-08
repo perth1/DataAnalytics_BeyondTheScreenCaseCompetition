@@ -39,6 +39,18 @@ export function PlatformNav() {
           </Link>
         )
       })}
+      {/* Cross-platform, so it sits after the per-platform tabs, not among them. */}
+      <Link
+        href="/analytics/market"
+        className={cn(
+          "rounded-full border px-3.5 py-1.5 text-xs font-medium whitespace-nowrap transition-colors",
+          pathname === "/analytics/market"
+            ? "bg-primary text-primary-foreground border-transparent"
+            : "hover:bg-muted",
+        )}
+      >
+        Market
+      </Link>
     </nav>
   )
 }

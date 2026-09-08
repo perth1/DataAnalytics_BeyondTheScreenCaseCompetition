@@ -1,0 +1,27 @@
+{
+  "post_id": "65c0d25e-6aa8-4db9-ac56-38b2b1a2ed17",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "A social-deduction game episode that the audience treats as a prototype needing work. The top comment is a viewer designing new roles for the game in detail — a secretary who can only see the wife, an HR head who can protect one player per night, a security officer who can silence a suspicious employee, a gossiping employee who sees both sides without knowing which is which, and a housekeeper who knows everything and wins alone if voted out. Directly beneath it, another well-liked comment says there were too many mistakes and that if they want to keep making game content a lot needs improving. The channel replies in the thread thanking them for the feedback and promising to simplify the rules next time. The remaining comments ask for the Friendsfly group to play instead, on the grounds that people who are already close would be funnier.",
+  "themes": [
+    { "label": "A viewer designing new game roles in detail", "share": 30, "example": "ขอแนะนำตัวละครมีพลังเพิ่มเล่น ๆ ครับ - เลขาเมียหลวง ... - หัวหน้าฝ่ายบุคคล ... - ป้าแม่บ้าน รู้หมดว่าใครเป็นอะไร" },
+    { "label": "Too many mistakes, rules need work", "share": 25, "example": "จุดพลาดเยอะมาก ดูเอาฮาได้อยู่ แต่ถ้าจะทำรายการเล่นเกมต่อต้องปรับปรุงอีกเยอะ" },
+    { "label": "The channel replying and committing to changes", "share": 17, "example": "ขอบคุณสำหรับฟีดแบคนะค้า เดี๋ยวโอกาสหน้าจะลองปรับกติกาให้เข้าใจง่ายขึ้นค่ะ" },
+    { "label": "Play it with the Friendsfly group instead", "share": 16, "example": "อยากให้เอาแก๊งfriendflyมาเล่นด้วยกัน คงสนุกมากแน่ๆ เพราะสนิทกันอยู่แล้วอ่ะ" },
+    { "label": "Member appearance praise", "share": 12, "example": "พี่ดรีมสวยมากกก ออร่าสุดๆเทปนี้" }
+  ],
+  "sentiment_breakdown": { "positive": 58, "mixed": 30, "negative": 8, "neutral": 4 },
+  "audience_signals": [
+    "The audience will co-design formats given the chance — an unprompted, fully specified role list for a social-deduction game arrived as the top comment, which is free format development",
+    "The channel publicly answers criticism and commits to specific fixes, and viewers see it; that responsiveness is a trust asset worth doing deliberately rather than occasionally",
+    "Game formats are the weakest execution area in the catalogue — rules clarity, not casting, is what the audience says is broken",
+    "Viewers propose using the existing friend group as the cast for game formats, which would solve the chemistry problem at no booking cost",
+    "This is one of the few threads with real negative sentiment, and it is aimed at production quality rather than at the people"
+  ],
+  "content_requests": [
+    "Simplify and explain the game rules",
+    "Add the suggested extra roles",
+    "Play the game with the Friendsfly group",
+    "Keep making game content but fix the execution"
+  ]
+}

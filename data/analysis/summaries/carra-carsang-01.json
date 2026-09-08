@@ -1,0 +1,20 @@
+{
+  "post_id": "83fd4312-53a6-47d2-8384-a9c775e3a24d",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A celebrity guest talk episode in a game-show format. The audience explicitly demands a specific host's appearance; multiple comments ask when will this host be on the show, and when the channel replies that the guest has already revealed a relationship, viewers joke that it doesn't matter and the host should still appear to 'defend their honour'. The channel embraces this and frames it as jesting fan pressure. At 665 comments on 871K views this is a healthy engagement rate for this series.",
+  "themes": [
+    { "label": "Demanding a specific host's appearance", "share": 45, "example": "ท๊อปก้อยมาตอนไหนคะ พี่จะแก้บน" },
+    { "label": "Even if the guest has revealed a relationship", "share": 35, "example": "ท๊อปก้อยซักรายการได้ไหม ต่อลมหายใจหนูที" },
+    { "label": "The channel acknowledging and playing along", "share": 20, "example": "ถึงเขาจะเปิดตัวไปแล้ว แต่ชาวเราอย่าหวั่น มาเหยินไปพร้อมๆกันค่ะ" }
+  ],
+  "sentiment_breakdown": { "positive": 87, "neutral": 10, "mixed": 3, "negative": 0 },
+  "audience_signals": [
+    "A game show featuring guests creates a different demand signal than matchmaking — viewers want specific pairings with hosts, not between guests",
+    "The audience has a joking-but-serious shipping energy around host-guest interactions",
+    "The channel leans into this and uses it as banter with the audience"
+  ],
+  "content_requests": [
+    "A specific host appearing on the show"
+  ]
+}

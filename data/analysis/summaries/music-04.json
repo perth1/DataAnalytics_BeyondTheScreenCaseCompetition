@@ -1,0 +1,31 @@
+{
+  "post_id": "936c08a6-0f7c-4572-9470-82eb7c4eca17",
+  "model": "claude-opus-5",
+  "comment_count": 53,
+  "summary": "A period-drama MV that produced the most analytical comment section on the channel. The largest cluster is close reading: viewers debate whether the title means 'choose me over her' or 'choose me before yourself', translate the English lyrics to settle it, and land on a self-love reading. One heavily-liked comment runs several hundred words dating the setting to the Rama VI era from the costumes and arguing the piece is about women having no agency under patriarchy rather than about a villain. The second cluster is Natty's performance — her Thai classical dance converted viewers who say they were previously indifferent to her — and the third is a demand to expand this into a full film or series. Casting Jes as the husband is treated as a running joke about his lakorn typecasting, and his own fandom shows up in English. A recurring thread says Goy now has an authorial signature and predicts she will end up producing or directing.",
+  "themes": [
+    { "label": "Close reading of the lyrics and the gender politics", "share": 29, "example": "เลือกฉันก่อนเธอ คือ การเลือกเห็นใจและรักคนอื่นให้มันมาก ให้มากกว่าการรักตัวเอง" },
+    { "label": "Natty's acting and Thai classical dance", "share": 24, "example": "ปกติเฉยๆ กับนัตตี้ แบบสวยแต่ไม่ได้กรี้ดอะไร แต่เอ็มวีนี้กลายเป็นกรี้ดนัตตี้" },
+    { "label": "Turn it into a film or series", "share": 15, "example": "อยากดูเป็นหนังเลยอ่ะ ใดๆคือโคตรดี ถ้าทำเป็นหนังต่อก็พร้อมติดตามเลยค่ะ" },
+    { "label": "Jes as the typecast bad husband", "share": 12, "example": "ใด ๆ คือพี่เจษหล่อมาก สมมงผัวชั่วแห่งชาติมากค่ะ" },
+    { "label": "Goy has a signature / will become a director", "share": 13, "example": "ก้อยมีลายเซ็นต์แล้วนะ ตั้งแต่ฟังเพลงแรกมาเรื่อยๆจรเพลงนี้ รู้เลยว่าก้อย คือความก้อย" },
+    { "label": "Thai classical instrumentation in the arrangement", "share": 7, "example": "2:46 โซจึ้งมาก เอาดนตรีไทยเข้ามาใส่ในเพลงด้วย" }
+  ],
+  "sentiment_breakdown": { "positive": 87, "mixed": 10, "neutral": 3, "negative": 0 },
+  "audience_signals": [
+    "This audience will do close textual analysis when given something to analyse — several comments run hundreds of words on period accuracy and gender politics, which no other format on the channel produces",
+    "Individual member skills convert indifferent viewers: Natty's dance is credited with turning casual watchers into her fans, so member-led showcases have measurable upside",
+    "Goy is now read as an author with a recognisable style rather than a YouTuber releasing songs — commenters compare across her whole discography unprompted",
+    "Her acting work cross-feeds the music: viewers connect the song to her lakorn role and treat the two catalogues as one body of work",
+    "Guest actors bring their fandoms, including non-Thai speakers who comment in English",
+    "The group's mutual promotion is itself cited as a reason to support them — a soft asset worth keeping visible",
+    "The audience notices production detail down to a colour-grading jump at 3:06, so finish quality is being graded"
+  ],
+  "content_requests": [
+    "Expand the MV into a full film, series or lakorn",
+    "More arrangements using Thai classical instruments",
+    "More acting and dance showcases for Natty",
+    "Let Goy play the lead in one of her own MVs",
+    "A collaboration with marr team"
+  ]
+}

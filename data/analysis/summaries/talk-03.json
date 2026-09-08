@@ -1,0 +1,18 @@
+{
+  "post_id": "4ee8de49-da92-43d8-908d-4daae2ed32ae",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A Songkran-period road-trip episode with a thin comment section relative to its 1.46M views. What is there is appearance-led — one host's styling wins the episode according to the top comment, another is described as impossible to look away from — plus a seasonal greeting from the channel wishing everyone a good Songkran and reminding them to look after their health. One commenter is trying to work out which trip this was, identifying it by who sulked. There is no criticism, no requests, and little to extract: a pleasant episode that generated reach without conversation.",
+  "themes": [
+    { "label": "Appearance and styling", "share": 55, "example": "นัตตี้ชนะเลิศ สวยมากกกกกกกก ชุดสวยยยย คนสวยยย ผมสวยยยย" },
+    { "label": "Seasonal greeting from the channel", "share": 25, "example": "สงกรานต์นี้ขอให้ทุกคนมีความสุข เจอแต่สิ่งดีๆรอบตัว" },
+    { "label": "Placing the trip in the timeline", "share": 20, "example": "ทริปนี้ป่าวที่มีคนงอล" }
+  ],
+  "sentiment_breakdown": { "positive": 93, "neutral": 7, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "Travel episodes without a relationship premise or a guest generate reach but very little conversation — the comment-to-view ratio here is a fraction of the episodes built around a real dynamic",
+    "Seasonal tie-ins are used lightly and get no pushback, but also no engagement lift",
+    "Viewers index episodes by what happened emotionally rather than by destination or number"
+  ],
+  "content_requests": []
+}

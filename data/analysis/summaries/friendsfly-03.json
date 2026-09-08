@@ -1,0 +1,24 @@
+{
+  "post_id": "233ceaac-e32d-4613-b043-be8726678134",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "A drunk night in Rome, and the top comment states the appeal plainly: travelling with friends is the best thing there is, and it is amazing that all of them can afford to go anywhere together. Below that, the thread is a list of specific moments — one host falling backwards while her friends cheer, another asking a blunt question about whether two of them have slept together, a friend's daily performance — recounted in detail rather than summarised, which is how this audience watches. The friendship itself is named as the reason to watch, with several saying the group is colourful because the personalities fit. Requests are simple and repeated: post weekly, keep making travel episodes forever.",
+  "themes": [
+    { "label": "Vicarious friend-travel wish fulfilment", "share": 34, "example": "การได้เที่ยวกับเพื่อน คือสิ่งที่วิเศษสุด ยิ่งเพื่อนทุกคนมีกำลังพร้อมไปทุกที่ คืออเมซิ่งสุดๆ" },
+    { "label": "Specific comedic moments recounted in detail", "share": 27, "example": "ขำตอนท้ายที่ไปส่งพี่ก้อย ความตลกของพี่ดรีมถามแล้วมีไรกันยัง" },
+    { "label": "The friendship as the reason to watch", "share": 22, "example": "เป็นกลุ่มเพื่อนที่พออยู่ด้วยกันแล้วลงตัวมีสีสันมากๆ ทำคลิปเที่ยวตลอดไปเลยได้มุ้ยยย" },
+    { "label": "Requests for more frequent uploads", "share": 17, "example": "ชอบรายการนี้มากครับบบ อยากให้ลงทุกอาทิตย์เยยย" }
+  ],
+  "sentiment_breakdown": { "positive": 95, "neutral": 4, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "The proposition is aspirational but attainable — friends with the means to travel together, not luxury travel; commenters envy the friendship more than the destination",
+    "Viewers recount moments minute by minute rather than reviewing the episode, which means the edit's job is to preserve incidents rather than compress them",
+    "Upload frequency is the recurring constraint the audience raises across this series",
+    "The travel format converts a group dynamic into an evergreen premise — the destination changes, the reason to watch does not"
+  ],
+  "content_requests": [
+    "Weekly uploads",
+    "Keep making travel episodes indefinitely",
+    "More footage of the whole group together"
+  ]
+}

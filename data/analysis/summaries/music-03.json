@@ -1,0 +1,32 @@
+{
+  "post_id": "5ab15c90-2a5f-48e7-95a4-533e0df0df5b",
+  "model": "claude-opus-5",
+  "comment_count": 73,
+  "summary": "The dominant reaction is that the trio should stop being YouTubers-who-sang and formally debut as a girl group. Commenters assign K-pop positions unprompted (Goy as leader/rapper, Natty as lead vocal/center, Dream as maknae/visual), demand a T-Pop Stage appearance and say they will vote, and ask for a full album and a concert. The second cluster is surprise at production quality — styling, locations, colour grading, editing and UrboyTJ's beat are repeatedly named, with many saying it exceeded what they expected from a channel side-project. This is also by far the most international comment section on the channel, with comments in English, Spanish, Portuguese, Chinese and Filipino arriving via UrboyTJ, Violette Wautier, BOSS KUNO and the Chinese survival show Chuang. A high-liked accessibility request for Thai subtitles from a hearing-impaired viewer sits unanswered. The Free Fire MAX sponsorship is pinned in the thread and drew no backlash at all.",
+  "themes": [
+    { "label": "Debut them as a real girl group / T-Pop Stage", "share": 29, "example": "คือ 3 คน 3 สไตล์เลย เดบิวต์เป็น gg จริงๆได้เลย ก้อย - leader,rapper ... นัตตี้ - lead vocal , center ... ดรีม - maknae , visual" },
+    { "label": "Production quality exceeded expectations", "share": 24, "example": "นี่ไม่ใช่แค่ทำเล่นๆ แล้ว นี่ดูเหมือน girl group มืออาชีพเลยนะเนี่ย" },
+    { "label": "International audience", "share": 16, "example": "randomly saw your music video in yt wow ang ganda at ang cute pang summer vibes — im your fan from PHILIPPINES" },
+    { "label": "Long-tenure pride from day-one viewers", "share": 12, "example": "ติดตามตั้งแต่เทปแรกของรายการ จนวันนี้มีซิงเกิ้ลเป็นของตัวเองแล้ววว" },
+    { "label": "Credit to collaborators (UrboyTJ, BOSS KUNO, Pun Luss)", "share": 11, "example": "Produced by URBOYTJ + Directed by BOSS KUNO + Goy Nutty Dream = Perfect!!!" },
+    { "label": "Accessibility — request for Thai subtitles", "share": 3, "example": "ขึ้นซับไทยหน่อยได้ไหมครับ ผมบกพร่องทางการได้ยิน" },
+    { "label": "Song is an earworm / on repeat daily", "share": 5, "example": "ติดหูมากกกเลย นั่งฮัม \"Do you wanna play it ? Do you wanna play with me ?\" วนไปค่าา" }
+  ],
+  "sentiment_breakdown": { "positive": 91, "neutral": 6, "mixed": 2, "negative": 1 },
+  "audience_signals": [
+    "The largest non-Thai audience share of any post on the channel — music is the only format that exports internationally",
+    "Viewers apply K-pop idol frameworks unprompted (positions, debut, stage shows, voting), meaning they want an idol product rather than a YouTube single",
+    "Collaborator fandoms are a measurable acquisition channel — UrboyTJ, Violette Wautier, BOSS KUNO and the Chinese show Chuang each brought identifiable commenters",
+    "Sponsored integration is frictionless here: the pinned Free Fire MAX download link drew zero negative comments, unlike typical tie-in reactions",
+    "An unmet accessibility need is visible and highly upvoted — a hearing-impaired viewer asking for Thai captions",
+    "Fans self-organise view-count campaigns ('จะคอยปั่นวิวให้เรื่อยๆ', '10M ไม่เกินเอื้อม'), so release-day mobilisation is available if asked for"
+  ],
+  "content_requests": [
+    "Appear on T-Pop Stage — repeated many times, with offers to vote",
+    "A full album and a live concert",
+    "A dance challenge version with guests from the talk show",
+    "Thai subtitles / closed captions for hearing-impaired viewers",
+    "Put the track on Line Melody for ringtones",
+    "A behind-the-scenes video of the shoot"
+  ]
+}

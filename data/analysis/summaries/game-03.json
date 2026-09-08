@@ -1,0 +1,26 @@
+{
+  "post_id": "f53e89f8-af6e-4f5f-8bd6-3714fa79161b",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "A group-versus-group question game with five male guests, and the most repeated complaint is that it ended too soon — several say they were settling in and it was over, and one adds that the food element could be dropped entirely because the conversation was enough. The warmest cluster is about the group protecting Dream: when a brutal question landed on her, nobody pressed, and both hosts and guests helped her out, which viewers call out as the nicest moment. One guest is singled out as the troublemaker who drives the comedy. Cross-series funnelling appears again, with viewers asking for two of the guests to be moved onto the car show. Behind-the-scenes footage included in the edit is specifically appreciated.",
+  "themes": [
+    { "label": "It ended too soon — make it longer", "share": 29, "example": "รู้สึกสนุกอยากใหคลิปยาวกว่านี้ ทุกคนดูแซ่บมากพร้อมตอบคำถาม อาหารก็คือไม่ต้องมีเลยก็ได้" },
+    { "label": "The group protecting Dream from a hard question", "share": 26, "example": "ชอบตอนที่ดรีมโดนคำถามโหด แล้วแบบทุกคนไม่คาดคั้นอ่ะ ... ดรีมไม่อยากตอบก็ช่วยกันเบิกน้ำขม" },
+    { "label": "One guest as the comedic engine", "share": 20, "example": "บอยนี้แสบสุดจริงๆ ฮามาก อยากให้มาคอลแลปกันอีก" },
+    { "label": "Move these guests onto the car show", "share": 15, "example": "อยากให้พาพี่เจมส์กับพี่เป็กไปขึ้นรถถ้าหนูรับหน่อยค่าา" },
+    { "label": "Behind-the-scenes footage appreciated", "share": 10, "example": "ชอบๆที่มีเบื้องหลังให้ดูด้วยค่ะ" }
+  ],
+  "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
+  "audience_signals": [
+    "Viewers say the gimmick is unnecessary — the conversation alone would hold them, which means the food-punishment device is cost without benefit",
+    "Kindness on camera reads as strongly as comedy: the moment the group shielded a host from a question is the second most-liked theme in the thread",
+    "Multi-guest ensembles create their own cross-booking demand, with viewers picking out individuals to move to other formats",
+    "Runtime is again the complaint — this audience consistently wants more minutes, not fewer"
+  ],
+  "content_requests": [
+    "Make these episodes longer",
+    "Drop or reduce the food-punishment element",
+    "Put James and Peck on ถ้าหนูรับ",
+    "Keep including behind-the-scenes footage"
+  ]
+}

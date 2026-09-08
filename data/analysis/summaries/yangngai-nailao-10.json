@@ -1,0 +1,25 @@
+{
+  "post_id": "2eb65ecb-216d-4648-a3fc-62a329ad9bdc",
+  "model": "claude-opus-5",
+  "comment_count": 10,
+  "summary": "The guest's own comment sits at the top of the thread — thanking the hosts, thanking her fans, adding that the world is harsh so we should be kinder to each other, and then apologising for dropping her polite particles on camera and promising to do better. That self-correction sets the tone: most of the thread is about seeing a side of her the audience had not seen, and praising her outlook. A notable cluster refuses to take sides in the ongoing public comparison between her and another creator, arguing neither is wrong and that they follow both. Viewers pull out a line about not running away if you have done nothing wrong and connect it to the effect on her child. The closing segment made several commenters cry.",
+  "themes": [
+    { "label": "The guest's own thank-you and self-correction", "share": 29, "example": "โลกนี้มันโหดร้าย เราใจดีต่อกันไว้ดีกว่านะคะ ปล.รู้สึกว่าหางเสียงหายหมดเลยย อุงเอิงจะปรับปรุงงับ" },
+    { "label": "Seeing a new side of her / attitude praise", "share": 27, "example": "คลิปนี้ทำให้เห็นมุมมองและตัวตนของอุงเอิง ในแบบที่ไม่เคยเห็นมาก่อน นางน่ารักมากกก ทัศนคติดีมากก" },
+    { "label": "Refusing to pit her against another creator", "share": 16, "example": "ชอบทั้งเก๋ไก๋ ทั้งอุงเอิงเลยย คือไม่มีใครผิดเลยนะ สองคนก็น่ารักกันคนละแบบบ" },
+    { "label": "Quotable advice from the guest", "share": 15, "example": "อย่าหนีถ้าเราไม่ผิด ถ้าหนีก็หนีตลอดชีวิต มันส่งผลต่อลูกเลยอะ" },
+    { "label": "Guest requests", "share": 13, "example": "อยากให้พี่ เจฟ ซาเตอร์ มาค่าาาา" }
+  ],
+  "sentiment_breakdown": { "positive": 88, "mixed": 9, "neutral": 3, "negative": 0 },
+  "audience_signals": [
+    "The channel works as a de-escalation venue — invited into a live public comparison between two creators, the audience explicitly declined to take sides and said they follow both",
+    "A serious closing beat pays off: several commenters report crying at the final segment of an otherwise light episode",
+    "Guests use the comment section to speak directly to their own fans, which extends the episode's life and imports their community",
+    "Guests recovering public standing get a sympathetic hearing here, making the channel attractive to talent in that position"
+  ],
+  "content_requests": [
+    "Book Jeff Satur and Mae Oil",
+    "More episodes with a serious closing segment",
+    "A follow-up with the same guest"
+  ]
+}

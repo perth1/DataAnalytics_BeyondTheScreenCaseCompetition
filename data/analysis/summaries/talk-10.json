@@ -1,0 +1,22 @@
+{
+  "post_id": "aee8547a-f4f1-4aad-91a5-49ca2bc6a5e9",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A France trip doubling as a friend's birthday and another friend's newly-single celebration. The guest herself leaves the top comment saying the trip was fun. The most analytical comment credits Dream for carrying the pace — quick joke timing, reading the room, keeping the edit from dragging — and notes she increasingly behaves like a younger sister to one host's partner. A cluster reacts to learning a guest is now single and immediately asks for her to come back on the interview show, with others wishing her well. Small thread, warm sentiment, and a clear signal that a status change in a guest's life is itself a booking trigger for this audience.",
+  "themes": [
+    { "label": "A host carrying the comedic pace", "share": 35, "example": "จังหวะการเล่นมุกแพรวพราว ไหวพริบดี รู้งาน ทำให้คลิปไม่น่าเบื่อมีจังหวะให้หลุดขำตามตลอดๆ" },
+    { "label": "Reacting to a guest's new relationship status", "share": 30, "example": "เอ้าาาา น้องมุก โสดแล้วหรอคะ เพิ่งฟังยังไงไหนเล่าไปเอง ต้องมาออกรายการอีกรอบแล้วๆๆๆๆๆ" },
+    { "label": "The guest replying", "share": 20, "example": "ไปกับพวกพี่สนุกมาก เลิ้ฟฟฟจ้า" },
+    { "label": "Well-wishes for the guest", "share": 15, "example": "อยากให้พี่มุกมีความรักดีๆยาวนาน" }
+  ],
+  "sentiment_breakdown": { "positive": 93, "mixed": 5, "neutral": 2, "negative": 0 },
+  "audience_signals": [
+    "A change in a guest's relationship status functions as a booking trigger — the audience immediately asks for a return episode to hear the update",
+    "Guests reply on trip episodes as reliably as on interview episodes, so the goodwill from these shoots is genuine and repeatable",
+    "Pacing is credited to a specific host rather than to editing, so the audience attributes production quality to people they know"
+  ],
+  "content_requests": [
+    "Bring the newly-single guest back on the interview show",
+    "More birthday and milestone trips abroad"
+  ]
+}

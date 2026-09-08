@@ -156,3 +156,74 @@ export interface PlanCard {
   sort_order: number
   created_at: string
 }
+
+/** Interest territory and life-stage cohort slugs — see supabase/migrations/0008. */
+export type TerritorySlug =
+  | "longevity-wellness"
+  | "self-development"
+  | "money-career"
+  | "relationships"
+  | "beauty-fashion"
+  | "food"
+  | "travel"
+  | "entertainment"
+
+export type CohortSlug =
+  | "teen"
+  | "student-uni"
+  | "working"
+  | "parent"
+  | "senior"
+  | "junior-voice"
+
+/** Audience demand for a territory, counted in comment signals. */
+export interface TerritoryDemand {
+  platform: Platform
+  territory: TerritorySlug
+  signals: number
+  posts_mentioning: number
+  signal_likes: number
+}
+
+/** Content supply for a territory, counted in published posts. */
+export interface TerritorySupply {
+  platform: Platform
+  territory: TerritorySlug | "unclassified"
+  post_count: number
+  total_views: number
+  total_likes: number
+  total_comments: number
+  avg_views: number
+  avg_engagement_rate: number
+}
+
+export interface CohortTerritory {
+  platform: Platform
+  cohort: CohortSlug
+  territory: TerritorySlug
+  signals: number
+  signal_likes: number
+}
+
+export interface CohortSeries {
+  platform: Platform
+  cohort: CohortSlug
+  series_slug: string
+  series_name: string
+  signals: number
+}
+
+export interface TerritoryMomentum {
+  platform: Platform
+  territory: TerritorySlug
+  year: number
+  signals: number
+}
+
+export interface SignalCoverage {
+  platform: Platform
+  comments: number
+  cohort_signals: number
+  territory_signals: number
+  posts_with_comments: number
+}

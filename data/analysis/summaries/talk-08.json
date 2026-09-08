@@ -1,0 +1,20 @@
+{
+  "post_id": "ce542f01-2f92-481b-bbdf-2cec996c425d",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "An island trip episode with a small, purely affectionate comment section. Dream dominates it — a female viewer says even she is falling for her, another praises her singing a Disney song, another names her and Goy as the favourite pairing. The only other note is admiration for the group's inexhaustible energy on travel shoots. No criticism, no requests, and very little to extract; at 1.04M views and 404 comments this is a low-conversation entry in the series, consistent with trip episodes that lack a relationship premise or a guest.",
+  "themes": [
+    { "label": "Dream's appeal", "share": 55, "example": "ขนาดเราเป็นผู้หญิงยังหลงดรีมมากๆอ่ะ" },
+    { "label": "Her singing", "share": 22, "example": "ดรีมร้องเพลงดิสนีย์เพราะมาก" },
+    { "label": "The group's travel energy", "share": 23, "example": "3 สาว พลังไม่เคยหมด ยิ่งเรื่องเที่ยวด้วยนี่จัดเต็มตล๊อดดดด" }
+  ],
+  "sentiment_breakdown": { "positive": 97, "neutral": 3, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "Trip episodes without a guest or a relationship premise consistently land at the bottom of the comment-rate range for long-form, confirming that premise — not location — drives conversation",
+    "Dream is the most frequently named individual draw across the whole talk catalogue, including from female viewers",
+    "An incidental singing moment surfaces as a top comment, which supports building musical moments into non-music formats"
+  ],
+  "content_requests": [
+    "More singing moments inside travel episodes"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "post_id": "a1e1f334-e8c2-4d80-9aa5-b293e90e70dc",
+  "model": "claude-opus-5",
+  "comment_count": 29,
+  "summary": "The song is almost secondary here — most of the thread is about the on-screen chemistry between the two MV leads, Non and Dream, with viewers openly asking a producer to buy them a series and several admitting they watched once for the pair and only came back a second time to listen to the song. A distinct cluster praises Goy as a filmmaker rather than a singer: camera angles, storytelling and composition are named, and one high-liked comment says she must watch a lot of films and asks for a feature. A third cluster reads the lyrics as right-person-wrong-time and links it to her real relationship with Top. Non's growth from child actor gets its own nostalgia thread, which brings his followers in. Sentiment is uniformly warm with no criticism.",
+  "themes": [
+    { "label": "Non and Dream's chemistry / give them a series", "share": 44, "example": "นายทุนซื้อหน่อยยยย นนนกับดรีมมม ม๋าเด็กกับพี่สาวคนสวยยยยย" },
+    { "label": "Goy as a director, not just a singer", "share": 18, "example": "ดูจากมุมกล้อง วืธีการเล่าเรื่อง องค์ประกอบต่างๆเเล้ว น้องก้อยต้องเป็นคนดูหนังมาเยอะจริงๆ" },
+    { "label": "Her voice as a signature / general support", "share": 15, "example": "เสียงพี่ก้อยคือเอกลักษณ์สุดๆเลยยยย ฟังเพลินมากกกก" },
+    { "label": "Right person, wrong time reading — and real-life links", "share": 13, "example": "ถ้าโชคดีเราคงเจอกันในเวลาที่เหมาะสม" },
+    { "label": "Non grown up from child actor", "share": 10, "example": "โอโห นนน โตขนาดนี้แล้วหรอเนี่ย เห็นตั้งกะตัวจิ๋วๆ ตั้งกะซีรี่ย์เรื่องแรกอยู่เลย" }
+  ],
+  "sentiment_breakdown": { "positive": 92, "mixed": 5, "neutral": 3, "negative": 0 },
+  "audience_signals": [
+    "Casting chemistry drives more comment volume than the music itself — pairing choices are the highest-leverage decision in an MV for this audience",
+    "Shipping is a live currency and viewers negotiate loyalty out loud ('sorry Meen, but Dream and Non work'), so a new pairing can be introduced without losing the old one",
+    "Goy is read as a director with a body of work; a feature film is being asked for unprompted, which is a real audience mandate rather than flattery",
+    "Casting a grown-up child actor imports a separate nostalgia audience who followed him from his first series",
+    "This clip attracts almost no criticism, which makes it a safe surface for sponsors compared with the channel's controversy-driven Shorts"
+  ],
+  "content_requests": [
+    "A full series or lakorn pairing Non and Dream",
+    "A reaction video with Meen and Dream",
+    "A feature-length film directed by Goy",
+    "Keep releasing songs at this cadence"
+  ]
+}

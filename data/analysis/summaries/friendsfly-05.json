@@ -1,0 +1,25 @@
+{
+  "post_id": "e2ea637b-d8ae-46b2-963e-36c3489d3ce5",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "This episode carries 3,467 comments against 1.8M views — roughly nine times the comment count of comparable Friendsfly episodes with the same reach — and the reason is visible in the pinned comment: the channel put the next destination to a public vote between Germany, the Netherlands and Madagascar. Most of the thread is people casting votes and arguing for their choice, and the channel keeps the thread alive with follow-up questions, noting that a crew member reads every single comment. Madagascar won, and the trip that followed produced the fifth most-viewed post in the channel's entire history. The remaining comments are the usual Friendsfly mix: requests for a monthly cadence, people rewatching old episodes repeatedly, and thanks for content that makes them smile.",
+  "themes": [
+    { "label": "Voting for the next destination", "share": 54, "example": "โหวต มาดากัสการ์ ค่ะ ขอหลายๆ EP เลยน้าาาา" },
+    { "label": "The channel sustaining the thread with follow-ups", "share": 16, "example": "ขอบคุณสำหรับการโหวตมากๆค่ะ ตอนนี้ทะลุ 1,500 เม้นเรียบร้อย คำถามต่อไป ใครจะไปคนนับคะแน้นนนน" },
+    { "label": "Monthly cadence requests and rewatching", "share": 18, "example": "อยากให้มีเฟรนฟรายทุกเดือนเลย หนูดูย้อนไปย้อนมาคริปเก่าๆหลายรอบมากค่ะไม่เบื่อเลย" },
+    { "label": "Gratitude — the show lifts their mood", "share": 12, "example": "ขอบคุณที่คอยผลิตคอนเทนต์ดีๆ ... เป็นคริปที่ทำให้หนูยิ้มได้นะคะ" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "A poll in the pinned comment produced roughly a nine-fold comment lift over comparable episodes at the same view count — the cheapest engagement mechanic anywhere in this dataset",
+    "The winning vote became a real trip, and that trip produced the channel's fifth most-viewed post ever, so audience-chosen content demonstrably outperforms",
+    "The channel replies with successive follow-up questions to keep the thread compounding, and tells the audience their comments are actually read — both are visible in the response rate",
+    "Cadence is the standing ask on this series: monthly is the rhythm viewers say they want and currently do not reliably get",
+    "Old episodes are rewatched repeatedly, so the back catalogue carries real residual value for this format"
+  ],
+  "content_requests": [
+    "Go to Madagascar",
+    "Monthly Friendsfly episodes",
+    "Multiple episodes per trip rather than one"
+  ]
+}

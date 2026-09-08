@@ -1,0 +1,25 @@
+{
+  "post_id": "75b034f7-e722-4c3d-bd14-cd4d2e93d2f3",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "The most-praised quality here is emotional range inside a single episode — one comment walks through it beat by beat: tense at the start hoping they get through the obstacles, laughing in the middle at the chaos, crying at the end when one host talks about missing her mother and another about missing her father. Several viewers say they could not adjust fast enough and cried along. The friendship framing is again central: being able to cry in front of friends and be supported every time is described as something not every group has. Two comments are commercially notable — one praises the channel for not over-selling and staying natural, and another specifically notes that a product tie-in was slipped in smoothly while a friend slept with her mouth open. Grief and travel chaos sit in the same episode without either undercutting the other.",
+  "themes": [
+    { "label": "Emotional range within one episode", "share": 39, "example": "ช่วงต้นคลิปนั่งลุ้น ... กลางคลิปนั่งขำ ... ท้ายคลิปนั่งร้องไห้ ... ใดๆคือเป็นคลิปที่หลากหลายอารมณ์มาก โคตรเรียล" },
+    { "label": "Crying in front of friends and being supported", "share": 22, "example": "ชอบความที่ร้องไห้ตอนไหนก้ได้ต่อหน้าเพื่อน แล้วเพื่อนก้คือซัพพอตทุกครั้ง มันไม่ได้เป้นแบบนี้ทุกกลุ่ม" },
+    { "label": "Grief for absent parents", "share": 16, "example": "จะร้องไห้เลยอะ ตอนนัตตี้บอกคิดถึงคุณพ่อ" },
+    { "label": "Praise for not over-selling", "share": 13, "example": "ไม่ขายของจนเกินไป แต่มีความธรรมชาติของทุกๆๆคน" },
+    { "label": "Smooth tie-in integration noticed", "share": 10, "example": "ความเพื่อนนอนหลับอ้าปากแล้ว tie in สินค้าต่อได้อย่างสมูท" }
+  ],
+  "sentiment_breakdown": { "positive": 71, "mixed": 24, "neutral": 5, "negative": 0 },
+  "audience_signals": [
+    "Ad tolerance is explicitly conditional — viewers praise the channel for not over-selling and specifically compliment tie-ins that are woven into a scene, so the current ad load is under a ceiling the audience is actively monitoring",
+    "Emotional range inside one long episode is the retention mechanic; viewers narrate the arc back and cite it as the reason to watch to the end",
+    "Grief content is welcomed rather than resented in a comedy travel format, which widens what the series can carry",
+    "Long-form is where this audience wants to live — nobody asks for these episodes to be shorter, and several ask for more of them"
+  ],
+  "content_requests": [
+    "More chaotic long-form trip episodes",
+    "Keep tie-ins woven into scenes rather than read out",
+    "Continue letting the emotional moments run"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "post_id": "0375428c-ed2a-4b0d-b036-98d9a3c3788f",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A dating-game format featuring the channel's pinned comments as the most-liked in the entire dataset (5,920 and 5,185 likes each), with the channel explicitly shipping a specific pairing and asking the audience to vote on their level of 'fin'. At 2,772 comments on 2.56M views this is high engagement (0.11%) but the comment section is completely dominated by the channel's own pinned comments. Viewer comments express the same shipping sentiment but with far fewer likes. This is the most explicit cupid-and-audience alignment on the channel.",
+  "themes": [
+    { "label": "The channel explicitly shipping", "share": 50, "example": "ในที่สุด!! ชั้นก็มี #ท็อปก้อย เป็นของตัวเอง" },
+    { "label": "Audience voting on 'fin' level", "share": 30, "example": "กด 1 - ฟินสุดๆ กด2 - ฟินม๊ากกก กด3" },
+    { "label": "Viewer shipping confirmation", "share": 20, "example": "เหมือนมีมวลอะไรไม่รู้ ดูแล้วฟันเหยินเลย" }
+  ],
+  "sentiment_breakdown": { "positive": 99, "neutral": 1, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "The channel's own pinned comments dominate the engagement metrics, suggesting the channel is controlling the narrative rather than reflecting organic audience demand",
+    "When the channel leads with shipping, audience sentiment follows — there is no daylight between them",
+    "Viewer comments beneath the pinned messages show the same sentiment but are deprioritized, which is a distribution choice the channel controls"
+  ],
+  "content_requests": [
+    "More episodes in this dating format"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "post_id": "72f8ab11-1f45-442b-8d2f-2e7ebf513609",
+  "model": "claude-opus-5",
+  "comment_count": 10,
+  "summary": "Viewers came for entertainment and left quoting relationship advice — one comment pulls out a line about not letting a partner feel taken for granted and labels it quote of the day, and several say the episode had unexpected substance. The costume concept, three hosts dressed as the Powerpuff Girls, gets its own appreciation thread as a character device. Viewers also notice the crew laughing audibly in the mix and read that as evidence the shoot was genuinely fun rather than sloppy. A comparison thread positions the guest as the female counterpart of an earlier male guest, arguing that is why the chemistry doubled. One host is noted to be picking up her partner's speech mannerisms, which the audience finds endearing rather than intrusive.",
+  "themes": [
+    { "label": "Unexpected substance and quotable advice", "share": 30, "example": "\"บางคนดีเกินไป แล้วชอบเจอความรักไม่ดี เราอย่าทำให้เค้ารู้สึกว่าเราเป็นของตายเสมอไป\" ... Quote of the day." },
+    { "label": "The costume concept as character device", "share": 16, "example": "ชอบความคอสเป็น Powerpuff girls แล้วคาแรคเตอร์ได้" },
+    { "label": "Comparing this guest to an earlier one", "share": 15, "example": "ซานิก็คือโอ๊ตเวอร์ชั่นผู้หญิง โอ๊ตก็คือซานิเวอร์ชั่นผู้ชายนั้นแหละ มันเลยสนุกไง x2" },
+    { "label": "Audible crew laughter as authenticity", "share": 13, "example": "รู้เลย ตากล้องจอยมาก คลิปนี้ได้ยินเสียงหัวเราะบ่อยมาก" },
+    { "label": "Guest requests", "share": 14, "example": "อยากให้ชวนยายป๋อมแป๋มมาบ้างงง" },
+    { "label": "A host adopting her partner's mannerisms", "share": 12, "example": "นายหญิงกูนับวันยิ่งเหมือนนายน้อยขึ้นทุกวันละ" }
+  ],
+  "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
+  "audience_signals": [
+    "The format reliably produces quotable lines, which viewers extract and label themselves — these are ready-made Shorts and social cutdowns the channel is not systematically harvesting",
+    "Deliberately leaving crew laughter in the mix reads as authenticity; polishing it out would cost more than it gains",
+    "Costume and staging concepts give otherwise identical talk episodes distinct identities at negligible cost",
+    "The audience builds its own guest taxonomy, comparing new guests to past ones, which means booking complementary opposites is legible to them",
+    "Parasocial tracking runs deep enough that viewers monitor a host's speech habits changing over time"
+  ],
+  "content_requests": [
+    "Book Pom Pam",
+    "More costume-concept episodes",
+    "Cut the quotable moments out as standalone clips"
+  ]
+}

@@ -9,6 +9,7 @@ import { PerformanceTable } from "@/components/analytics/performance-table"
 import { TimelineChart } from "@/components/analytics/timeline-chart"
 import { FormatSplit } from "@/components/analytics/format-split"
 import { TopContentTable } from "@/components/analytics/top-content-table"
+import { SeriesTopList } from "@/components/analytics/series-top-list"
 import { CommentInsights } from "@/components/analytics/comment-insights"
 import { EmptyState } from "@/components/ui/empty-state"
 import { Badge } from "@/components/ui/badge"
@@ -17,10 +18,17 @@ import {
   getCategoryPerformance,
   getChannel,
   getPosts,
+  getSummarisedPostIds,
   getThemePerformance,
   getViralPosts,
 } from "@/lib/queries/analytics"
-import { formatSplit, monthlyTimeline, sumTotals, topHashtags } from "@/lib/aggregate"
+import {
+  formatSplit,
+  monthlyTimeline,
+  seriesTop,
+  sumTotals,
+  topHashtags,
+} from "@/lib/aggregate"
 import { PLATFORM_MAP, PLATFORMS } from "@/lib/constants"
 import { formatCompact, formatPercent } from "@/lib/utils"
 import type { Platform } from "@/lib/types"
@@ -40,13 +48,15 @@ export default async function PlatformAnalyticsPage({
   const meta = PLATFORM_MAP[platform as Platform]
   if (!meta) notFound()
 
-  const [channel, posts, categories, themes, viral] = await Promise.all([
-    getChannel(meta.key),
-    getPosts(meta.key),
-    getCategoryPerformance(meta.key),
-    getThemePerformance(meta.key),
-    getViralPosts(meta.key),
-  ])
+  const [channel, posts, categories, themes, viral, summarised] =
+    await Promise.all([
+      getChannel(meta.key),
+      getPosts(meta.key),
+      getCategoryPerformance(meta.key),
+      getThemePerformance(meta.key),
+      getViralPosts(meta.key),
+      getSummarisedPostIds(meta.key),
+    ])
 
   const totals = sumTotals(posts)
   const timeline = monthlyTimeline(posts)
@@ -55,6 +65,7 @@ export default async function PlatformAnalyticsPage({
   const topPosts = [...posts]
     .sort((a, b) => Number(b.views ?? 0) - Number(a.views ?? 0))
     .slice(0, 20)
+  const seriesGroups = seriesTop(posts, 10)
 
   const categoryChart = categories
     .map((c) => ({
@@ -178,6 +189,19 @@ export default async function PlatformAnalyticsPage({
               </div>
             </section>
           )}
+
+          <section className="space-y-3">
+            <div className="space-y-1">
+              <h2 className="text-sm font-semibold tracking-tight">
+                Top 10 by series
+              </h2>
+              <p className="text-muted-foreground text-xs">
+                Pick a programme to see its ten most-viewed posts. These are the
+                clips whose comments get read and summarised.
+              </p>
+            </div>
+            <SeriesTopList groups={seriesGroups} analysed={summarised} />
+          </section>
 
           <section className="space-y-3">
             <h2 className="text-sm font-semibold tracking-tight">Top content</h2>

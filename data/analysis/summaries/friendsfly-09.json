@@ -1,0 +1,25 @@
+{
+  "post_id": "f9379d5b-eff4-40f4-a852-4533f2e8d4aa",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "The first Friendsfly episode, posted after a two-year gap in group travel, and the channel opens by asking directly what the seven of them should do together next. The thread is mostly relief and delight that the full group is back, with viewers hoping their schedules keep aligning and asking for longer episodes. A celebrity friend leaves a supporting comment near the top. Two forward-looking requests stand out: one asking for a trip that includes a particular partner, and one asking pointedly when there will be content featuring Dream's boyfriend since everyone else has gone public. Individual moments are quoted, particularly one host being endearing while drunk.",
+  "themes": [
+    { "label": "Relief that the full group is back together", "share": 35, "example": "รวมกันครบแล้วสนุกมากเอนจอยสุดด" },
+    { "label": "Requests for longer and more frequent episodes", "share": 22, "example": "สนุกอยากให้มีอีกยาวๆเลยรอคลิปกับเพื่อนแบบนี้อีกนะคะ ขอให้ว่างตรงกันอีกสาธุ" },
+    { "label": "Asking for partners to be included", "share": 21, "example": "เมื่อไหร่จะมีคอนเท้นต์แฟนดรีม???? คนอื่นเค้าเปิดกันหมดแระ" },
+    { "label": "Quoted individual moments", "share": 14, "example": "พี่นัตตี้เมาได้น่ารักมาก555 โวยวายยังไงให้น่ารักขนาดนี้" },
+    { "label": "Celebrity friends supporting the launch", "share": 8, "example": "เย้ๆ ฝากด้วยนะคะ" }
+  ],
+  "sentiment_breakdown": { "positive": 95, "neutral": 4, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "The channel asks 'what should the seven of us do next' in the launch comment — audience-sourced commissioning is baked into this series from its first episode",
+    "Viewers push for partners to be brought into the format and keep score of who has gone public, which is a content pipeline the channel controls but has not fully used",
+    "Scheduling is the visible constraint: viewers pray for the group's calendars to align, which frames irregular cadence as understandable rather than negligent",
+    "A celebrity friend's launch comment provides free amplification on day one of a new format"
+  ],
+  "content_requests": [
+    "Longer episodes and more of them",
+    "A trip including the members' partners",
+    "Content featuring Dream's boyfriend"
+  ]
+}

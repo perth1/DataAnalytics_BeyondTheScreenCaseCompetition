@@ -157,3 +157,28 @@ export async function getViralPosts(
     summary: summaryByPost.get(p.id as string) ?? null,
   }))
 }
+
+/** Post ids on this platform that already have a Claude comment summary. */
+export async function getSummarisedPostIds(
+  platform: Platform,
+): Promise<string[]> {
+  if (!isSupabaseConfigured()) return []
+  const { data } = await createServerClient()
+    .from("comment_summaries")
+    .select("post_id, post:posts!inner(platform)")
+    .eq("post.platform", platform)
+  return (data ?? []).map((row) => row.post_id as string)
+}
+
+/** Get a comment summary by post id. */
+export async function getSummarySummary(
+  postId: string,
+): Promise<CommentSummary | null> {
+  if (!isSupabaseConfigured()) return null
+  const { data } = await createServerClient()
+    .from("comment_summaries")
+    .select("*")
+    .eq("post_id", postId)
+    .maybeSingle()
+  return (data as unknown as CommentSummary) ?? null
+}

@@ -1,0 +1,21 @@
+{
+  "post_id": "65275eae-0c27-4bd5-adef-1ffd6a719f3b",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A pairing of a rising actress and an established actor, both fresh off public activities — one from a chicken-fighting competition, the other from the Southeast Asian Games. The audience notes the fit is natural and credits the casting for recognizing the chemistry. One comment asks for a drama series, another labels one guest as having the verbal sting of the room, and the channel asks who to book next.",
+  "themes": [
+    { "label": "The casting is good", "share": 35, "example": "คู่นี้คือเหมือนคบกันจริงเลยค่ะ ไม่ได้จิ้นจนถึงขั้นบ้า มีความเรียลมากๆ" },
+    { "label": "One guest's sharp wit", "share": 30, "example": "เพิร์ธแซนต้าต้องมาแล้ว เพิร์ธเสริฟตัวเองสุด เป็นคนที่แพ้เสียงในหัวที่สุดของตึก" },
+    { "label": "Wanting a drama series", "share": 20, "example": "คู่นี้ต่อไปเอาใครมาจีบกันอีกดีน้าา" },
+    { "label": "The channel asking who's next", "share": 15, "example": "ขอ ❤ แลกความฟินนนนนน" }
+  ],
+  "sentiment_breakdown": { "positive": 98, "neutral": 2, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "Naturalistic chemistry is named and valued; when a pairing works without trying, viewers call it out before the channel does",
+    "One person's personality can dominate a comment section — wit and sharpness are assets in this format"
+  ],
+  "content_requests": [
+    "A drama series with this pair",
+    "More pairings with this actor"
+  ]
+}

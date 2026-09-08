@@ -1,0 +1,23 @@
+{
+  "post_id": "34ef38e4-65db-440d-b49f-46b7e21090b4",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A confessional episode filmed in a camper van. The top comment by a wide margin asks for all three hosts' real partners to be taken on a group date, and the second asks patiently for a couple photo, promising the audience will wait until they are ready. A distinct and heavily-liked comment praises the three of them for taking clear political positions and being visible about it, contrasting them with peers who stay quiet. The last thread is a callback joke: the host who used to be talked over now talks so much that nobody else gets a word in, which shows the audience tracking the airtime issue they raised years earlier.",
+  "themes": [
+    { "label": "Take all three couples on a group date", "share": 42, "example": "อยากให้เอาคู่จริงของทั้ง3คน ไปเดตกันจัง คงจะฟินมากแน่ๆ" },
+    { "label": "Patiently waiting for a relationship reveal", "share": 22, "example": "รอดูรูปคู่พี่ดรีมพี่มีนอยู่นะ พร้อมเมื่อไรคอยลงก็ได้ พวกเราเข้าใจ" },
+    { "label": "Praise for taking political positions", "share": 22, "example": "ชอบความที่ ก้อย นัตตี้ ดรีม ช่วยเป็นกระบอกเสียงทางการเมือง เเสดงออกชัดเจน มีจุดยืนชัดเจน" },
+    { "label": "Callback to the airtime imbalance", "share": 14, "example": "พี่ดรีมจากที่พูดไม่ทันคนอื่น แต่epนี้พูดจนคนอื่นไม่ได้พูดเลย" }
+  ],
+  "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
+  "audience_signals": [
+    "A three-couples episode is the single most-requested unbuilt format across this series and Friendsfly — it has been asked for repeatedly since 2021 and never made",
+    "Political visibility is an asset with this audience, not a liability: they name it as a reason to respect the hosts and contrast them with silent peers",
+    "The audience is patient about private matters and says so explicitly, which means the hosts control the timing of personal reveals without losing interest",
+    "Long-running notes like the airtime imbalance are tracked over years and referenced as callbacks — the audience has institutional memory of the channel"
+  ],
+  "content_requests": [
+    "A group date with all three hosts' partners",
+    "More van and road-trip confessional episodes"
+  ]
+}

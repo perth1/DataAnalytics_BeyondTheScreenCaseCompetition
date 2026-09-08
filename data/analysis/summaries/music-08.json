@@ -1,0 +1,27 @@
+{
+  "post_id": "da7ef55e-e2ff-408f-b254-49bf3d6b0f0c",
+  "model": "claude-opus-5",
+  "comment_count": 19,
+  "summary": "Built on a sunflower metaphor for one-sided love, and the audience extends the metaphor rather than just praising the song — the single most-liked comment is a viewer saying she is tired of letting the sun decide whether she blooms and wants to bloom on her own. The second cluster works through the mismatch between the cheerful melody and the sad story and resolves it as loving someone without needing to possess them, quoting the hook back. A third cluster is about the MV cast, particularly the director-turned-lead Boss, whose own supporters ask the channel admin to pass praise along to him. A smaller thread credits the producer Ton Hon as her consistent collaborator and calls the pairing a signature. Several comments simply ask her never to stop releasing music.",
+  "themes": [
+    { "label": "Viewers extending the sunflower metaphor", "share": 34, "example": "ตอนนี้อยากลองเป็นดอกทานตะวันที่บานด้วยตัวเองบ้าง ไม่อยากให้แสงแดดมามีผลอีกแล้ว" },
+    { "label": "Happy melody over a sad story / loving without possessing", "share": 25, "example": "ความรักจริงๆ ก็คือการเห็นคนที่เรารักมีความสุขกับทางที่เค้าเลือก" },
+    { "label": "MV cast and chemistry", "share": 18, "example": "โฟกัสแต่เอ็มวี บอสสอกกกกกกกก นางมีของนะ 10 เต็มเลยยยยยย" },
+    { "label": "Producer continuity with Ton Hon", "share": 11, "example": "ต้นหนทำเพลงให้ก้อยได้ดีทุกเพลงเลยค่ะ เหมือนแบบเป็นลายเส้นไปแล้วค่ะ" },
+    { "label": "Don't stop making music / voice keeps improving", "share": 12, "example": "พี่อย่าเลิกร้องเพลงนะ หนูชอบเสียงพี่มากๆเลย" }
+  ],
+  "sentiment_breakdown": { "positive": 65, "mixed": 31, "neutral": 4, "negative": 0 },
+  "audience_signals": [
+    "A metaphor in the title invites the audience to write their own version of it — the top comment is a viewer's reframing rather than praise, which is the highest-value kind of engagement",
+    "Crew members have their own followings: commenters ask the channel admin to relay praise to the director by name, so crediting the team publicly pays back",
+    "Producer continuity is recognised as part of the artist brand, not an implementation detail",
+    "The audience casts future MVs unprompted, naming the friend group members they want to see act",
+    "Views are stepping down across the music catalogue (44.7M to 826K), so reach now depends on collaborators and cast rather than the song alone"
+  ],
+  "content_requests": [
+    "Next MV starring Namhom and Ammy",
+    "Keep working with Ton Hon",
+    "Never stop releasing music",
+    "More acting roles for the crew members who appeared here"
+  ]
+}

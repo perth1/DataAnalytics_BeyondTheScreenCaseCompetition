@@ -1,0 +1,23 @@
+{
+  "post_id": "f37993cd-7f85-4ed2-a4bb-37aa723627fa",
+  "model": "claude-opus-5",
+  "comment_count": 12,
+  "summary": "A 2022 teaser for the debut single, and the comments are almost purely anticipation. Every high-liked comment is a variant of 'this is only a teaser and it already sounds like a hit', with viewers noting goosebumps from a few seconds of audio and repeatedly promising to farm views on release day. A second thread is surprise at how sweet and clean the vocals sound, from an audience that had only heard these three talk on camera. A smaller cluster references the long wait — they remember Goy saying a song was coming and say the teaser proves she delivered. There is no criticism and no requests beyond wanting the full release, which makes this a clean read on how a teaser should behave: it converts curiosity into a scheduled appointment.",
+  "themes": [
+    { "label": "Anticipation and release-day view campaigns", "share": 46, "example": "โหหหหห ขนลุกเว่อ นี่แค่Teaser ดีมากกกก เพลงน่ารักมากกกก รอปั่นวิวเลยค่าาา" },
+    { "label": "Surprise at the vocal quality", "share": 30, "example": "โหหหห เสียงใสมากรอไม่ไหวแล้วว" },
+    { "label": "The long-promised song finally arriving", "share": 16, "example": "รอนานมากๆเห็นแม่เคยพูดไว้ว่าจะมีเพลง ไม่ผิดหวังจริงขนาดแค่ Teaser" },
+    { "label": "Predicting a hit from a few seconds", "share": 8, "example": "โอ้ยยยยย แค่ 5 วิ ก็รู้แล้วว่าปังแน่" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 4, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "A teaser with a named date and time converts curiosity into a scheduled appointment — commenters explicitly commit to showing up and farming views",
+    "The audience had never heard them sing, so the teaser's job was proof of competence rather than promotion, and that is exactly what the comments respond to",
+    "Publicly promising a project in advance builds a waiting list: commenters cite her earlier statement that a song was coming",
+    "A teaser earns 644K views on its own, which is meaningful owned reach for a promotional asset and argues for teasing every major release"
+  ],
+  "content_requests": [
+    "Release the full song as scheduled",
+    "More music after the debut single"
+  ]
+}

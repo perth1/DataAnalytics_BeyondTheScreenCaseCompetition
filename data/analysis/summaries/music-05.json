@@ -1,0 +1,29 @@
+{
+  "post_id": "5623cda0-fd60-4208-96eb-596b952f0045",
+  "model": "claude-opus-5",
+  "comment_count": 41,
+  "summary": "A trio MV in which each member plays a different unrequited status — the friend, the ex, the one being kept unofficial — and the comment section turns into a debate about which status hurts most. That argument is the single largest cluster and produces the most-liked non-celebrity comments, several of which lay out all three positions in structured form. The second cluster is acting praise, and it lands overwhelmingly on Dream: viewers who describe themselves as previously indifferent say she was the MVP, name her eyes and body language, and ask for her to be cast in a film. Natty's crying-while-eating-instant-noodles scene is singled out repeatedly. A third cluster is personal projection — viewers recount their own version of the same situation, one explaining why eating through tears is realistic. A smaller thread reads the sound as deliberately 90s Thai pop and welcomes the throwback, and a few English comments arrive via the Nadao actors and the director.",
+  "themes": [
+    { "label": "Debating which unrequited status hurts most", "share": 32, "example": "ใครเจ็บสุด... ก้อย..มีไรกัน จูบกัน นอนกอดกัน ทำทุกอย่างเหมือนแฟน แต่เค้าให้เป็นได้แค่คนคุย" },
+    { "label": "Dream's acting as the breakout", "share": 26, "example": "MVP เพลงนี้ให้ดรีมค่า การแสดง สายตา อินเนอร์ อินสุดๆ" },
+    { "label": "Viewers projecting their own situation", "share": 16, "example": "เพราะเคยอยู่ในสถานการณ์ที่ยอมทำทุกอย่างเพื่อแค่ให้คนๆนึงมารักเราเหมือนกัน" },
+    { "label": "Vocal and production praise for all three", "share": 14, "example": "จาก 3 สาวยูทูปเบอร์ สู่ 3 สาวนักร้องคุณภาพ เกินไปมุ้ยยยยยย" },
+    { "label": "90s Thai pop throwback sound", "share": 7, "example": "เป็นกลิ่นอายที่ทำให้กลับไปยุคโฟร์มด มากๆ" },
+    { "label": "Requests to expand it into a short series", "share": 5, "example": "อยากดูเป็นซีรีส์สั้นเลยค่าาาา ขนาดแค่ mv ยังทำให้อินขนาดนี้" }
+  ],
+  "sentiment_breakdown": { "positive": 74, "mixed": 21, "neutral": 4, "negative": 1 },
+  "audience_signals": [
+    "Giving each member a distinct role turns the comment section into an argument, and arguments produce the longest, most-liked comments — a reusable structural device",
+    "Dream is the member with the most upside from acting work: multiple commenters say this MV converted them from indifferent to fans and ask for casting",
+    "The audience reads the group as recording artists now, not YouTubers with a side project",
+    "Relationship-status framing is highly projectable — viewers slot their own history into the roles, which is why this format outperforms plain love songs on comment depth",
+    "A 90s Thai pop reference point pulls in an older listener segment who name the era unprompted",
+    "Guest actors' fandoms (Nadao) and the production crew bring a small English-language audience"
+  ],
+  "content_requests": [
+    "Turn the MV into a short series",
+    "Cast Dream in acting roles",
+    "More songs in this 90s Thai pop style",
+    "More MVs with a guest lead actor"
+  ]
+}

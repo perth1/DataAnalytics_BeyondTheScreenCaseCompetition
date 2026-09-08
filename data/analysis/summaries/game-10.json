@@ -1,0 +1,25 @@
+{
+  "post_id": "7aff0769-ce1e-4a54-af0a-7c802f059311",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "A recent revival of the question-challenge format with an actress guest, and the channel's own pinned comment says it out loud: it has been a long time since they did this one, do people still like it, and what should they do next. The reaction is positive and specifically about timing — the three-way comedic rhythm between the guest and two hosts is named as what makes it work, and the guest's energy is described as easy to approach. Several commenters note that the guest rarely appears on YouTube at all, so this is effectively her YouTube debut. The top comment immediately routes her elsewhere, asking for her and her partner to appear on the couples driving series.",
+  "themes": [
+    { "label": "Three-way comedic timing", "share": 34, "example": "จังหวะใบ ดรีม ก้อย ลงตัวแบบสุดดดขำทั้งคลิปปป" },
+    { "label": "The guest's approachable energy", "share": 25, "example": "พี่ใบเฟิร์นคือเอนเนอจี้น่าเข้าหามากก น่ารักกกกก" },
+    { "label": "Route her to the couples series", "share": 18, "example": "อยากเห็นมาร์ชจุกับใบมา car รา car ซัง ให้กันได้มั้ยค้าาาาาา" },
+    { "label": "The channel asking whether to continue the format", "share": 12, "example": "ห่างหายท้าตอบไปนานมากก เพื่อนๆยังชอบมั้ยค้า อยากให้พวกเราทำอะไรอีกเม้นมาได้เลยยย" },
+    { "label": "The guest's YouTube debut", "share": 11, "example": "ในที่สุดใบก็ออกช่องยูทูปบ้างแล้ว" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "The channel puts format-revival decisions to the audience directly — asking whether a dormant series should continue is a standing habit and it gets answered",
+    "The channel is where television actors make their first YouTube appearance, which is a specific access claim worth stating to talent agencies",
+    "Guest routing between the channel's formats is the audience's default reflex; the first comment on a new guest is usually which other show to put them on next",
+    "Reach for this format has settled around 700K, well below the 1.2-1.4M of its 2022 peak, so the revival is working but not at former scale"
+  ],
+  "content_requests": [
+    "Put the guest and her partner on CarราCarซัง",
+    "Keep the question-challenge format running",
+    "More episodes with this guest"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "post_id": "c6de3063-1b73-4df7-90d5-51875eba0dba",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A crab-catching trip with a rural creator, and almost the entire thread is a request to expand the cast — bring the whole Friendsfly gang, do a Friendsfly and Sian Farang crossover, bring Boss and Namhom. One well-liked comment declares Dream to have permanent public chemistry, listing her pairings with two different guests, and asks for more joint episodes. The channel's own comment notes the quick turnaround on episode two. At 2,308 comments on 1.29M views this is one of the higher comment-rate long-form posts, and the driver is clearly the crossover appetite rather than the activity itself.",
+  "themes": [
+    { "label": "Bring the whole friend group into the crossover", "share": 45, "example": "อยากเห็นมาทั้งแก๊งง พี่บอสกับน้ำหอมต้องมา" },
+    { "label": "A host's chemistry with everyone", "share": 30, "example": "พี่ดรีมคือเคมีสาธารณะตลอดกาลจริงๆนะ พี่ดรีมพี่โน่ พี่ดรีมพี่บิว น่ารักมากกก" },
+    { "label": "Explicit crossover format proposal", "share": 15, "example": "เฟรนฟราย x เซียนหรั่ง ต้องมาละ พุดจริงงง" },
+    { "label": "Fast turnaround on the follow-up episode", "share": 10, "example": "Ep.2 มาเร็วทันใจ" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "Crossover appetite is the strongest single driver of comments here — 2,308 comments on 1.29M views, well above the long-form average, almost all asking for a bigger combined cast",
+    "One host is identified as the reliable chemistry generator across unrelated guests, which makes her the natural anchor for pairing-based formats",
+    "Quick sequels are noticed and appreciated; release rhythm within a mini-series affects sentiment",
+    "Rural and outdoor activity settings work as long as the cast is right — the requests are about who, never about where"
+  ],
+  "content_requests": [
+    "A Friendsfly and Sian Farang crossover",
+    "Bring Boss and Namhom into these trips",
+    "More episodes pairing Dream with different guests"
+  ]
+}

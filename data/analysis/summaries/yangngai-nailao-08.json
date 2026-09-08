@@ -1,0 +1,24 @@
+{
+  "post_id": "b3819b84-4e99-485b-a2ae-37fba983eb29",
+  "model": "claude-opus-5",
+  "comment_count": 10,
+  "summary": "An idol-group episode that functioned as a discovery surface: roughly half the thread is viewers declaring a new bias mid-episode, almost all of them for Hanna, with several applying to join her fanbase on the spot and saying they could not look away. The second cluster thinks like producers, proposing a 4EVE and Trinity collaboration and casting it position by position — main vocal to main vocal, rapper to rapper. A third cluster values seeing idols away from the stage and thanks the channel for booking them. The hosts' own pinned comment praises the guests' distinct characters and wishes a sick member a quick recovery, which reads as genuine relationship management rather than promotion.",
+  "themes": [
+    { "label": "Declaring a new bias mid-episode", "share": 48, "example": "แฮนน่าดาเมจรุนแรงมากก ขอสมัครเป็นแฟนคลับน้องด้วยคนค่า" },
+    { "label": "Casting a cross-group collaboration position by position", "share": 21, "example": "อยากให้ร่วมงานกันจัง 4eve กับtriityค่ะ น้องอ๊ะอาย = jackie เมนร้อง น้องโจริญ = ปอร์เช่ เมนแรป" },
+    { "label": "Seeing idols away from the stage", "share": 17, "example": "ชอบที่น้องๆได้ออกรายการแบบนี้ ได้รู้จักมุมต่างๆของน้องๆ" },
+    { "label": "The hosts' own message to the guests", "share": 14, "example": "พวกพี่ขอเป็นกำลังใจให้น้องอ๊ะอายกลับมาสุขภาพแข็งแรงเร็วๆ" }
+  ],
+  "sentiment_breakdown": { "positive": 97, "neutral": 3, "mixed": 0, "negative": 0 },
+  "audience_signals": [
+    "The channel works as an idol-discovery surface — viewers pick a new bias while watching, which is a concrete, sellable value proposition to labels and idol agencies",
+    "The audience proposes collaborations with production-level specificity, matching members by role; that is a free A&R suggestion list",
+    "Idol fandoms arrive as blocks and stay on the episode rather than the channel, so converting them requires a follow-up hook",
+    "The hosts' pinned comments are used for guest relationship management, which visibly builds the booking network"
+  ],
+  "content_requests": [
+    "Arrange a 4EVE and Trinity collaboration",
+    "More idol-group episodes",
+    "Individual episodes with the members who stood out"
+  ]
+}

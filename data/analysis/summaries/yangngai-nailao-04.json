@@ -1,0 +1,27 @@
+{
+  "post_id": "a6508e80-44d6-401b-8496-c6419b2e336a",
+  "model": "claude-opus-5",
+  "comment_count": 10,
+  "summary": "The guest, a teenage rapper, left the top comment herself — she loved the sound effects and said the show felt like a lost-relatives programme — which sets the tone for the whole thread. The most substantive cluster credits the hosts for production judgement: knowing the guest had limited relationship experience, they built questions that let her look good and turned the episode into perspective and self-development rather than gossip. A look-alike thread compares one host's face to the guest's. There is one genuine, well-liked criticism: Dream barely gets to speak, framed as a missing-person report. Cross-series funnelling appears again, with viewers asking for the guest's producer to be booked on the other show.",
+  "themes": [
+    { "label": "The guest replying and praising the sound design", "share": 27, "example": "ขอร้องหนูชอบsound effect มาก เหมือนรายการตามหาญาติที่หาย" },
+    { "label": "Credit for adapting questions to a young guest", "share": 22, "example": "ขอชื่นชมทีมงานพิธีกร3คนที่คิดคอนเท้นต์ได้สร้างสรรค์ เพราะรู้ว่าน้องยังอาจผ่านมุมมองความรักไม่มาก ถามคำถามที่ชูแขกรับเชิญ" },
+    { "label": "Look-alike observation about a host and the guest", "share": 16, "example": "ก้อย milli หน้าเหมือนกันมากกกก นึกว่าแฝดด" },
+    { "label": "Cross-series funnelling of the guest's collaborators", "share": 14, "example": "ถ้าหนูรับ พี่จะรักป่ะ ต้องเอาต้นหนมาแล้วล่ะ" },
+    { "label": "One host gets almost no airtime", "share": 12, "example": "มีคนหาย1ตำแหน่ง รบกวนจนท.ช่วยตามหาให้ด้วยครับ ดรีมนู๋พูดไม่ทันคนอื่นๆเลย" },
+    { "label": "Self-deprecation about the guest's age and success", "share": 9, "example": "มิลลิ :17 เพลงดัง ยอดวิวหลายล้าย กู : 37 นั่งกดไลค์คอมเม้นตัวเอง" }
+  ],
+  "sentiment_breakdown": { "positive": 88, "neutral": 6, "mixed": 5, "negative": 1 },
+  "audience_signals": [
+    "Sound design has become a recognised signature — the same element criticised as too loud in episode one of the sister series is now the guest's favourite thing about the show",
+    "Guests replying in the thread is now a pattern rather than an accident, and their comment reliably takes the top slot",
+    "There is a standing, well-liked complaint that one host is talked over — an airtime imbalance the audience has noticed and named",
+    "Viewers credit the production for tailoring questions to a guest's circumstances, so editorial care is visible to them and worth continuing",
+    "Booking a young artist brings a distinctly younger commenter cohort than the actor episodes"
+  ],
+  "content_requests": [
+    "Give Dream more speaking time",
+    "Book Ticha and the guest's producer on the sister series",
+    "Keep the sound-effect style"
+  ]
+}

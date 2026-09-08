@@ -1,0 +1,26 @@
+{
+  "post_id": "97087c89-4050-43a0-b37d-f401a84f9269",
+  "model": "claude-opus-5",
+  "comment_count": 8,
+  "summary": "The breakout of this episode is Namhom, and the comments show the ensemble logic working: a viewer who had always read her as the fierce, separate one says she now understands why the group fits, that each of them is distinct and nobody overlaps, and that Namhom says little but every line lands. The top comment asks for episodes every other day and describes the channel as what she watches to decompress after studying. Several viewers explicitly rank this series above the flagship flirt show. The most useful strategic comment says the group does not even need to travel — playing games or just sitting and gossiping would be enough — which means the format's cost floor is far lower than its current production level.",
+  "themes": [
+    { "label": "Namhom as the breakout and the ensemble logic", "share": 33, "example": "ปกติมองน้ำหอมสาวเฟียสตลอด ... แต่ละคนมีเอกลักษณ์คนละแบบ ย้ำว่าคนละแบบไม่มีใครเหมือนกันเลยจริงๆ เรียกว่าส่วนผสมลงตัวจริงๆ" },
+    { "label": "Requests for far higher frequency", "share": 22, "example": "อยากให้ลงแบบวันเว้นวัน อ่านหนังสือสอบเสร็จ มาดูช่องนี้คือผ่อนคลายยยย" },
+    { "label": "Preferring this series over the flagship", "share": 16, "example": "ชอบราการนี้มากกว่านั่งรถ จีบหนุ่มๆค่ะ สนุกมากเลย" },
+    { "label": "The group does not need a destination", "share": 17, "example": "ไม่ต้องไปเที่ยวไหนก็ได้ แค่รวมตัวกันเล่นเกมส์หรือมานั่งเม้าท์กันก็ได้ค่ะ ดูเพลินมากเลย" },
+    { "label": "Cross-series funnelling of cast members", "share": 12, "example": "อยากให้พี่น้ำหอมไปออกรายการยังไหนเล่าจังเลย คงจะแซ่บน่าดู" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "The audience states outright that the group does not need to travel to hold their attention — games or a conversation at home would do, which means high-cost international trips are not the reason this series works",
+    "Part of the audience prefers Friendsfly to the flagship talk series, so the friendship format is a genuine second pillar rather than a side project",
+    "The channel is used as decompression after study or work, which explains demand for high frequency and long runtime at low intensity",
+    "Cast members with distinct, non-overlapping personas are what makes the ensemble legible — viewers articulate the casting logic themselves",
+    "Viewers route supporting cast members toward the other series, so the wider crew is a booking pool the channel already owns"
+  ],
+  "content_requests": [
+    "Post far more frequently, even every other day",
+    "Low-cost episodes at home — games or just talking",
+    "Put Namhom on ยังไงไหนเล่า"
+  ]
+}

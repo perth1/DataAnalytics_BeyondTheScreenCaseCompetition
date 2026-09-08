@@ -1,0 +1,25 @@
+{
+  "post_id": "be8e29ad-3e3b-4698-94f8-e388d00ade84",
+  "model": "claude-opus-5",
+  "comment_count": 10,
+  "summary": "A top-tier actress as guest, and most of the thread is about how she looks — several commenters who have met her in person describe being stunned, and multiple say they do not usually favour any Thai actress but would name her. The second cluster is booking prestige: viewers say the channel can apparently get anyone and immediately escalate the requests to Yaya and, jokingly, Lisa. A smaller but commercially notable comment actively promotes the episode's sponsor, praising the brand for funding youth camps and encouraging others to buy, then jokes about sounding like a paid plant. Another cluster defends the guest against past online drama and credits her for proving herself. Comment depth is shallower here than on episodes with more opinionated guests — high reach, low substance.",
+  "themes": [
+    { "label": "The guest's beauty", "share": 39, "example": "เคยเจอตัวจริง น้องใหม่ ดาวิกา คือแบบ I'm completely STUNNED ไปเลย" },
+    { "label": "Booking prestige and escalating requests", "share": 22, "example": "โอโห แขกแต่ละคน ตัวท็อปมากๆ คนต่อไปขอญาญ่าค่ะ ลิซ่าต้องมาแล้วแหละถ้าเอาเบอร์นี้มาได้" },
+    { "label": "Organic sponsor advocacy", "share": 14, "example": "ช่วยสนับสนุนแลคตาซอยกันเยอะๆนะคะ เห็นชอบให้งบเด็กๆไปทำค่ายดีๆสร้างสรรค์" },
+    { "label": "Defending the guest against past drama", "share": 13, "example": "ตอนเจอกระแสดราม่าใหม่ คือเรานี่ ตามให้กำลังใจนางทุกที่ที่มีข่าว" },
+    { "label": "Her attentive listening on camera", "share": 12, "example": "ทำไมพี่ใหม่ดูแบบตั้งใจฟังทุกคนจริงๆอะมองหน้าแบบจริงจังมาก" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "Sponsor goodwill can be organic: a viewer voluntarily promoted the brand and cited its youth-camp funding, which suggests brands with a visible social contribution get advocacy rather than tolerance on this channel",
+    "Booking prestige compounds — each A-list guest raises the ceiling of what the audience believes the channel can land, and they say so",
+    "Beauty-led episodes deliver high reach but shallow comment substance compared with opinionated guests; reach and insight are not the same axis",
+    "The audience will defend a guest's reputation in the thread, which makes the channel a relatively safe venue for guests recovering from controversy"
+  ],
+  "content_requests": [
+    "Book Yaya",
+    "More A-list actress guests",
+    "Keep the sponsor integrations light"
+  ]
+}

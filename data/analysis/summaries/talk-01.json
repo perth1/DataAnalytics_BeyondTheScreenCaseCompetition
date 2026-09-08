@@ -1,0 +1,18 @@
+{
+  "post_id": "a9282322-d670-4c52-a28e-ad96b9eeba10",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "A Short about a celebrity couple's longest stretch without speaking, and the reaction splits cleanly in two. Half the thread is male viewers joking that he is living the life every Thai man dreams of, and the other half is sincere admiration for the trust between them — that they are honest with each other, that they seem like one person, that a relationship this easy is rare. There is nothing critical and nothing requested. The most notable fact about this post is structural: 1.8M views produced only 148 comments on the platform, the same reach-without-conversation pattern as the channel's other Shorts.",
+  "themes": [
+    { "label": "Envy framed as a joke about the ideal life", "share": 42, "example": "ชอบความใช้ชีวิตแทนชายไทยทั้งประเทศ" },
+    { "label": "Admiration for the couple's trust", "share": 40, "example": "คือเขารักกันจนไว้ใจ รักกันจนเหมือนเป็นคนคนเดียวกัน" },
+    { "label": "Observations about compatibility", "share": 18, "example": "ต่างคนต่างซื่อสัตย์ต่อกัน เชื่อใจกัน โชคดีมาก ความรักที่สบายใจหายากนะ" }
+  ],
+  "sentiment_breakdown": { "positive": 92, "neutral": 6, "mixed": 2, "negative": 0 },
+  "audience_signals": [
+    "Another Short with enormous reach and almost no conversation — 1.8M views to 148 comments — confirming that Shorts on this channel are awareness inventory rather than community surface",
+    "Relationship Shorts pull a male viewer segment that the long-form romance content does not, visible in the joking register and the pronouns used",
+    "A single relationship observation lifted out of a longer conversation travels far on its own, which supports systematically harvesting clips from existing long-form"
+  ],
+  "content_requests": []
+}

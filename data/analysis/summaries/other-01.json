@@ -1,0 +1,26 @@
+{
+  "post_id": "0f32152a-a7b4-4aa6-9c63-40626cd167a8",
+  "model": "claude-opus-5",
+  "comment_count": 58,
+  "summary": "A Short in which the group sings while running on a treadmill with guest Violette Wautier. The reaction splits cleanly: praise for Violette's control as a trained singer, and genuine surprise at Dream, the member nobody expected to hold a steady tone. Surprise is the engagement mechanic here — the top comment thread is literally 'I wasn't shocked by Vee because she's a singer, I was shocked by Dream'. A large secondary cluster turns the comment section educational: viewers explain that treadmill singing is a real vocal-training method, citing Beyonce, K-pop trainees, army conscripts and their own singing teachers, and several add breath-support technique. A third cluster is self-deprecating relatability — viewers say they cannot even talk while walking. Almost no one asks for anything; this format converts to comments through recognition and knowledge-sharing rather than requests.",
+  "themes": [
+    { "label": "Praise for Violette's live vocal control", "share": 38, "example": "วีร้องเพราะมาก. เสียงใส. แม้วิ่งอ่ะ" },
+    { "label": "Surprise at Dream's unexpected voice", "share": 22, "example": "วีไม่ตกใจเพราะเป็นนักร้องตกใจดรีมเสียงดีอ่ะ" },
+    { "label": "Viewers explaining the vocal-training technique", "share": 21, "example": "Beyonce ก็ฝึกร้องเพลงบนลู่วิ่งเเบบนี้เสียงเลยนิ่งมากพอเวลาร้อง" },
+    { "label": "Self-deprecating relatability", "share": 11, "example": "นี่แค่วิ่งยังหายใจไม่ทัน ไม่ใช้วิ่งสิ เดินด้วยซ้ำ" },
+    { "label": "Individual member bias declarations", "share": 8, "example": "รายการนี้ดีมีแต่คนสวยๆ แต่ชอบน้องก้อยมากสุดครับ ตลกดี โก๊ะๆดี" }
+  ],
+  "sentiment_breakdown": { "positive": 89, "neutral": 10, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "A Short built on a verifiable demonstration of skill outperforms conversation-based clips — the hook needs no context and works for viewers who do not know the channel",
+    "Surprise is the mechanic: the strongest reaction is to the member the audience did NOT expect to perform well, not to the professional",
+    "The format invites the audience to contribute expertise (breath support, athlete-singer training), producing high comment volume at very low effort",
+    "The guest's own fanbase arrives with her — several commenters say they have followed Violette since her singing competition, not from this channel",
+    "Members are followed individually, not only as a trio; per-member bias declarations are common and would support member-led content"
+  ],
+  "content_requests": [
+    "More of the same treadmill/vocal-test format with other guests",
+    "A full-length version rather than a Short",
+    "Let Violette sing properly on the channel"
+  ]
+}

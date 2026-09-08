@@ -1,0 +1,26 @@
+{
+  "post_id": "c784e876-c2bf-402e-8de8-597abe6b85d0",
+  "model": "claude-opus-5",
+  "comment_count": 12,
+  "summary": "A home visit to two of Thailand's biggest creators, and the most repeated observation is that the guests behave nothing like they do on their own channel — she is bolder than usual, he is more restrained, and viewers read that difference as the format working. The top comment says his answers did not sound like image management but like something he actually felt. The home-visit variant is popular on its own terms and produces a specific list of other creators whose houses viewers want visited. One notable cluster praises a host for raising harassment as a topic and pointing out that men can be on the receiving end too, which lands well inside an otherwise light format. Cross-channel viewing is explicit — several commenters say they finish on the guest's boyfriend's channel and come straight here.",
+  "themes": [
+    { "label": "Guests behave differently than on their own channel", "share": 25, "example": "เก๋ไก๋กับไปร์ทพอมาออกรายการนี้คือคนละคนกับในยูทูปเลยดูธรรมชาติแปลกๆ" },
+    { "label": "The home-visit format and requests for more", "share": 22, "example": "คอนเทนคุยที่บ้านแขกรับเชิญก็ดูสนุกดีครับ อยากให้ไปบ้านWJมายบ้างครับ" },
+    { "label": "Sincerity of the guest's answers", "share": 20, "example": "เรารู้สึกว่าพี่ไปร์ทไม่ได้พูดให้ตัวเองดูดี แต่พูดออกมาจากความรู้สึกจริงๆอ่ะ" },
+    { "label": "Guest requests and cross-series funnelling", "share": 21, "example": "ซุง ต้องมารายการถ้าหนูรับพี่จะรัดป่ะแล้วละ" },
+    { "label": "Raising male harassment as a topic", "share": 12, "example": "ประทับใจพี่นัตตี้ ที่พูดเรื่องharassment เพราะว่าไม่ได้มีแค่ผู้หญิงที่เป็นผู้ถูกกระทำได้เพศเดียว" }
+  ],
+  "sentiment_breakdown": { "positive": 93, "neutral": 5, "mixed": 2, "negative": 0 },
+  "audience_signals": [
+    "The channel's real differentiator is stated plainly here: guests drop their own channel persona, and viewers notice and value it — that is the product, not the questions",
+    "The home-visit variant generates its own named request list and gives each episode a visual identity for free",
+    "Serious subject matter lands well inside the light format when it comes from a host reacting rather than a scripted segment",
+    "Creator guests bring measurable cross-channel traffic; commenters describe a viewing sequence from his channel straight to this one",
+    "Viewers actively route guests between the channel's two flagship series, so the shows feed each other"
+  ],
+  "content_requests": [
+    "Visit more creators' homes, WJ Mild named specifically",
+    "Bring this guest onto ถ้าหนูรับ พี่จะรักป่ะ",
+    "Book Ta Ning, Kao Supassara and Patty Angsumalin"
+  ]
+}

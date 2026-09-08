@@ -1,0 +1,22 @@
+{
+  "post_id": "25b5bc19-38a9-4ede-a569-14f9b86ffcce",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A street-food exploration episode. The top comment praises one host for enjoying eating; others ask for more episodes like this, note the hosts look better post-marriage, and the channel asks where to go next. At 400 comments on 885K views this is a low-engagement format, but notably higher than the cooking show, which suggests travel + food beats pure cooking, and that a host's obvious enjoyment of eating is a draw. The marriage milestone is noticed and appreciated.",
+  "themes": [
+    { "label": "Praise for obvious enjoyment of eating", "share": 35, "example": "น้องดรีมทำถึง อารมณ์เอ็นจอยกินแหลก" },
+    { "label": "Requesting more eating-focused episodes", "share": 30, "example": "อยากให้ทำรายการแบบนี้บ่อยๆ ดูเอนจอยอีสติ้งกันมากกก" },
+    { "label": "Noting hosts look better post-marriage", "share": 22, "example": "หลังแต่งงานมา ทั้งน้องนัตตี้ทั้งน้องแมน ดูสวยดูหล่อ และมีเสน่ห์" },
+    { "label": "Asking where to explore next", "share": 13, "example": "รอบหน้าไปตะลุยกินที่ไหนดีคะะ" }
+  ],
+  "sentiment_breakdown": { "positive": 95, "neutral": 4, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "Food + travel beats pure food; context and location matter more than the food itself",
+    "Host physicality and apparent enjoyment are noticed and appreciated, especially post-life-event (marriage)",
+    "The audience tracks hosts' personal milestones and comments on visible changes"
+  ],
+  "content_requests": [
+    "More street-food exploration episodes",
+    "Regular eating show format"
+  ]
+}

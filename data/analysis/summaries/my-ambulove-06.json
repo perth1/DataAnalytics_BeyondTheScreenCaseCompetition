@@ -1,0 +1,22 @@
+{
+  "post_id": "a044fd9f-e124-4fe4-806f-8f89b4b5927f",
+  "model": "claude-opus-5",
+  "comment_count": 4,
+  "summary": "A pairing of an established actress and a younger guest with a puppy-dog energy. Viewers describe the dynamic as a beautiful girl paired with a younger boy type, note the genuine nature of the interaction, and immediately ask for a drama series and for them to be brought back. The comment rate is lower than typical idol pairings (1,228 on 740K views), consistent with the pattern that non-idol guests depress engagement.",
+  "themes": [
+    { "label": "The dynamic as beauty and youth", "share": 40, "example": "เก้าเจนคือคนสวยขากับหมาเด็กมากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก ทางนี้ดูไปเหยินไป ฮ้อปไม่ไหวเลยค่ะ" },
+    { "label": "The interaction feels real", "share": 30, "example": "คู่นี้เป็นตัวเองธรรมชาติสุดๆ" },
+    { "label": "Asking for a drama series", "share": 20, "example": "อยากให้ชวนเอมี่บอนนี่มาหน่อยได้มั้ยคะ" },
+    { "label": "Wanting them back", "share": 10, "example": "ต่อไปเอาใครมาจีบกันอีกดีน้าา" }
+  ],
+  "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
+  "audience_signals": [
+    "Non-idol pairings underperform: 1,228 comments on 740K views is about 0.17%, versus 0.45%+ for idol episodes — the guest fandom multiplier is substantial",
+    "The audience still ships and requests drama, but with less enthusiasm"
+  ],
+  "content_requests": [
+    "A drama series with this pair",
+    "Bring them back for another episode",
+    "More pairings with non-idol guests"
+  ]
+}

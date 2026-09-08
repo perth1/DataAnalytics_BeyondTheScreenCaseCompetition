@@ -100,3 +100,41 @@ export function topHashtags(posts: PostWithMetrics[], limit = 12) {
     .slice(0, limit)
     .map(([tag, v]) => ({ tag, ...v }))
 }
+
+export interface SeriesTop {
+  slug: string
+  name: string
+  postCount: number
+  totalViews: number
+  top: PostWithMetrics[]
+}
+
+/**
+ * Top N posts within every series, series ordered by total views.
+ * Derived from the already-loaded post list so it costs no extra query.
+ */
+export function seriesTop(posts: PostWithMetrics[], limit = 10): SeriesTop[] {
+  const groups = new Map<string, { name: string; posts: PostWithMetrics[] }>()
+
+  for (const p of posts) {
+    const slug = p.category_slug ?? "uncategorized"
+    const group = groups.get(slug) ?? {
+      name: p.category_name ?? "Uncategorized",
+      posts: [],
+    }
+    group.posts.push(p)
+    groups.set(slug, group)
+  }
+
+  return [...groups.entries()]
+    .map(([slug, g]) => ({
+      slug,
+      name: g.name,
+      postCount: g.posts.length,
+      totalViews: g.posts.reduce((s, p) => s + Number(p.views ?? 0), 0),
+      top: [...g.posts]
+        .sort((a, b) => Number(b.views ?? 0) - Number(a.views ?? 0))
+        .slice(0, limit),
+    }))
+    .sort((a, b) => b.totalViews - a.totalViews)
+}

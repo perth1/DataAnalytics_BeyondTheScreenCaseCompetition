@@ -1,0 +1,26 @@
+{
+  "post_id": "8e7f8459-87b7-4743-b495-b8a47b448c35",
+  "model": "claude-opus-5",
+  "comment_count": 12,
+  "summary": "The guest is one host's actual ex-partner, and the audience treats it as the most excruciating and most enjoyable episode of the series. The running joke — host one is villager one, host two is villager two, the viewer is villager three — captures the frame precisely: everyone including the audience is a bystander to two people who clearly still feel something. Comments track his avoidance of eye contact, the fact that he still picks her when given a choice, and that they drank from the same glass. The clearest demand to come out of it is structural: do this again with the other two hosts' exes, with commenters organising upvotes behind the request. Viewers also ask for the guest to be carried across to the channel's other series, and the guest himself replies in the thread.",
+  "themes": [
+    { "label": "Secondhand embarrassment / villager number three", "share": 34, "example": "พี่ก้อย =ชาวบ้าน1 พี่ดรีม=ชาวบ้าน2 คนดู=ชาวบ้าน3" },
+    { "label": "Do it again with the other hosts' exes", "share": 24, "example": "ต่อไปขอผู้ชายที่คุยกับสองสาว เเละอดีตของ ก้อยเเละดรีม ด้วยนะคับ ใครเห็นด้วย ดันหน่อยครับ" },
+    { "label": "Reading his avoidance as real feeling", "share": 20, "example": "รู้สึกเลยว่าผู้ชายเขินจริง แทบไม่ส่งสายตาไปทางนัตตี้เลย นั่งข้างกันคือหันหลังให้เลย" },
+    { "label": "Carry the guest across to the other series", "share": 13, "example": "พวกเรามาเรียกร้องให้น้องอัพ ไปออก \"ยังไงไหนเล่า\" อีก ใครเห็นด้วยช่วยกันเมนท์" },
+    { "label": "The guest replying in the thread", "share": 9, "example": "ขอบคุณที่ชวนมาสนุกกันครับ" }
+  ],
+  "sentiment_breakdown": { "positive": 93, "mixed": 5, "neutral": 2, "negative": 0 },
+  "audience_signals": [
+    "Booking a host's real ex-partner is the strongest chemistry device the series has found, and the audience immediately asks for it to be repeated with the other two — a ready-made format extension",
+    "The 'villager number three' meme shows the audience positions itself alongside the non-participating hosts as co-spectators, which is a participatory frame worth writing into the format",
+    "Guests replying in the comments lifts the whole thread and should be encouraged as part of the booking arrangement",
+    "Cross-series funnelling is requested by the audience, not imposed — moving a popular guest between programmes is welcomed rather than resented",
+    "All ten of this series' top episodes turn on real or suspected romance; the format's value is access to genuine relationships, not the questions themselves"
+  ],
+  "content_requests": [
+    "Episodes featuring the other two hosts' ex-partners",
+    "Bring this guest onto ยังไงไหนเล่า",
+    "A second episode with the same pairing"
+  ]
+}

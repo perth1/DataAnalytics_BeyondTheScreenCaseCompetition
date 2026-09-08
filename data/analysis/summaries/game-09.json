@@ -1,0 +1,25 @@
+{
+  "post_id": "03ee1729-e112-4889-8e9e-556a7d96a7c1",
+  "model": "claude-opus-5",
+  "comment_count": 6,
+  "summary": "A street challenge to collect phone numbers, and the standout comment is a viewer taxonomising each participant's technique — Natty as the smooth operator anyone would give a number to, Dream as coy and sparing with words, Goy as blunt and transactional to the point of offering money, and the guest as purely results-driven with no interest in method. That kind of comparative reading is what this format produces. The largest cluster wants the guest brought into the group permanently, saying four of them together is better than three. Her energy and willingness to commit to the bit are praised. One viewer notes that Dream barely speaks once the guest arrives, which is the airtime imbalance the audience has flagged repeatedly across series.",
+  "themes": [
+    { "label": "Taxonomising each person's approach", "share": 25, "example": "1.นัตตี้แพรวพราวมากแม่ ... 2.ดรีมดูขี้อ้อนๆ เขิน ไม่เน้นพูดเยอะ ... 3.ก้อยคือตรงๆ ไปเลย แมนๆ ใช้เงินซื้อ ... 4.เจนิสคือมาเพื่อแข่งเกมเท่านั้น" },
+    { "label": "Adopt the guest into the group", "share": 26, "example": "อยากให้พี่เจนิสมารายการบ่อยๆนะคะ พอ4สาวอยู่ด้วยกันแล้วคือสนุกมาก" },
+    { "label": "Dream's appeal", "share": 25, "example": "ชอบพี่ดรีมมาก แบบน่ารักใจละลาย" },
+    { "label": "The guest's energy and commitment", "share": 13, "example": "เจนนิสน่ารักกมากเลย จ้างร้อยเล่นล้านนน เต็มที่กับงานมากสนุกมากคลิปนี้ พลังงานเยอะมาก" },
+    { "label": "A host going quiet when the guest arrives", "share": 11, "example": "เจสนิสมา ดรีมก้คือไม่ได้พูดเลย" }
+  ],
+  "sentiment_breakdown": { "positive": 93, "mixed": 5, "neutral": 2, "negative": 0 },
+  "audience_signals": [
+    "Head-to-head challenge formats produce comparative character analysis, which is the most portable kind of content the channel generates — the taxonomy comment is effectively a ready-made script for a follow-up video",
+    "Guests who match the group's energy trigger 'adopt them' requests, which is a repeatable route to expanding the regular cast without a format change",
+    "The airtime imbalance flag recurs: one host reliably falls silent when a strong fourth personality joins, and the audience keeps noticing",
+    "Public street challenges carry no brand risk in the comments here, unlike the channel's controversy-driven Shorts"
+  ],
+  "content_requests": [
+    "Make the guest a regular fourth member",
+    "More head-to-head challenge formats",
+    "Give Dream more room when guests are present"
+  ]
+}

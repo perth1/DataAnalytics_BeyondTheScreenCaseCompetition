@@ -1,0 +1,26 @@
+{
+  "post_id": "39345d61-6091-410d-93e6-afdc8ec50547",
+  "model": "claude-opus-5",
+  "comment_count": 22,
+  "summary": "Published a week before the May 2023 general election with Pita Limjaroenrat as the guest, and the comment section stops being an entertainment thread and becomes a campaign one. Roughly half the comments are explicit endorsements — he should be the next prime minister, vote Move Forward, orange emoji strings — and the channel's own pinned comment simply says don't forget to vote. A significant cluster thanks the channel for making politics feel close to young viewers who would not watch a political interview, framing the hosts as a conduit rather than commentators. A third, much later wave arrived after 14 February 2026 when Goy revealed her relationship with him: commenters confess they came back from Valentine's Day and re-read her admiring gaze in the episode as the beginning of it. A smaller cluster carries hindsight regret that he never became prime minister. At 11,251 comments this is the most-commented post on the channel.",
+  "themes": [
+    { "label": "Political endorsement and get-out-the-vote", "share": 48, "example": "คุณทิมเหมาะที่จะเป็น นายกคนต่อไปของประเทศไทยมาก กาก้าวไกลประเทศไทยไม่เหมือนเดิม" },
+    { "label": "Rewatch wave after the 14 Feb 2026 reveal", "share": 16, "example": "ใครตามมาจากวาเลนไทน์ 14/02/2026 สารภาพมา !!!!" },
+    { "label": "Reading Goy's gaze as the start of the romance", "share": 13, "example": "ชอบแววตาก้อยมากไม่เคยเห็นที่ไหนมาก่อน เป็นแววตาที่ชื่นชม ปราบปลื้ม ยกย่อง คุณทิมอย่างมาก" },
+    { "label": "Credit to the channel for making politics accessible", "share": 12, "example": "เปรียบเสมือนพวกพี่ได้เป็นกระบอกเสียงเพื่อให้ทุกคน ทุกเพศ ทุกวัย ได้หันมาสนใจ ... ทำให้รู้สึกว่าเรื่องการเมืองไม่ใช่เรื่องไกลตัวเราเลย" },
+    { "label": "Hindsight regret about the election outcome", "share": 11, "example": "กะจะมาดูโมเม้น พิธา ก้อย แต่กลายเป็นรู้สึกเสียดายจับใจ เสียดายที่ประเทศไทยไม่ได้คนที่มีความคิดดีๆ อย่างนี้มาเป็นนายก" }
+  ],
+  "sentiment_breakdown": { "positive": 87, "mixed": 10, "neutral": 3, "negative": 0 },
+  "audience_signals": [
+    "A non-entertainment guest booked at the right political moment produced the channel's most-commented post ever — 11,251 comments, roughly double the next highest",
+    "The audience credits the flirt-interview format with lowering the barrier to political content for young viewers, which is a genuine positioning asset the channel does not currently claim",
+    "The episode gained a second life three years later: the hosts' real relationship turned it into a romance origin story and drove a fresh rewatch wave with no new production cost",
+    "Partisan association is permanent and explicit in this thread — worth knowing before pitching brand-sensitive sponsors against the back catalogue",
+    "The format travels far outside entertainment: the same questions applied to a party leader produced substantive answers viewers described as considered"
+  ],
+  "content_requests": [
+    "More political and serious guests in the same format",
+    "A follow-up episode with the same guest",
+    "Keep using the format to bring civic topics to a young audience"
+  ]
+}
