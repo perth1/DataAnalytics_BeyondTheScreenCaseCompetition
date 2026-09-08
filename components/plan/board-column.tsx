@@ -31,7 +31,17 @@ function CardItem({ card }: { card: PlanCard }) {
 
   async function remove() {
     setBusy(true)
-    await createClient().from("plan_cards").delete().eq("id", card.id)
+    const { error } = await createClient()
+      .from("plan_cards")
+      .delete()
+      .eq("id", card.id)
+    setBusy(false)
+    // A blocked delete comes back without throwing, so surface it rather than
+    // leaving the card sitting there as if nothing was clicked.
+    if (error) {
+      window.alert(`Could not delete this card: ${error.message}`)
+      return
+    }
     router.refresh()
   }
 
