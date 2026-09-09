@@ -87,7 +87,7 @@ export function MomentumGrid({
               <span className="truncate text-xs font-medium">{p.label}</span>
               <span className="text-muted-foreground shrink-0 text-xs tabular-nums">
                 {p.delta > 0 ? "+" : ""}
-                {p.delta.toFixed(2)} pts
+                {p.delta.toFixed(2)} จุด
               </span>
             </div>
             <Sparkline points={p.points} />
@@ -103,10 +103,10 @@ export function MomentumGrid({
         ))}
       </div>
       <p className="text-muted-foreground text-xs">
-        Share of each year&apos;s comment signals, so a territory can rise while
-        raw comment volume falls.
+        คิดเป็นสัดส่วนของสัญญาณในแต่ละปี กลุ่มความสนใจจึงเติบโตได้แม้จำนวน
+        คอมเมนต์รวมจะลดลง
         {partialYear !== undefined &&
-          ` ${partialYear} is a partial year, which is why share — not count — is plotted.`}
+          ` ปี ${partialYear} ยังไม่ครบปี จึงพลอตเป็นสัดส่วน ไม่ใช่จำนวนนับ`}
       </p>
     </div>
   )

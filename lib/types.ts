@@ -227,3 +227,100 @@ export interface SignalCoverage {
   territory_signals: number
   posts_with_comments: number
 }
+
+/* ------------------------------------------------- thai audience market
+ * Rows from the views in migration 0011. Counts arrive from PostgREST as
+ * numbers, but sums over bigint columns can come back as strings, so the
+ * shaping helpers in lib/thai-market.ts coerce with Number() rather than
+ * trusting these to be numeric.
+ */
+
+export interface MarketCoverage {
+  videos: number
+  channels: number
+  comments: number
+  cohort_signals: number
+  stated_age_signals: number
+  life_stage_signals: number
+  parent_signals: number
+  corpus_views: number
+  earliest_video: string | null
+  latest_video: string | null
+  fetched_at: string | null
+}
+
+export interface MarketCategoryScale {
+  category_id: number | null
+  videos: number
+  channels: number
+  total_views: number
+  avg_views: number
+  median_views: number
+  total_likes: number
+  total_comments: number
+  shorts: number
+  longs: number
+}
+
+export interface MarketThemeScale {
+  theme: string | null
+  videos: number
+  channels: number
+  total_views: number
+  avg_views: number
+  shorts: number
+  longs: number
+}
+
+export interface MarketCohortTotal {
+  cohort: string
+  signals: number
+  stated_age_signals: number
+  parent_signals: number
+  avg_stated_age: number | null
+  videos_touched: number
+  channels_touched: number
+}
+
+export interface MarketCohortCategory {
+  cohort: string
+  category_id: number | null
+  signals: number
+  videos: number
+  signal_likes: number | null
+}
+
+export interface MarketCohortTheme {
+  cohort: string
+  theme: string | null
+  signals: number
+  videos: number
+}
+
+export interface MarketCohortFormat {
+  cohort: string
+  format: string
+  signals: number
+}
+
+export interface MarketChannelReach {
+  channel_id: string
+  channel_title: string | null
+  subscribers: number | null
+  country: string | null
+  videos_in_corpus: number
+  corpus_views: number
+  avg_views: number
+  main_category: number | null
+}
+
+export interface MarketCohortVideo {
+  cohort: string
+  video_id: string
+  video_title: string | null
+  channel_title: string | null
+  category_id: number | null
+  theme: string | null
+  views: number
+  cohort_signals: number
+}

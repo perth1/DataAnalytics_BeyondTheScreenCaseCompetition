@@ -2,15 +2,15 @@
   "post_id": "8ef15dac-6d41-4385-8823-4a1da58ff6ea",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A food episode with only 7 comments on 930K views, the lowest engagement in the corpus. The comments are nostalgic references to a Thai TV classic and general affection for the hosts. This episode performed at reach but generated almost zero conversation, which suggests either the format is purely visual (food preperation requires no commentary) or the episode lacked a conversation hook. Either way, it is an extreme outlier in the negative direction.",
+  "summary": "เอพิโสดอาหารที่มีคอมเมนต์เพียง 7 รายการจากยอดวิว 930,000 ครั้ง ถือเป็นอัตราการมีส่วนร่วมที่ต่ำที่สุดในชุดข้อมูลนี้ คอมเมนต์ส่วนใหญ่เป็นการอ้างอิงถึงรายการทีวีไทยคลาสสิกด้วยความคิดถึง และความรักที่มีต่อพิธีกรโดยรวม เอพิโสดนี้ทำผลงานด้านการเข้าถึง (reach) ได้ดี แต่แทบไม่ก่อให้เกิดบทสนทนาเลย ซึ่งบ่งชี้ว่ารูปแบบรายการอาจเน้นภาพเป็นหลัก (การทำอาหารไม่จำเป็นต้องมีคำบรรยาย) หรือไม่ก็เอพิโสดนี้ขาดจุดที่กระตุ้นให้เกิดการพูดคุย ไม่ว่าจะด้วยเหตุผลใด นี่ถือเป็นค่าผิดปกติที่รุนแรงในทิศทางลบ",
   "themes": [
-    { "label": "Nostalgic reference to classic Thai TV", "share": 60, "example": "ถ้าเป็นแม่ๆตอนสาวๆมานั่งนี่แก๊งนางฟ้าเลยนะเนี่ยยย" },
-    { "label": "General affection for the hosts", "share": 40, "example": "รักแม่ๆทั้งสามมากค่ะ" }
+    { "label": "การอ้างอิงถึงรายการทีวีไทยคลาสสิกด้วยความคิดถึง", "share": 60, "example": "ถ้าเป็นแม่ๆตอนสาวๆมานั่งนี่แก๊งนางฟ้าเลยนะเนี่ยยย" },
+    { "label": "ความรักที่มีต่อพิธีกรโดยรวม", "share": 40, "example": "รักแม่ๆทั้งสามมากค่ะ" }
   ],
   "sentiment_breakdown": { "positive": 100, "neutral": 0, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "Food-preparation episodes without personality or relationship hooks generate massive reach but almost zero engagement — 930K views with 7 comments is 0.0007% comment rate, roughly 600x worse than talk episodes",
-    "Nostalgia is not enough to drive comments; the format itself may be resistant to conversation unless deliberately structured for it"
+    "เอพิโสดทำอาหารที่ไม่มีจุดเด่นด้านบุคลิกหรือความสัมพันธ์มาดึงดูด สามารถสร้างการเข้าถึงได้มหาศาลแต่แทบไม่มีการมีส่วนร่วมเลย ยอดวิว 930,000 ครั้งกับคอมเมนต์ 7 รายการ คิดเป็นอัตราคอมเมนต์เพียง 0.0007% ซึ่งต่ำกว่าเอพิโสดพูดคุยประมาณ 600 เท่า",
+    "ความคิดถึงเพียงอย่างเดียวไม่เพียงพอที่จะกระตุ้นให้เกิดคอมเมนต์ รูปแบบรายการเองอาจไม่เอื้อต่อการพูดคุย เว้นแต่จะออกแบบโครงสร้างให้เอื้อต่อการมีส่วนร่วมโดยเจตนา"
   ],
   "content_requests": []
 }

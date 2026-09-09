@@ -15,18 +15,15 @@ import { MIN_CELL_SIGNALS, TERRITORIES, type CohortRow } from "@/lib/market"
  * tokens, so it inverts correctly in dark mode and carries no hue that a
  * colourblind reader could confuse. Each cell also prints its own number, so
  * nothing is encoded by colour alone.
- */
-/**
- * Quantised steps rather than a continuous ramp, and the reason is contrast.
  *
- * A cell is foreground ink mixed into the page, so as the mix approaches half
- * the cell lands mid-grey — where neither foreground nor background text clears
+ * The steps are quantised rather than continuous, and the reason is contrast. A
+ * cell is foreground ink mixed into the page, so as the mix approaches half the
+ * cell lands mid-grey — where neither foreground nor background text clears
  * 4.5:1. The mix behaves symmetrically in both themes (light mode runs
  * white→black, dark mode black→white), so one rule holds for both: keep text in
  * the foreground token below the halfway mark and flip it above. These steps
- * simply skip the 0.40–0.65 dead band where that flip has no safe answer.
- *
- * Quantising costs nothing here because every cell also prints its own index.
+ * simply skip the 0.40–0.65 dead band where that flip has no safe answer, which
+ * costs nothing because every cell prints its index anyway.
  */
 const STEPS: { min: number; mix: number }[] = [
   { min: 3.0, mix: 0.86 },
@@ -60,7 +57,7 @@ export function CohortMatrix({ rows }: { rows: CohortRow[] }) {
           <thead>
             <tr>
               <th className="text-muted-foreground sticky left-0 min-w-[168px] bg-[var(--background)] px-2 py-2 text-left text-xs font-medium">
-                Life stage
+                ช่วงวัย
               </th>
               {TERRITORIES.map((t) => (
                 <th
@@ -84,7 +81,7 @@ export function CohortMatrix({ rows }: { rows: CohortRow[] }) {
                   </span>
                   <span className="text-muted-foreground mt-0.5 block text-xs tabular-nums">
                     n = {formatNumber(row.signals)}
-                    {row.meta.weak && " · weak marker"}
+                    {row.meta.weak && " · สัญญาณอ่อน"}
                   </span>
                 </th>
                 {row.cells.map((cell) => (
@@ -92,7 +89,7 @@ export function CohortMatrix({ rows }: { rows: CohortRow[] }) {
                     key={cell.territory}
                     style={cellStyle(cell.index, cell.thin)}
                     className="rounded-md px-1.5 py-2 text-center align-middle"
-                    title={`${row.meta.label} · ${cell.label}: ${cell.signals} of ${row.signals} signals (${formatPercent(cell.share)}), ${cell.index.toFixed(2)}× the life-stage-signalled average${cell.thin ? " — too few signals to read" : ""}`}
+                    title={`${row.meta.label} · ${cell.label}: ${cell.signals} จาก ${row.signals} สัญญาณ (${formatPercent(cell.share)}) คิดเป็น ${cell.index.toFixed(2)} เท่าของค่าเฉลี่ยกลุ่มที่ระบุช่วงวัย${cell.thin ? " — สัญญาณน้อยเกินกว่าจะสรุป" : ""}`}
                   >
                     <span className="block text-xs tabular-nums">
                       {cell.signals === 0 ? "—" : formatPercent(cell.share, 1)}
@@ -108,7 +105,7 @@ export function CohortMatrix({ rows }: { rows: CohortRow[] }) {
                         ? ""
                         : cell.thin
                           ? `n=${cell.signals}`
-                          : `${cell.index.toFixed(1)}×`}
+                          : `${cell.index.toFixed(1)}\u00d7`}
                     </span>
                   </td>
                 ))}
@@ -129,12 +126,12 @@ export function CohortMatrix({ rows }: { rows: CohortRow[] }) {
               />
             ))}
           </span>
-          Shading = index vs the life-stage-signalled average (1× → 3×+)
+          ความเข้ม = ดัชนีเทียบค่าเฉลี่ยของกลุ่มที่ระบุช่วงวัย (1 → 3 เท่าขึ้นไป)
         </span>
         <span>
-          Top number is the cohort&apos;s own share; below it the index, or the
-          raw n where fewer than {MIN_CELL_SIGNALS} signals make an index
-          unreadable.
+          ตัวเลขบนคือสัดส่วนภายในกลุ่มวัยนั้น ตัวเลขล่างคือดัชนี หรือแสดงจำนวน n
+          แทนเมื่อมีสัญญาณน้อยกว่า {MIN_CELL_SIGNALS} รายการ ซึ่งน้อยเกินกว่าจะ
+          อ่านเป็นดัชนีได้
         </span>
       </div>
     </div>
@@ -158,13 +155,13 @@ export function CohortLeans({ rows }: { rows: CohortRow[] }) {
           </div>
 
           <p className="text-muted-foreground text-xs tabular-nums">
-            {formatNumber(row.signals)} interest signals
-            {row.meta.weak && " · weak age marker"}
+            {formatNumber(row.signals)} สัญญาณความสนใจ
+            {row.meta.weak && " · สัญญาณระบุวัยอ่อน"}
           </p>
 
           {row.leans.length > 0 ? (
             <div className="space-y-2">
-              <p className="text-xs font-semibold">Over-indexes on</p>
+              <p className="text-xs font-semibold">สนใจมากกว่าค่าเฉลี่ย</p>
               <ul className="space-y-1.5">
                 {row.leans.slice(0, 3).map((cell) => (
                   <li
@@ -173,7 +170,7 @@ export function CohortLeans({ rows }: { rows: CohortRow[] }) {
                   >
                     <span>{cell.label}</span>
                     <span className="text-muted-foreground shrink-0 tabular-nums">
-                      {cell.index.toFixed(1)}× · {formatPercent(cell.share, 1)} ·
+                      {cell.index.toFixed(1)} เท่า · {formatPercent(cell.share, 1)} ·
                       n={cell.signals}
                     </span>
                   </li>
@@ -182,13 +179,13 @@ export function CohortLeans({ rows }: { rows: CohortRow[] }) {
             </div>
           ) : (
             <p className="text-muted-foreground text-xs">
-              No territory clears the index threshold on enough signals to call.
+              ยังไม่มีกลุ่มความสนใจใดที่สัญญาณมากพอจะสรุปว่าเอนเอียงชัดเจน
             </p>
           )}
 
           {row.topSeries.length > 0 && (
             <div className="space-y-1.5 border-t pt-3">
-              <p className="text-xs font-semibold">Comments most on</p>
+              <p className="text-xs font-semibold">คอมเมนต์มากที่สุดใน</p>
               <ul className="text-muted-foreground space-y-1 text-xs">
                 {row.topSeries.map((s) => (
                   <li key={s.slug} className="flex justify-between gap-3">

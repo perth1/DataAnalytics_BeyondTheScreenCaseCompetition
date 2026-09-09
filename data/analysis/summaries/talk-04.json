@@ -2,22 +2,22 @@
   "post_id": "5cba5659-0db6-491d-ac3a-52184c78afcc",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A birthday surprise disguised as a ghost-story shoot. The top comment is a craft note: a viewer praises the vase that seemed like set dressing at the start and turned out to be the key to the surprise later, and says the content is not stale like the older formats. The second-most-liked comment is unexpectedly substantive — it picks up a remark one host made at 1:50 about why Thai art is always presented as frightening, old and sacred to the point that young people cannot approach or reinterpret it, and agrees that this is why Thais ignore their own art. The rest is birthday wishes and viewers crying along when the surprise landed.",
+  "summary": "เซอร์ไพรส์วันเกิดที่แฝงมาในรูปแบบการถ่ายทำเรื่องผี คอมเมนต์อันดับหนึ่งเป็นข้อสังเกตเชิงงานฝีมือการเล่าเรื่อง โดยผู้ชมชื่นชมแจกันที่ตอนแรกดูเหมือนเป็นเพียงฉากประกอบ แต่กลับกลายเป็นกุญแจสำคัญของเซอร์ไพรส์ในภายหลัง พร้อมบอกว่าคอนเทนต์นี้ไม่ซ้ำซากเหมือนฟอร์แมตเก่าๆ คอมเมนต์อันดับสองที่ได้ไลก์สูงมีเนื้อหาเชิงลึกอย่างไม่คาดคิด โดยหยิบยกคำพูดของพิธีกรคนหนึ่งที่นาทีที่ 1:50 เกี่ยวกับสาเหตุที่ศิลปะไทยมักถูกนำเสนอในลักษณะน่ากลัว เก่าแก่ และศักดิ์สิทธิ์จนคนรุ่นใหม่ไม่กล้าเข้าถึงหรือตีความใหม่ และเห็นด้วยว่านี่คือสาเหตุที่คนไทยมองข้ามศิลปะของตัวเอง ส่วนที่เหลือเป็นคำอวยพรวันเกิดและผู้ชมที่ร้องไห้ไปพร้อมกันตอนเซอร์ไพรส์มาถึง",
   "themes": [
-    { "label": "Craft praise for the planted setup and payoff", "share": 38, "example": "ผมชอบตรงแจกันที่ไม่ได้สนใจอะไรตั้งแต่แรกเลย แต่กลายมาเป็นคีย์ตอนหลัง ... ไม่จำเจแบบเก่าๆ" },
-    { "label": "A cultural point about Thai art picked up and expanded", "share": 27, "example": "ทำไมต้องทำให้ศิลปะไทยดูน่ากลัว ดูเก่า ดูขลังขนาดนั้น จนคนรุ่นใหม่เข้าไม่ถึง" },
-    { "label": "Birthday wishes", "share": 21, "example": "แฮปปี้เบิร์ธเดย์น้องดรีมด้วยนะค้าาาา" },
-    { "label": "Crying along with the surprise", "share": 14, "example": "ทำไมร้องไห้ตามเลย ตอนดรีมร้อง มีความสุขมากๆนะดรีม" }
+    { "label": "คำชมเชิงงานฝีมือต่อการวางปมและการคลี่คลาย", "share": 38, "example": "ผมชอบตรงแจกันที่ไม่ได้สนใจอะไรตั้งแต่แรกเลย แต่กลายมาเป็นคีย์ตอนหลัง ... ไม่จำเจแบบเก่าๆ" },
+    { "label": "ประเด็นเชิงวัฒนธรรมเรื่องศิลปะไทยที่ถูกหยิบยกและขยายความ", "share": 27, "example": "ทำไมต้องทำให้ศิลปะไทยดูน่ากลัว ดูเก่า ดูขลังขนาดนั้น จนคนรุ่นใหม่เข้าไม่ถึง" },
+    { "label": "คำอวยพรวันเกิด", "share": 21, "example": "แฮปปี้เบิร์ธเดย์น้องดรีมด้วยนะค้าาาา" },
+    { "label": "การร้องไห้ไปพร้อมกับเซอร์ไพรส์", "share": 14, "example": "ทำไมร้องไห้ตามเลย ตอนดรีมร้อง มีความสุขมากๆนะดรีม" }
   ],
   "sentiment_breakdown": { "positive": 89, "mixed": 9, "neutral": 2, "negative": 0 },
   "audience_signals": [
-    "Structural craft is noticed and named — a planted object paying off later earned the top comment, which means narrative construction is rewarded in a format that usually relies on personality",
-    "An offhand cultural observation by a host became the second-biggest thread; substantive remarks travel further than the format suggests they would",
-    "The audience explicitly contrasts this with 'the same old formats', so novelty is being tracked and staleness would be noticed",
-    "Birthday and milestone episodes carry a built-in emotional payoff at no production cost"
+    "งานฝีมือเชิงโครงสร้างถูกสังเกตเห็นและพูดถึงอย่างชัดเจน การวางปมด้วยวัตถุที่คลี่คลายภายหลังได้กลายเป็นคอมเมนต์อันดับหนึ่ง แสดงว่าการเล่าเรื่องที่มีโครงสร้างดีได้รับการตอบรับที่ดีในฟอร์แมตที่ปกติพึ่งพาบุคลิกของพิธีกรเป็นหลัก",
+    "ข้อสังเกตเชิงวัฒนธรรมที่พิธีกรพูดขึ้นมาแบบไม่ตั้งใจ กลายเป็นประเด็นสนทนาอันดับสอง สะท้อนว่าเนื้อหาที่มีสาระสามารถแพร่กระจายได้ไกลกว่าที่ฟอร์แมตนี้จะบ่งชี้",
+    "ผู้ชมเปรียบเทียบตอนนี้กับ \"ฟอร์แมตเดิมๆ\" อย่างชัดเจน แสดงว่าความแปลกใหม่ถูกจับตามอง และความซ้ำซากจะถูกสังเกตเห็นได้เช่นกัน",
+    "ตอนวันเกิดและตอนที่มีเหตุการณ์สำคัญ มีจุดพีคทางอารมณ์ในตัวอยู่แล้วโดยไม่ต้องเพิ่มต้นทุนการผลิต"
   ],
   "content_requests": [
-    "More formats with planned narrative payoffs",
-    "More discussion of Thai art and culture in an accessible register"
+    "อยากให้มีฟอร์แมตที่วางโครงเรื่องให้มีจุดคลี่คลายเพิ่มเติม",
+    "อยากให้มีการพูดคุยเรื่องศิลปะและวัฒนธรรมไทยในแบบที่เข้าถึงง่ายเพิ่มขึ้น"
   ]
 }

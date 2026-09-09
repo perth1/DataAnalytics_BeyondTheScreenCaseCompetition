@@ -2,26 +2,26 @@
   "post_id": "d6abd802-97c9-4d01-94d2-3205b0bd7800",
   "model": "claude-opus-5",
   "comment_count": 19,
-  "summary": "Dream's first solo single, and the loudest reaction is to the MV's male lead Yin, whose own followers arrive to say so — his looks and playfulness get more comment volume than the track. The second cluster is pride in the solo debut itself, framed as a progression from the trio single to having her own song, and praising her as an all-rounder who dances, sings and acts. A clear, repeated request is for her to try a slow ballad, with several commenters saying her tone suits it and one hearing a 90s Thai pop quality in it. Industry peers are present in the thread: the songwriter from Tilly Birds thanks the channel for the commission, and marr team publicly pitch a collaboration. A running joke notes the MV lead was cast to resemble her real-life partner, with some asking why he wasn't cast instead.",
+  "summary": "ซิงเกิลเดี่ยวเพลงแรกของดรีม โดยปฏิกิริยาที่ดังที่สุดคือการพูดถึงพระเอกใน MV อย่างหยิ่น ซึ่งฐานแฟนของเขาเองก็เข้ามาแสดงความเห็นด้วย ความหล่อและความขี้เล่นของเขาได้รับปริมาณคอมเมนต์มากกว่าตัวเพลงเสียอีก กลุ่มที่สองคือความภูมิใจในการเดบิวต์เดี่ยวครั้งนี้ ซึ่งถูกมองว่าเป็นก้าวต่อไปจากซิงเกิลของสามคนสู่การมีเพลงเป็นของตัวเอง พร้อมชื่นชมว่าเธอเป็นคนที่เก่งรอบด้าน ทั้งเต้น ร้อง และแสดง มีข้อเรียกร้องที่ชัดเจนและถูกพูดซ้ำคือให้เธอลองร้องเพลงช้าแบบบัลลาด โดยหลายคนบอกว่าน้ำเสียงของเธอเหมาะกับแนวนี้ และคนหนึ่งได้ยินกลิ่นอายเพลงไทยยุค 90 ในเพลงนี้ด้วย มีคนในวงการมาปรากฏตัวในกระทู้ด้วย เช่น นักแต่งเพลงจากวง Tilly Birds ที่ขอบคุณช่องที่ให้โอกาสแต่งเพลงนี้ และ marr team ที่เสนอตัวขอร่วมงานอย่างเปิดเผย มีมุกตลกต่อเนื่องที่บอกว่าพระเอกใน MV ถูกเลือกมาเพราะหน้าตาคล้ายแฟนจริงของเธอ และบางคนถามว่าทำไมไม่ให้แฟนจริงมารับบทไปเลย",
   "themes": [
-    { "label": "The MV lead Yin and his own fanbase", "share": 34, "example": "พี่หยิ่น เล่น mv คือแบบ พี่พระเอก น่ารัก หล่อ ขี้เล่น มาครบเลยอ่ะ" },
-    { "label": "Pride in Dream's solo debut", "share": 24, "example": "ตั้งแต่มีเพลงครบสามมสาว จนนเดี่ยว พี่ดรีมมเก่งมากๆ เป็นคนเก่งในทุกพาร์ทเลยย" },
-    { "label": "Requests for a slow ballad", "share": 18, "example": "อยากฟังดรีมร้องเพลงช้าแบบซึ้งๆเลย เสียงน้องได้เลย" },
-    { "label": "Industry peers in the thread", "share": 12, "example": "เย้ ขอบคุณที่ให้ไปแต่งเพลงให้นะฮะ สนุกมากก" },
-    { "label": "Casting resembles her real-life partner", "share": 12, "example": "สรรหาพระเอกให้หน้าเหมือนพระเอกชีวิตจริงเลยนะ" }
+    { "label": "พระเอกใน MV อย่างหยิ่นและฐานแฟนของเขา", "share": 34, "example": "พี่หยิ่น เล่น mv คือแบบ พี่พระเอก น่ารัก หล่อ ขี้เล่น มาครบเลยอ่ะ" },
+    { "label": "ความภูมิใจในการเดบิวต์เดี่ยวของดรีม", "share": 24, "example": "ตั้งแต่มีเพลงครบสามมสาว จนนเดี่ยว พี่ดรีมมเก่งมากๆ เป็นคนเก่งในทุกพาร์ทเลยย" },
+    { "label": "ข้อเรียกร้องให้ร้องเพลงช้าแบบบัลลาด", "share": 18, "example": "อยากฟังดรีมร้องเพลงช้าแบบซึ้งๆเลย เสียงน้องได้เลย" },
+    { "label": "คนในวงการที่มาปรากฏตัวในกระทู้", "share": 12, "example": "เย้ ขอบคุณที่ให้ไปแต่งเพลงให้นะฮะ สนุกมากก" },
+    { "label": "การเลือกนักแสดงที่หน้าตาคล้ายแฟนจริงของเธอ", "share": 12, "example": "สรรหาพระเอกให้หน้าเหมือนพระเอกชีวิตจริงเลยนะ" }
   ],
   "sentiment_breakdown": { "positive": 94, "neutral": 6, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "The channel now functions as an industry node — the songwriter (Tilly Birds) and another act (marr team) are in the comments, and collaboration requests are arriving inbound rather than being sought",
-    "Per-member solo releases work as a growth path; the audience immediately asks for a genre pivot rather than more of the same",
-    "Casting a popular actor as MV lead imports his fandom wholesale and shifts the comment mix away from the music",
-    "Members' real relationships are openly used by the audience as casting subtext, so the line between programme and personal life is already blurred by choice",
-    "The near-total absence of criticism on member solo work suggests goodwill is transferable from the group to the individual"
+    "ช่องนี้ทำหน้าที่เสมือนจุดเชื่อมโยงในวงการเพลง ทั้งนักแต่งเพลง (Tilly Birds) และศิลปินอีกวง (marr team) เข้ามาคอมเมนต์ โดยข้อเสนอร่วมงานเข้ามาเองโดยที่ไม่ต้องเสาะหา",
+    "การปล่อยผลงานเดี่ยวของสมาชิกแต่ละคนเป็นเส้นทางการเติบโตที่ได้ผล ผู้ชมเรียกร้องให้ปรับแนวเพลงทันที แทนที่จะขอผลงานแนวเดิมซ้ำ",
+    "การเลือกนักแสดงที่มีชื่อเสียงมารับบทนำใน MV ดึงฐานแฟนของเขาเข้ามาทั้งหมด และทำให้สัดส่วนคอมเมนต์เบี่ยงเบนออกจากตัวเพลง",
+    "ผู้ชมนำความสัมพันธ์จริงของสมาชิกมาใช้เป็นประเด็นแฝงในการเลือกนักแสดงอย่างเปิดเผย แสดงว่าเส้นแบ่งระหว่างงานในรายการกับชีวิตส่วนตัวเลือนไปแล้วโดยความตั้งใจ",
+    "การแทบไม่มีเสียงวิจารณ์เชิงลบต่อผลงานเดี่ยวของสมาชิกแสดงให้เห็นว่าความนิยมของกลุ่มสามารถถ่ายทอดไปสู่สมาชิกแต่ละคนได้"
   ],
   "content_requests": [
-    "A slow ballad for Dream",
-    "A collaboration with marr team",
-    "Cast her real partner in the next MV",
-    "More solo singles from the other members"
+    "เพลงช้าแบบบัลลาดสำหรับดรีม",
+    "การร่วมงานกับ marr team",
+    "ให้แฟนจริงของเธอมารับบทใน MV ต่อไป",
+    "อยากให้สมาชิกคนอื่นมีซิงเกิลเดี่ยวเพิ่มอีก"
   ]
 }

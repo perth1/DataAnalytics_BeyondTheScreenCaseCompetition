@@ -1,0 +1,199 @@
+{
+  "_comment": [
+    "Published Thai audience research, transcribed from source. This is the",
+    "reference layer of the market page: population-level figures that our own",
+    "YouTube measurement cannot produce, because measured age needs the",
+    "Analytics API of every channel involved.",
+    "",
+    "RULES THIS FILE FOLLOWS, because breaking them would silently corrupt the",
+    "page that renders it:",
+    "  1. Age bands are recorded EXACTLY as the source defines them. NBTC works",
+    "     in generations (Gen Z 14-26), NSO in 6-14/15-24/25-39/40-59/60+, and",
+    "     our own measurement in 13-19/20-24/25-39/40-54/55+. None of the three",
+    "     is converted into another. band_scheme names which is in use.",
+    "  2. No value is estimated, interpolated or averaged. A figure the source",
+    "     hid behind a paywall is omitted, not guessed.",
+    "  3. url_status records whether the link was verifiable. The NBTC PDF links",
+    "     arrived percent-encoding-mangled, so they are marked unverified and the",
+    "     UI must not present them as working citations.",
+    "",
+    "Collected 2026-09-09."
+  ],
+  "sources": {
+    "nbtc-2024": {
+      "name": "การศึกษาอนาคตกิจการโทรทัศน์/สื่อภาพและเสียงของไทยในยุคดิจิทัลที่เปลี่ยนแปลงอย่างรวดเร็ว",
+      "name_en": "A Study on the Future of Television Broadcast / Audio-Visual Sector in Thailand under a Rapidly Changing Digital Evolution",
+      "publisher": "กสทช. (NBTC)",
+      "year": 2024,
+      "url": "https://www.nbtc.go.th/Information/ผลการศึกษาวิจัย/72112",
+      "url_status": "unverified",
+      "sample_size": "786 respondents overall",
+      "band_scheme": "generation",
+      "note": "กลุ่มตัวอย่างแยกตามเจเนอเรชัน: Gen Z n=453, Gen Y n=196, Gen X n=106, Baby Boomer n=31 กลุ่ม Baby Boomer เล็กมาก อ่านเป็นทิศทางเท่านั้น"
+    },
+    "nso-ict-2024": {
+      "name": "สถิติเทคโนโลยีสารสนเทศและการสื่อสาร 2568 ตาราง 12.3",
+      "name_en": "National Statistical Office Thailand, Information and Communication Technology Statistics 2025, Table 12.3",
+      "publisher": "สำนักงานสถิติแห่งชาติ",
+      "year": 2024,
+      "url": "https://www.nso.go.th/nsoweb/storage/ebook/2026/20260331150936_82488.pdf",
+      "url_status": "verified",
+      "sample_size": "สำรวจการมีการใช้เทคโนโลยีสารสนเทศในครัวเรือน 2567",
+      "band_scheme": "nso",
+      "note": "ต้นฉบับรายงานหน่วยเป็นพันคน ค่าที่เก็บในไฟล์นี้แปลงเป็นล้านคนตรงตามหน่วยเอกสาร ไม่มีการเกลี่ยช่วงอายุ"
+    },
+    "nso-yearbook-2025": {
+      "name": "สมุดรายงานสถิติแห่งประเทศไทย 2568 ตาราง 16.5",
+      "name_en": "National Statistical Office Thailand, Statistical Yearbook 2025, Table 16.5",
+      "publisher": "สำนักงานสถิติแห่งชาติ",
+      "year": 2024,
+      "url": "https://www.nso.go.th/public/e-book/Statistical-Yearbook/SYB-2025/521/",
+      "url_status": "verified",
+      "sample_size": "สำรวจการมีการใช้เทคโนโลยีสารสนเทศในครัวเรือน 2567",
+      "band_scheme": "nso",
+      "note": "อัตราการใช้อินเทอร์เน็ตของประชากรในแต่ละช่วงอายุ"
+    },
+    "google-genz-2024": {
+      "name": "Gen Z Search Behaviour & Strategy in SEA",
+      "name_en": "Think with Google Thailand, Gen Z Search Behaviour & Strategy in SEA",
+      "publisher": "Think with Google Thailand",
+      "year": 2024,
+      "url": "https://business.google.com/th/think/consumer-insights/genz-search-behaviour-sea/",
+      "url_status": "verified",
+      "sample_size": "ไม่เปิดเผยขนาดกลุ่มตัวอย่างของไทยในหน้าที่เผยแพร่",
+      "band_scheme": "generation",
+      "note": "เป็นตัวเลขความเชื่อมั่นและพฤติกรรมค้นหา ไม่ใช่อัตราการซื้อจริง"
+    },
+    "datareportal": {
+      "name": "Digital: Thailand",
+      "name_en": "DataReportal, Digital Thailand series",
+      "publisher": "DataReportal / We Are Social",
+      "year": 2025,
+      "url": "https://datareportal.com/reports/digital-2025-thailand",
+      "url_status": "verified",
+      "sample_size": "ประมาณการจากเครื่องมือโฆษณาของ Google",
+      "band_scheme": "all-ages",
+      "note": "เป็น advertising reach ไม่ใช่ผู้ใช้จริงรายเดือน (MAU) และไม่มี breakdown ตามช่วงวัยที่เผยแพร่"
+    }
+  },
+  "figures": [
+    { "metric": "daily-viewing", "metric_th": "รับชมทุกวัน", "unit": "percent", "source": "nbtc-2024", "band_scheme": "generation",
+      "rows": [
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "Instagram", "value": 75.5 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "YouTube", "value": 71.3 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "TikTok", "value": 67.8 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "Facebook", "value": 54.5 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "LINE", "value": 53.6 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "X (Twitter)", "value": 36.9 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "LINE", "value": 74.5 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "Facebook", "value": 73.0 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "YouTube", "value": 69.4 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "Instagram", "value": 43.4 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "TikTok", "value": 40.8 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "Facebook", "value": 77.4 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "LINE", "value": 77.4 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "YouTube", "value": 64.2 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "TikTok", "value": 39.6 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "Instagram", "value": 31.1 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "LINE", "value": 71.0 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "Facebook", "value": 61.3 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "YouTube", "value": 51.6 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "TikTok", "value": 25.8 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "Instagram", "value": 3.2 }
+      ]
+    },
+    { "metric": "ott-content", "metric_th": "ประเภทคอนเทนต์ที่รับชมมากที่สุดบน OTT", "unit": "percent", "source": "nbtc-2024", "band_scheme": "generation",
+      "note": "ต้นฉบับเผยแพร่เฉพาะอันดับต้นของแต่ละเจเนอเรชัน ไม่ใช่รายการเต็มทุกประเภท",
+      "rows": [
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "ภาพยนตร์", "value": 76.6 },
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "ซีรีส์ต่างประเทศ", "value": 71.3 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "ซีรีส์ต่างประเทศ", "value": 73.0 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "ภาพยนตร์", "value": 61.7 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "ภาพยนตร์", "value": 62.3 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "ซีรีส์ต่างประเทศ", "value": 60.4 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "ซีรีส์ต่างประเทศ", "value": 61.3 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "คอนเทนต์การศึกษา", "value": 29.0 }
+      ]
+    },
+    { "metric": "social-video-preference", "metric_th": "ประเภทคอนเทนต์บน social video ที่ชอบ", "unit": "percent", "source": "nbtc-2024", "band_scheme": "generation",
+      "note": "ต้นฉบับเผยแพร่เฉพาะอันดับต้นของแต่ละเจเนอเรชัน",
+      "rows": [
+        { "age_group": "14-26", "generation": "Gen Z", "n": 453, "category": "มิวสิกวิดีโอ / การแสดง", "value": 54.1 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "ข่าวออนไลน์", "value": 44.4 },
+        { "age_group": "27-43", "generation": "Gen Y", "n": 196, "category": "ไฮไลต์รายการทีวี", "value": 39.3 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "ข่าวออนไลน์", "value": 50.9 },
+        { "age_group": "44-58", "generation": "Gen X", "n": 106, "category": "ไฮไลต์รายการทีวี", "value": 40.6 },
+        { "age_group": "59+", "generation": "Baby Boomer", "n": 31, "category": "ข่าวออนไลน์", "value": 54.8 }
+      ]
+    },
+    { "metric": "population-reach", "metric_th": "ประชากรและผู้ใช้อินเทอร์เน็ต", "unit": "million_people", "source": "nso-ict-2024", "band_scheme": "nso",
+      "rows": [
+        { "age_group": "6-14", "category": "ประชากร", "value": 6.7989 },
+        { "age_group": "6-14", "category": "ผู้ใช้อินเทอร์เน็ต", "value": 6.5969 },
+        { "age_group": "6-14", "category": "ผู้ใช้โทรศัพท์มือถือ", "value": 6.5989 },
+        { "age_group": "15-24", "category": "ประชากร", "value": 9.1652 },
+        { "age_group": "15-24", "category": "ผู้ใช้อินเทอร์เน็ต", "value": 9.0777 },
+        { "age_group": "15-24", "category": "ผู้ใช้โทรศัพท์มือถือ", "value": 9.0913 },
+        { "age_group": "25-39", "category": "ประชากร", "value": 15.0329 },
+        { "age_group": "25-39", "category": "ผู้ใช้อินเทอร์เน็ต", "value": 14.8334 },
+        { "age_group": "25-39", "category": "ผู้ใช้โทรศัพท์มือถือ", "value": 14.8866 },
+        { "age_group": "40-59", "category": "ประชากร", "value": 20.9098 },
+        { "age_group": "40-59", "category": "ผู้ใช้อินเทอร์เน็ต", "value": 19.8131 },
+        { "age_group": "40-59", "category": "ผู้ใช้โทรศัพท์มือถือ", "value": 20.4641 },
+        { "age_group": "60+", "category": "ประชากร", "value": 14.0926 },
+        { "age_group": "60+", "category": "ผู้ใช้อินเทอร์เน็ต", "value": 8.8477 },
+        { "age_group": "60+", "category": "ผู้ใช้โทรศัพท์มือถือ", "value": 11.8672 }
+      ]
+    },
+    { "metric": "internet-usage-rate", "metric_th": "สัดส่วนการใช้อินเทอร์เน็ต", "unit": "percent", "source": "nso-yearbook-2025", "band_scheme": "nso",
+      "rows": [
+        { "age_group": "6-14", "category": "อัตราการใช้อินเทอร์เน็ต", "value": 97.0 },
+        { "age_group": "15-24", "category": "อัตราการใช้อินเทอร์เน็ต", "value": 99.0 },
+        { "age_group": "25-39", "category": "อัตราการใช้อินเทอร์เน็ต", "value": 98.7 },
+        { "age_group": "40-59", "category": "อัตราการใช้อินเทอร์เน็ต", "value": 94.8 },
+        { "age_group": "60+", "category": "อัตราการใช้อินเทอร์เน็ต", "value": 62.8 }
+      ]
+    },
+    { "metric": "genz-commerce", "metric_th": "พฤติกรรมเชิงพาณิชย์ของ Gen Z ไทย", "unit": "percent", "source": "google-genz-2024", "band_scheme": "generation",
+      "rows": [
+        { "age_group": "Gen Z", "generation": "Gen Z", "category": "ใช้ Google ในการช้อปปิ้ง ตั้งแต่ค้นหาถึงตัดสินใจซื้อ", "value": 82.0 },
+        { "age_group": "Gen Z", "generation": "Gen Z", "category": "มั่นใจในการซื้อจากข้อมูลที่พบใน YouTube", "value": 93.0 },
+        { "age_group": "Gen Z", "generation": "Gen Z", "category": "เชื่อถือรีวิวจากครีเอเตอร์ แม้เป็นคอนเทนต์ที่ได้รับการสนับสนุน", "value": 67.0 }
+      ]
+    },
+    { "metric": "youtube-reach", "metric_th": "การเข้าถึงของ YouTube ในไทย", "unit": "million_people", "source": "datareportal", "band_scheme": "all-ages",
+      "note": "เป็น advertising reach ที่ประมาณจากเครื่องมือโฆษณาของ Google ไม่ใช่จำนวนผู้ใช้จริงรายเดือน",
+      "rows": [
+        { "age_group": "ทุกช่วงวัย", "category": "2023", "value": 43.9 },
+        { "age_group": "ทุกช่วงวัย", "category": "2024", "value": 44.2 },
+        { "age_group": "ทุกช่วงวัย", "category": "2025", "value": 47.6 }
+      ]
+    }
+  ],
+  "omitted": [
+    {
+      "what": "สัดส่วนผู้ที่ซื้อสินค้าที่ influencer รับรอง แยกตามช่วงวัย",
+      "source_name": "Rakuten Insight via Statista (2023)",
+      "url": "https://www.statista.com/statistics/1202133/thailand-influencers-impact-on-purchasing-by-age/",
+      "why": "หน้าที่เข้าถึงได้เปิดเผยคำถามและช่วงอายุ แต่ซ่อนค่าตัวเลขไว้หลัง paywall จึงไม่นำเข้าเพื่อไม่ให้ต้องเดาตัวเลข"
+    },
+    {
+      "what": "ประเภทสินค้าที่ซื้อจาก influencer แยกตามช่วงวัย (เสื้อผ้าสำหรับ 16-24, เครื่องสำอางสำหรับ 25-34)",
+      "source_name": "Rakuten Insight via Statista (2023)",
+      "url": "https://www.statista.com/statistics/1202344/thailand-type-purchased-influencer-endorsed-products-by-age/",
+      "why": "ยืนยันได้เฉพาะอันดับ ไม่มีเปอร์เซ็นต์ที่เผยแพร่"
+    },
+    {
+      "what": "เวลาที่ใช้ต่อวันเป็นนาที แยกตามแพลตฟอร์มและช่วงวัย",
+      "source_name": "NBTC 2024",
+      "url": "",
+      "why": "ต้นฉบับรายงานเป็นช่วงเวลาต่อ session (เช่น 1-2 ชั่วโมง) ไม่ใช่นาทีต่อวัน จึงแปลงไม่ได้โดยไม่ประมาณ"
+    },
+    {
+      "what": "ช่วงเวลาที่รับชมมากที่สุดในแต่ละวัน แยกตามช่วงวัย",
+      "source_name": "—",
+      "url": "",
+      "why": "ไม่พบข้อมูลเผยแพร่ที่แยกตามช่วงวัยสำหรับประเทศไทย"
+    }
+  ]
+}

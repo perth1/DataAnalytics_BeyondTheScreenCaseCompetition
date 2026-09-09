@@ -2,24 +2,24 @@
   "post_id": "2af2df38-e43c-47f1-8db0-a461a0b9bede",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "The clearest format criticism in the corpus sits in this thread: a well-liked comment argues the game is rigged by design because every question is one a celebrity could be sued for answering, so nobody was ever going to answer and the whole thing collapses into forced eating — the fix suggested is a wider spread of questions that can actually be answered. Around that, the reaction is warm: the guest is funny, unpretentious, and viewers want her back regularly. The top comment is a crossover request pairing the hosts with a comedy creator. One viewer catches a continuity error where a question is skipped in the edit. A sponsor link for an international skincare device sits in the hosts' own pinned comment.",
+  "summary": "คำวิจารณ์เชิงฟอร์แมตที่ชัดเจนที่สุดในชุดข้อมูลนี้อยู่ในธรีดนี้ คอมเมนต์ที่มีคนกดถูกใจมากชี้ว่าเกมถูกออกแบบมาให้ล็อกผลไว้ล่วงหน้า เพราะทุกคำถามล้วนเป็นคำถามที่คนดังตอบแล้วอาจถูกฟ้องได้ จึงไม่มีใครยอมตอบตั้งแต่แรก และทั้งหมดก็จบลงที่การถูกบังคับให้กินแทน ข้อเสนอแนะคือควรกระจายคำถามให้มีแบบที่ตอบได้จริงมากขึ้น นอกเหนือจากนั้นปฏิกิริยาของผู้ชมค่อนข้างอบอุ่น แขกรับเชิญตลกและเป็นกันเอง ผู้ชมอยากให้กลับมาออกรายการอีกเป็นประจำ คอมเมนต์อันดับต้นเป็นการขอครอสโอเวอร์ระหว่างพิธีกรกับครีเอเตอร์สายคอมเมดี้ ผู้ชมคนหนึ่งจับได้ว่ามีข้อผิดพลาดด้านความต่อเนื่องในการตัดต่อ โดยมีคำถามหนึ่งถูกข้ามไป ลิงก์สปอนเซอร์ของอุปกรณ์ดูแลผิวหน้าแบรนด์ต่างประเทศปรากฏอยู่ในคอมเมนต์ปักหมุดของพิธีกรเอง",
   "themes": [
-    { "label": "The question design makes the game fake", "share": 21, "example": "คำถามก็คือไม่มีใครกล้าตอบอยู่แล้ว เพราะ ... ยังไงก็เสี่ยงโดนฟ้อง ... เอาจริงๆน่าจะกระจายๆคำถามที่ตอบได้มาเยอะกว่านี้หน่อย" },
-    { "label": "The guest's comedic side", "share": 27, "example": "พี่ใหม่น่ารักอะ ตลกมากกกกก ฮาา ขอพี่ใหม่มาเรื่อยๆเลยค้าบบบบ" },
-    { "label": "Crossover requests with other creators", "share": 29, "example": "อยากเห็นพวกเจ๊ ไป join กับ เทพลีลา ดู อยากเห็นมากเลย" },
-    { "label": "Editing continuity error caught", "share": 11, "example": "จริงๆพี่ดรีมต้องตอบอีกคำถามนะ มีช็อตที่ข้ามไปพี่ใหม่เลย" },
-    { "label": "Sponsor placement in the pinned comment", "share": 12, "example": "เพราะเรามาส์กหน้าด้วย #FOREOUFO2 ค่า" }
+    { "label": "การออกแบบคำถามทำให้เกมดูไม่จริง", "share": 21, "example": "คำถามก็คือไม่มีใครกล้าตอบอยู่แล้ว เพราะ ... ยังไงก็เสี่ยงโดนฟ้อง ... เอาจริงๆน่าจะกระจายๆคำถามที่ตอบได้มาเยอะกว่านี้หน่อย" },
+    { "label": "มุมตลกของแขกรับเชิญ", "share": 27, "example": "พี่ใหม่น่ารักอะ ตลกมากกกกก ฮาา ขอพี่ใหม่มาเรื่อยๆเลยค้าบบบบ" },
+    { "label": "ข้อเรียกร้องให้ครอสโอเวอร์กับครีเอเตอร์คนอื่น", "share": 29, "example": "อยากเห็นพวกเจ๊ ไป join กับ เทพลีลา ดู อยากเห็นมากเลย" },
+    { "label": "จับข้อผิดพลาดด้านความต่อเนื่องในการตัดต่อได้", "share": 11, "example": "จริงๆพี่ดรีมต้องตอบอีกคำถามนะ มีช็อตที่ข้ามไปพี่ใหม่เลย" },
+    { "label": "การวางสปอนเซอร์ในคอมเมนต์ปักหมุด", "share": 12, "example": "เพราะเรามาส์กหน้าด้วย #FOREOUFO2 ค่า" }
   ],
   "sentiment_breakdown": { "positive": 84, "mixed": 11, "neutral": 4, "negative": 1 },
   "audience_signals": [
-    "The audience will diagnose a broken format mechanic precisely and propose the fix — here, that legally risky questions guarantee refusal and turn a choice game into a gag; this is the single most actionable production note in the set",
-    "Viewers catch continuity errors in the edit, so post-production sloppiness is visible to them",
-    "The channel carries international brand sponsorship (a skincare device) as well as its own products, which broadens the commercial picture",
-    "Crossover requests name creators outside the celebrity circuit, suggesting appetite for creator-versus-creator formats the channel has not tried"
+    "ผู้ชมสามารถวิเคราะห์กลไกของฟอร์แมตที่มีปัญหาได้อย่างแม่นยำและเสนอทางแก้ ในกรณีนี้คือคำถามที่มีความเสี่ยงทางกฎหมายทำให้ไม่มีใครยอมตอบ และเปลี่ยนเกมตัวเลือกให้กลายเป็นมุกตลกแทน นี่คือข้อเสนอแนะเชิงการผลิตที่นำไปปฏิบัติได้จริงที่สุดในชุดข้อมูลนี้",
+    "ผู้ชมจับข้อผิดพลาดด้านความต่อเนื่องในการตัดต่อได้ แสดงว่าความไม่เรียบร้อยในขั้นตอนหลังการถ่ายทำนั้นสังเกตเห็นได้ชัดเจนสำหรับพวกเขา",
+    "ช่องนี้มีสปอนเซอร์แบรนด์ต่างประเทศ (อุปกรณ์ดูแลผิว) ควบคู่กับผลิตภัณฑ์ของตัวเอง ซึ่งขยายภาพรวมเชิงพาณิชย์ให้กว้างขึ้น",
+    "ข้อเรียกร้องให้ครอสโอเวอร์ระบุชื่อครีเอเตอร์ที่อยู่นอกวงการดารา สะท้อนความต้องการฟอร์แมตแบบครีเอเตอร์ปะทะครีเอเตอร์ที่ช่องยังไม่เคยลองทำ"
   ],
   "content_requests": [
-    "Mix in questions guests can actually answer",
-    "A crossover with Thep Leela",
-    "Bring this guest back regularly"
+    "ผสมคำถามที่แขกรับเชิญตอบได้จริงเข้าไปด้วย",
+    "ครอสโอเวอร์กับเทพลีลา",
+    "ให้แขกรับเชิญคนนี้กลับมาเป็นประจำ"
   ]
 }

@@ -2,22 +2,22 @@
   "post_id": "6a131a41-42fe-43db-b3c0-36860f2e7e73",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A dance performance video for the debut single, and the reaction is built almost entirely on effort recognition — viewers keep noting that none of the three are trained dancers and that the result is still tight, neither overdone nor thin. The T-Pop Stage demand appears again as the top comment, framed as something they are waiting for rather than suggesting. Natty's dancing is singled out. Underneath it all is the same standing request as the MV thread: stop calling this a side project and debut properly.",
+  "summary": "วิดีโอการแสดงเต้นประกอบซิงเกิลเดบิวต์ ซึ่งปฏิกิริยาของผู้ชมเกือบทั้งหมดมาจากการยอมรับในความพยายาม ผู้ชมย้ำซ้ำๆ ว่าทั้งสามคนไม่ได้เป็นนักเต้นมืออาชีพ แต่ผลลัพธ์ที่ออกมากลับลงตัว ไม่มากไม่น้อยเกินไป ข้อเรียกร้องให้ขึ้นเวที T-Pop Stage กลับมาปรากฏอีกครั้งในคอมเมนต์อันดับต้น โดยพูดในลักษณะว่ากำลังรอคอยมากกว่าการเสนอแนะ การเต้นของ Natty ถูกหยิบยกมาชื่นชมเป็นพิเศษ และแฝงอยู่ใต้ทุกอย่างคือข้อเรียกร้องเดิมที่เคยปรากฏในธรีดของ MV นั่นคือ หยุดเรียกสิ่งนี้ว่าโปรเจกต์เสริม แล้วเดบิวต์อย่างเป็นทางการเสียที",
   "themes": [
-    { "label": "Effort recognised despite not being dancers", "share": 40, "example": "ถึงพวกพี่ทั้งสามคนจะไม่ใช่สายเต้นโดยตรง แต่มันออกมา Perfect มาก ไม่เยอะเกิน ไม่น้อยเกิน" },
-    { "label": "Waiting for a T-Pop Stage appearance", "share": 26, "example": "รับรู้ได้เลยว่าตั้งใจกันมากๆ ผลงานก็ออกมาดีมากเลยค่ะ สุดปังงงง รอคอยให้ขึ้น t-pop stage นะคะ" },
-    { "label": "Natty's dancing", "share": 20, "example": "Natty เต้นมีสเน่ห์มากเลย ละสายตาไม่ได้เลย" },
-    { "label": "Debut them properly", "share": 14, "example": "เตรียมเดบิ้วเลย! เสียงพี่ๆทั้ง3คน พอร้องพร้อมกันเเล้วลงตัวมาก" }
+    { "label": "ยอมรับความพยายามแม้ไม่ใช่นักเต้นมืออาชีพ", "share": 40, "example": "ถึงพวกพี่ทั้งสามคนจะไม่ใช่สายเต้นโดยตรง แต่มันออกมา Perfect มาก ไม่เยอะเกิน ไม่น้อยเกิน" },
+    { "label": "รอคอยการขึ้นเวที T-Pop Stage", "share": 26, "example": "รับรู้ได้เลยว่าตั้งใจกันมากๆ ผลงานก็ออกมาดีมากเลยค่ะ สุดปังงงง รอคอยให้ขึ้น t-pop stage นะคะ" },
+    { "label": "การเต้นของ Natty", "share": 20, "example": "Natty เต้นมีสเน่ห์มากเลย ละสายตาไม่ได้เลย" },
+    { "label": "เดบิวต์อย่างเป็นทางการเสียที", "share": 14, "example": "เตรียมเดบิ้วเลย! เสียงพี่ๆทั้ง3คน พอร้องพร้อมกันเเล้วลงตัวมาก" }
   ],
   "sentiment_breakdown": { "positive": 98, "neutral": 2, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "A dance performance video earned 2.1M views on its own, roughly three times the audio teaser — performance content is a distinct, high-reach asset class the channel has only used once",
-    "Visible effort from non-specialists reads as authenticity and earns more goodwill than technical polish would",
-    "The T-Pop Stage request has now appeared across every music-related post in the top ten — it is the single most consistent unmet ask in the corpus"
+    "วิดีโอการแสดงเต้นทำยอดวิวได้ถึง 2.1 ล้านวิวด้วยตัวเอง ซึ่งมากกว่าทีเซอร์เสียงประมาณสามเท่า สะท้อนว่าคอนเทนต์การแสดงสดเป็นสินทรัพย์ประเภทที่เข้าถึงผู้ชมได้สูงและแตกต่างออกไป ซึ่งช่องนี้ใช้เพียงครั้งเดียวเท่านั้น",
+    "ความพยายามที่มองเห็นได้จากผู้ที่ไม่ได้เชี่ยวชาญด้านนี้ ถูกตีความว่าเป็นความจริงใจ และสร้างความรู้สึกดีได้มากกว่าความเนี้ยบทางเทคนิค",
+    "ข้อเรียกร้องให้ขึ้นเวที T-Pop Stage ปรากฏในทุกโพสต์ที่เกี่ยวกับเพลงในสิบอันดับแรก ถือเป็นข้อเรียกร้องที่ยังไม่ได้รับการตอบสนองที่สม่ำเสมอที่สุดในชุดข้อมูลนี้"
   ],
   "content_requests": [
-    "Perform on T-Pop Stage",
-    "More dance performance videos",
-    "Debut formally as a group"
+    "ขึ้นแสดงบนเวที T-Pop Stage",
+    "ทำวิดีโอการแสดงเต้นเพิ่มเติม",
+    "เดบิวต์เป็นกลุ่มอย่างเป็นทางการ"
   ]
 }

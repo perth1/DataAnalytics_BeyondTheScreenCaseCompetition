@@ -64,13 +64,13 @@ export const CONTENT_CATEGORIES = [
   { slug: "dream-mao", name: "ดรีมเมา" },
   { slug: "khuenton-longthai", name: "ขึ้นต้นลงท้าย" },
   { slug: "this-or-that", name: "This or That" },
-  { slug: "music", name: "Music / MV" },
-  { slug: "game", name: "Game & Challenge" },
-  { slug: "travel", name: "Travel" },
-  { slug: "food", name: "Food" },
-  { slug: "talk", name: "Talk & Interview" },
-  { slug: "sponsored", name: "Sponsored / Tie-in" },
-  { slug: "other", name: "Other" },
+  { slug: "music", name: "เพลง / MV" },
+  { slug: "game", name: "เกม & ชาเลนจ์" },
+  { slug: "travel", name: "ท่องเที่ยว" },
+  { slug: "food", name: "อาหาร" },
+  { slug: "talk", name: "พูดคุย & สัมภาษณ์" },
+  { slug: "sponsored", name: "สปอนเซอร์ / ไทอิน" },
+  { slug: "other", name: "อื่น ๆ" },
 ] as const
 
 /** A post enters the Claude comment-summary pipeline above this percentile. */

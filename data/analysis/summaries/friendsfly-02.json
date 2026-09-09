@@ -2,26 +2,26 @@
   "post_id": "41ee5955-0012-4a3e-b02c-7853138d39db",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "A New Year gathering at one friend's house, and the top comment is a request for next year's episodes to run over an hour — this audience wants more footage, not tighter edits. A large emotional cluster is directed at Vee, who was going through something publicly difficult at the time: viewers tell her she did not deserve it, that she is still one of the best singers around, and that they are behind her, using the comment section as a support space rather than a review. Ammy gets her own appreciation thread, both as the funniest moment of the episode and as the one tomboy the commenters say they love, which reads as representation being valued. The channel's own pinned comment asks openly what the group should do next and where they should go, and viewers answer with crossover ideas.",
+  "summary": "เอพิโสดรวมตัวปีใหม่ที่บ้านของเพื่อนคนหนึ่ง คอมเมนต์อันดับต้นๆ ขอให้เอพิโสดปีหน้ายาวเกินหนึ่งชั่วโมง สะท้อนว่าผู้ชมกลุ่มนี้ต้องการฟุตเทจที่มากขึ้น ไม่ใช่การตัดต่อให้กระชับขึ้น มีกลุ่มคอมเมนต์เชิงอารมณ์จำนวนมากที่ส่งถึงวี ซึ่งกำลังเผชิญเรื่องยากลำบากในที่สาธารณะช่วงนั้น ผู้ชมบอกว่าเธอไม่สมควรเจอเรื่องแบบนี้ ยังคงเป็นนักร้องอันดับต้นๆ และพวกเขาอยู่เคียงข้างเธอ โดยใช้ช่องคอมเมนต์เป็นพื้นที่ให้กำลังใจมากกว่าการรีวิวเนื้อหา แอมมี่ก็มีเธรดชื่นชมของตัวเอง ทั้งในฐานะช่วงเวลาที่ตลกที่สุดของเอพิโสด และในฐานะทอมที่ผู้ชมบอกว่ารักที่สุด ซึ่งสะท้อนว่าการมีตัวแทน (representation) เป็นสิ่งที่มีคุณค่า คอมเมนต์ปักหมุดของทางช่องเองเปิดถามตรงๆ ว่ากลุ่มควรทำอะไรต่อและไปที่ไหนต่อ และผู้ชมก็ตอบด้วยไอเดียครอสโอเวอร์",
   "themes": [
-    { "label": "Make the episodes longer", "share": 24, "example": "ปีหน้าขอให้คลิปเฟรนฟรายยาว1ชั่วโมงขึ้นได้มั้ยค้า" },
-    { "label": "Support for Vee through a difficult period", "share": 27, "example": "พี่วีไม่ควรโดนอะไรแบบนี้เลย เก่งมากๆที่ผ่านมาได้ สำหรับเราพี่วียังเป็นนักร้องที่เก่งลำดับต้นๆเสมอนะคะ" },
-    { "label": "Ammy as MVP and as representation", "share": 19, "example": "ทอมเดียวที่เรารัก คือพี่แอมมี่ค่ะ" },
-    { "label": "Monthly ritual viewing", "share": 17, "example": "หนูรอfriendsfly ทุกเดือนเลยค่ะ พี่ๆอยู่ด้วยกันเเล้วน่ารักมาก" },
-    { "label": "Answering the channel's request for ideas", "share": 13, "example": "ปล่อยกูไป x goyyog in Madagascar ใครเห็นด้วย มาา" }
+    { "label": "การขอให้เอพิโสดยาวขึ้น", "share": 24, "example": "ปีหน้าขอให้คลิปเฟรนฟรายยาว1ชั่วโมงขึ้นได้มั้ยค้า" },
+    { "label": "การให้กำลังใจวีในช่วงเวลาที่ยากลำบาก", "share": 27, "example": "พี่วีไม่ควรโดนอะไรแบบนี้เลย เก่งมากๆที่ผ่านมาได้ สำหรับเราพี่วียังเป็นนักร้องที่เก่งลำดับต้นๆเสมอนะคะ" },
+    { "label": "แอมมี่ในฐานะผู้เล่นยอดเยี่ยมและตัวแทนของกลุ่ม", "share": 19, "example": "ทอมเดียวที่เรารัก คือพี่แอมมี่ค่ะ" },
+    { "label": "การรับชมเป็นกิจวัตรประจำเดือน", "share": 17, "example": "หนูรอfriendsfly ทุกเดือนเลยค่ะ พี่ๆอยู่ด้วยกันเเล้วน่ารักมาก" },
+    { "label": "การตอบคำถามของทางช่องด้วยไอเดียคอนเทนต์", "share": 13, "example": "ปล่อยกูไป x goyyog in Madagascar ใครเห็นด้วย มาา" }
   ],
   "sentiment_breakdown": { "positive": 76, "mixed": 18, "neutral": 5, "negative": 1 },
   "audience_signals": [
-    "The channel already runs live audience research — a pinned comment asking what the group should do next and where to go, answered with concrete crossover ideas",
-    "The demand here is for longer episodes, not shorter ones, which cuts against the general assumption that this audience wants everything compressed",
-    "Friendsfly is consumed as a monthly appointment; predictable cadence is part of the product",
-    "The comment section functions as a support space when a cast member is in public difficulty, which is a form of loyalty that no reach metric captures",
-    "A visibly queer cast member is named approvingly as the one the audience loves, so representation in the group is an asset rather than a risk"
+    "ทางช่องมีการทำวิจัยผู้ชมแบบสดอยู่แล้ว ผ่านคอมเมนต์ปักหมุดที่ถามว่ากลุ่มควรทำอะไรและไปที่ไหนต่อ ซึ่งได้รับคำตอบเป็นไอเดียครอสโอเวอร์ที่เป็นรูปธรรม",
+    "ความต้องการในที่นี้คือเอพิโสดที่ยาวขึ้น ไม่ใช่สั้นลง ซึ่งขัดกับสมมติฐานทั่วไปที่ว่าผู้ชมกลุ่มนี้ต้องการเนื้อหาที่กระชับ",
+    "Friendsfly ถูกรับชมเสมือนนัดหมายประจำเดือน จังหวะการเผยแพร่ที่คาดเดาได้เป็นส่วนหนึ่งของตัวสินค้า",
+    "ช่องคอมเมนต์ทำหน้าที่เป็นพื้นที่ให้กำลังใจเมื่อสมาชิกในกลุ่มเผชิญปัญหาในที่สาธารณะ ซึ่งเป็นรูปแบบความภักดีที่ตัวชี้วัดด้านการเข้าถึงไม่สามารถสะท้อนได้",
+    "สมาชิกในกลุ่มที่เปิดเผยอัตลักษณ์ทางเพศได้รับการกล่าวถึงในเชิงบวกว่าเป็นคนที่ผู้ชมรักที่สุด แสดงให้เห็นว่าการมีตัวแทนความหลากหลายในกลุ่มเป็นจุดแข็ง ไม่ใช่ความเสี่ยง"
   ],
   "content_requests": [
-    "Hour-long Friendsfly episodes",
-    "A crossover with the ปล่อยกูไป format abroad",
-    "More episodes at cast members' homes",
-    "Keep the monthly release rhythm"
+    "เอพิโสด Friendsfly ความยาวหนึ่งชั่วโมงขึ้นไป",
+    "คอนเทนต์ครอสโอเวอร์กับรายการ ปล่อยกูไป ในต่างประเทศ",
+    "เอพิโสดที่บ้านของสมาชิกในกลุ่มเพิ่มเติม",
+    "รักษาจังหวะการเผยแพร่รายเดือนไว้"
   ]
 }

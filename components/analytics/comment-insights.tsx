@@ -20,6 +20,12 @@ const SENTIMENT_RAMP: Record<string, string> = {
   mixed: "var(--chart-2)",
   negative: "var(--chart-4)",
 }
+const SENTIMENT_LABEL: Record<string, string> = {
+  positive: "เชิงบวก",
+  neutral: "เป็นกลาง",
+  mixed: "ผสม",
+  negative: "เชิงลบ",
+}
 
 function SentimentBar({ breakdown }: { breakdown: Record<string, number> }) {
   const entries = SENTIMENT_ORDER.map((k) => ({
@@ -49,7 +55,7 @@ function SentimentBar({ breakdown }: { breakdown: Record<string, number> }) {
               className="size-2 rounded-full"
               style={{ background: SENTIMENT_RAMP[e.key] }}
             />
-            <span className="capitalize">{e.key}</span>
+            <span>{SENTIMENT_LABEL[e.key] ?? e.key}</span>
             <span className="text-muted-foreground tabular-nums">
               {formatPercent(e.value, 0)}
             </span>
@@ -69,7 +75,7 @@ function SummaryBody({ summary }: { summary: CommentSummary }) {
 
       {summary.sentiment_breakdown && (
         <div className="space-y-2">
-          <p className="text-xs font-semibold">Sentiment</p>
+          <p className="text-xs font-semibold">ความรู้สึกของผู้ชม (Sentiment)</p>
           <SentimentBar
             breakdown={summary.sentiment_breakdown as unknown as Record<string, number>}
           />
@@ -78,7 +84,7 @@ function SummaryBody({ summary }: { summary: CommentSummary }) {
 
       {themes.length > 0 && (
         <div className="space-y-2">
-          <p className="text-xs font-semibold">Themes</p>
+          <p className="text-xs font-semibold">ประเด็นหลักที่พูดถึง</p>
           <div className="space-y-2.5">
             {themes.map((theme) => (
               <div key={theme.label} className="space-y-1">
@@ -108,7 +114,7 @@ function SummaryBody({ summary }: { summary: CommentSummary }) {
       <div className="grid gap-5 sm:grid-cols-2">
         {(summary.audience_signals ?? []).length > 0 && (
           <div className="space-y-1.5">
-            <p className="text-xs font-semibold">Audience signals</p>
+            <p className="text-xs font-semibold">สัญญาณจากผู้ชม</p>
             <ul className="text-muted-foreground space-y-1 text-xs">
               {summary.audience_signals!.map((s) => (
                 <li key={s} className="flex gap-1.5">
@@ -121,7 +127,7 @@ function SummaryBody({ summary }: { summary: CommentSummary }) {
         )}
         {(summary.content_requests ?? []).length > 0 && (
           <div className="space-y-1.5">
-            <p className="text-xs font-semibold">What viewers ask for next</p>
+            <p className="text-xs font-semibold">สิ่งที่ผู้ชมอยากเห็นต่อไป</p>
             <ul className="text-muted-foreground space-y-1 text-xs">
               {summary.content_requests!.map((s) => (
                 <li key={s} className="flex gap-1.5">
@@ -135,7 +141,7 @@ function SummaryBody({ summary }: { summary: CommentSummary }) {
       </div>
 
       <p className="text-muted-foreground text-xs">
-        {summary.comment_count} comments analysed · {summary.model} ·{" "}
+        วิเคราะห์จาก {summary.comment_count} คอมเมนต์ · {summary.model} ·{" "}
         {formatDate(summary.generated_at)}
       </p>
     </div>
@@ -154,28 +160,28 @@ function PostCard({ post }: { post: ViralPost }) {
             className="group flex items-start gap-1.5 text-sm font-medium"
           >
             <span className="group-hover:underline">
-              {post.title ?? "(untitled)"}
+              {post.title ?? "(ไม่มีชื่อเรื่อง)"}
             </span>
             <ExternalLink className="text-muted-foreground mt-0.5 size-3 shrink-0" />
           </a>
           <div className="text-muted-foreground flex flex-wrap items-center gap-2 text-xs">
-            <span className="tabular-nums">{formatCompact(post.views)} views</span>
+            <span className="tabular-nums">{formatCompact(post.views)} ยอดวิว</span>
             <span>·</span>
             <span className="tabular-nums">
-              {formatCompact(post.comments)} comments
+              {formatCompact(post.comments)} คอมเมนต์
             </span>
-            <Badge variant="muted">{post.ingestedComments} collected</Badge>
+            <Badge variant="muted">เก็บข้อมูลแล้ว {post.ingestedComments}</Badge>
           </div>
         </div>
         {!post.summary && (
-          <Badge variant="outline">Awaiting analysis</Badge>
+          <Badge variant="outline">รอการวิเคราะห์</Badge>
         )}
       </div>
 
       {post.summary && <SummaryBody summary={post.summary} />}
       {!post.summary && post.ingestedComments === 0 && (
         <p className="text-muted-foreground border-t px-5 py-3 text-xs">
-          No comments collected for this post.
+          ยังไม่มีคอมเมนต์ที่เก็บไว้สำหรับโพสต์นี้
         </p>
       )}
     </div>
@@ -187,10 +193,10 @@ export function CommentInsights({ posts }: { posts: ViralPost[] }) {
     return (
       <div className="flex flex-col items-center gap-2 rounded-xl border border-dashed px-6 py-14 text-center">
         <MessageSquare className="text-muted-foreground size-5" />
-        <p className="text-sm font-medium">No mass-reach content flagged yet</p>
+        <p className="text-sm font-medium">ยังไม่มีเนื้อหาที่เข้าถึงสูงถูกระบุ</p>
         <p className="text-muted-foreground max-w-md text-xs leading-relaxed">
-          Posts in the top view decile with enough comments appear here once
-          the platform has been ingested.
+          โพสต์ในกลุ่มยอดวิวสูงสุดที่มีคอมเมนต์เพียงพอจะแสดงที่นี่
+          หลังจากนำเข้าข้อมูลของแพลตฟอร์มแล้ว
         </p>
       </div>
     )

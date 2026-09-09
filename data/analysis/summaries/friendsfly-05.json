@@ -2,24 +2,24 @@
   "post_id": "e2ea637b-d8ae-46b2-963e-36c3489d3ce5",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "This episode carries 3,467 comments against 1.8M views — roughly nine times the comment count of comparable Friendsfly episodes with the same reach — and the reason is visible in the pinned comment: the channel put the next destination to a public vote between Germany, the Netherlands and Madagascar. Most of the thread is people casting votes and arguing for their choice, and the channel keeps the thread alive with follow-up questions, noting that a crew member reads every single comment. Madagascar won, and the trip that followed produced the fifth most-viewed post in the channel's entire history. The remaining comments are the usual Friendsfly mix: requests for a monthly cadence, people rewatching old episodes repeatedly, and thanks for content that makes them smile.",
+  "summary": "เอพิโสดนี้มีคอมเมนต์ 3,467 รายการ จากยอดวิว 1.8 ล้านครั้ง ซึ่งมากกว่าเอพิโสด Friendsfly อื่นๆ ที่มียอดการเข้าถึงใกล้เคียงกันราวเก้าเท่า และสาเหตุก็ปรากฏชัดในคอมเมนต์ปักหมุด คือทางช่องเปิดให้โหวตจุดหมายปลายทางถัดไประหว่างเยอรมนี เนเธอร์แลนด์ และมาดากัสการ์ เธรดส่วนใหญ่เป็นผู้ชมที่มาโหวตและถกเถียงเพื่อสนับสนุนตัวเลือกของตน โดยทางช่องช่วยให้เธรดคึกคักต่อเนื่องด้วยคำถามติดตามผล และระบุว่าทีมงานคนหนึ่งอ่านคอมเมนต์ทุกรายการ ผลปรากฏว่ามาดากัสการ์ชนะการโหวต และทริปที่ตามมาก็กลายเป็นโพสต์ที่มียอดวิวสูงเป็นอันดับที่ 5 ในประวัติศาสตร์ของช่องทั้งหมด คอมเมนต์ที่เหลือเป็นรูปแบบทั่วไปของ Friendsfly คือการขอให้มีจังหวะเผยแพร่รายเดือน ผู้ชมที่ดูเอพิโสดเก่าซ้ำหลายรอบ และคำขอบคุณสำหรับคอนเทนต์ที่ทำให้พวกเขายิ้มได้",
   "themes": [
-    { "label": "Voting for the next destination", "share": 54, "example": "โหวต มาดากัสการ์ ค่ะ ขอหลายๆ EP เลยน้าาาา" },
-    { "label": "The channel sustaining the thread with follow-ups", "share": 16, "example": "ขอบคุณสำหรับการโหวตมากๆค่ะ ตอนนี้ทะลุ 1,500 เม้นเรียบร้อย คำถามต่อไป ใครจะไปคนนับคะแน้นนนน" },
-    { "label": "Monthly cadence requests and rewatching", "share": 18, "example": "อยากให้มีเฟรนฟรายทุกเดือนเลย หนูดูย้อนไปย้อนมาคริปเก่าๆหลายรอบมากค่ะไม่เบื่อเลย" },
-    { "label": "Gratitude — the show lifts their mood", "share": 12, "example": "ขอบคุณที่คอยผลิตคอนเทนต์ดีๆ ... เป็นคริปที่ทำให้หนูยิ้มได้นะคะ" }
+    { "label": "การโหวตเลือกจุดหมายปลายทางถัดไป", "share": 54, "example": "โหวต มาดากัสการ์ ค่ะ ขอหลายๆ EP เลยน้าาาา" },
+    { "label": "การที่ทางช่องรักษาความคึกคักของเธรดด้วยคำถามติดตามผล", "share": 16, "example": "ขอบคุณสำหรับการโหวตมากๆค่ะ ตอนนี้ทะลุ 1,500 เม้นเรียบร้อย คำถามต่อไป ใครจะไปคนนับคะแน้นนนน" },
+    { "label": "การขอจังหวะเผยแพร่รายเดือนและการดูซ้ำ", "share": 18, "example": "อยากให้มีเฟรนฟรายทุกเดือนเลย หนูดูย้อนไปย้อนมาคริปเก่าๆหลายรอบมากค่ะไม่เบื่อเลย" },
+    { "label": "ความขอบคุณที่รายการช่วยยกระดับอารมณ์ของผู้ชม", "share": 12, "example": "ขอบคุณที่คอยผลิตคอนเทนต์ดีๆ ... เป็นคริปที่ทำให้หนูยิ้มได้นะคะ" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "A poll in the pinned comment produced roughly a nine-fold comment lift over comparable episodes at the same view count — the cheapest engagement mechanic anywhere in this dataset",
-    "The winning vote became a real trip, and that trip produced the channel's fifth most-viewed post ever, so audience-chosen content demonstrably outperforms",
-    "The channel replies with successive follow-up questions to keep the thread compounding, and tells the audience their comments are actually read — both are visible in the response rate",
-    "Cadence is the standing ask on this series: monthly is the rhythm viewers say they want and currently do not reliably get",
-    "Old episodes are rewatched repeatedly, so the back catalogue carries real residual value for this format"
+    "การเปิดโหวตในคอมเมนต์ปักหมุดช่วยเพิ่มจำนวนคอมเมนต์ได้ราวเก้าเท่า เมื่อเทียบกับเอพิโสดอื่นที่มียอดวิวใกล้เคียงกัน ถือเป็นกลไกกระตุ้นการมีส่วนร่วมที่ประหยัดที่สุดในชุดข้อมูลนี้",
+    "ผลโหวตที่ชนะกลายเป็นทริปจริง และทริปนั้นก็สร้างโพสต์ที่มียอดวิวสูงเป็นอันดับ 5 ในประวัติศาสตร์ของช่อง แสดงให้เห็นชัดเจนว่าคอนเทนต์ที่ผู้ชมเลือกเองให้ผลลัพธ์ที่ดีกว่า",
+    "ทางช่องตอบกลับด้วยคำถามติดตามผลต่อเนื่องเพื่อให้เธรดคึกคักขึ้นเรื่อยๆ และบอกผู้ชมว่าคอมเมนต์ของพวกเขาถูกอ่านจริง ทั้งสองอย่างนี้สะท้อนออกมาในอัตราการตอบกลับ",
+    "จังหวะการเผยแพร่คือคำขอที่คงที่ของซีรีส์นี้ ผู้ชมต้องการจังหวะรายเดือน แต่ปัจจุบันยังไม่ได้รับอย่างสม่ำเสมอ",
+    "เอพิโสดเก่าถูกนำมาดูซ้ำอยู่เสมอ แสดงว่าคลังคอนเทนต์เก่ายังมีมูลค่าคงเหลือจริงสำหรับรูปแบบรายการนี้"
   ],
   "content_requests": [
-    "Go to Madagascar",
-    "Monthly Friendsfly episodes",
-    "Multiple episodes per trip rather than one"
+    "ไปเที่ยวมาดากัสการ์",
+    "เอพิโสด Friendsfly รายเดือน",
+    "แบ่งแต่ละทริปเป็นหลายเอพิโสดแทนที่จะเป็นเอพิโสดเดียว"
   ]
 }

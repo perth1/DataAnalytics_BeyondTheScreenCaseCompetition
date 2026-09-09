@@ -45,14 +45,14 @@ function TooltipCard({
       <p className="text-muted-foreground mt-0.5 tabular-nums">
         {d.value.toLocaleString()} {unit}
       </p>
-      <p className="text-muted-foreground tabular-nums">{d.posts} posts</p>
+      <p className="text-muted-foreground tabular-nums">{d.posts} โพสต์</p>
     </div>
   )
 }
 
 export function CategoryBar({
   data,
-  unit = "views",
+  unit = "วิว",
 }: {
   data: CategoryDatum[]
   unit?: string

@@ -2,24 +2,24 @@
   "post_id": "0bb6a3ce-5274-4215-8014-138b51570a3c",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A cooking challenge with a well-known sibling trio, and the moment that dominates the thread is not the food. When one of the siblings cried, the three hosts went over and hugged her and one told her not to pay attention to the comments she gets — a long, detailed reply from a viewer who has followed both channels since the start explains that this sibling receives the most abuse of the three, reads the brother's reaction shot for how helpless he looked, and notes that he always steps in when she is upset. Around that, the thread is affection for the family's chaos and thanks for bringing them on. The guests reply themselves, and the channel's pinned comment asks who should come next and where they should raid.",
+  "summary": "ชาเลนจ์ทำอาหารกับสามพี่น้องชื่อดัง แต่ช่วงเวลาที่ครองธรีดนี้ไม่ใช่เรื่องอาหาร เมื่อพี่น้องคนหนึ่งร้องไห้ พิธีกรทั้งสามเข้าไปกอดเธอ และมีคนหนึ่งบอกว่าอย่าไปสนใจคอมเมนต์ที่เธอได้รับ คอมเมนต์ตอบยาวและละเอียดจากผู้ชมที่ติดตามทั้งสองช่องมาตั้งแต่ต้น อธิบายว่าพี่น้องคนนี้เป็นคนที่โดนโจมตีมากที่สุดในสามคน พร้อมตีความช็อตปฏิกิริยาของพี่ชายที่ดูช่วยอะไรไม่ได้ และตั้งข้อสังเกตว่าเขามักจะเข้ามาช่วยทุกครั้งที่เธอเสียใจ นอกเหนือจากนั้นธรีดนี้เต็มไปด้วยความรักที่มีต่อความวุ่นวายของครอบครัวนี้ และคำขอบคุณที่ชวนพวกเขามาออกรายการ แขกรับเชิญเข้ามาตอบคอมเมนต์เอง และคอมเมนต์ปักหมุดของช่องถามว่าควรเชิญใครมาต่อ หรือควรไปบุกที่ไหนอีก",
   "themes": [
-    { "label": "The hosts comforting a guest who cried", "share": 32, "example": "ชอบที่ก้อยนัตตี้และดรีมเข้าไปกอดยัยโบว์มากกก ... พร้อมคำพูดของนัตตี้ที่บอกยัยโบว์ว่าอย่าไปสนคอมเมนท์ต่างๆ" },
-    { "label": "Affection for the guest family's chaos", "share": 30, "example": "บ้านนี้ออกรายการไหน วุ่นวายสุดๆ วุ่นวายแบบน่ารักมาก ขอบคุณที่ชวนครอบครัว บ. มาน้าา" },
-    { "label": "Guests replying in the thread", "share": 17, "example": "เย้ๆๆๆ พี่ๆน่ารักมาก ขอบคุณที่มาถ่ายด้วยกันนะค้า" },
-    { "label": "Reciprocal appearance requests", "share": 11, "example": "ไปออกรายการใหม่ของแจ้ก็ดีนะคะ รายการเล่นเกมฮิตปิ้ดปี้ปิด ไร้สาระแต่สนุกค่ะ" },
-    { "label": "The channel asking who to invite next", "share": 10, "example": "อยากให้ใครมาออกอีกบ้าง หรือไปบุกที่ไหนอีก เม้นมาบอกได้เลยค้าา" }
+    { "label": "พิธีกรปลอบใจแขกรับเชิญที่ร้องไห้", "share": 32, "example": "ชอบที่ก้อยนัตตี้และดรีมเข้าไปกอดยัยโบว์มากกก ... พร้อมคำพูดของนัตตี้ที่บอกยัยโบว์ว่าอย่าไปสนคอมเมนท์ต่างๆ" },
+    { "label": "ความรักในความวุ่นวายของครอบครัวแขกรับเชิญ", "share": 30, "example": "บ้านนี้ออกรายการไหน วุ่นวายสุดๆ วุ่นวายแบบน่ารักมาก ขอบคุณที่ชวนครอบครัว บ. มาน้าา" },
+    { "label": "แขกรับเชิญเข้ามาตอบคอมเมนต์ในธรีด", "share": 17, "example": "เย้ๆๆๆ พี่ๆน่ารักมาก ขอบคุณที่มาถ่ายด้วยกันนะค้า" },
+    { "label": "ข้อเรียกร้องให้ไปออกรายการตอบแทนกัน", "share": 11, "example": "ไปออกรายการใหม่ของแจ้ก็ดีนะคะ รายการเล่นเกมฮิตปิ้ดปี้ปิด ไร้สาระแต่สนุกค่ะ" },
+    { "label": "ช่องถามว่าควรเชิญใครมาต่อ", "share": 10, "example": "อยากให้ใครมาออกอีกบ้าง หรือไปบุกที่ไหนอีก เม้นมาบอกได้เลยค้าา" }
   ],
   "sentiment_breakdown": { "positive": 84, "mixed": 13, "neutral": 3, "negative": 0 },
   "audience_signals": [
-    "Defending a guest against online abuse on camera is the single most-liked moment of the episode — the channel is read as a safe venue, and that reputation is a booking advantage",
-    "Long-tenure viewers follow both the channel and its guests' channels, and bring cross-channel context into the comments that the episode itself does not supply",
-    "Reciprocal appearances are requested by the audience, so guest relationships are expected to run in both directions",
-    "The pinned 'who next, where next' prompt appears across multiple series — it is the channel's standing research instrument"
+    "การปกป้องแขกรับเชิญจากการโจมตีทางออนไลน์ต่อหน้ากล้องเป็นช่วงเวลาที่มีคนกดถูกใจมากที่สุดในตอนนี้ ช่องนี้ถูกมองว่าเป็นพื้นที่ปลอดภัย ซึ่งชื่อเสียงนี้เป็นข้อได้เปรียบในการจองแขกรับเชิญ",
+    "ผู้ชมที่ติดตามมานานติดตามทั้งช่องนี้และช่องของแขกรับเชิญ และนำบริบทข้ามช่องมาใส่ในคอมเมนต์ ซึ่งเป็นข้อมูลที่ตัวตอนเองไม่ได้ให้ไว้",
+    "ผู้ชมขอให้มีการไปออกรายการตอบแทนกัน สะท้อนว่าความสัมพันธ์กับแขกรับเชิญถูกคาดหวังให้เป็นไปในทั้งสองทิศทาง",
+    "คำถามปักหมุดที่ว่า 'ใครต่อไป ไปที่ไหนต่อ' ปรากฏในหลายซีรีส์ ถือเป็นเครื่องมือสำรวจความเห็นผู้ชมที่ช่องใช้เป็นประจำ"
   ],
   "content_requests": [
-    "Bring the guest family back",
-    "Appear on the guest's own game show in return",
-    "More home-invasion style episodes"
+    "เชิญครอบครัวแขกรับเชิญกลับมาอีก",
+    "ไปออกเกมโชว์ของแขกรับเชิญเพื่อตอบแทน",
+    "ทำตอนสไตล์บุกบ้านเพิ่มขึ้น"
   ]
 }

@@ -2,21 +2,21 @@
   "post_id": "a044fd9f-e124-4fe4-806f-8f89b4b5927f",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A pairing of an established actress and a younger guest with a puppy-dog energy. Viewers describe the dynamic as a beautiful girl paired with a younger boy type, note the genuine nature of the interaction, and immediately ask for a drama series and for them to be brought back. The comment rate is lower than typical idol pairings (1,228 on 740K views), consistent with the pattern that non-idol guests depress engagement.",
+  "summary": "การจับคู่ระหว่างนักแสดงตัวแม่กับแขกรับเชิญรุ่นน้องที่มีความน่ารักแบบลูกสุนัข ผู้ชมบรรยายเคมีของทั้งคู่ว่าเป็นสาวสวยคู่กับหนุ่มรุ่นน้อง พร้อมทั้งชื่นชมว่าปฏิสัมพันธ์ระหว่างกันดูเป็นธรรมชาติ และรีบเรียกร้องให้มีซีรีส์ดราม่าพร้อมทั้งขอให้เชิญทั้งคู่กลับมาอีก อัตราคอมเมนต์ต่ำกว่าคู่ไอดอลทั่วไป (1,228 คอมเมนต์ จากยอดวิว 740,000 ครั้ง) ซึ่งสอดคล้องกับแนวโน้มที่แขกรับเชิญที่ไม่ใช่ไอดอลมักดึงเอนเกจเมนต์ให้ต่ำลง",
   "themes": [
-    { "label": "The dynamic as beauty and youth", "share": 40, "example": "เก้าเจนคือคนสวยขากับหมาเด็กมากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก ทางนี้ดูไปเหยินไป ฮ้อปไม่ไหวเลยค่ะ" },
-    { "label": "The interaction feels real", "share": 30, "example": "คู่นี้เป็นตัวเองธรรมชาติสุดๆ" },
-    { "label": "Asking for a drama series", "share": 20, "example": "อยากให้ชวนเอมี่บอนนี่มาหน่อยได้มั้ยคะ" },
-    { "label": "Wanting them back", "share": 10, "example": "ต่อไปเอาใครมาจีบกันอีกดีน้าา" }
+    { "label": "เคมีระหว่างความสวยและความอ่อนวัย", "share": 40, "example": "เก้าเจนคือคนสวยขากับหมาเด็กมากกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกกก ทางนี้ดูไปเหยินไป ฮ้อปไม่ไหวเลยค่ะ" },
+    { "label": "ปฏิสัมพันธ์ดูเป็นธรรมชาติ", "share": 30, "example": "คู่นี้เป็นตัวเองธรรมชาติสุดๆ" },
+    { "label": "เรียกร้องให้มีซีรีส์ดราม่า", "share": 20, "example": "อยากให้ชวนเอมี่บอนนี่มาหน่อยได้มั้ยคะ" },
+    { "label": "อยากให้ทั้งคู่กลับมาอีก", "share": 10, "example": "ต่อไปเอาใครมาจีบกันอีกดีน้าา" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "Non-idol pairings underperform: 1,228 comments on 740K views is about 0.17%, versus 0.45%+ for idol episodes — the guest fandom multiplier is substantial",
-    "The audience still ships and requests drama, but with less enthusiasm"
+    "คู่ที่ไม่ใช่ไอดอลให้ผลตอบรับต่ำกว่า: 1,228 คอมเมนต์ จากยอดวิว 740,000 ครั้ง คิดเป็นราว 0.17% เทียบกับ 0.45% ขึ้นไปในตอนที่มีไอดอล สะท้อนว่าฐานแฟนคลับของแขกรับเชิญมีอิทธิพลต่อเอนเกจเมนต์อย่างมีนัยสำคัญ",
+    "ผู้ชมยังคงจิ้นคู่และเรียกร้องซีรีส์ดราม่า แต่ด้วยความกระตือรือร้นที่น้อยลง"
   ],
   "content_requests": [
-    "A drama series with this pair",
-    "Bring them back for another episode",
-    "More pairings with non-idol guests"
+    "อยากให้มีซีรีส์ดราม่ากับคู่นี้",
+    "อยากให้เชิญทั้งคู่กลับมาอีกในตอนถัดไป",
+    "อยากให้มีการจับคู่กับแขกรับเชิญที่ไม่ใช่ไอดอลเพิ่มขึ้น"
   ]
 }

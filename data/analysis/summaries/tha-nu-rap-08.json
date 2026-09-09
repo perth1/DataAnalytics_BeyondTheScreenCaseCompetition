@@ -2,23 +2,23 @@
   "post_id": "114123d1-84c8-4274-9c4c-eee1313a5777",
   "model": "claude-opus-5",
   "comment_count": 12,
-  "summary": "An A-list actor who rarely does variety shows, and the thread treats the booking itself as the achievement — several commenters say he never appears on programmes and credit the channel's access. The largest cluster is straightforwardly about his looks and screen presence, described as star aura that only intensifies when he steps out of the car. The second is the hosts' visible flustering, especially Dream going red-faced, which viewers name as the reason the episode works. The third is a chain of adjacent requests: if he came, then his co-star, his partner, and the other actors of that tier must be possible too, each with a call to upvote. Sentiment is almost entirely positive with no criticism at all.",
+  "summary": "แขกรับเชิญเป็นนักแสดงระดับเอลิสต์ที่แทบไม่เคยออกรายการวาไรตี้ และเธรดนี้มองว่าการที่ช่องเชิญเขามาได้เป็นความสำเร็จในตัวเอง หลายคอมเมนต์บอกว่าปกติเขาไม่ออกรายการไหนเลย และยกเครดิตให้ช่องที่มีคอนเนกชันดึงตัวมาได้ กลุ่มคอมเมนต์ที่ใหญ่ที่สุดพูดถึงหน้าตาและออร่านักแสดงของเขาตรงๆ โดยบอกว่าออร่าดาราของเขาเข้มข้นขึ้นไปอีกเมื่อก้าวลงจากรถ กลุ่มที่สองคือความตื่นเต้นที่ปรากฏชัดของพิธีกร โดยเฉพาะดรีมที่หน้าแดงจนเก็บอาการไม่อยู่ ซึ่งผู้ชมระบุว่านี่คือเหตุผลที่ทำให้เอพิโสดนี้สนุก กลุ่มที่สามเป็นคำขอต่อเนื่องเป็นลูกโซ่ ถ้าเขามาได้ นักแสดงร่วมของเขา แฟนของเขา และนักแสดงระดับเดียวกันคนอื่นๆ ก็ต้องมาได้เช่นกัน แต่ละคำขอมาพร้อมการชวนกดไลก์ ความรู้สึกโดยรวมเป็นบวกแทบทั้งหมดโดยไม่มีคำวิจารณ์เชิงลบเลย",
   "themes": [
-    { "label": "The guest's looks and star aura", "share": 39, "example": "อยู่บนรถว่าหล่อแล้ว แม่เจ้า พอออกข้างนอก โคตรหล่อ!!!!! เข้าใจคำว่าออร่าพระเอกออร่าดาราแล้ว" },
-    { "label": "Chain requests triggered by the booking", "share": 25, "example": "ถ้าหมากปริญมาได้ ณเดชก็ต้องมาแล้วมั้ยย" },
-    { "label": "The hosts' genuine flustering", "share": 20, "example": "ดรีมนี่คือเก็บไม่อยู่เลยหน้าแดงหูแดงไปหมด" },
-    { "label": "Credit to the channel for landing a rare guest", "share": 16, "example": "ปกติพี่หมากไม่ค่อยออกรายการอะไรเท่าไหร่นะ ช่องนี้สุดจริงพามาได้ด้วย" }
+    { "label": "หน้าตาและออร่านักแสดงของแขกรับเชิญ", "share": 39, "example": "อยู่บนรถว่าหล่อแล้ว แม่เจ้า พอออกข้างนอก โคตรหล่อ!!!!! เข้าใจคำว่าออร่าพระเอกออร่าดาราแล้ว" },
+    { "label": "คำขอแขกรับเชิญต่อเนื่องเป็นลูกโซ่หลังจากการเชิญครั้งนี้", "share": 25, "example": "ถ้าหมากปริญมาได้ ณเดชก็ต้องมาแล้วมั้ยย" },
+    { "label": "ความตื่นเต้นที่แท้จริงของพิธีกร", "share": 20, "example": "ดรีมนี่คือเก็บไม่อยู่เลยหน้าแดงหูแดงไปหมด" },
+    { "label": "การยกเครดิตให้ช่องที่เชิญแขกรับเชิญหายากมาได้", "share": 16, "example": "ปกติพี่หมากไม่ค่อยออกรายการอะไรเท่าไหร่นะ ช่องนี้สุดจริงพามาได้ด้วย" }
   ],
   "sentiment_breakdown": { "positive": 95, "neutral": 5, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "Landing a guest who does not normally do variety is itself the story — the audience credits the channel's booking access, which is a reputational asset worth stating in a pitch deck",
-    "One prestige booking triggers a chain of adjacent requests at the same tier, so the guest pipeline compounds rather than resets",
-    "The hosts' unscripted reactions, not the questions, are what viewers replay and quote — casting for reactivity is the format's real requirement",
-    "This is the cleanest high-reach episode in the series for brand safety: 3M views and effectively zero negative sentiment"
+    "การเชิญแขกรับเชิญที่ปกติไม่ออกรายการวาไรตี้มาได้เป็นเรื่องราวในตัวเอง ผู้ชมยกเครดิตให้คอนเนกชันของช่อง ซึ่งเป็นจุดแข็งด้านชื่อเสียงที่ควรนำไปใช้ในการนำเสนอต่อสปอนเซอร์",
+    "การเชิญแขกรับเชิญระดับสูงหนึ่งคนกระตุ้นให้เกิดคำขอต่อเนื่องเป็นลูกโซ่ในระดับเดียวกัน ทำให้ฐานแขกรับเชิญขยายตัวต่อเนื่องแทนที่จะเริ่มนับหนึ่งใหม่ทุกครั้ง",
+    "ปฏิกิริยาที่ไม่ได้เตรียมบทของพิธีกร ไม่ใช่คำถาม คือสิ่งที่ผู้ชมนำมาเปิดซ้ำและยกไปพูดถึง การเลือกแขกรับเชิญที่กระตุ้นปฏิกิริยาได้จึงเป็นหัวใจสำคัญของรูปแบบรายการนี้",
+    "นี่คือเอพิโสดที่ปลอดภัยต่อภาพลักษณ์แบรนด์ที่สุดในซีรีส์ที่มียอดเข้าถึงสูง ด้วยยอดวิว 3 ล้านวิวและแทบไม่มีความรู้สึกเชิงลบเลย"
   ],
   "content_requests": [
-    "Book Nadech, Kimberley, Mario and Te Tawan",
-    "Bring the guest's co-stars onto the other series",
-    "More A-list actor bookings in the same format"
+    "เชิญณเดชน์, คิมเบอร์ลี่, มาริโอ้ และเต ตะวัน มาเป็นแขกรับเชิญ",
+    "เชิญนักแสดงร่วมของแขกรับเชิญมาออกซีรีส์อื่นของช่อง",
+    "เชิญนักแสดงระดับเอลิสต์คนอื่นๆ มาในรูปแบบเดียวกันเพิ่มเติม"
   ]
 }

@@ -11,12 +11,14 @@ import { FormatSplit } from "@/components/analytics/format-split"
 import { TopContentTable } from "@/components/analytics/top-content-table"
 import { SeriesTopList } from "@/components/analytics/series-top-list"
 import { CommentInsights } from "@/components/analytics/comment-insights"
+import { DataSources } from "@/components/analytics/data-sources"
 import { EmptyState } from "@/components/ui/empty-state"
 import { Badge } from "@/components/ui/badge"
 import { buttonVariants } from "@/components/ui/button"
 import {
   getCategoryPerformance,
   getChannel,
+  getDataSnapshot,
   getPosts,
   getSummarisedPostIds,
   getThemePerformance,
@@ -48,7 +50,7 @@ export default async function PlatformAnalyticsPage({
   const meta = PLATFORM_MAP[platform as Platform]
   if (!meta) notFound()
 
-  const [channel, posts, categories, themes, viral, summarised] =
+  const [channel, posts, categories, themes, viral, summarised, snapshot] =
     await Promise.all([
       getChannel(meta.key),
       getPosts(meta.key),
@@ -56,6 +58,7 @@ export default async function PlatformAnalyticsPage({
       getThemePerformance(meta.key),
       getViralPosts(meta.key),
       getSummarisedPostIds(meta.key),
+      getDataSnapshot(),
     ])
 
   const totals = sumTotals(posts)
@@ -96,7 +99,7 @@ export default async function PlatformAnalyticsPage({
             rel="noreferrer"
             className={buttonVariants({ variant: "outline", size: "sm" })}
           >
-            Channel <ExternalLink />
+            ช่องทาง <ExternalLink />
           </a>
         </div>
       }
@@ -104,41 +107,41 @@ export default async function PlatformAnalyticsPage({
       {posts.length === 0 ? (
         <EmptyState
           icon={Activity}
-          title={`No ${meta.label} data ingested`}
+          title={`ยังไม่มีข้อมูล ${meta.label}`}
           description={
             meta.key === "youtube"
-              ? "Run npm run ingest:youtube -- --comments to pull videos, metrics, and comments."
-              : `Export ${meta.label} content performance to CSV, then run npm run ingest:csv -- --platform ${meta.key} --file <path>.`
+              ? "รัน npm run ingest:youtube -- --comments เพื่อดึงวิดีโอ ยอดสถิติ และคอมเมนต์"
+              : `ส่งออกข้อมูลผลงาน ${meta.label} เป็น CSV แล้วรัน npm run ingest:csv -- --platform ${meta.key} --file <path>`
           }
         />
       ) : (
         <div className="space-y-8">
           <StatRow>
             <StatTile
-              label={meta.key === "youtube" ? "Subscribers" : "Followers"}
+              label={meta.key === "youtube" ? "ผู้ติดตาม (Subscribers)" : "ผู้ติดตาม (Followers)"}
               value={formatCompact(channel?.followers)}
             />
-            <StatTile label="Posts" value={formatCompact(totals.posts)} />
-            <StatTile label="Views" value={formatCompact(totals.views)} />
-            <StatTile label="Likes" value={formatCompact(totals.likes)} />
-            <StatTile label="Comments" value={formatCompact(totals.comments)} />
+            <StatTile label="โพสต์" value={formatCompact(totals.posts)} />
+            <StatTile label="ยอดวิว" value={formatCompact(totals.views)} />
+            <StatTile label="ไลก์" value={formatCompact(totals.likes)} />
+            <StatTile label="คอมเมนต์" value={formatCompact(totals.comments)} />
             <StatTile
-              label="Engagement rate"
+              label="อัตราการมีส่วนร่วม (Engagement rate)"
               value={formatPercent(totals.engagementRate)}
-              sub="(likes + comments + shares) / views"
+              sub="(ไลก์ + คอมเมนต์ + แชร์) / ยอดวิว"
             />
           </StatRow>
 
           <div className="grid gap-4 lg:grid-cols-2">
             <ChartFrame
-              title="Average views per post"
-              caption="By publish month"
+              title="ยอดวิวเฉลี่ยต่อโพสต์"
+              caption="แบ่งตามเดือนที่เผยแพร่"
             >
               <TimelineChart data={timeline} />
             </ChartFrame>
             <ChartFrame
-              title="Views by format"
-              caption="Share of total views"
+              title="ยอดวิวแบ่งตามรูปแบบ"
+              caption="สัดส่วนของยอดวิวรวม"
             >
               <FormatSplit data={formats} />
             </ChartFrame>
@@ -146,8 +149,8 @@ export default async function PlatformAnalyticsPage({
 
           {themeChart.length > 0 && (
             <ChartFrame
-              title="Views by theme"
-              caption="What the content is about — assigned per post by Claude"
+              title="ยอดวิวแบ่งตามธีม"
+              caption="เนื้อหาเกี่ยวกับอะไร — จัดหมวดหมู่รายโพสต์โดย Claude"
             >
               <CategoryBar data={themeChart} />
             </ChartFrame>
@@ -156,11 +159,11 @@ export default async function PlatformAnalyticsPage({
           {themes.length > 0 && (
             <section className="space-y-3">
               <h2 className="text-sm font-semibold tracking-tight">
-                Theme performance
+                ผลงานแบ่งตามธีม
               </h2>
               <div className="rounded-xl border">
                 <PerformanceTable
-                  label="Theme"
+                  label="ธีม"
                   rows={themes.map((t) => ({ ...t, key: t.theme_slug, name: t.theme_name }))}
                 />
               </div>
@@ -169,8 +172,8 @@ export default async function PlatformAnalyticsPage({
 
           {categoryChart.length > 0 && (
             <ChartFrame
-              title="Views by series"
-              caption={`${meta.label} programmes, top ${categoryChart.length}`}
+              title="ยอดวิวแบ่งตามซีรีส์"
+              caption={`รายการของ ${meta.label} อันดับสูงสุด ${categoryChart.length} รายการ`}
             >
               <CategoryBar data={categoryChart} />
             </ChartFrame>
@@ -179,11 +182,11 @@ export default async function PlatformAnalyticsPage({
           {categories.length > 0 && (
             <section className="space-y-3">
               <h2 className="text-sm font-semibold tracking-tight">
-                Series performance
+                ผลงานแบ่งตามซีรีส์
               </h2>
               <div className="rounded-xl border">
                 <PerformanceTable
-                  label="Series"
+                  label="ซีรีส์"
                   rows={categories.map((c) => ({ ...c, key: c.category_slug, name: c.category_name }))}
                 />
               </div>
@@ -193,18 +196,18 @@ export default async function PlatformAnalyticsPage({
           <section className="space-y-3">
             <div className="space-y-1">
               <h2 className="text-sm font-semibold tracking-tight">
-                Top 10 by series
+                10 อันดับสูงสุดแบ่งตามซีรีส์
               </h2>
               <p className="text-muted-foreground text-xs">
-                Pick a programme to see its ten most-viewed posts. These are the
-                clips whose comments get read and summarised.
+                เลือกรายการเพื่อดูโพสต์ที่มียอดวิวสูงสุด 10 อันดับ นี่คือคลิปที่
+                คอมเมนต์ถูกอ่านและสรุปผลแล้ว
               </p>
             </div>
             <SeriesTopList groups={seriesGroups} analysed={summarised} />
           </section>
 
           <section className="space-y-3">
-            <h2 className="text-sm font-semibold tracking-tight">Top content</h2>
+            <h2 className="text-sm font-semibold tracking-tight">เนื้อหายอดนิยม</h2>
             <div className="rounded-xl border">
               <TopContentTable posts={topPosts} />
             </div>
@@ -213,7 +216,7 @@ export default async function PlatformAnalyticsPage({
           {hashtags.length > 0 && (
             <section className="space-y-3">
               <h2 className="text-sm font-semibold tracking-tight">
-                Hashtags by reach
+                แฮชแท็กแบ่งตามการเข้าถึง
               </h2>
               <div className="flex flex-wrap gap-2">
                 {hashtags.map((h) => (
@@ -231,15 +234,17 @@ export default async function PlatformAnalyticsPage({
           <section className="space-y-3">
             <div className="space-y-1">
               <h2 className="text-sm font-semibold tracking-tight">
-                Comment insights
+                ข้อมูลเชิงลึกจากคอมเมนต์
               </h2>
               <p className="text-muted-foreground text-xs">
-                Claude reads the ingested comments on mass-reach content and reports
-                themes, sentiment, audience signals, and requests.
+                Claude อ่านคอมเมนต์ที่จัดเก็บไว้ของเนื้อหาที่มีการเข้าถึงสูง
+                แล้วสรุปประเด็นหลัก ความรู้สึกของผู้ชม สัญญาณจากผู้ชม และคำขอต่างๆ
               </p>
             </div>
             <CommentInsights posts={viral} />
           </section>
+
+          <DataSources snapshot={snapshot} coverage={{ posts: totals.posts }} />
         </div>
       )}
     </PageShell>

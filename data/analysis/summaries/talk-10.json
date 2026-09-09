@@ -2,21 +2,21 @@
   "post_id": "aee8547a-f4f1-4aad-91a5-49ca2bc6a5e9",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A France trip doubling as a friend's birthday and another friend's newly-single celebration. The guest herself leaves the top comment saying the trip was fun. The most analytical comment credits Dream for carrying the pace — quick joke timing, reading the room, keeping the edit from dragging — and notes she increasingly behaves like a younger sister to one host's partner. A cluster reacts to learning a guest is now single and immediately asks for her to come back on the interview show, with others wishing her well. Small thread, warm sentiment, and a clear signal that a status change in a guest's life is itself a booking trigger for this audience.",
+  "summary": "ทริปฝรั่งเศสที่จัดขึ้นเนื่องในโอกาสวันเกิดของเพื่อนคนหนึ่ง และฉลองการกลับมาเป็นโสดของเพื่อนอีกคน แขกรับเชิญเองเป็นเจ้าของคอมเมนต์อันดับต้นของเธรด โดยบอกว่าทริปนี้สนุกมาก คอมเมนต์ที่วิเคราะห์ได้ลึกที่สุดยกเครดิตให้ดรีมที่ช่วยคุมจังหวะของคลิป ทั้งจังหวะมุกที่ไว อ่านสถานการณ์ในกลุ่มได้ดี และทำให้การตัดต่อไม่ลากยาวจนน่าเบื่อ พร้อมตั้งข้อสังเกตว่าเธอเริ่มมีท่าทีเหมือนน้องสาวของแฟนพิธีกรคนหนึ่งมากขึ้นเรื่อยๆ อีกกลุ่มคอมเมนต์ตื่นเต้นเมื่อรู้ว่าแขกรับเชิญกลับมาเป็นโสดแล้ว และรีบขอให้เธอกลับมาออกรายการสัมภาษณ์อีกครั้ง ส่วนคนอื่นๆ ก็อวยพรให้เธอมีความรักที่ดี เธรดนี้มีคอมเมนต์ไม่มาก แต่โทนบวกอบอุ่น และสะท้อนชัดว่าการเปลี่ยนสถานะในชีวิตของแขกรับเชิญเป็นตัวกระตุ้นให้ผู้ชมอยากเห็นเธอถูกเชิญมาออกรายการอีก",
   "themes": [
-    { "label": "A host carrying the comedic pace", "share": 35, "example": "จังหวะการเล่นมุกแพรวพราว ไหวพริบดี รู้งาน ทำให้คลิปไม่น่าเบื่อมีจังหวะให้หลุดขำตามตลอดๆ" },
-    { "label": "Reacting to a guest's new relationship status", "share": 30, "example": "เอ้าาาา น้องมุก โสดแล้วหรอคะ เพิ่งฟังยังไงไหนเล่าไปเอง ต้องมาออกรายการอีกรอบแล้วๆๆๆๆๆ" },
-    { "label": "The guest replying", "share": 20, "example": "ไปกับพวกพี่สนุกมาก เลิ้ฟฟฟจ้า" },
-    { "label": "Well-wishes for the guest", "share": 15, "example": "อยากให้พี่มุกมีความรักดีๆยาวนาน" }
+    { "label": "พิธีกรที่ช่วยคุมจังหวะความตลกของคลิป", "share": 35, "example": "จังหวะการเล่นมุกแพรวพราว ไหวพริบดี รู้งาน ทำให้คลิปไม่น่าเบื่อมีจังหวะให้หลุดขำตามตลอดๆ" },
+    { "label": "ปฏิกิริยาต่อสถานะความสัมพันธ์ใหม่ของแขกรับเชิญ", "share": 30, "example": "เอ้าาาา น้องมุก โสดแล้วหรอคะ เพิ่งฟังยังไงไหนเล่าไปเอง ต้องมาออกรายการอีกรอบแล้วๆๆๆๆๆ" },
+    { "label": "แขกรับเชิญเข้ามาคอมเมนต์ตอบ", "share": 20, "example": "ไปกับพวกพี่สนุกมาก เลิ้ฟฟฟจ้า" },
+    { "label": "คำอวยพรให้แขกรับเชิญ", "share": 15, "example": "อยากให้พี่มุกมีความรักดีๆยาวนาน" }
   ],
   "sentiment_breakdown": { "positive": 93, "mixed": 5, "neutral": 2, "negative": 0 },
   "audience_signals": [
-    "A change in a guest's relationship status functions as a booking trigger — the audience immediately asks for a return episode to hear the update",
-    "Guests reply on trip episodes as reliably as on interview episodes, so the goodwill from these shoots is genuine and repeatable",
-    "Pacing is credited to a specific host rather than to editing, so the audience attributes production quality to people they know"
+    "การเปลี่ยนสถานะความสัมพันธ์ของแขกรับเชิญทำหน้าที่เป็นตัวกระตุ้นให้เกิดการขอเชิญกลับมาออกรายการ ผู้ชมรีบขอให้มีเอพิโสดต่อเนื่องเพื่อฟังอัปเดต",
+    "แขกรับเชิญเข้ามาคอมเมนต์ตอบในเอพิโสดทริปได้สม่ำเสมอไม่ต่างจากเอพิโสดสัมภาษณ์ สะท้อนว่าความสัมพันธ์อันดีจากการถ่ายทำเหล่านี้เป็นของจริงและเกิดขึ้นซ้ำได้",
+    "จังหวะของคลิปถูกยกเครดิตให้พิธีกรคนใดคนหนึ่งมากกว่าฝ่ายตัดต่อ ผู้ชมจึงมองว่าคุณภาพการผลิตมาจากคนที่พวกเขารู้จัก"
   ],
   "content_requests": [
-    "Bring the newly-single guest back on the interview show",
-    "More birthday and milestone trips abroad"
+    "เชิญแขกรับเชิญที่กลับมาเป็นโสดแล้วมาออกรายการสัมภาษณ์อีกครั้ง",
+    "ทริปต่างประเทศเนื่องในโอกาสวันเกิดหรือวาระสำคัญเพิ่มเติม"
   ]
 }

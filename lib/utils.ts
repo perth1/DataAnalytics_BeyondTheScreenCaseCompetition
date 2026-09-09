@@ -31,3 +31,16 @@ export function formatDate(value: string | Date | null | undefined) {
     year: "numeric",
   }).format(new Date(value))
 }
+
+/**
+ * Thai date, Gregorian year on purpose: th-TH defaults to the Buddhist era,
+ * which would print 2569 beside metrics every reader thinks of as 2026.
+ */
+export function formatDateTh(value: string | Date | null | undefined) {
+  if (!value) return "—"
+  return new Intl.DateTimeFormat("th-TH-u-ca-gregory", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  }).format(new Date(value))
+}

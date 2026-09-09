@@ -48,9 +48,7 @@ export default async function DocumentPage({
       }
     >
       <div className="space-y-6">
-        {doc.kind === "gsheet" && fileId && <LiveSheet fileId={fileId} gid={gid} />}
-        {doc.kind === "gdoc" && fileId && <LiveDoc fileId={fileId} />}
-
+        
         {embed && (
           <section className="space-y-2">
             <h2 className="text-sm font-semibold tracking-tight">

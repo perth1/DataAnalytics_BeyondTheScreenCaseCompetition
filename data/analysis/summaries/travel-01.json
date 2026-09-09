@@ -2,20 +2,20 @@
   "post_id": "6c1a7467-3757-4c5c-8ee5-136cbfa57f95",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A solo travel series where each host travels alone to different provinces. The audience notices one host's approach to solo travel differs markedly from the others — she reframes perspective and tackles things with more grit. Viewers are impressed by her choices and her new ATV skill. The channel asks for travel destinations. At 341 comments on 2.88M views this is low engagement for travel, consistent with solo-travel content being reach-oriented but conversation-light.",
+  "summary": "ซีรีส์ท่องเที่ยวคนเดียวที่พิธีกรแต่ละคนเดินทางไปยังจังหวัดต่างๆ ตามลำพัง ผู้ชมสังเกตเห็นว่าแนวทางการท่องเที่ยวคนเดียวของพิธีกรคนหนึ่งแตกต่างจากคนอื่นอย่างชัดเจน เธอปรับมุมมองใหม่และลุยกับสิ่งต่างๆ ด้วยความกล้ามากกว่า ผู้ชมประทับใจการตัดสินใจของเธอและทักษะขับ ATV ที่เพิ่งได้ลองใหม่ ทางช่องเปิดรับข้อเสนอแนะจุดหมายปลายทางการเดินทาง ด้วยจำนวน 341 คอมเมนต์จากยอดวิว 2.88 ล้านวิว ถือเป็นระดับการมีส่วนร่วมที่ต่ำสำหรับคอนเทนต์สายท่องเที่ยว ซึ่งสอดคล้องกับลักษณะของคอนเทนต์ท่องเที่ยวคนเดียวที่เน้นการเข้าถึงมากกว่าการกระตุ้นบทสนทนา",
   "themes": [
-    { "label": "One host's travel philosophy and grit", "share": 45, "example": "นัตตี้เปลี่ยนมุมมองมาก เลิศ ๆ" },
-    { "label": "Noting a host's new skills", "share": 30, "example": "พี่ตี้ขับATVครั้งแรกด้วยตัวเอง พี่ตี้เก่งที่สุดเลยค่า" },
-    { "label": "Impression of host character", "share": 18, "example": "เป็นคนน่ารัก และเป็นคนที่ลุยกว่าที่คิด" },
-    { "label": "Channel asking for next destinations", "share": 7, "example": "ดูจบแล้วอยากแพ็กกระเป๋าตามเลย" }
+    { "label": "ปรัชญาการเดินทางและความกล้าลุยของพิธีกรคนหนึ่ง", "share": 45, "example": "นัตตี้เปลี่ยนมุมมองมาก เลิศ ๆ" },
+    { "label": "การสังเกตเห็นทักษะใหม่ของพิธีกร", "share": 30, "example": "พี่ตี้ขับATVครั้งแรกด้วยตัวเอง พี่ตี้เก่งที่สุดเลยค่า" },
+    { "label": "ความประทับใจในบุคลิกของพิธีกร", "share": 18, "example": "เป็นคนน่ารัก และเป็นคนที่ลุยกว่าที่คิด" },
+    { "label": "ช่องเปิดรับข้อเสนอแนะจุดหมายปลายทางถัดไป", "share": 7, "example": "ดูจบแล้วอยากแพ็กกระเป๋าตามเลย" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "Solo travel is a reach format but engagement-light; the draw is watching a host alone, not interpersonal dynamics",
-    "Competence and character are tracked and appreciated even without a second party to interact with",
-    "The audience uses solo travel content as inspiration for their own travel, not conversation starters"
+    "คอนเทนต์ท่องเที่ยวคนเดียวเป็นรูปแบบที่เข้าถึงผู้ชมได้กว้างแต่มีการมีส่วนร่วมต่ำ จุดดึงดูดคือการได้ดูพิธีกรคนเดียว ไม่ใช่ปฏิสัมพันธ์ระหว่างบุคคล",
+    "ความสามารถและบุคลิกของพิธีกรยังคงถูกติดตามและได้รับการชื่นชม แม้จะไม่มีคู่สนทนาให้มีปฏิสัมพันธ์ด้วยก็ตาม",
+    "ผู้ชมใช้คอนเทนต์ท่องเที่ยวคนเดียวเป็นแรงบันดาลใจสำหรับการเดินทางของตัวเอง มากกว่าจะเป็นหัวข้อสนทนา"
   ],
   "content_requests": [
-    "More solo travel episodes to different provinces"
+    "ทำเอพิโสดท่องเที่ยวคนเดียวไปยังจังหวัดอื่นๆ เพิ่มเติม"
   ]
 }

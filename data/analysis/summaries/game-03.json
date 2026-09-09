@@ -2,25 +2,25 @@
   "post_id": "f53e89f8-af6e-4f5f-8bd6-3714fa79161b",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "A group-versus-group question game with five male guests, and the most repeated complaint is that it ended too soon — several say they were settling in and it was over, and one adds that the food element could be dropped entirely because the conversation was enough. The warmest cluster is about the group protecting Dream: when a brutal question landed on her, nobody pressed, and both hosts and guests helped her out, which viewers call out as the nicest moment. One guest is singled out as the troublemaker who drives the comedy. Cross-series funnelling appears again, with viewers asking for two of the guests to be moved onto the car show. Behind-the-scenes footage included in the edit is specifically appreciated.",
+  "summary": "เกมตอบคำถามแบบกลุ่มปะทะกลุ่มกับแขกรับเชิญชายห้าคน ข้อร้องเรียนที่พูดถึงซ้ำมากที่สุดคือจบเร็วเกินไป หลายคนบอกว่าเพิ่งจะเข้าที่เข้าทางก็จบซะแล้ว และมีคนหนึ่งเสริมว่าองค์ประกอบเรื่องอาหารตัดออกไปได้เลยเพราะแค่บทสนทนาก็เพียงพอแล้ว กลุ่มคอมเมนต์ที่อบอุ่นที่สุดคือเรื่องที่กลุ่มปกป้องดรีม เมื่อคำถามโหดๆ ตกไปที่เธอ ไม่มีใครกดดันต่อ ทั้งพิธีกรและแขกรับเชิญต่างช่วยกันดึงเธอออกมา ซึ่งผู้ชมยกให้เป็นช่วงเวลาที่น่ารักที่สุด แขกรับเชิญคนหนึ่งถูกยกให้เป็นตัวป่วนที่ขับเคลื่อนความฮา การส่งต่อไปยังรายการอื่นในเครือปรากฏอีกครั้ง โดยผู้ชมขอให้แขกรับเชิญสองคนไปออกรายการรถยนต์ ฟุตเทจเบื้องหลังที่รวมอยู่ในการตัดต่อได้รับการชื่นชมเป็นพิเศษ",
   "themes": [
-    { "label": "It ended too soon — make it longer", "share": 29, "example": "รู้สึกสนุกอยากใหคลิปยาวกว่านี้ ทุกคนดูแซ่บมากพร้อมตอบคำถาม อาหารก็คือไม่ต้องมีเลยก็ได้" },
-    { "label": "The group protecting Dream from a hard question", "share": 26, "example": "ชอบตอนที่ดรีมโดนคำถามโหด แล้วแบบทุกคนไม่คาดคั้นอ่ะ ... ดรีมไม่อยากตอบก็ช่วยกันเบิกน้ำขม" },
-    { "label": "One guest as the comedic engine", "share": 20, "example": "บอยนี้แสบสุดจริงๆ ฮามาก อยากให้มาคอลแลปกันอีก" },
-    { "label": "Move these guests onto the car show", "share": 15, "example": "อยากให้พาพี่เจมส์กับพี่เป็กไปขึ้นรถถ้าหนูรับหน่อยค่าา" },
-    { "label": "Behind-the-scenes footage appreciated", "share": 10, "example": "ชอบๆที่มีเบื้องหลังให้ดูด้วยค่ะ" }
+    { "label": "จบเร็วเกินไป อยากให้ยาวกว่านี้", "share": 29, "example": "รู้สึกสนุกอยากใหคลิปยาวกว่านี้ ทุกคนดูแซ่บมากพร้อมตอบคำถาม อาหารก็คือไม่ต้องมีเลยก็ได้" },
+    { "label": "กลุ่มปกป้องดรีมจากคำถามโหด", "share": 26, "example": "ชอบตอนที่ดรีมโดนคำถามโหด แล้วแบบทุกคนไม่คาดคั้นอ่ะ ... ดรีมไม่อยากตอบก็ช่วยกันเบิกน้ำขม" },
+    { "label": "แขกรับเชิญคนหนึ่งคือตัวขับเคลื่อนความฮา", "share": 20, "example": "บอยนี้แสบสุดจริงๆ ฮามาก อยากให้มาคอลแลปกันอีก" },
+    { "label": "ย้ายแขกรับเชิญเหล่านี้ไปออกรายการรถยนต์", "share": 15, "example": "อยากให้พาพี่เจมส์กับพี่เป็กไปขึ้นรถถ้าหนูรับหน่อยค่าา" },
+    { "label": "ชื่นชมฟุตเทจเบื้องหลัง", "share": 10, "example": "ชอบๆที่มีเบื้องหลังให้ดูด้วยค่ะ" }
   ],
   "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "Viewers say the gimmick is unnecessary — the conversation alone would hold them, which means the food-punishment device is cost without benefit",
-    "Kindness on camera reads as strongly as comedy: the moment the group shielded a host from a question is the second most-liked theme in the thread",
-    "Multi-guest ensembles create their own cross-booking demand, with viewers picking out individuals to move to other formats",
-    "Runtime is again the complaint — this audience consistently wants more minutes, not fewer"
+    "ผู้ชมบอกว่ากิมมิกไม่จำเป็น แค่บทสนทนาอย่างเดียวก็ดึงดูดพวกเขาได้แล้ว ซึ่งหมายความว่ากลไกการลงโทษด้วยอาหารเป็นต้นทุนที่ไม่ก่อประโยชน์",
+    "ความมีน้ำใจต่อหน้ากล้องทรงพลังพอๆ กับความฮา ช่วงที่กลุ่มปกป้องพิธีกรจากคำถามคือประเด็นที่มีคนกดถูกใจมากเป็นอันดับสองในธรีดนี้",
+    "การรวมแขกรับเชิญหลายคนก่อให้เกิดความต้องการส่งต่อไปออกรายการอื่นโดยธรรมชาติ ผู้ชมเลือกบุคคลที่อยากให้ไปออกฟอร์แมตอื่นด้วยตัวเอง",
+    "ความยาวของคลิปยังคงเป็นข้อร้องเรียน ผู้ชมกลุ่มนี้ต้องการเวลาที่มากขึ้นอย่างสม่ำเสมอ ไม่ใช่น้อยลง"
   ],
   "content_requests": [
-    "Make these episodes longer",
-    "Drop or reduce the food-punishment element",
-    "Put James and Peck on ถ้าหนูรับ",
-    "Keep including behind-the-scenes footage"
+    "ทำตอนเหล่านี้ให้ยาวขึ้น",
+    "ตัดหรือลดองค์ประกอบการลงโทษด้วยอาหาร",
+    "ให้เจมส์และเป็กไปออกรายการ ถ้าหนูรับ",
+    "ใส่ฟุตเทจเบื้องหลังต่อไป"
   ]
 }

@@ -2,19 +2,19 @@
   "post_id": "ce542f01-2f92-481b-bbdf-2cec996c425d",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "An island trip episode with a small, purely affectionate comment section. Dream dominates it — a female viewer says even she is falling for her, another praises her singing a Disney song, another names her and Goy as the favourite pairing. The only other note is admiration for the group's inexhaustible energy on travel shoots. No criticism, no requests, and very little to extract; at 1.04M views and 404 comments this is a low-conversation entry in the series, consistent with trip episodes that lack a relationship premise or a guest.",
+  "summary": "ตอนทริปเกาะที่มีคอมเมนต์ไม่มากแต่เต็มไปด้วยความชื่นชอบล้วนๆ โดยดรีมเป็นจุดสนใจหลัก ผู้ชมหญิงคนหนึ่งบอกว่าแม้แต่ตัวเองก็ยังหลงเสน่ห์ของเธอ อีกคนชื่นชมการร้องเพลงดิสนีย์ของเธอ และอีกคนระบุว่าเธอกับก้อยคือคู่โปรด ข้อสังเกตอื่นมีเพียงความชื่นชมพลังงานที่ไม่มีวันหมดของกลุ่มในการถ่ายทำทริปท่องเที่ยว ไม่มีคอมเมนต์เชิงวิพากษ์วิจารณ์และไม่มีการเรียกร้องใดๆ มีเนื้อหาให้วิเคราะห์ต่อได้น้อยมาก ด้วยยอดวิว 1.04 ล้านครั้งและ 404 คอมเมนต์ นี่เป็นตอนที่มีบทสนทนาน้อยในซีรีส์ สอดคล้องกับรูปแบบของตอนทริปที่ไม่มีปมความสัมพันธ์หรือแขกรับเชิญ",
   "themes": [
-    { "label": "Dream's appeal", "share": 55, "example": "ขนาดเราเป็นผู้หญิงยังหลงดรีมมากๆอ่ะ" },
-    { "label": "Her singing", "share": 22, "example": "ดรีมร้องเพลงดิสนีย์เพราะมาก" },
-    { "label": "The group's travel energy", "share": 23, "example": "3 สาว พลังไม่เคยหมด ยิ่งเรื่องเที่ยวด้วยนี่จัดเต็มตล๊อดดดด" }
+    { "label": "เสน่ห์ของดรีม", "share": 55, "example": "ขนาดเราเป็นผู้หญิงยังหลงดรีมมากๆอ่ะ" },
+    { "label": "การร้องเพลงของเธอ", "share": 22, "example": "ดรีมร้องเพลงดิสนีย์เพราะมาก" },
+    { "label": "พลังงานของกลุ่มในการเดินทาง", "share": 23, "example": "3 สาว พลังไม่เคยหมด ยิ่งเรื่องเที่ยวด้วยนี่จัดเต็มตล๊อดดดด" }
   ],
   "sentiment_breakdown": { "positive": 97, "neutral": 3, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "Trip episodes without a guest or a relationship premise consistently land at the bottom of the comment-rate range for long-form, confirming that premise — not location — drives conversation",
-    "Dream is the most frequently named individual draw across the whole talk catalogue, including from female viewers",
-    "An incidental singing moment surfaces as a top comment, which supports building musical moments into non-music formats"
+    "ตอนทริปที่ไม่มีแขกรับเชิญหรือปมความสัมพันธ์ มักมีอัตราคอมเมนต์อยู่ในระดับต่ำสุดของคอนเทนต์แบบยาวอย่างสม่ำเสมอ ยืนยันว่าปมเรื่องราว ไม่ใช่สถานที่ คือปัจจัยที่ขับเคลื่อนบทสนทนา",
+    "ดรีมเป็นจุดดึงดูดรายบุคคลที่ถูกกล่าวถึงบ่อยที่สุดในคอนเทนต์ทอล์กทั้งหมด รวมถึงจากผู้ชมหญิงด้วย",
+    "ช่วงร้องเพลงที่เกิดขึ้นโดยไม่ตั้งใจกลายเป็นคอมเมนต์อันดับต้นๆ ซึ่งสนับสนุนแนวคิดการสอดแทรกช่วงดนตรีเข้าไปในฟอร์แมตที่ไม่ใช่เพลงโดยตรง"
   ],
   "content_requests": [
-    "More singing moments inside travel episodes"
+    "อยากให้มีช่วงร้องเพลงในตอนทริปท่องเที่ยวเพิ่มเติม"
   ]
 }

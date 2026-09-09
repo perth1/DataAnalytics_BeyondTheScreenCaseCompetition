@@ -2,26 +2,26 @@
   "post_id": "6bfd4690-5e97-43a2-872d-fdd362d7c920",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "An Italy trip that goes wrong, and the audience treats the chaos as the point — one long comment says trips with close friends always produce a 'what the hell is even happening' moment and that is exactly why they are remembered forever. The most unusual cluster is about the show's own naming convention: a viewer recites the punning hashtags from every previous trip from memory, across Japan, Osaka, Phu, Turkey and Dubai, and credits the crew member who writes them as genuinely creative. Another notable thread points at friendship behaviour rather than comedy — one friend warning the others to watch their bags while running for a train, even though she was rushing too. A pinned comment carries a link to the group's own skincare product rather than a third-party sponsor, and one commenter is chasing up a trip that was promised and not yet delivered.",
+  "summary": "ทริปอิตาลีที่เกิดเรื่องผิดพลาด และผู้ชมมองว่าความวุ่นวายนี่แหละคือจุดเด่น คอมเมนต์ยาวรายการหนึ่งบอกว่าทริปกับเพื่อนสนิทมักเกิดช่วงเวลาแบบ 'นี่มันเรื่องบ้าอะไรกันวะ' เสมอ และนั่นแหละคือเหตุผลที่ทำให้จดจำไปตลอด กลุ่มคอมเมนต์ที่แปลกที่สุดเกี่ยวกับธรรมเนียมการตั้งชื่อของรายการเอง มีผู้ชมรายหนึ่งท่องแฮชแท็กเล่นคำจากทุกทริปที่ผ่านมาได้จากความจำ ทั้งญี่ปุ่น โอซาก้า ภูเก็ต ตุรกี และดูไบ พร้อมยกความดีความชอบให้ทีมงานผู้คิดแฮชแท็กเหล่านี้ว่าครีเอทีฟจริงๆ อีกเธรดหนึ่งที่น่าสนใจชี้ให้เห็นพฤติกรรมมิตรภาพมากกว่าความตลก คือเพื่อนคนหนึ่งเตือนคนอื่นให้ระวังกระเป๋าขณะวิ่งไล่รถไฟ ทั้งที่ตัวเองก็กำลังรีบอยู่เช่นกัน คอมเมนต์ปักหมุดมีลิงก์สินค้าสกินแคร์แบรนด์ของกลุ่มเอง แทนที่จะเป็นสปอนเซอร์จากภายนอก และมีผู้ชมรายหนึ่งทวงถามทริปที่เคยสัญญาไว้แต่ยังไม่ได้ทำ",
   "themes": [
-    { "label": "Chaos as the reason it is memorable / vicarious travel", "share": 34, "example": "เวลาไปเที่ยว ตปท กับเพื่อนสนิทมันมักจะเกิดเหตุการณ์ที่แบบ \"นี่มันเรื่องเหี้ยอะไรกันวะเนี่ย\" แบบนี้เลยค่ะ" },
-    { "label": "The punning trip hashtags as a signature", "share": 19, "example": "ว่าด้วยเรื่องแฮชแท็ก นี่ชอบมาก ... เพิ่งรู้ว่าพี่บอสสอกเป็นคนคิดแฮชแท็ก creativity ดีมากค่ะ" },
-    { "label": "Real friendship behaviour, not just comedy", "share": 21, "example": "ตอนวิ่งขึ้นรถไฟฟ้า แล้วบอสสอกเตือนเพื่อนให้ระวังกระเป๋า คือน่ารักจริงๆ นี่คือโคตรมิตรภาพอ่ะ" },
-    { "label": "Quoted comedic lines", "share": 16, "example": "ตอนรับพิซซ่าแบบ It's not hot for me. I'm hotter!" },
-    { "label": "Own-brand product placement in the pinned comment", "share": 5, "example": "ช่องทางสั่งซื้อ PicoLotion น้ำตบเห็ดพิโค" },
-    { "label": "Chasing up previously promised content", "share": 5, "example": "มาทวงงง ทริปป 3 คู่ด้วยค้าบบ" }
+    { "label": "ความวุ่นวายในฐานะเหตุผลที่ทำให้จดจำ / การเที่ยวแทนตัวเอง", "share": 34, "example": "เวลาไปเที่ยว ตปท กับเพื่อนสนิทมันมักจะเกิดเหตุการณ์ที่แบบ \"นี่มันเรื่องเหี้ยอะไรกันวะเนี่ย\" แบบนี้เลยค่ะ" },
+    { "label": "แฮชแท็กเล่นคำประจำทริปในฐานะเอกลักษณ์ของรายการ", "share": 19, "example": "ว่าด้วยเรื่องแฮชแท็ก นี่ชอบมาก ... เพิ่งรู้ว่าพี่บอสสอกเป็นคนคิดแฮชแท็ก creativity ดีมากค่ะ" },
+    { "label": "พฤติกรรมมิตรภาพที่แท้จริง ไม่ใช่แค่ความตลก", "share": 21, "example": "ตอนวิ่งขึ้นรถไฟฟ้า แล้วบอสสอกเตือนเพื่อนให้ระวังกระเป๋า คือน่ารักจริงๆ นี่คือโคตรมิตรภาพอ่ะ" },
+    { "label": "การยกคำพูดตลกมาอ้างอิง", "share": 16, "example": "ตอนรับพิซซ่าแบบ It's not hot for me. I'm hotter!" },
+    { "label": "การวางสินค้าแบรนด์ของตัวเองในคอมเมนต์ปักหมุด", "share": 5, "example": "ช่องทางสั่งซื้อ PicoLotion น้ำตบเห็ดพิโค" },
+    { "label": "การทวงถามคอนเทนต์ที่เคยสัญญาไว้", "share": 5, "example": "มาทวงงง ทริปป 3 คู่ด้วยค้าบบ" }
   ],
   "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "The trip hashtags are a recognised, recitable brand device — a viewer listed them across five past destinations from memory and named their author, which is unusually strong recall for a throwaway element and an under-used asset",
-    "The channel monetises through its own product (a skincare line) via pinned comments, not only through third-party sponsorship — worth counting as owned revenue when assessing dependence on brand deals",
-    "The audience keeps a ledger of promised-but-undelivered content and chases it publicly",
-    "Small acts of care between friends generate as much comment volume as the jokes, so the edit should protect them",
-    "Things going wrong outperforms things going smoothly in this format — mishaps are the retention mechanic"
+    "แฮชแท็กประจำทริปเป็นเครื่องมือสร้างแบรนด์ที่ผู้ชมจดจำและท่องได้ ผู้ชมรายหนึ่งไล่เรียงแฮชแท็กจากห้าจุดหมายปลายทางในอดีตได้จากความจำ พร้อมระบุตัวผู้คิดคำ ถือเป็นความจดจำที่แข็งแกร่งผิดปกติสำหรับองค์ประกอบที่ดูเหมือนไม่สำคัญ และเป็นสินทรัพย์ที่ยังใช้ประโยชน์ได้ไม่เต็มที่",
+    "ทางช่องสร้างรายได้ผ่านสินค้าแบรนด์ของตัวเอง (ผลิตภัณฑ์สกินแคร์) ผ่านคอมเมนต์ปักหมุด ไม่ได้พึ่งพาเพียงสปอนเซอร์ภายนอก ควรนับรวมเป็นรายได้ของตัวเองเมื่อประเมินความพึ่งพาดีลกับแบรนด์",
+    "ผู้ชมจดจำคอนเทนต์ที่เคยสัญญาไว้แต่ยังไม่ได้ทำ และทวงถามอย่างเปิดเผยในที่สาธารณะ",
+    "การกระทำเล็กๆ ที่แสดงความห่วงใยระหว่างเพื่อนสร้างปริมาณคอมเมนต์ได้พอๆ กับมุกตลก การตัดต่อจึงควรรักษาช่วงเวลาเหล่านี้ไว้",
+    "เหตุการณ์ที่ผิดพลาดสร้างผลตอบรับได้ดีกว่าเหตุการณ์ที่ราบรื่นในรูปแบบรายการนี้ ความผิดพลาดคือกลไกที่ช่วยรักษาผู้ชมไว้"
   ],
   "content_requests": [
-    "Deliver the promised three-couples trip",
-    "More international trips",
-    "Keep the punning hashtag naming for every trip"
+    "ทำทริปสามคู่ที่เคยสัญญาไว้ให้สำเร็จ",
+    "ทริปต่างประเทศเพิ่มเติม",
+    "คงธรรมเนียมการตั้งแฮชแท็กเล่นคำในทุกทริป"
   ]
 }

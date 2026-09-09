@@ -2,22 +2,22 @@
   "post_id": "34ef38e4-65db-440d-b49f-46b7e21090b4",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A confessional episode filmed in a camper van. The top comment by a wide margin asks for all three hosts' real partners to be taken on a group date, and the second asks patiently for a couple photo, promising the audience will wait until they are ready. A distinct and heavily-liked comment praises the three of them for taking clear political positions and being visible about it, contrasting them with peers who stay quiet. The last thread is a callback joke: the host who used to be talked over now talks so much that nobody else gets a word in, which shows the audience tracking the airtime issue they raised years earlier.",
+  "summary": "ตอนสารภาพความในใจที่ถ่ายทำในรถบ้าน คอมเมนต์อันดับหนึ่งที่ทิ้งห่างคอมเมนต์อื่นอย่างชัดเจน คือการขอให้พาแฟนจริงของพิธีกรทั้งสามคนไปเดตกลุ่มด้วยกัน ส่วนคอมเมนต์อันดับสองขอรูปคู่แบบใจเย็นๆ พร้อมสัญญาว่าผู้ชมจะรอจนกว่าพวกเขาจะพร้อม คอมเมนต์หนึ่งที่โดดเด่นและได้ไลก์สูงชื่นชมทั้งสามคนที่แสดงจุดยืนทางการเมืองอย่างชัดเจนและกล้าเปิดเผย โดยเปรียบเทียบกับคนในวงการเดียวกันที่เลือกจะเงียบ ประเด็นสุดท้ายเป็นมุกคอลแบ็ก คือพิธีกรที่เคยพูดแทรกคนอื่นไม่ทัน ตอนนี้กลับพูดจนคนอื่นแทบไม่มีโอกาสได้พูดเลย ซึ่งแสดงให้เห็นว่าผู้ชมยังคงติดตามประเด็นเรื่องสัดส่วนการพูดที่เคยหยิบยกขึ้นมาเมื่อหลายปีก่อน",
   "themes": [
-    { "label": "Take all three couples on a group date", "share": 42, "example": "อยากให้เอาคู่จริงของทั้ง3คน ไปเดตกันจัง คงจะฟินมากแน่ๆ" },
-    { "label": "Patiently waiting for a relationship reveal", "share": 22, "example": "รอดูรูปคู่พี่ดรีมพี่มีนอยู่นะ พร้อมเมื่อไรคอยลงก็ได้ พวกเราเข้าใจ" },
-    { "label": "Praise for taking political positions", "share": 22, "example": "ชอบความที่ ก้อย นัตตี้ ดรีม ช่วยเป็นกระบอกเสียงทางการเมือง เเสดงออกชัดเจน มีจุดยืนชัดเจน" },
-    { "label": "Callback to the airtime imbalance", "share": 14, "example": "พี่ดรีมจากที่พูดไม่ทันคนอื่น แต่epนี้พูดจนคนอื่นไม่ได้พูดเลย" }
+    { "label": "พาทั้งสามคู่ไปเดตกลุ่มด้วยกัน", "share": 42, "example": "อยากให้เอาคู่จริงของทั้ง3คน ไปเดตกันจัง คงจะฟินมากแน่ๆ" },
+    { "label": "ความอดทนรอการเปิดเผยความสัมพันธ์", "share": 22, "example": "รอดูรูปคู่พี่ดรีมพี่มีนอยู่นะ พร้อมเมื่อไรคอยลงก็ได้ พวกเราเข้าใจ" },
+    { "label": "คำชมต่อการแสดงจุดยืนทางการเมือง", "share": 22, "example": "ชอบความที่ ก้อย นัตตี้ ดรีม ช่วยเป็นกระบอกเสียงทางการเมือง เเสดงออกชัดเจน มีจุดยืนชัดเจน" },
+    { "label": "การคอลแบ็กถึงความไม่สมดุลของสัดส่วนการพูด", "share": 14, "example": "พี่ดรีมจากที่พูดไม่ทันคนอื่น แต่epนี้พูดจนคนอื่นไม่ได้พูดเลย" }
   ],
   "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "A three-couples episode is the single most-requested unbuilt format across this series and Friendsfly — it has been asked for repeatedly since 2021 and never made",
-    "Political visibility is an asset with this audience, not a liability: they name it as a reason to respect the hosts and contrast them with silent peers",
-    "The audience is patient about private matters and says so explicitly, which means the hosts control the timing of personal reveals without losing interest",
-    "Long-running notes like the airtime imbalance are tracked over years and referenced as callbacks — the audience has institutional memory of the channel"
+    "ตอนที่รวมทั้งสามคู่รักเป็นฟอร์แมตที่ถูกเรียกร้องมากที่สุดแต่ยังไม่เคยถูกสร้างขึ้น ทั้งในซีรีส์นี้และเฟรนด์ฟลาย โดยมีการขอซ้ำๆ มาตั้งแต่ปี 2021 แต่ยังไม่เคยเกิดขึ้นจริง",
+    "การแสดงจุดยืนทางการเมืองอย่างเปิดเผยเป็นข้อได้เปรียบสำหรับผู้ชมกลุ่มนี้ ไม่ใช่จุดเสี่ยง โดยผู้ชมระบุว่านี่คือเหตุผลหนึ่งที่พวกเขาเคารพพิธีกร และเปรียบเทียบกับคนในวงการที่เลือกจะเงียบ",
+    "ผู้ชมมีความอดทนต่อเรื่องส่วนตัวและพูดออกมาอย่างชัดเจน แสดงว่าพิธีกรสามารถควบคุมจังหวะการเปิดเผยเรื่องส่วนตัวได้โดยไม่สูญเสียความสนใจของผู้ชม",
+    "ประเด็นที่ถูกพูดถึงมาอย่างต่อเนื่อง เช่น ความไม่สมดุลของสัดส่วนการพูด ถูกติดตามมาหลายปีและถูกหยิบยกกลับมาพูดถึงในลักษณะคอลแบ็ก แสดงว่าผู้ชมมีความทรงจำร่วมต่อช่องในระยะยาว"
   ],
   "content_requests": [
-    "A group date with all three hosts' partners",
-    "More van and road-trip confessional episodes"
+    "อยากให้มีเดตกลุ่มกับแฟนของพิธีกรทั้งสามคน",
+    "อยากให้มีตอนสารภาพความในใจแบบทริปรถบ้านเพิ่มเติม"
   ]
 }

@@ -2,28 +2,28 @@
   "post_id": "a85f6771-b7bc-48f3-90b0-b89ca9e40430",
   "model": "claude-opus-5",
   "comment_count": 26,
-  "summary": "A duet with Violette Wautier framed around the emotional vulnerability of that time of the month, and the comment section reads as a support thread rather than a music thread. The dominant reaction is self-recognition from women who identify with the line about getting through everything alone, and a large share go further and disclose real circumstances — unemployment at 28, feeling isolated in a crowd, actively fighting to keep going. A second cluster addresses Goy directly and wishes her a year where she no longer has to get through things by herself, with several openly backing her new relationship. Viewers also treat the collaboration itself as a milestone they had been waiting for, and note that her voice now reads as a singer's rather than an actress who sings. The channel is running a pinned UGC campaign on the same thread — comment here or post with the sound on TikTok to win a signed copy of her book or channel pyjamas.",
+  "summary": "เพลงคู่กับ Violette Wautier เพลงนี้พูดถึงความเปราะบางทางอารมณ์ในช่วง \"วันนั้นของเดือน\" ทำให้ช่องคอมเมนต์มีลักษณะเหมือนกระทู้ให้กำลังใจมากกว่ากระทู้พูดคุยเรื่องเพลง ปฏิกิริยาหลักคือผู้หญิงจำนวนมากรู้สึกร่วมกับท่อนที่พูดถึงการผ่านทุกอย่างไปด้วยตัวคนเดียว และหลายคนเปิดใจเล่าสถานการณ์จริงของตัวเอง เช่น ตกงานตอนอายุ 28 ปี รู้สึกโดดเดี่ยวท่ามกลางผู้คน หรือกำลังพยายามสู้เพื่อไปต่อ กลุ่มที่สองพูดถึงก้อยโดยตรง อวยพรให้ปีนี้เธอไม่ต้องผ่านอะไรไปคนเดียวอีกต่อไป และหลายคนสนับสนุนความสัมพันธ์ใหม่ของเธออย่างเปิดเผย ผู้ชมยังมองว่าการร่วมงานครั้งนี้เป็นก้าวสำคัญที่พวกเขารอคอยมานาน และสังเกตว่าเสียงร้องของเธอตอนนี้ให้ความรู้สึกเป็นนักร้องจริงจังมากกว่านักแสดงที่มาร้องเพลง ทางช่องยังปักหมุดแคมเปญ UGC ไว้ในกระทู้เดียวกัน โดยให้คอมเมนต์ในนี้หรือโพสต์คลิปพร้อมเสียงเพลงนี้ใน TikTok เพื่อลุ้นรับหนังสือที่มีลายเซ็นหรือชุดนอนของช่อง",
   "themes": [
-    { "label": "Self-love and getting through it alone", "share": 38, "example": "ไม่มีใครอยู่ตรงนี้ ที่จะรักและกอดตัวฉันได้ดีกว่าตัวฉันที่เป็น ฉันรู้ดีจะผ่านได้ทุกอย่าง" },
-    { "label": "Viewers disclosing real hardship", "share": 21, "example": "ตอนนี้หนูอายุ28 ไม่มีงานทำ ชีวิตมันแบบเคว้งคว้างมากๆ ท้อมากๆ" },
-    { "label": "Wishing Goy would not have to carry it alone", "share": 16, "example": "ขอให้ปีนี้้พี่ลูกก้อยไม่ต้องผ่านทุกอย่างไปคนเดียวอีกต่อไปแล้วนะคะ" },
-    { "label": "The Goy x Violette pairing as a long-awaited collab", "share": 13, "example": "อยากเห็นพี่ทั้งสองคนร้องเพลงด้วยกันมานานแล้ว วันนี้มันเกิดขึ้นแล้ว" },
-    { "label": "Vocal growth across her releases", "share": 8, "example": "เมื่อก่อนจะรู้สึกเสียงเหมือนนักแสดงมาร้องเพลง แต่ตอนนี้ เรารู้สึกว่าเสียงเป็นนักร้องแล้ว" },
-    { "label": "The pinned UGC prize campaign", "share": 4, "example": "ร่วมสนุกกับเพลงวันนั้นของเดือน ด้วยการแชร์โมเม้นต์ ... ลุ้นรับของรางวัล" }
+    { "label": "การรักตัวเองและการผ่านมันไปด้วยตัวคนเดียว", "share": 38, "example": "ไม่มีใครอยู่ตรงนี้ ที่จะรักและกอดตัวฉันได้ดีกว่าตัวฉันที่เป็น ฉันรู้ดีจะผ่านได้ทุกอย่าง" },
+    { "label": "ผู้ชมเปิดใจเล่าความยากลำบากในชีวิตจริง", "share": 21, "example": "ตอนนี้หนูอายุ28 ไม่มีงานทำ ชีวิตมันแบบเคว้งคว้างมากๆ ท้อมากๆ" },
+    { "label": "อวยพรให้ก้อยไม่ต้องแบกรับทุกอย่างไว้คนเดียวอีก", "share": 16, "example": "ขอให้ปีนี้้พี่ลูกก้อยไม่ต้องผ่านทุกอย่างไปคนเดียวอีกต่อไปแล้วนะคะ" },
+    { "label": "การร่วมงานระหว่างก้อยกับ Violette ที่รอคอยมานาน", "share": 13, "example": "อยากเห็นพี่ทั้งสองคนร้องเพลงด้วยกันมานานแล้ว วันนี้มันเกิดขึ้นแล้ว" },
+    { "label": "พัฒนาการด้านเสียงร้องตลอดผลงานที่ผ่านมา", "share": 8, "example": "เมื่อก่อนจะรู้สึกเสียงเหมือนนักแสดงมาร้องเพลง แต่ตอนนี้ เรารู้สึกว่าเสียงเป็นนักร้องแล้ว" },
+    { "label": "แคมเปญ UGC แจกของรางวัลที่ปักหมุดไว้", "share": 4, "example": "ร่วมสนุกกับเพลงวันนั้นของเดือน ด้วยการแชร์โมเม้นต์ ... ลุ้นรับของรางวัล" }
   ],
   "sentiment_breakdown": { "positive": 61, "mixed": 33, "neutral": 5, "negative": 1 },
   "audience_signals": [
-    "A cross-platform activation is already running here — the pinned comment routes YouTube commenters to post with the sound on TikTok for prizes, which is the clearest existing bridge between the two platforms",
-    "The subject matter (menstrual-cycle emotional vulnerability) is rare, ownable, and unlocks unusually personal disclosure — commenters share unemployment and loneliness, not just song praise",
-    "The audience tracks her vocal progression release by release, so the discography narrative itself is an asset to keep telling",
-    "Existing merchandise is visible in the thread — a signed book (THE TWENTIES' ACHE) and channel pyjamas — so a product line exists to build on",
-    "Collaborations the audience has already asked for convert best; this one was described as long-awaited before it happened",
-    "Comment sentiment is more mixed than other music posts because crying is the intended response — treat 'mixed' here as engagement, not dissatisfaction"
+    "มีกิจกรรมข้ามแพลตฟอร์มดำเนินอยู่แล้วในกระทู้นี้ คอมเมนต์ที่ปักหมุดชักชวนให้ผู้ชม YouTube ไปโพสต์คลิปพร้อมเสียงนี้ใน TikTok เพื่อลุ้นรางวัล ถือเป็นสะพานเชื่อมที่ชัดเจนที่สุดระหว่างสองแพลตฟอร์มในตอนนี้",
+    "ประเด็นของเพลง (ความเปราะบางทางอารมณ์ในรอบเดือน) เป็นเรื่องที่พูดถึงไม่บ่อยและสามารถสร้างเอกลักษณ์เฉพาะได้ อีกทั้งยังเปิดพื้นที่ให้ผู้ชมเปิดใจเล่าเรื่องส่วนตัวอย่างไม่ธรรมดา เช่น การตกงานหรือความรู้สึกโดดเดี่ยว ไม่ใช่แค่คำชมเพลงทั่วไป",
+    "ผู้ชมติดตามพัฒนาการเสียงร้องของเธอในแต่ละผลงานที่ปล่อยออกมา ดังนั้นเรื่องราวการเติบโตของผลงานเพลงจึงเป็นสินทรัพย์ที่ควรเล่าต่อไป",
+    "มีสินค้าที่เกี่ยวข้องปรากฏให้เห็นในกระทู้แล้ว ทั้งหนังสือที่มีลายเซ็น (THE TWENTIES' ACHE) และชุดนอนของช่อง แสดงว่ามีไลน์สินค้าที่สามารถต่อยอดได้",
+    "การร่วมงานที่ผู้ชมเรียกร้องมาก่อนมักได้ผลตอบรับดีที่สุด เพลงนี้ถูกบรรยายว่าเป็นสิ่งที่รอคอยมานานก่อนจะเกิดขึ้นจริง",
+    "ความรู้สึกของคอมเมนต์มีความ \"ผสมปนเป\" มากกว่าโพสต์เพลงอื่นๆ เพราะการร้องไห้คือปฏิกิริยาที่เพลงตั้งใจสื่อ ควรตีความคำว่า \"mixed\" ในที่นี้ว่าเป็นสัญญาณของการมีส่วนร่วม ไม่ใช่ความไม่พอใจ"
   ],
   "content_requests": [
-    "More collaborations with other artists",
-    "A live version of the duet",
-    "Keep releasing at this pace — no dislikes across her catalogue so far",
-    "Push the track past a million views"
+    "อยากให้มีการร่วมงานกับศิลปินคนอื่นอีก",
+    "เวอร์ชันแสดงสดของเพลงคู่นี้",
+    "อยากให้ปล่อยผลงานในจังหวะนี้ต่อไป เพราะจนถึงตอนนี้ยังไม่มีเพลงไหนที่ถูกกดไม่ชอบเลย",
+    "อยากให้ยอดวิวเพลงนี้ทะลุหลักล้าน"
   ]
 }

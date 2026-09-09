@@ -33,13 +33,13 @@ export function PerformanceTable({
       <TableHeader>
         <TableRow>
           <TableHead>{label}</TableHead>
-          <TableHead className="text-right">Posts</TableHead>
-          <TableHead className="text-right">Views</TableHead>
-          <TableHead className="text-right">Share</TableHead>
-          <TableHead className="text-right">Avg views</TableHead>
-          <TableHead className="text-right">Likes</TableHead>
-          <TableHead className="text-right">Comments</TableHead>
-          <TableHead className="text-right">Avg ER</TableHead>
+          <TableHead className="text-right">โพสต์</TableHead>
+          <TableHead className="text-right">ยอดวิว</TableHead>
+          <TableHead className="text-right">สัดส่วน</TableHead>
+          <TableHead className="text-right">วิวเฉลี่ย</TableHead>
+          <TableHead className="text-right">ไลก์</TableHead>
+          <TableHead className="text-right">คอมเมนต์</TableHead>
+          <TableHead className="text-right">ER เฉลี่ย</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>

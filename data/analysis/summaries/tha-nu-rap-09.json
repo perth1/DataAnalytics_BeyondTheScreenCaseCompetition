@@ -2,24 +2,24 @@
   "post_id": "6d986ba4-0982-45e3-9ddf-6b000161a0f9",
   "model": "claude-opus-5",
   "comment_count": 12,
-  "summary": "This episode exists because a shipping hashtag had already formed on Twitter, and the title says so outright — the audience wanted it off Twitter and onto camera. The comments deliver forensic behaviour reading: the most detailed one runs several hundred words analysing where the guest looks, whose words he tracks, and concludes he holds back only because he is afraid of rejection, then urges him to act now that the whole country is cheering. A second cluster is guest requests, again named and with pleading tone. A third is about Goy specifically, several commenters noting she is not conventionally the prettiest but lands the hardest, which is a recurring read of her appeal. Viewers report watching three times and finding new detail each pass, and one asks to see her as a guest on other channels' dating formats.",
+  "summary": "เอพิโสดนี้เกิดขึ้นเพราะแฮชแท็กจับคู่เกิดขึ้นแล้วบนทวิตเตอร์ และชื่อเอพิโสดก็บอกตรงๆ ว่าผู้ชมอยากเห็นเรื่องนี้ย้ายจากทวิตเตอร์มาสู่หน้ากล้อง คอมเมนต์ในเธรดนี้เป็นการตีความพฤติกรรมอย่างละเอียดยิบ คอมเมนต์ที่ละเอียดที่สุดยาวหลายร้อยคำ วิเคราะห์ว่าแขกรับเชิญมองไปทางไหน ฟังคำพูดของใคร และสรุปว่าเขายับยั้งตัวเองเพราะกลัวถูกปฏิเสธเท่านั้น พร้อมกระตุ้นให้เขาลงมือทำอะไรสักอย่าง เพราะตอนนี้ทั้งประเทศกำลังเชียร์อยู่ กลุ่มคอมเมนต์ที่สองคือการขอแขกรับเชิญ ซึ่งระบุชื่อชัดเจนพร้อมน้ำเสียงออดอ้อน กลุ่มที่สามพูดถึงก้อยโดยเฉพาะ หลายคอมเมนต์บอกว่าเธอไม่ใช่คนสวยแบบตามขนบ แต่มีเสน่ห์ที่ทรงพลังมาก ซึ่งเป็นมุมมองที่ถูกพูดถึงซ้ำๆ เกี่ยวกับเสน่ห์ของเธอ ผู้ชมรายงานว่าดูซ้ำถึงสามรอบและพบรายละเอียดใหม่ทุกครั้ง และมีคนหนึ่งขอให้เธอไปออกรายการหาคู่ของช่องอื่นด้วย",
   "themes": [
-    { "label": "Forensic reading of the guest's real feelings", "share": 34, "example": "ถ้าเรารักใครซักคน ลองสังเกตดูนะ เวลาไปอยู่รวมกับคนหมู่มาก คำพูดและสายตาของเราจะมีแต่คนที่เราชอบ" },
-    { "label": "Named guest requests", "share": 22, "example": "อันนี้ขอเลยนะ..ขอ \"ซันนี่ สุวรรณเมธานนท์\" หน่อยได้มั้ยจ๊ะ" },
-    { "label": "Goy's unconventional appeal", "share": 18, "example": "ก้อยไม่ใช่คนสวยมากนะ แต่ดาเมจรุนแรงมากกกก เกินต้านมากกกก" },
-    { "label": "Repeat viewing and detail collecting", "share": 14, "example": "ผมดูวนไป 3 รอบแล้ว เก็บรายละเอียดเพิ่มขึ้นทุกรอบ" },
-    { "label": "The ship came from Twitter first", "share": 12, "example": "พี่โอ๊ตเอาพวกเเก๊งนี้ไป The Driver ด่วน" }
+    { "label": "การตีความความรู้สึกจริงของแขกรับเชิญอย่างละเอียด", "share": 34, "example": "ถ้าเรารักใครซักคน ลองสังเกตดูนะ เวลาไปอยู่รวมกับคนหมู่มาก คำพูดและสายตาของเราจะมีแต่คนที่เราชอบ" },
+    { "label": "การขอแขกรับเชิญโดยระบุชื่อ", "share": 22, "example": "อันนี้ขอเลยนะ..ขอ \"ซันนี่ สุวรรณเมธานนท์\" หน่อยได้มั้ยจ๊ะ" },
+    { "label": "เสน่ห์ของก้อยที่ไม่เป็นไปตามขนบ", "share": 18, "example": "ก้อยไม่ใช่คนสวยมากนะ แต่ดาเมจรุนแรงมากกกก เกินต้านมากกกก" },
+    { "label": "การดูซ้ำและตามเก็บรายละเอียด", "share": 14, "example": "ผมดูวนไป 3 รอบแล้ว เก็บรายละเอียดเพิ่มขึ้นทุกรอบ" },
+    { "label": "กระแสจับคู่เริ่มต้นมาจากทวิตเตอร์", "share": 12, "example": "พี่โอ๊ตเอาพวกเเก๊งนี้ไป The Driver ด่วน" }
   ],
   "sentiment_breakdown": { "positive": 90, "mixed": 7, "neutral": 3, "negative": 0 },
   "audience_signals": [
-    "This is a documented case of the channel converting off-platform fan demand into content — the pairing trended on Twitter first and the episode was built to satisfy it, which is a repeatable commissioning method",
-    "The audience performs long-form behavioural analysis unprompted; give them ambiguity and they will write the essay themselves",
-    "Reverse-booking demand exists — viewers want the hosts to appear as guests on other channels' dating shows, which is a cheap cross-promotion route",
-    "Goy is read as charismatic rather than conventionally beautiful, and that framing is used approvingly — worth protecting rather than polishing away"
+    "นี่คือตัวอย่างที่บันทึกไว้ชัดเจนว่าช่องนำความต้องการของแฟนคลับจากแพลตฟอร์มอื่นมาผลิตเป็นคอนเทนต์ได้จริง คู่นี้เป็นกระแสบนทวิตเตอร์ก่อน แล้วเอพิโสดนี้ถูกสร้างขึ้นมาเพื่อตอบสนองความต้องการนั้น ถือเป็นวิธีคิดคอนเทนต์ที่นำไปทำซ้ำได้",
+    "ผู้ชมวิเคราะห์พฤติกรรมอย่างละเอียดยาวโดยไม่ต้องมีใครขอ เพียงแค่ให้ความคลุมเครือมา พวกเขาจะเขียนบทวิเคราะห์เองทันที",
+    "มีความต้องการแบบย้อนกลับเกิดขึ้น ผู้ชมอยากให้พิธีกรไปเป็นแขกรับเชิญในรายการหาคู่ของช่องอื่น ซึ่งเป็นช่องทางโปรโมตข้ามช่องที่ต้นทุนต่ำ",
+    "ก้อยถูกมองว่ามีเสน่ห์ดึงดูดมากกว่าความสวยตามขนบ และมุมมองนี้ถูกพูดถึงในเชิงชื่นชม จึงควรรักษาจุดนี้ไว้แทนที่จะพยายามปรับให้เป็นไปตามมาตรฐานทั่วไป"
   ],
   "content_requests": [
-    "Book Sunny Suwanmethanont and Ton Ach",
-    "Send the hosts onto other channels' dating formats as guests",
-    "A follow-up episode with the same guest"
+    "เชิญซันนี่ สุวรรณเมธานนท์ และต้น อัช มาเป็นแขกรับเชิญ",
+    "ส่งพิธีกรไปเป็นแขกรับเชิญในรายการหาคู่ของช่องอื่น",
+    "ทำเอพิโสดต่อเนื่องกับแขกรับเชิญคนเดิม"
   ]
 }

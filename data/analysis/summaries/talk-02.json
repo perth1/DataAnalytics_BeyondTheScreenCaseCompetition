@@ -2,22 +2,22 @@
   "post_id": "b7688ab3-235b-4a42-9e85-7dd5978e1100",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A relationship Q&A with the three hosts plus one friend, and the reaction concentrates almost entirely on Natty — not on her looks primarily but on her outlook. One viewer quotes her line about not staying friends with someone who does not think you are worth their time, and says it broke a three-year stalemate she had been maintaining alone with a friend who had stopped reciprocating. Another writes a long character read: she looks intimidating, she is direct, she settles problems by talking them out, and she is the most grown-up of the group — and concludes that while he usually prefers Dream's type, he would marry someone like Natty. Around that are shipping observations about who is actually the jealous one, which the audience treats as new evidence about a relationship they were already tracking.",
+  "summary": "การถามตอบเรื่องความสัมพันธ์โดยพิธีกรทั้งสามคนพร้อมเพื่อนอีกหนึ่งคน โดยปฏิกิริยาของผู้ชมมุ่งไปที่นัตตี้เกือบทั้งหมด ไม่ใช่เพราะรูปลักษณ์เป็นหลัก แต่เป็นเพราะมุมมองความคิดของเธอ ผู้ชมคนหนึ่งยกคำพูดของเธอที่ว่าไม่ควรรักษาความเป็นเพื่อนกับคนที่ไม่เห็นคุณค่าของเรา และบอกว่าคำพูดนี้ช่วยให้เธอตัดสินใจยุติความสัมพันธ์ที่ค้างคาใจมาสามปีกับเพื่อนที่ไม่เคยตอบสนองกลับมา อีกคอมเมนต์หนึ่งเขียนบทวิเคราะห์บุคลิกของนัตตี้อย่างละเอียด ว่าเธอดูน่าเกรงขาม พูดตรงไปตรงมา แก้ปัญหาด้วยการพูดคุย และเป็นคนที่โตที่สุดในกลุ่ม พร้อมสรุปว่าแม้ปกติจะชอบผู้หญิงสไตล์ดรีมมากกว่า แต่ถ้าจะแต่งงานก็อยากได้คนแบบนัตตี้ นอกจากนี้ยังมีข้อสังเกตเรื่องการจิ้นคู่ ว่าใครกันแน่ที่ขี้หึงตัวจริง ซึ่งผู้ชมมองว่าเป็นหลักฐานใหม่ที่สนับสนุนความสัมพันธ์ที่พวกเขาติดตามอยู่แล้ว",
   "themes": [
-    { "label": "A host's advice changing a viewer's decision", "share": 32, "example": "\"ถ้ามันไม่เห็นมึงมีค่าพอจะไปเป็นเพื่อนกับมันทำไม\" คือเสียใจเรื่องเพื่อนมา3ปีได้ละ ... ฉุกคิดได้เลยคำพูดของพี่นัตตี้" },
-    { "label": "Long character reads of the hosts", "share": 30, "example": "น้องน่าจะเป็นที่มีความคิดเป็นเป็นผู้ใหญ่ที่สุดในแก๊งนี้แล้วมั้งจากที่ตามมาหลายตอน" },
-    { "label": "Natty as an ideal-woman figure", "share": 18, "example": "ชอบทัศนคติพี่นัตตี้มากกก ผู้หญิงในอุดมคติเลยแงงง" },
-    { "label": "Shipping evidence gathered from the answers", "share": 20, "example": "นัตตี้ขึ้หึงสุด! เข้าใจมาตลอดว่าก้อยขี้หึงสุดในกลุ่ม ถึงจะปากแข็งว่าชิล ๆ ก็เถอะ" }
+    { "label": "คำแนะนำของพิธีกรที่เปลี่ยนการตัดสินใจของผู้ชม", "share": 32, "example": "\"ถ้ามันไม่เห็นมึงมีค่าพอจะไปเป็นเพื่อนกับมันทำไม\" คือเสียใจเรื่องเพื่อนมา3ปีได้ละ ... ฉุกคิดได้เลยคำพูดของพี่นัตตี้" },
+    { "label": "การวิเคราะห์บุคลิกของพิธีกรอย่างละเอียด", "share": 30, "example": "น้องน่าจะเป็นที่มีความคิดเป็นเป็นผู้ใหญ่ที่สุดในแก๊งนี้แล้วมั้งจากที่ตามมาหลายตอน" },
+    { "label": "นัตตี้ในฐานะภาพแทนผู้หญิงในอุดมคติ", "share": 18, "example": "ชอบทัศนคติพี่นัตตี้มากกก ผู้หญิงในอุดมคติเลยแงงง" },
+    { "label": "หลักฐานการจิ้นคู่ที่รวบรวมจากคำตอบ", "share": 20, "example": "นัตตี้ขึ้หึงสุด! เข้าใจมาตลอดว่าก้อยขี้หึงสุดในกลุ่ม ถึงจะปากแข็งว่าชิล ๆ ก็เถอะ" }
   ],
   "sentiment_breakdown": { "positive": 92, "mixed": 6, "neutral": 2, "negative": 0 },
   "audience_signals": [
-    "Host-only episodes work: with no guest at all this earned 1.6M views and produced the most personally consequential comment in the corpus — a viewer changing how she handles a real friendship because of a line in the video",
-    "The hosts' own opinions are the asset the audience is short of; six years in, the standing request for host-focused episodes is still only partially met",
-    "Viewers write detailed character studies of the hosts across many episodes, meaning consistency of persona matters more than any single episode",
-    "Q&A answers double as shipping evidence, so personal content compounds the romance narratives running elsewhere on the channel"
+    "ตอนที่มีแค่พิธีกรล้วนก็ประสบความสำเร็จได้ แม้ไม่มีแขกรับเชิญเลยแต่กลับได้ยอดวิว 1.6 ล้านครั้ง และสร้างคอมเมนต์ที่ส่งผลกระทบต่อชีวิตจริงมากที่สุดในฐานข้อมูล คือผู้ชมคนหนึ่งเปลี่ยนวิธีจัดการความสัมพันธ์เพื่อนแท้จริงของตัวเองเพราะประโยคหนึ่งในคลิป",
+    "ความคิดเห็นส่วนตัวของพิธีกรคือสิ่งที่ผู้ชมยังต้องการเพิ่มเติม แม้จะผ่านมาหกปีแล้ว แต่คำขอที่มีมาตลอดให้เน้นตอนที่โฟกัสที่พิธีกรก็ยังได้รับการตอบสนองเพียงบางส่วนเท่านั้น",
+    "ผู้ชมเขียนบทวิเคราะห์บุคลิกของพิธีกรอย่างละเอียดต่อเนื่องหลายตอน แสดงว่าความสม่ำเสมอของบุคลิกภาพมีความสำคัญมากกว่าตอนใดตอนหนึ่ง",
+    "คำตอบในช่วงถามตอบยังทำหน้าที่เป็นหลักฐานสนับสนุนการจิ้นคู่ไปในตัว ทำให้คอนเทนต์เชิงส่วนตัวไปเสริมเรื่องราวความรักที่ดำเนินอยู่ในส่วนอื่นของช่อง"
   ],
   "content_requests": [
-    "More Q&A episodes with just the hosts",
-    "Individual deep-dive episodes per host"
+    "อยากให้มีตอนถามตอบกับพิธีกรล้วนเพิ่มเติม",
+    "อยากให้มีตอนที่เจาะลึกพิธีกรเป็นรายบุคคล"
   ]
 }

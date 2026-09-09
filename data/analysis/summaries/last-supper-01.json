@@ -2,17 +2,17 @@
   "post_id": "427cdd64-bd35-4828-b54d-94828329213d",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "An intimate interview series where a guest orders their 'last meal before death' — a metaphor for reflecting on life. This episode features an actor, and at 3,140 comments on 1.14M views it has high engagement (0.27%). The comment section is dominated by viewers who watched after the guest's public relationship announcement, joking that the ship has sailed, creating a meta-layer about timing and fandom. The format itself creates a natural intimacy and has strong reach, but the comment volume is driven by event-adjacent timing rather than the interview's content.",
+  "summary": "ซีรีส์สัมภาษณ์เชิงลึกที่แขกรับเชิญสั่ง 'มื้อสุดท้ายก่อนตาย' ซึ่งเป็นการเปรียบเปรยถึงการทบทวนชีวิต ตอนนี้มีนักแสดงชายเป็นแขกรับเชิญ ด้วยจำนวนคอมเมนต์ 3,140 รายการจากยอดวิว 1.14 ล้านวิว ถือเป็นอัตราการมีส่วนร่วมที่สูง (0.27%) ช่องคอมเมนต์ถูกครอบงำโดยผู้ชมที่เข้ามาดูหลังจากแขกรับเชิญประกาศความสัมพันธ์ต่อสาธารณะ พร้อมพูดติดตลกว่าคู่จิ้นจบไปแล้ว สร้างมิติซ้อนเกี่ยวกับจังหวะเวลาและวัฒนธรรมแฟนคลับ ตัวฟอร์แมตเองสร้างความใกล้ชิดตามธรรมชาติและมียอดเข้าถึงที่แข็งแกร่ง แต่จำนวนคอมเมนต์ถูกขับเคลื่อนโดยจังหวะเวลาที่เกี่ยวข้องกับเหตุการณ์ มากกว่าเนื้อหาของบทสัมภาษณ์เอง",
   "themes": [
-    { "label": "Viewers who watched after a public announcement", "share": 50, "example": "ใครมาย้อนดูหลังประกาศเปิดตัว มารวมกันตรงนี้" },
-    { "label": "Joking about the timing", "share": 35, "example": "ทีมย้อนดู55555" },
-    { "label": "Post-event viewing", "share": 15, "example": "มีใครตามมาดูวันวาเลนไทน์ปี69ปะ" }
+    { "label": "ผู้ชมที่เข้ามาดูหลังการประกาศต่อสาธารณะ", "share": 50, "example": "ใครมาย้อนดูหลังประกาศเปิดตัว มารวมกันตรงนี้" },
+    { "label": "พูดติดตลกเรื่องจังหวะเวลา", "share": 35, "example": "ทีมย้อนดู55555" },
+    { "label": "การเข้าชมหลังเหตุการณ์", "share": 15, "example": "มีใครตามมาดูวันวาเลนไทน์ปี69ปะ" }
   ],
   "sentiment_breakdown": { "positive": 100, "neutral": 0, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "This format creates a natural hook for re-watching after major life events — the 'last meal' framing makes old episodes feel newly relevant",
-    "Comment volume can spike months after publishing if a guest's status changes, making this format durable over time",
-    "The intimacy of the interview format carries over into comment sentiment — all comments are positive even when about shipping disappointment"
+    "ฟอร์แมตนี้สร้างจุดดึงดูดตามธรรมชาติให้กลับมาดูซ้ำหลังเหตุการณ์สำคัญในชีวิต กรอบแนวคิด 'มื้อสุดท้าย' ทำให้ตอนเก่ารู้สึกเกี่ยวข้องขึ้นมาใหม่",
+    "จำนวนคอมเมนต์อาจพุ่งสูงขึ้นได้แม้ผ่านไปหลายเดือนหลังเผยแพร่ หากสถานะของแขกรับเชิญเปลี่ยนแปลง ทำให้ฟอร์แมตนี้มีความยั่งยืนตามกาลเวลา",
+    "ความใกล้ชิดของฟอร์แมตสัมภาษณ์ส่งผลต่อความรู้สึกในคอมเมนต์ด้วย คอมเมนต์ทั้งหมดเป็นเชิงบวกแม้จะพูดถึงความผิดหวังเรื่องคู่จิ้นก็ตาม"
   ],
   "content_requests": []
 }

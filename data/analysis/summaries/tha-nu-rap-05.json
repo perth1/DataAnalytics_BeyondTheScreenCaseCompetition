@@ -2,25 +2,25 @@
   "post_id": "b9cd821b-6b60-4c9e-8713-a3a4d5548d67",
   "model": "claude-opus-5",
   "comment_count": 14,
-  "summary": "Episode 3 became evergreen for the same reason episode 4 did: the guest and the host later became a real couple. The top comment is simply 'admit it, you came back because of the Meen and Dream news', and a large share of the thread is people confessing exactly that, timestamping near-misses as evidence — one notes the guest was about to reach for her hand before another host interrupted. The second-largest cluster is defensive: Dream is being judged by the guest's fanbase, and commenters push back by listing her education, family standing and clean record, ending with 'and finally, he loves her'. So the romance imports a hostile audience alongside the loyal one. A steady cluster is guest requests, with Te Tawan, Lee Thanat and Fey named repeatedly and upvote calls attached. Several people ask for the guest to return specifically as Dream's boyfriend to compare his behaviour before and after.",
+  "summary": "เอพิโสด 3 กลายเป็นคอนเทนต์ที่มีคุณค่าตลอดกาลด้วยเหตุผลเดียวกับเอพิโสด 4 นั่นคือแขกรับเชิญและพิธีกรกลายเป็นคู่รักจริงในภายหลัง คอมเมนต์อันดับต้นของเธรดคือ 'ยอมรับมาเถอะว่ากลับมาดูเพราะข่าวมีนกับดรีม' และคอมเมนต์ส่วนใหญ่ในเธรดก็สารภาพตรงตามนั้น พร้อมจับเวลาช่วงที่เกือบเกิดอะไรขึ้นเป็นหลักฐาน เช่น คอมเมนต์หนึ่งสังเกตว่าแขกรับเชิญเกือบจะเอื้อมมือไปจับมือเธอ ก่อนพิธีกรอีกคนเข้ามาขัดจังหวะ กลุ่มคอมเมนต์ที่ใหญ่เป็นอันดับสองคือการปกป้องดรีมจากแฟนคลับของแขกรับเชิญที่ตั้งคำถามเรื่องความเหมาะสม โดยผู้ชมโต้กลับด้วยการยกเรื่องการศึกษา ฐานะครอบครัว และประวัติที่ไร้ที่ติของเธอ ปิดท้ายด้วยประโยค 'และท้ายที่สุด เขาก็รักเธอ' ความสัมพันธ์จริงจึงนำมาซึ่งทั้งผู้ชมที่เป็นมิตรและผู้ชมที่เป็นปฏิปักษ์ในเวลาเดียวกัน อีกกลุ่มคอมเมนต์ที่มีมาต่อเนื่องคือการขอแขกรับเชิญ โดยมีชื่อเต ตะวัน, ลี ธนัฐ และเฟย ถูกเอ่ยถึงซ้ำๆ พร้อมชวนกันกดไลก์สนับสนุน หลายคนขอให้แขกรับเชิญกลับมาออกรายการในฐานะแฟนหนุ่มของดรีมโดยเฉพาะ เพื่อเปรียบเทียบพฤติกรรมก่อนและหลังคบกัน",
   "themes": [
-    { "label": "Rewatching after the real relationship news", "share": 34, "example": "ฮั่นแน่ กลับมาดูอีกเพราะข่าวมีนดรีมกันล่ะสิ" },
-    { "label": "Defending Dream against the guest's fanbase", "share": 20, "example": "มีเกณฑ์อะไร มาตัดสินว่าผู้หญิงอย่างดรีม ดีหรือไม่ดี?! ... \"สุดท้าย เป็นที่มีนรัก\" ควรจะจบมั้ย" },
-    { "label": "Guest requests with upvote calls", "share": 20, "example": "อีกคนนึงที่อยากให้มาออกมากๆก็คือเตตะวันค่่ะ อยากเห็นเขาโดนผญเต๊าะ" },
-    { "label": "Timestamped evidence-hunting", "share": 13, "example": "14:28 พี่มีนกำลังจะเอามือขึ้นมาจับนะ ถ้าพี่ก้อยไม่หันไปจับหัวพี่ดรีมก่อนอ่ะ" },
-    { "label": "Dream as the ideal woman", "share": 13, "example": "ดรีมนี่คือ ผู้หญิงในฝัน จริงๆ" }
+    { "label": "การดูซ้ำหลังทราบข่าวความสัมพันธ์จริง", "share": 34, "example": "ฮั่นแน่ กลับมาดูอีกเพราะข่าวมีนดรีมกันล่ะสิ" },
+    { "label": "การปกป้องดรีมจากแฟนคลับของแขกรับเชิญ", "share": 20, "example": "มีเกณฑ์อะไร มาตัดสินว่าผู้หญิงอย่างดรีม ดีหรือไม่ดี?! ... \"สุดท้าย เป็นที่มีนรัก\" ควรจะจบมั้ย" },
+    { "label": "การขอแขกรับเชิญพร้อมชวนกดไลก์สนับสนุน", "share": 20, "example": "อีกคนนึงที่อยากให้มาออกมากๆก็คือเตตะวันค่่ะ อยากเห็นเขาโดนผญเต๊าะ" },
+    { "label": "การจับเวลาหาหลักฐานความสัมพันธ์", "share": 13, "example": "14:28 พี่มีนกำลังจะเอามือขึ้นมาจับนะ ถ้าพี่ก้อยไม่หันไปจับหัวพี่ดรีมก่อนอ่ะ" },
+    { "label": "ดรีมในฐานะผู้หญิงในฝัน", "share": 13, "example": "ดรีมนี่คือ ผู้หญิงในฝัน จริงๆ" }
   ],
   "sentiment_breakdown": { "positive": 79, "mixed": 15, "negative": 4, "neutral": 2 },
   "audience_signals": [
-    "Two of this series' five most-viewed episodes became evergreen because a host later dated the guest — the format manufactures real romances, and those are the channel's strongest retention engine",
-    "The same mechanic imports hostility: the guest's fanbase questions the host's worthiness, and the channel's own audience has to defend her, so romance news is a reputational cost as well as a reach gain",
-    "Viewers rewatch at frame level, timestamping near-touches — depth of attention that makes editing choices consequential years later",
-    "The guest-request list here overlaps with episode 4's, so the same names have been asked for repeatedly across years without being booked",
-    "There is explicit demand for a 'then and now' return episode with the same guest in his new status, which is a low-cost, high-interest sequel"
+    "สองในห้าเอพิโสดที่มียอดวิวสูงสุดของซีรีส์นี้กลายเป็นคอนเทนต์ที่มีคุณค่าตลอดกาล เพราะพิธีกรคบกับแขกรับเชิญจริงในภายหลัง รูปแบบรายการนี้สร้างความสัมพันธ์จริงขึ้นมาได้ และนั่นคือกลไกรักษาผู้ชมที่แข็งแกร่งที่สุดของช่อง",
+    "กลไกเดียวกันนี้นำมาซึ่งความเป็นปฏิปักษ์ด้วย เพราะแฟนคลับของแขกรับเชิญตั้งคำถามถึงความเหมาะสมของพิธีกร ทำให้ผู้ชมของช่องเองต้องออกมาปกป้อง ข่าวความสัมพันธ์จึงเป็นทั้งต้นทุนด้านชื่อเสียงและโอกาสด้านการเข้าถึงไปพร้อมกัน",
+    "ผู้ชมดูซ้ำละเอียดถึงระดับเฟรม จับเวลาช่วงที่เกือบสัมผัสกัน ความละเอียดในการติดตามนี้ทำให้การตัดต่อในตอนนั้นมีผลต่อเนื่องไปอีกหลายปี",
+    "รายชื่อแขกรับเชิญที่ถูกขอในเอพิโสดนี้ซ้ำกับเอพิโสด 4 แสดงว่าชื่อเดิมถูกขอซ้ำมาหลายปีโดยยังไม่ได้รับการเชิญ",
+    "มีความต้องการชัดเจนให้ทำเอพิโสด 'เทียบก่อนและหลัง' กับแขกรับเชิญคนเดิมในสถานะใหม่ ซึ่งเป็นภาคต่อที่ต้นทุนต่ำแต่น่าสนใจสูง"
   ],
   "content_requests": [
-    "Bring the guest back as Dream's boyfriend and compare before and after",
-    "Book Te Tawan, Lee Thanat and Fey",
-    "More episodes in the same flirt format"
+    "เชิญแขกรับเชิญกลับมาในฐานะแฟนหนุ่มของดรีม เพื่อเปรียบเทียบพฤติกรรมก่อนและหลัง",
+    "เชิญเต ตะวัน, ลี ธนัฐ และเฟย มาเป็นแขกรับเชิญ",
+    "ทำเอพิโสดรูปแบบจีบๆ แบบนี้เพิ่มเติม"
   ]
 }

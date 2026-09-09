@@ -2,24 +2,24 @@
   "post_id": "b4d31be5-6847-4601-8dbe-34ab992f4b71",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A cross-generational conversation about love and infidelity, and it produces the clearest content brief in the whole corpus. One viewer says she is twenty and finds love hard, quotes an older participant's line that breaking up is easy and staying is harder, and then asks explicitly for more of this format — not necessarily about love, but any subject where people at different life stages share how they see it. Others praise the episode for having no right answer and for a younger participant exceeding expectations. Running underneath is concern for Goy: several commenters read sadness in her eyes when the topic comes up and say they prefer her when she is in love. The channel's pinned comment asks everyone what love means to them.",
+  "summary": "บทสนทนาข้ามรุ่นว่าด้วยความรักและการนอกใจ ซึ่งกลายเป็นบรีฟคอนเทนต์ที่ชัดเจนที่สุดในชุดข้อมูลทั้งหมด ผู้ชมรายหนึ่งเล่าว่าตัวเองอายุยี่สิบและรู้สึกว่าความรักเป็นเรื่องยาก พร้อมยกคำพูดของผู้ร่วมรายการรุ่นพี่ที่ว่าการเลิกกันเป็นเรื่องง่ายแต่การอยู่ด้วยกันยากกว่า แล้วขอตรงๆ ให้ทำคอนเทนต์รูปแบบนี้อีก โดยไม่จำเป็นต้องเป็นเรื่องความรักเท่านั้น แต่เป็นหัวข้อใดก็ได้ที่คนต่างช่วงวัยมาแชร์มุมมองของตัวเอง คนอื่นๆ ชื่นชมตอนนี้ที่ไม่มีคำตอบใดผิดหรือถูก และชื่นชมผู้ร่วมรายการรุ่นเยาว์ที่ตอบได้ดีเกินคาด แฝงอยู่ใต้กระแสนี้คือความห่วงใยที่มีต่อก้อย หลายคอมเมนต์สังเกตเห็นความเศร้าในดวงตาของเธอเมื่อพูดถึงหัวข้อนี้ และบอกว่าชอบเธอมากกว่าตอนที่มีความรัก คอมเมนต์ปักหมุดของช่องถามทุกคนว่าความรักคืออะไรสำหรับพวกเขา",
   "themes": [
-    { "label": "Requesting more cross-generational perspective content", "share": 31, "example": "อยากให้ทำอีกนะคะอาจจะไม่ต้องเกี่ยวกับความรักอย่างเดียวก็ได้อยากให้มาแชร์มุมมองการใช้ชีวิตหรือประสบการณ์ที่ผ่านๆมาของแต่ละช่วงวัยแบบนี้อีกค่ะ" },
-    { "label": "Concern for a host's visible sadness", "share": 26, "example": "เวลาน้องมีความรักน้องดูมีพลัง สายตาสดใส รอยยิ้มสวย ตอนนี้คือไม่ไหวกับสายตาน้องก้อยเลย สายตาเศร้ามากๆ" },
-    { "label": "No right answer — every view is valid", "share": 18, "example": "ทุกคนมีความคิดเป็นของตัวเอง ไม่มีผิดมีถูก" },
-    { "label": "Quotable lines from older participants", "share": 15, "example": "\"เลิกกันเป็นเรื่องง่าย อยู่ให้ได้ยากกว่า\" คำพูดพี่อั๋นมันแทงหัวใจมากจริงๆค่ะ" },
-    { "label": "A younger participant exceeding expectations", "share": 10, "example": "เอาจริงๆไม่ได้คาดหวังกับคำตอบอาไทเลย ด้วยช่วงอายุที่ยังเด็ก แต่ผิดคลาดอาไทตอบดีมากกกก" }
+    { "label": "ขอให้ทำคอนเทนต์มุมมองข้ามรุ่นแบบนี้อีก", "share": 31, "example": "อยากให้ทำอีกนะคะอาจจะไม่ต้องเกี่ยวกับความรักอย่างเดียวก็ได้อยากให้มาแชร์มุมมองการใช้ชีวิตหรือประสบการณ์ที่ผ่านๆมาของแต่ละช่วงวัยแบบนี้อีกค่ะ" },
+    { "label": "ความห่วงใยต่อความเศร้าที่ปรากฏบนใบหน้าพิธีกร", "share": 26, "example": "เวลาน้องมีความรักน้องดูมีพลัง สายตาสดใส รอยยิ้มสวย ตอนนี้คือไม่ไหวกับสายตาน้องก้อยเลย สายตาเศร้ามากๆ" },
+    { "label": "ไม่มีคำตอบที่ถูกหรือผิด ทุกมุมมองมีค่า", "share": 18, "example": "ทุกคนมีความคิดเป็นของตัวเอง ไม่มีผิดมีถูก" },
+    { "label": "ประโยคเด็ดจากผู้ร่วมรายการรุ่นพี่", "share": 15, "example": "\"เลิกกันเป็นเรื่องง่าย อยู่ให้ได้ยากกว่า\" คำพูดพี่อั๋นมันแทงหัวใจมากจริงๆค่ะ" },
+    { "label": "ผู้ร่วมรายการรุ่นเยาว์ตอบได้ดีเกินคาด", "share": 10, "example": "เอาจริงๆไม่ได้คาดหวังกับคำตอบอาไทเลย ด้วยช่วงอายุที่ยังเด็ก แต่ผิดคลาดอาไทตอบดีมากกกก" }
   ],
   "sentiment_breakdown": { "positive": 70, "mixed": 24, "neutral": 5, "negative": 1 },
   "audience_signals": [
-    "The clearest unbuilt format request in the corpus: mixed-age panels sharing perspectives on life, not only on love — asked for in detail, with reasoning, by a viewer who explains what she gets out of it",
-    "Cross-generational casting produces the highest density of quotable lines of any format on the channel",
-    "The audience reads the hosts' emotional state through the content and responds to the person rather than the episode — an asset for loyalty and a constraint on how much personal material can be used neutrally",
-    "A pinned open question ('what is love to you') again drives the comment count well above the series average"
+    "คำขอรูปแบบคอนเทนต์ที่ยังไม่เคยทำแต่ชัดเจนที่สุดในชุดข้อมูล คือพาเนลข้ามรุ่นที่แชร์มุมมองเรื่องชีวิต ไม่จำกัดแค่เรื่องความรัก โดยผู้ชมรายหนึ่งขอแบบละเอียดพร้อมให้เหตุผลว่าได้อะไรจากคอนเทนต์รูปแบบนี้",
+    "การคัดเลือกผู้ร่วมรายการข้ามรุ่นสร้างประโยคเด็ดที่ถูกยกไปพูดถึงมากที่สุดเมื่อเทียบกับคอนเทนต์รูปแบบอื่นของช่อง",
+    "ผู้ชมสังเกตและตีความสภาวะอารมณ์ของพิธีกรผ่านคอนเทนต์ และตอบสนองต่อตัวบุคคลมากกว่าตัวเอพิโสด ซึ่งเป็นทั้งจุดแข็งด้านความผูกพันของแฟนคลับ และเป็นข้อจำกัดในการใช้เรื่องส่วนตัวของพิธีกรอย่างเป็นกลาง",
+    "คำถามปลายเปิดที่ปักหมุด ('ความรักคืออะไรสำหรับคุณ') ช่วยดันจำนวนคอมเมนต์ให้สูงกว่าค่าเฉลี่ยของซีรีส์อย่างชัดเจนอีกครั้ง"
   ],
   "content_requests": [
-    "More mixed-age panel discussions, on subjects beyond love",
-    "Perspectives on work, money and life stages from different generations",
-    "Keep the format where no answer is treated as correct"
+    "ทำพาเนลข้ามรุ่นในหัวข้ออื่นนอกเหนือจากความรักเพิ่มเติม",
+    "มุมมองเรื่องงาน เงิน และช่วงวัยของชีวิต จากคนต่างเจเนอเรชัน",
+    "คงรูปแบบที่ไม่มีคำตอบใดถูกกำหนดว่าถูกต้องที่สุด"
   ]
 }

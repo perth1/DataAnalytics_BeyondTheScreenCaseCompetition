@@ -2,25 +2,25 @@
   "post_id": "8b5e03a7-eb6f-431d-94e7-4d2b2b3941bb",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "The guest is best known publicly as a famous actor's girlfriend, and the dominant reaction is that they had no idea she was this funny — several say they only knew her name and now see her as a person in her own right. One comment notes the booking strategy out loud: they could never get the actor, so they got his girlfriend and it worked. A cluster asks to see the couple's moments and for the pair to make YouTube content together. The most substantial comment is a long, unsparing analysis of the relationship dynamic, arguing she has endured a partner who keeps her invisible and that she should manage her expectations about marriage — critical of him, sympathetic to her. Others encourage her to be more confident, sensing she was holding back out of deference to his fanbase.",
+  "summary": "แขกรับเชิญเป็นที่รู้จักในวงกว้างในฐานะแฟนสาวของนักแสดงชายชื่อดัง และปฏิกิริยาหลักคือผู้ชมไม่เคยรู้มาก่อนว่าเธอตลกขนาดนี้ หลายคนบอกว่ารู้จักแค่ชื่อของเธอ แต่ตอนนี้เห็นเธอในฐานะบุคคลที่มีตัวตนของตัวเอง คอมเมนต์หนึ่งพูดถึงกลยุทธ์การเชิญแขกรับเชิญอย่างตรงไปตรงมาว่า ในเมื่อไม่สามารถเชิญตัวนักแสดงชายได้ ก็เลยเชิญแฟนสาวของเขาแทน และกลยุทธ์นี้ก็ได้ผล กลุ่มคอมเมนต์หนึ่งขอให้เห็นโมเมนต์ของทั้งคู่ และอยากให้ทั้งสองทำคอนเทนต์ยูทูปร่วมกัน คอมเมนต์ที่มีน้ำหนักที่สุดคือการวิเคราะห์ความสัมพันธ์อย่างละเอียดและตรงไปตรงมา โดยมองว่าเธออดทนกับคู่รักที่ทำให้เธอไม่มีตัวตนมานาน และควรบริหารความคาดหวังเรื่องการแต่งงานให้ดี ซึ่งวิจารณ์ฝ่ายชายแต่เห็นใจฝ่ายหญิง อีกกลุ่มให้กำลังใจให้เธอมั่นใจในตัวเองมากขึ้น เพราะสังเกตได้ว่าเธอเก็บตัวเพราะเกรงใจแฟนคลับของฝ่ายชาย",
   "themes": [
-    { "label": "Surprise that she is funny and charming", "share": 34, "example": "ไม่เคยดูจันจิสัมภาษณ์เลย พึ่งรู้ว่านางเป็นคนตลกมาก!" },
-    { "label": "Wanting couple content and shared moments", "share": 19, "example": "อยากเห็นโม้เม้นพี่จันจิกับพี่มาริโอทำคลิป ยูทูปด้วยกันมากๆเลยคร้าา" },
-    { "label": "Long-form analysis of the relationship dynamic", "share": 16, "example": "จันจิคือทนได้นานจนได้อยู่จุดนี้ไง เป็นรางวัลแห่งความอดทน&พยายามอ่ะ" },
-    { "label": "Booking the partner instead of the star", "share": 13, "example": "สุดจริงช่องสามสาว ชวนพี่มาริโอ้ไม่มาสักที ชวนน้องจันจิมาเม้าส์ซะเลย" },
-    { "label": "Encouraging her to be more confident", "share": 12, "example": "รู้สึกว่าจันจิไม่ค่อยกล้าพูด หรือออกแนวเกรงใจแฟนคลับรึป่าว อยากบอกให้จันจิมั่นใจในตัวเองมากๆนะ" },
-    { "label": "Her advice about caring for people around you", "share": 6, "example": "ชอบที่พี่บอกว่าให้ใส่ใจคนรอบตัว เพราะเป็นเรื่องจริงมากที่เราควรทำ" }
+    { "label": "ความประหลาดใจที่พบว่าเธอตลกและมีเสน่ห์", "share": 34, "example": "ไม่เคยดูจันจิสัมภาษณ์เลย พึ่งรู้ว่านางเป็นคนตลกมาก!" },
+    { "label": "ความต้องการเห็นคอนเทนต์และโมเมนต์ของคู่รัก", "share": 19, "example": "อยากเห็นโม้เม้นพี่จันจิกับพี่มาริโอทำคลิป ยูทูปด้วยกันมากๆเลยคร้าา" },
+    { "label": "การวิเคราะห์ความสัมพันธ์อย่างละเอียด", "share": 16, "example": "จันจิคือทนได้นานจนได้อยู่จุดนี้ไง เป็นรางวัลแห่งความอดทน&พยายามอ่ะ" },
+    { "label": "การเชิญคู่รักแทนตัวดาราหลัก", "share": 13, "example": "สุดจริงช่องสามสาว ชวนพี่มาริโอ้ไม่มาสักที ชวนน้องจันจิมาเม้าส์ซะเลย" },
+    { "label": "การให้กำลังใจให้เธอมั่นใจในตัวเองมากขึ้น", "share": 12, "example": "รู้สึกว่าจันจิไม่ค่อยกล้าพูด หรือออกแนวเกรงใจแฟนคลับรึป่าว อยากบอกให้จันจิมั่นใจในตัวเองมากๆนะ" },
+    { "label": "คำแนะนำของเธอเรื่องการใส่ใจคนรอบตัว", "share": 6, "example": "ชอบที่พี่บอกว่าให้ใส่ใจคนรอบตัว เพราะเป็นเรื่องจริงมากที่เราควรทำ" }
   ],
   "sentiment_breakdown": { "positive": 79, "mixed": 16, "neutral": 4, "negative": 1 },
   "audience_signals": [
-    "Booking a hard-to-get star's partner is an effective substitute strategy: it delivers adjacent access and the audience recognises and applauds the manoeuvre",
-    "The channel measurably re-positions guests — viewers who knew her only as someone's girlfriend leave describing her as a personality, which is a benefit worth naming when pitching bookings",
-    "Even mid-tier episodes attract long-form relationship analysis, so the comment corpus is a usable source of audience attitudes about relationships generally, not just about the guests",
-    "Viewers detect when a guest is self-censoring for their partner's fanbase, so making a guest feel safe is visible in the output"
+    "การเชิญคู่รักของดาราที่เชิญตัวจริงได้ยากเป็นกลยุทธ์ทดแทนที่ได้ผล เพราะให้การเข้าถึงที่ใกล้เคียงกัน และผู้ชมก็มองเห็นและชื่นชมกลยุทธ์นี้",
+    "ช่องนี้สามารถปรับภาพลักษณ์ของแขกรับเชิญได้อย่างเป็นรูปธรรม ผู้ชมที่เคยรู้จักเธอแค่ในฐานะแฟนสาวของใครสักคน ออกไปพร้อมมองเธอเป็นบุคคลที่มีตัวตนของตัวเอง ซึ่งเป็นจุดแข็งที่ควรนำไปใช้เมื่อเสนอเชิญแขกรับเชิญรายอื่น",
+    "แม้แต่ตอนระดับกลางก็ยังดึงดูดการวิเคราะห์ความสัมพันธ์แบบละเอียด ทำให้ชุดคอมเมนต์เป็นแหล่งข้อมูลที่ใช้ศึกษาทัศนคติของผู้ชมเรื่องความสัมพันธ์โดยรวมได้ ไม่ใช่แค่เรื่องของแขกรับเชิญ",
+    "ผู้ชมสังเกตได้เมื่อแขกรับเชิญเซ็นเซอร์ตัวเองเพื่อเกรงใจแฟนคลับของคู่รัก ดังนั้นการทำให้แขกรับเชิญรู้สึกปลอดภัยจึงส่งผลที่มองเห็นได้ในคอนเทนต์"
   ],
   "content_requests": [
-    "Get the couple to appear together",
-    "Book Mario on the flirt format",
-    "A follow-up episode now that she is more comfortable"
+    "เชิญทั้งคู่มาออกรายการด้วยกัน",
+    "เชิญมาริโอมาออกรายการจีบกัน",
+    "ทำตอนต่อยอดตอนนี้ที่เธอรู้สึกสบายใจมากขึ้นแล้ว"
   ]
 }

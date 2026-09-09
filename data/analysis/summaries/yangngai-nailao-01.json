@@ -2,25 +2,25 @@
   "post_id": "c784e876-c2bf-402e-8de8-597abe6b85d0",
   "model": "claude-opus-5",
   "comment_count": 12,
-  "summary": "A home visit to two of Thailand's biggest creators, and the most repeated observation is that the guests behave nothing like they do on their own channel — she is bolder than usual, he is more restrained, and viewers read that difference as the format working. The top comment says his answers did not sound like image management but like something he actually felt. The home-visit variant is popular on its own terms and produces a specific list of other creators whose houses viewers want visited. One notable cluster praises a host for raising harassment as a topic and pointing out that men can be on the receiving end too, which lands well inside an otherwise light format. Cross-channel viewing is explicit — several commenters say they finish on the guest's boyfriend's channel and come straight here.",
+  "summary": "ตอนนี้เป็นการไปเยี่ยมบ้านครีเอเตอร์ชื่อดังระดับแถวหน้าของไทยสองคน และข้อสังเกตที่ถูกพูดถึงซ้ำมากที่สุดคือแขกรับเชิญแสดงออกต่างจากตัวตนในช่องของตัวเองโดยสิ้นเชิง — ฝ่ายหญิงกล้าแสดงออกกว่าปกติ ฝ่ายชายสงบเสงี่ยมกว่าที่เคย ผู้ชมมองว่าความต่างนี้คือสิ่งที่พิสูจน์ว่ารูปแบบรายการนี้ได้ผล คอมเมนต์ยอดนิยมระบุว่าคำตอบของฝ่ายชายฟังดูไม่เหมือนการรักษาภาพลักษณ์ แต่เหมือนสิ่งที่เขารู้สึกจริงๆ รูปแบบการไปเยี่ยมบ้านได้รับความนิยมในตัวของมันเอง และทำให้เกิดรายชื่อครีเอเตอร์คนอื่นที่ผู้ชมอยากให้ไปเยี่ยมบ้านโดยเฉพาะเจาะจง กลุ่มคอมเมนต์ที่น่าสนใจกลุ่มหนึ่งชื่นชมพิธีกรที่หยิบยกประเด็นการคุกคามทางเพศขึ้นมาพูด และชี้ให้เห็นว่าผู้ชายก็ตกเป็นฝ่ายถูกกระทำได้เช่นกัน ซึ่งประเด็นนี้ถูกสอดแทรกเข้ามาได้อย่างลงตัวในรายการที่โดยรวมยังคงเบาสมอง การรับชมข้ามช่องปรากฏให้เห็นชัดเจน โดยผู้ชมหลายคนบอกว่าดูจบจากช่องของแฟนหนุ่มของแขกรับเชิญแล้วตามมาดูช่องนี้ต่อทันที",
   "themes": [
-    { "label": "Guests behave differently than on their own channel", "share": 25, "example": "เก๋ไก๋กับไปร์ทพอมาออกรายการนี้คือคนละคนกับในยูทูปเลยดูธรรมชาติแปลกๆ" },
-    { "label": "The home-visit format and requests for more", "share": 22, "example": "คอนเทนคุยที่บ้านแขกรับเชิญก็ดูสนุกดีครับ อยากให้ไปบ้านWJมายบ้างครับ" },
-    { "label": "Sincerity of the guest's answers", "share": 20, "example": "เรารู้สึกว่าพี่ไปร์ทไม่ได้พูดให้ตัวเองดูดี แต่พูดออกมาจากความรู้สึกจริงๆอ่ะ" },
-    { "label": "Guest requests and cross-series funnelling", "share": 21, "example": "ซุง ต้องมารายการถ้าหนูรับพี่จะรัดป่ะแล้วละ" },
-    { "label": "Raising male harassment as a topic", "share": 12, "example": "ประทับใจพี่นัตตี้ ที่พูดเรื่องharassment เพราะว่าไม่ได้มีแค่ผู้หญิงที่เป็นผู้ถูกกระทำได้เพศเดียว" }
+    { "label": "แขกรับเชิญแสดงออกต่างจากในช่องของตัวเอง", "share": 25, "example": "เก๋ไก๋กับไปร์ทพอมาออกรายการนี้คือคนละคนกับในยูทูปเลยดูธรรมชาติแปลกๆ" },
+    { "label": "รูปแบบไปเยี่ยมบ้านและการขอให้ทำต่อ", "share": 22, "example": "คอนเทนคุยที่บ้านแขกรับเชิญก็ดูสนุกดีครับ อยากให้ไปบ้านWJมายบ้างครับ" },
+    { "label": "ความจริงใจในคำตอบของแขกรับเชิญ", "share": 20, "example": "เรารู้สึกว่าพี่ไปร์ทไม่ได้พูดให้ตัวเองดูดี แต่พูดออกมาจากความรู้สึกจริงๆอ่ะ" },
+    { "label": "การขอแขกรับเชิญและการโยงผู้ชมข้ามซีรีส์", "share": 21, "example": "ซุง ต้องมารายการถ้าหนูรับพี่จะรัดป่ะแล้วละ" },
+    { "label": "การหยิบยกประเด็นการคุกคามทางเพศต่อผู้ชาย", "share": 12, "example": "ประทับใจพี่นัตตี้ ที่พูดเรื่องharassment เพราะว่าไม่ได้มีแค่ผู้หญิงที่เป็นผู้ถูกกระทำได้เพศเดียว" }
   ],
   "sentiment_breakdown": { "positive": 93, "neutral": 5, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "The channel's real differentiator is stated plainly here: guests drop their own channel persona, and viewers notice and value it — that is the product, not the questions",
-    "The home-visit variant generates its own named request list and gives each episode a visual identity for free",
-    "Serious subject matter lands well inside the light format when it comes from a host reacting rather than a scripted segment",
-    "Creator guests bring measurable cross-channel traffic; commenters describe a viewing sequence from his channel straight to this one",
-    "Viewers actively route guests between the channel's two flagship series, so the shows feed each other"
+    "จุดต่างที่แท้จริงของช่องถูกพูดถึงอย่างตรงไปตรงมาในตอนนี้ นั่นคือแขกรับเชิญละทิ้งบุคลิกที่ใช้ในช่องของตัวเอง และผู้ชมสังเกตเห็นพร้อมให้คุณค่ากับสิ่งนี้ — นี่คือสิ่งที่ขายได้จริง ไม่ใช่ตัวคำถามที่ถาม",
+    "รูปแบบไปเยี่ยมบ้านสร้างรายชื่อคำขอที่เจาะจงได้ด้วยตัวเอง และยังมอบเอกลักษณ์ทางภาพให้แต่ละตอนโดยไม่ต้องเสียต้นทุนเพิ่ม",
+    "ประเด็นจริงจังสามารถแทรกเข้าไปในรายการแนวเบาสมองได้ดี เมื่อมันมาจากปฏิกิริยาจริงของพิธีกร ไม่ใช่ช่วงที่เขียนสคริปต์ไว้ล่วงหน้า",
+    "แขกรับเชิญที่เป็นครีเอเตอร์ช่วยดึงผู้ชมข้ามช่องได้อย่างเป็นรูปธรรม ผู้ชมหลายคนเล่าถึงลำดับการรับชมที่เริ่มจากช่องของฝ่ายชายแล้วตามมาดูช่องนี้ต่อทันที",
+    "ผู้ชมเชื่อมโยงแขกรับเชิญระหว่างสองซีรีส์หลักของช่องอย่างจริงจัง ทำให้รายการทั้งสองช่วยหนุนกันและกัน"
   ],
   "content_requests": [
-    "Visit more creators' homes, WJ Mild named specifically",
-    "Bring this guest onto ถ้าหนูรับ พี่จะรักป่ะ",
-    "Book Ta Ning, Kao Supassara and Patty Angsumalin"
+    "ไปเยี่ยมบ้านครีเอเตอร์คนอื่นเพิ่มเติม โดยมีการเอ่ยชื่อ WJ มายด์เป็นการเฉพาะ",
+    "เชิญแขกรับเชิญคนนี้ไปออกรายการถ้าหนูรับ พี่จะรักป่ะ",
+    "เชิญตานิ่ง, เก้า สุภัสสรา และแพตี้ อังศุมาลิน มาออกรายการ"
   ]
 }

@@ -2,24 +2,24 @@
   "post_id": "46f5c7a7-b418-40cc-a436-315b81c216db",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "The first episode of the series, and what viewers respond to is the friendship rather than the interview. Several say they arrived as fans of the guest alone and left liking all four; one says the episode made her cry because it showed what having friends who actually listen looks like. The most strategically interesting comment asks the sister series to book female guests too, arguing that since one host has dated a woman the show should be openly inclusive about it, and nominates a specific first guest. There is also clear demand for the hosts to become the subjects — one episode each telling their own story, because the Q&A format does not go deep enough. Guest requests are present but secondary here.",
+  "summary": "นี่คือตอนแรกของซีรีส์ และสิ่งที่ผู้ชมตอบรับคือมิตรภาพของกลุ่ม มากกว่าการสัมภาษณ์ หลายคนบอกว่าเข้ามาดูเพราะเป็นแฟนของแขกรับเชิญเพียงคนเดียว แต่ออกไปกลายเป็นชอบทั้งสี่คน คนหนึ่งบอกว่าตอนนี้ทำให้ร้องไห้ เพราะแสดงให้เห็นว่าการมีเพื่อนที่รับฟังกันจริงๆ เป็นอย่างไร คอมเมนต์ที่น่าสนใจในเชิงกลยุทธ์ที่สุดคือการขอให้รายการพี่น้องเชิญแขกรับเชิญหญิงมาบ้าง โดยให้เหตุผลว่าในเมื่อพิธีกรคนหนึ่งเคยคบกับผู้หญิงมาก่อน รายการก็ควรเปิดกว้างในเรื่องนี้อย่างตรงไปตรงมา พร้อมเสนอชื่อแขกรับเชิญคนแรกที่อยากให้เชิญ นอกจากนี้ยังมีความต้องการที่ชัดเจนให้พิธีกรกลายมาเป็นผู้ถูกสัมภาษณ์เอง — ให้แต่ละคนมีตอนเล่าเรื่องราวของตัวเอง เพราะรูปแบบถาม-ตอบยังลงลึกไม่พอ ส่วนการขอแขกรับเชิญยังมีอยู่แต่เป็นประเด็นรอง",
   "themes": [
-    { "label": "The friendship is the draw", "share": 34, "example": "หลงรักแก๊งค์นี้เลยอ่ะ ซัพพอร์ตกันดีมาก เป็นแก๊งค์ที่เวลาคุยกันแสดงออกชัดเจนมากว่ารักเพื่อนกันขนาดไหน" },
-    { "label": "Converted from one member's fan to the whole group's", "share": 20, "example": "ตอนแรกชอบแค่วีคนเดียว ตอนนี้ชอบทั้ง 4 คนเลย" },
-    { "label": "Book female guests / be openly inclusive", "share": 19, "example": "อยากให้รายการถ้าหนูรับ พี่จะรักป่ะ เอาแขกรับเชิญผู้หญิงมาด้วย ไหนๆก้อยก็เคยคบผู้หญิงแล้ว ที่สำคัญอยากให้เปิดกว้างกับเรื่องนี้ด้วย" },
-    { "label": "Give each host their own episode", "share": 16, "example": "อยากฟังstoryของพิธีกรครับบบ q&aยังไม่สุดพอ epละคนไปเลยย" },
-    { "label": "The guest's individuality and style", "share": 11, "example": "วีวิโอเลตเป็นผญที่สวยมาก มีเสน่ห์ มีสไตล์ของตัวเอง ที่เป็นตัวของตัวเองแบบมองไม่เบื่อเลย" }
+    { "label": "มิตรภาพคือจุดดึงดูดหลัก", "share": 34, "example": "หลงรักแก๊งค์นี้เลยอ่ะ ซัพพอร์ตกันดีมาก เป็นแก๊งค์ที่เวลาคุยกันแสดงออกชัดเจนมากว่ารักเพื่อนกันขนาดไหน" },
+    { "label": "จากแฟนของสมาชิกคนเดียวกลายเป็นแฟนทั้งกลุ่ม", "share": 20, "example": "ตอนแรกชอบแค่วีคนเดียว ตอนนี้ชอบทั้ง 4 คนเลย" },
+    { "label": "ขอให้เชิญแขกรับเชิญหญิง / เปิดกว้างอย่างตรงไปตรงมา", "share": 19, "example": "อยากให้รายการถ้าหนูรับ พี่จะรักป่ะ เอาแขกรับเชิญผู้หญิงมาด้วย ไหนๆก้อยก็เคยคบผู้หญิงแล้ว ที่สำคัญอยากให้เปิดกว้างกับเรื่องนี้ด้วย" },
+    { "label": "ให้พิธีกรแต่ละคนมีตอนของตัวเอง", "share": 16, "example": "อยากฟังstoryของพิธีกรครับบบ q&aยังไม่สุดพอ epละคนไปเลยย" },
+    { "label": "ความเป็นตัวของตัวเองและสไตล์ของแขกรับเชิญ", "share": 11, "example": "วีวิโอเลตเป็นผญที่สวยมาก มีเสน่ห์ มีสไตล์ของตัวเอง ที่เป็นตัวของตัวเองแบบมองไม่เบื่อเลย" }
   ],
   "sentiment_breakdown": { "positive": 94, "mixed": 4, "neutral": 2, "negative": 0 },
   "audience_signals": [
-    "The friendship, not the guest, converts single-member fans into channel fans — this is the clearest statement in the corpus of what the channel actually sells",
-    "There is a standing, well-liked request for LGBTQ inclusion in the flirt format, grounded in a host's own history, that has gone unaddressed since episode one",
-    "The audience wants the hosts as subjects, not only as interviewers — a host-focused episode has been asked for since the first episode and has never been made",
-    "A first episode still holding 2.3M views means series openers keep working as entry points and are worth optimising rather than treating as throwaway"
+    "มิตรภาพ ไม่ใช่ตัวแขกรับเชิญ คือสิ่งที่เปลี่ยนแฟนของสมาชิกคนเดียวให้กลายเป็นแฟนของช่อง นี่คือข้อสรุปที่ชัดเจนที่สุดในชุดข้อมูลนี้ว่าช่องนี้ขายอะไรกันแน่",
+    "มีคำขอที่เกิดขึ้นต่อเนื่องและได้รับการตอบรับดีให้เปิดกว้างต่อกลุ่ม LGBTQ ในรูปแบบรายการจีบกัน โดยอ้างอิงจากประวัติส่วนตัวของพิธีกรเอง ซึ่งยังไม่ได้รับการตอบสนองตั้งแต่ตอนแรกจนถึงตอนนี้",
+    "ผู้ชมต้องการให้พิธีกรเป็นผู้ถูกสัมภาษณ์ ไม่ใช่แค่เป็นผู้ถาม — มีการขอตอนที่เน้นเรื่องราวของพิธีกรตั้งแต่ตอนแรก แต่ยังไม่เคยมีการทำตอนแบบนี้เลย",
+    "การที่ตอนแรกยังคงมียอดวิว 2.3 ล้านครั้ง แสดงว่าตอนเปิดซีรีส์ยังทำหน้าที่เป็นจุดเริ่มต้นดึงผู้ชมใหม่ได้ดี และควรได้รับการพัฒนาให้ดียิ่งขึ้น มากกว่าจะมองว่าเป็นตอนที่ทำแบบขอไปที"
   ],
   "content_requests": [
-    "Book female guests on the flirt format and be open about it",
-    "One episode per host telling their own story",
-    "Book Ticha and Sani"
+    "เชิญแขกรับเชิญหญิงมาออกรายการจีบกันและเปิดกว้างในเรื่องนี้อย่างตรงไปตรงมา",
+    "ทำตอนที่พิธีกรแต่ละคนเล่าเรื่องราวของตัวเอง",
+    "เชิญธิชาและซานีมาออกรายการ"
   ]
 }

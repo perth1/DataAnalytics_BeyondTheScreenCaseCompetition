@@ -182,3 +182,52 @@ export async function getSummarySummary(
     .maybeSingle()
   return (data as unknown as CommentSummary) ?? null
 }
+
+export interface DataSnapshot {
+  /** When the metrics on screen were captured. */
+  capturedAt: string | null
+  firstPost: string | null
+  lastPost: string | null
+}
+
+/**
+ * When the data was pulled and what period it covers.
+ *
+ * Read from the rows rather than hardcoded, so the source note on the site
+ * stays true after the next ingest instead of quietly going stale. All three
+ * are limit-1 reads on indexed columns.
+ */
+export async function getDataSnapshot(): Promise<DataSnapshot> {
+  if (!isSupabaseConfigured())
+    return { capturedAt: null, firstPost: null, lastPost: null }
+  const db = createServerClient()
+
+  const [captured, first, last] = await Promise.all([
+    db
+      .from("post_metrics")
+      .select("captured_at")
+      .order("captured_at", { ascending: false })
+      .limit(1)
+      .maybeSingle(),
+    db
+      .from("posts")
+      .select("published_at")
+      .not("published_at", "is", null)
+      .order("published_at", { ascending: true })
+      .limit(1)
+      .maybeSingle(),
+    db
+      .from("posts")
+      .select("published_at")
+      .not("published_at", "is", null)
+      .order("published_at", { ascending: false })
+      .limit(1)
+      .maybeSingle(),
+  ])
+
+  return {
+    capturedAt: captured.data?.captured_at ?? null,
+    firstPost: first.data?.published_at ?? null,
+    lastPost: last.data?.published_at ?? null,
+  }
+}

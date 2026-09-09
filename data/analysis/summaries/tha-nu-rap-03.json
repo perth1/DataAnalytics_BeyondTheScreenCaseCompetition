@@ -2,27 +2,27 @@
   "post_id": "4526f816-263c-415b-8845-62fbc3c75255",
   "model": "claude-opus-5",
   "comment_count": 16,
-  "summary": "The first episode of the series, and the comment section shows the audience arriving already sorted by member: separate threads declare themselves Dream fans or Goy fans within the first day. The most-liked comments are from celebrity friends — Violette Wautier and Nicky Nachat — which put the channel's network at the top of the thread from episode one. The most useful cluster is unpaid production consulting: viewers report that the sound effects are mixed louder than the dialogue, and two separate comments tell them to wear seatbelts while filming in the car, one explicitly arguing that road-safety compliance is what will let car sponsors come in. A nostalgia cluster is about the guest, Kao, whom viewers have followed since he was a child actor. Guest requests for future episodes start here and never stop.",
+  "summary": "เอพิโสดแรกของซีรีส์ และพื้นที่คอมเมนต์แสดงให้เห็นว่าผู้ชมแบ่งฝ่ายตามพิธีกรตั้งแต่ต้น มีเธรดแยกประกาศตัวเป็นแฟนดรีมหรือแฟนก้อยตั้งแต่วันแรก คอมเมนต์ที่มียอดไลก์สูงสุดมาจากเพื่อนคนดัง อย่างวิโอเลต วอเทียร์ และนิกกี้ ณฉัตร ซึ่งทำให้เครือข่ายคอนเนกชันของช่องปรากฏอยู่บนสุดของเธรดตั้งแต่เอพิโสดแรก กลุ่มคอมเมนต์ที่มีประโยชน์ที่สุดคือคำแนะนำด้านการผลิตแบบไม่มีค่าตอบแทน ผู้ชมรายงานว่าเสียงเอฟเฟกต์ดังกว่าเสียงพูด และมีคอมเมนต์แยกกันสองรายการเตือนให้คาดเข็มขัดนิรภัยขณะถ่ายทำในรถ โดยหนึ่งในนั้นอธิบายชัดเจนว่าการทำตามกฎความปลอดภัยบนท้องถนนคือสิ่งที่จะทำให้สปอนเซอร์รถยนต์กล้าเข้ามาสนับสนุน อีกกลุ่มคอมเมนต์เป็นความรู้สึกคิดถึงอดีตที่มีต่อแขกรับเชิญ เก้า ซึ่งผู้ชมติดตามมาตั้งแต่เขายังเป็นนักแสดงเด็ก การขอแขกรับเชิญสำหรับเอพิโสดถัดไปเริ่มต้นตั้งแต่ตอนนี้และไม่เคยหยุด",
   "themes": [
-    { "label": "Member-level fandom declarations", "share": 29, "example": "มีใครชอบดรีมแบบเราบ้าง แบบแพ้เลยแพ้ผญ. แบบดรีม" },
-    { "label": "Production notes — audio mix and seatbelts", "share": 21, "example": "รายการขับรถแบบนี้อย่าลืมประเด็น Safety Drive & Safety First คาดเข็มขัดนิรภัย+ทำถูกกฏหมายจราจรดีกว่านะ sponsor รถจะได้เข้า" },
-    { "label": "Long-standing attachment to the guest", "share": 17, "example": "สมัยเรียนคือตอนซักซี๊ดดังๆ เอารูปเก้าแขวนกระเป๋านักเรียนอ่ะ" },
-    { "label": "Guest requests for coming episodes", "share": 14, "example": "ขอพี่ มาริโอ้ หน่อย ช่วงนี้พี่เค้าสาย Youtuber" },
-    { "label": "Format praise — right length, not overdone", "share": 12, "example": "รายการสนุกดี กำลังพอดีไม่ล้นไม่พร่อง น่ารักทั้ง 3 คน" },
-    { "label": "Celebrity friends at the top of the thread", "share": 7, "example": "สนุกกกกกกก" }
+    { "label": "การประกาศตัวเป็นแฟนคลับพิธีกรแต่ละคน", "share": 29, "example": "มีใครชอบดรีมแบบเราบ้าง แบบแพ้เลยแพ้ผญ. แบบดรีม" },
+    { "label": "ข้อเสนอแนะด้านการผลิต — การมิกซ์เสียงและเข็มขัดนิรภัย", "share": 21, "example": "รายการขับรถแบบนี้อย่าลืมประเด็น Safety Drive & Safety First คาดเข็มขัดนิรภัย+ทำถูกกฏหมายจราจรดีกว่านะ sponsor รถจะได้เข้า" },
+    { "label": "ความผูกพันที่มีต่อแขกรับเชิญมายาวนาน", "share": 17, "example": "สมัยเรียนคือตอนซักซี๊ดดังๆ เอารูปเก้าแขวนกระเป๋านักเรียนอ่ะ" },
+    { "label": "การขอแขกรับเชิญสำหรับเอพิโสดถัดไป", "share": 14, "example": "ขอพี่ มาริโอ้ หน่อย ช่วงนี้พี่เค้าสาย Youtuber" },
+    { "label": "คำชมเรื่องรูปแบบรายการ — ความยาวพอดี ไม่ยืดเยื้อ", "share": 12, "example": "รายการสนุกดี กำลังพอดีไม่ล้นไม่พร่อง น่ารักทั้ง 3 คน" },
+    { "label": "คอมเมนต์จากเพื่อนคนดังอยู่บนสุดของเธรด", "share": 7, "example": "สนุกกกกกกก" }
   ],
   "sentiment_breakdown": { "positive": 87, "neutral": 9, "mixed": 4, "negative": 0 },
   "audience_signals": [
-    "The audience gives free, actionable production feedback — audio mix and on-camera road safety — and one commenter explicitly ties compliance to winning car sponsors, so they think commercially about the channel",
-    "Member-level fandoms existed from episode one rather than forming over time, which supports member-led formats from the start",
-    "Celebrity friends' comments occupy the top slots by likes; that network is a structural amplifier the channel gets for free",
-    "The guest-request habit begins in episode one and is still running at episode 102 — a continuous demand signal worth mining",
-    "A five-year-old first episode still holds 5.6M views, so the back catalogue keeps working as an entry point for new viewers"
+    "ผู้ชมให้ฟีดแบ็กด้านการผลิตที่นำไปใช้ได้จริงโดยไม่มีค่าตอบแทน ทั้งเรื่องการมิกซ์เสียงและความปลอดภัยบนท้องถนนหน้ากล้อง โดยมีคอมเมนต์หนึ่งเชื่อมโยงการทำตามกฎความปลอดภัยกับโอกาสได้สปอนเซอร์รถยนต์อย่างชัดเจน แสดงว่าผู้ชมคิดในเชิงธุรกิจให้กับช่องด้วย",
+    "แฟนคลับที่แบ่งตามพิธีกรแต่ละคนมีอยู่แล้วตั้งแต่เอพิโสดแรก ไม่ได้ค่อยๆ ก่อตัวขึ้นภายหลัง ซึ่งสนับสนุนการออกแบบคอนเทนต์ที่เน้นตัวบุคคลได้ตั้งแต่ต้น",
+    "คอมเมนต์จากเพื่อนคนดังครองอันดับต้นๆ ด้วยยอดไลก์ เครือข่ายคอนเนกชันนี้ทำหน้าที่ขยายผลให้ช่องโดยไม่มีต้นทุน",
+    "พฤติกรรมการขอแขกรับเชิญเริ่มตั้งแต่เอพิโสดแรกและยังคงมีต่อเนื่องจนถึงเอพิโสด 102 เป็นสัญญาณความต้องการที่คุ้มค่าแก่การนำมาวิเคราะห์ต่อ",
+    "เอพิโสดแรกที่เผยแพร่มาห้าปีแล้วยังคงมียอดวิว 5.6 ล้านวิว แสดงว่าคลังคอนเทนต์เก่ายังทำหน้าที่เป็นจุดเริ่มต้นดึงผู้ชมใหม่ได้อยู่"
   ],
   "content_requests": [
-    "Raise dialogue level relative to sound effects",
-    "Wear seatbelts while filming in the car",
-    "Book Mario and Fey as guests",
-    "Keep the episode length as it is"
+    "ปรับระดับเสียงพูดให้ดังขึ้นเมื่อเทียบกับเสียงเอฟเฟกต์",
+    "คาดเข็มขัดนิรภัยขณะถ่ายทำในรถ",
+    "เชิญมาริโอ้และเฟยมาเป็นแขกรับเชิญ",
+    "คงความยาวของเอพิโสดไว้แบบเดิม"
   ]
 }

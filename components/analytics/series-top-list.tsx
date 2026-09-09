@@ -51,12 +51,12 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
           <select
             value={slug}
             onChange={(e) => setSlug(e.target.value)}
-            aria-label="Series"
+            aria-label="ซีรีส์"
             className="bg-background focus-visible:ring-ring/50 h-9 w-full min-w-[16rem] appearance-none rounded-md border pr-9 pl-3 text-sm font-medium focus-visible:ring-2 focus-visible:outline-none"
           >
             {groups.map((g) => (
               <option key={g.slug} value={g.slug}>
-                {g.name} — {g.postCount} posts
+                {g.name} — {g.postCount} โพสต์
               </option>
             ))}
           </select>
@@ -64,19 +64,19 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
         </div>
         <dl className="text-muted-foreground flex gap-5 text-xs">
           <div>
-            <dt className="inline">Posts </dt>
+            <dt className="inline">โพสต์ </dt>
             <dd className="text-foreground inline font-medium tabular-nums">
               {formatCompact(active.postCount)}
             </dd>
           </div>
           <div>
-            <dt className="inline">Total views </dt>
+            <dt className="inline">ยอดวิวรวม </dt>
             <dd className="text-foreground inline font-medium tabular-nums">
               {formatCompact(active.totalViews)}
             </dd>
           </div>
           <div>
-            <dt className="inline">Showing top </dt>
+            <dt className="inline">แสดงอันดับสูงสุด </dt>
             <dd className="text-foreground inline font-medium tabular-nums">
               {active.top.length}
             </dd>
@@ -88,14 +88,14 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
         <TableHeader>
           <TableRow>
             <TableHead className="w-8">#</TableHead>
-            <TableHead>Content</TableHead>
-            <TableHead>Theme</TableHead>
-            <TableHead className="text-right">Views</TableHead>
-            <TableHead className="text-right">Likes</TableHead>
-            <TableHead className="text-right">Comments</TableHead>
-            <TableHead className="text-right">ER</TableHead>
-            <TableHead className="text-right">Published</TableHead>
-            <TableHead className="text-right">Comment analysis</TableHead>
+            <TableHead>เนื้อหา</TableHead>
+            <TableHead>ธีม</TableHead>
+            <TableHead className="text-right">ยอดวิว</TableHead>
+            <TableHead className="text-right">ไลก์</TableHead>
+            <TableHead className="text-right">คอมเมนต์</TableHead>
+            <TableHead className="text-right">อัตราการมีส่วนร่วม (ER)</TableHead>
+            <TableHead className="text-right">วันที่เผยแพร่</TableHead>
+            <TableHead className="text-right">การวิเคราะห์คอมเมนต์</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -123,7 +123,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
                 </a>
               </TableCell>
               <TableCell>
-                <Badge variant="muted">{post.theme_name ?? "Unclassified"}</Badge>
+                <Badge variant="muted">{post.theme_name ?? "ยังไม่จัดหมวดหมู่"}</Badge>
               </TableCell>
               <TableCell className="text-right tabular-nums">
                 {formatCompact(post.views)}
@@ -142,7 +142,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
               </TableCell>
               <TableCell className="text-right">
                 <Badge variant={done.has(post.id) ? "secondary" : "outline"}>
-                  {done.has(post.id) ? "Summarised" : "Pending"}
+                  {done.has(post.id) ? "วิเคราะห์แล้ว" : "รอดำเนินการ"}
                 </Badge>
               </TableCell>
             </TableRow>
@@ -154,7 +154,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
           <div className="bg-background max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-lg border shadow-lg">
             <div className="sticky top-0 flex items-center justify-between border-b bg-muted/50 px-6 py-4">
-              <h2 className="text-lg font-semibold">Comment Analysis</h2>
+              <h2 className="text-lg font-semibold">การวิเคราะห์คอมเมนต์</h2>
               <button
                 onClick={() => {
                   setSelectedPostId(null)
@@ -168,7 +168,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
 
             {loading ? (
               <div className="flex items-center justify-center px-6 py-12">
-                <p className="text-muted-foreground">Loading summary...</p>
+                <p className="text-muted-foreground">กำลังโหลดข้อมูลสรุป...</p>
               </div>
             ) : summary ? (
               <div className="space-y-6 px-6 py-6">
@@ -178,7 +178,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
 
                 {summary.sentiment_breakdown && (
                   <div className="space-y-2">
-                    <p className="text-xs font-semibold">Sentiment</p>
+                    <p className="text-xs font-semibold">ความรู้สึกของผู้ชม (Sentiment)</p>
                     <SentimentBar
                       breakdown={summary.sentiment_breakdown as Record<string, number>}
                     />
@@ -187,7 +187,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
 
                 {(summary.themes ?? []).length > 0 && (
                   <div className="space-y-2">
-                    <p className="text-xs font-semibold">Themes</p>
+                    <p className="text-xs font-semibold">ประเด็นหลักที่พูดถึง</p>
                     <div className="space-y-2.5">
                       {summary.themes!.map((theme) => (
                         <div key={theme.label} className="space-y-1">
@@ -219,7 +219,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
                 <div className="grid gap-5 sm:grid-cols-2">
                   {(summary.audience_signals ?? []).length > 0 && (
                     <div className="space-y-1.5">
-                      <p className="text-xs font-semibold">Audience signals</p>
+                      <p className="text-xs font-semibold">สัญญาณจากผู้ชม</p>
                       <ul className="text-muted-foreground space-y-1 text-xs">
                         {summary.audience_signals!.map((s) => (
                           <li key={s} className="flex gap-1.5">
@@ -232,7 +232,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
                   )}
                   {(summary.content_requests ?? []).length > 0 && (
                     <div className="space-y-1.5">
-                      <p className="text-xs font-semibold">What viewers ask for next</p>
+                      <p className="text-xs font-semibold">สิ่งที่ผู้ชมอยากเห็นต่อไป</p>
                       <ul className="text-muted-foreground space-y-1 text-xs">
                         {summary.content_requests!.map((s) => (
                           <li key={s} className="flex gap-1.5">
@@ -246,13 +246,13 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
                 </div>
 
                 <p className="text-muted-foreground text-xs">
-                  {summary.comment_count} comments analysed · {summary.model} ·{" "}
+                  วิเคราะห์จาก {summary.comment_count} คอมเมนต์ · {summary.model} ·{" "}
                   {formatDate(summary.generated_at)}
                 </p>
               </div>
             ) : (
               <div className="flex items-center justify-center px-6 py-12">
-                <p className="text-muted-foreground">No summary available</p>
+                <p className="text-muted-foreground">ยังไม่มีข้อมูลสรุปสำหรับโพสต์นี้</p>
               </div>
             )}
           </div>
@@ -269,6 +269,12 @@ function SentimentBar({ breakdown }: { breakdown: Record<string, number> }) {
     neutral: "var(--chart-3)",
     mixed: "var(--chart-2)",
     negative: "var(--chart-4)",
+  }
+  const SENTIMENT_LABEL: Record<string, string> = {
+    positive: "เชิงบวก",
+    neutral: "เป็นกลาง",
+    mixed: "ผสม",
+    negative: "เชิงลบ",
   }
 
   const entries = SENTIMENT_ORDER.map((k) => ({
@@ -298,7 +304,7 @@ function SentimentBar({ breakdown }: { breakdown: Record<string, number> }) {
               className="size-2 rounded-full"
               style={{ background: SENTIMENT_RAMP[e.key] }}
             />
-            <span className="capitalize">{e.key}</span>
+            <span>{SENTIMENT_LABEL[e.key] ?? e.key}</span>
             <span className="text-muted-foreground tabular-nums">
               {formatPercent(e.value, 0)}
             </span>

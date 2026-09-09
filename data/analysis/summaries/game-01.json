@@ -2,17 +2,17 @@
   "post_id": "96205837-ba5b-4d7b-8269-ec9c47475207",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A game episode where the outcome is predetermined/contrived (someone starts with a hand gesture and ends with a gun, a clear setup). The audience notices this and comments on it, joking that the game is rigged. One viewer credits a host for looking more confident and polished. Game show comments are light and playful, with fewer meta-demands than other formats. At 457 comments on 7M views this is the lowest engagement rate for the series, suggesting challenge/game episodes generate baseline reach but minimal conversation.",
+  "summary": "ตอนเกมโชว์ที่ผลลัพธ์ถูกจัดวางไว้ล่วงหน้าอย่างชัดเจน (เริ่มจากท่ามือแล้วจบด้วยท่าปืน เป็นการเซ็ตอัพที่เห็นได้ชัด) ผู้ชมสังเกตเห็นและพูดถึงเรื่องนี้ในเชิงล้อเลียนว่าเกมถูกล็อกผลไว้แล้ว ผู้ชมคนหนึ่งชื่นชมพิธีกรคนหนึ่งว่าดูมั่นใจและดูดีขึ้น คอมเมนต์ในเกมโชว์มีน้ำเสียงเบาสบายและสนุกสนาน มีข้อเรียกร้องเชิงเนื้อหาน้อยกว่าฟอร์แมตอื่น ด้วยจำนวนคอมเมนต์ 457 รายการจากยอดวิว 7 ล้านวิว ถือเป็นอัตราการมีส่วนร่วมต่ำที่สุดของซีรีส์นี้ สะท้อนว่าตอนที่เป็นเกม/ชาเลนจ์สร้างยอดเข้าถึงพื้นฐานได้ แต่กระตุ้นบทสนทนาได้น้อย",
   "themes": [
-    { "label": "Noticing the game is setup/rigged", "share": 50, "example": "เกือบจบตั้งแต่หันแล้ว หันปืน" },
-    { "label": "Giving credit for a host's appearance", "share": 30, "example": "น้องก้อยสวยขึ้นมากเลยครับ ออร่ามาเต็ม ชื่นชมครับ" },
-    { "label": "Humorous commentary on game logic", "share": 20, "example": "จ๋าทิงจาไม่มีมีแต่จ๊ะทิงจาตายตั้งแต่คำนี้แล้ว" }
+    { "label": "สังเกตว่าเกมถูกจัดฉาก/ล็อกผลไว้แล้ว", "share": 50, "example": "เกือบจบตั้งแต่หันแล้ว หันปืน" },
+    { "label": "ชื่นชมรูปลักษณ์ของพิธีกร", "share": 30, "example": "น้องก้อยสวยขึ้นมากเลยครับ ออร่ามาเต็ม ชื่นชมครับ" },
+    { "label": "คอมเมนต์ตลกขบขันเกี่ยวกับตรรกะของเกม", "share": 20, "example": "จ๋าทิงจาไม่มีมีแต่จ๊ะทิงจาตายตั้งแต่คำนี้แล้ว" }
   ],
   "sentiment_breakdown": { "positive": 70, "neutral": 20, "mixed": 10, "negative": 0 },
   "audience_signals": [
-    "Game/challenge episodes with predetermined outcomes are noticed but accepted with humor — the audience expects entertainment over authenticity",
-    "Physical appearance is still tracked and appreciated even in low-engagement formats",
-    "Game content has the lowest engagement density of all formats, suggesting it is a reach play, not a conversation builder"
+    "ตอนที่เป็นเกม/ชาเลนจ์ซึ่งมีผลลัพธ์ถูกกำหนดไว้ล่วงหน้าถูกผู้ชมสังเกตเห็น แต่ก็ยอมรับได้ด้วยอารมณ์ขัน สะท้อนว่าผู้ชมให้ความสำคัญกับความบันเทิงมากกว่าความสมจริง",
+    "รูปลักษณ์ภายนอกยังคงถูกจับตาและชื่นชม แม้ในฟอร์แมตที่มีการมีส่วนร่วมต่ำ",
+    "คอนเทนต์แนวเกมมีความหนาแน่นของการมีส่วนร่วมต่ำที่สุดในบรรดาฟอร์แมตทั้งหมด สะท้อนว่าเหมาะสำหรับสร้างยอดเข้าถึง มากกว่าการกระตุ้นบทสนทนา"
   ],
   "content_requests": []
 }

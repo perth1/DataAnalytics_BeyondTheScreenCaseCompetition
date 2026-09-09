@@ -2,24 +2,24 @@
   "post_id": "cb2d7aaa-f457-49ee-9efa-e8b5fccc2195",
   "model": "claude-opus-5",
   "comment_count": 12,
-  "summary": "Two episodes in, the comment section had already turned into a booking board. More than half the thread is named guest requests — Nicky Nachat above all, plus Lee Thanat, Mario, The Toys and a list of 9x9 members — with upvote calls attached. One commenter offers a trade: book Nicky and he will not complain about a single advert and will actively support the sponsor. Another speculates that the show is not ready for Nicky yet because the hosts would lose control of the car, which is exactly what happened when he did appear two episodes later. The rest is concept praise — viewers say the flirting format makes them blush watching it — and a cluster naming Dream as the best thing in the show.",
+  "summary": "เพียงสองเอพิโสด พื้นที่คอมเมนต์ก็กลายเป็นกระดานขอแขกรับเชิญไปแล้ว มากกว่าครึ่งของเธรดเป็นการระบุชื่อแขกรับเชิญที่อยากให้เชิญมา โดยนิกกี้ ณฉัตร ถูกขอมากที่สุด ตามด้วยลี ธนัฐ, มาริโอ้, The Toys และรายชื่อสมาชิกวง 9x9 พร้อมชวนกันกดไลก์สนับสนุน คอมเมนต์หนึ่งถึงกับเสนอข้อแลกเปลี่ยนว่าถ้าเชิญนิกกี้มาได้ เขาจะไม่บ่นโฆษณาแม้แต่ตัวเดียวและจะช่วยสนับสนุนสปอนเซอร์อย่างเต็มที่ อีกคอมเมนต์คาดเดาว่ารายการยังไม่พร้อมเชิญนิกกี้มาออก เพราะพิธีกรอาจคุมรถไม่อยู่ ซึ่งกลายเป็นเรื่องจริงเมื่อเขามาออกรายการจริงในอีกสองเอพิโสดถัดมา ที่เหลือเป็นคำชมคอนเซปต์รายการ โดยผู้ชมบอกว่ารูปแบบการจีบกันทำให้ดูแล้วเขินไปด้วย และมีกลุ่มคอมเมนต์ที่ยกให้ดรีมเป็นจุดที่ดีที่สุดของรายการ",
   "themes": [
-    { "label": "Named guest requests with upvote calls", "share": 53, "example": "ขอ เติร์ด ลภัส ปอร์เช่ ศิวกร แจ็คกี้ จักริน เจมมี่เจมส์ และขอใครก็ได้ใน 9x9" },
-    { "label": "Dream as the standout host", "share": 18, "example": "ดรีมคือสิ่งที่ดีที่สุดในรายการนี้ครับ" },
-    { "label": "The concept makes viewers blush", "share": 16, "example": "คอนเซปดีเกิ๊น จีบๆแซวๆ ใครดูก็เขิน" },
-    { "label": "Speculating why the most-wanted guest hasn't appeared", "share": 13, "example": "สาเหตุที่รายการยังไม่พร้อมเอานิกกี้มาออก เพราะต้องทำการบ้านไว้เยอะมาก ไม่งั้นพิธีกรเสียหลักทั้งรถแน่นอน" }
+    { "label": "การระบุชื่อแขกรับเชิญที่ต้องการพร้อมชวนกดไลก์", "share": 53, "example": "ขอ เติร์ด ลภัส ปอร์เช่ ศิวกร แจ็คกี้ จักริน เจมมี่เจมส์ และขอใครก็ได้ใน 9x9" },
+    { "label": "ดรีมในฐานะพิธีกรที่โดดเด่นที่สุด", "share": 18, "example": "ดรีมคือสิ่งที่ดีที่สุดในรายการนี้ครับ" },
+    { "label": "คอนเซปต์รายการทำให้ผู้ชมเขินอาย", "share": 16, "example": "คอนเซปดีเกิ๊น จีบๆแซวๆ ใครดูก็เขิน" },
+    { "label": "การคาดเดาสาเหตุที่แขกรับเชิญยอดฮิตยังไม่ได้มาออกรายการ", "share": 13, "example": "สาเหตุที่รายการยังไม่พร้อมเอานิกกี้มาออก เพราะต้องทำการบ้านไว้เยอะมาก ไม่งั้นพิธีกรเสียหลักทั้งรถแน่นอน" }
   ],
   "sentiment_breakdown": { "positive": 92, "neutral": 8, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "The comment section functions as a booking backlog from episode two onward, and acting on it is provably effective — the most-requested guest here appeared in episode 4, which became the channel's most-viewed talk episode",
-    "A viewer explicitly offers ad tolerance in exchange for a specific booking, which is a direct willingness-to-accept-sponsorship signal from the audience",
-    "The product is secondhand embarrassment — viewers report blushing while watching, so casting for reactivity matters more than interview craft",
-    "Boy-band and ensemble fandoms request their groups as sets, giving the channel multi-episode arcs from a single booking relationship"
+    "พื้นที่คอมเมนต์ทำหน้าที่เป็นรายการรอคิวแขกรับเชิญตั้งแต่เอพิโสดที่สองเป็นต้นมา และพิสูจน์แล้วว่าการนำไปปฏิบัติจริงได้ผล เพราะแขกรับเชิญที่ถูกขอมากที่สุดในที่นี้ได้มาออกในเอพิโสด 4 ซึ่งกลายเป็นเอพิโสดทอล์กที่มียอดวิวสูงสุดของช่อง",
+    "ผู้ชมรายหนึ่งเสนอตรงๆ ว่ายอมรับโฆษณาได้เพื่อแลกกับการเชิญแขกรับเชิญคนหนึ่งโดยเฉพาะ ถือเป็นสัญญาณความยินยอมรับสปอนเซอร์จากผู้ชมโดยตรง",
+    "สิ่งที่ขายได้จริงคือความเขินอายแทน ผู้ชมรายงานว่ารู้สึกเขินขณะดู ดังนั้นการเลือกแขกรับเชิญที่มีปฏิกิริยาชัดเจนจึงสำคัญกว่าทักษะการสัมภาษณ์",
+    "แฟนคลับของบอยแบนด์และกลุ่มศิลปินขอให้เชิญมาทั้งวง ทำให้ช่องได้คอนเทนต์หลายเอพิโสดต่อเนื่องจากความสัมพันธ์ในการจองเพียงครั้งเดียว"
   ],
   "content_requests": [
-    "Book Nicky Nachat",
-    "Book Lee Thanat, Mario and The Toys",
-    "Work through the 9x9 members as a series",
-    "Keep the flirting concept unchanged"
+    "เชิญนิกกี้ ณฉัตร มาเป็นแขกรับเชิญ",
+    "เชิญลี ธนัฐ, มาริโอ้ และ The Toys มาเป็นแขกรับเชิญ",
+    "เชิญสมาชิกวง 9x9 มาออกรายการทีละคนเป็นซีรีส์",
+    "คงคอนเซปต์การจีบกันไว้แบบเดิม"
   ]
 }

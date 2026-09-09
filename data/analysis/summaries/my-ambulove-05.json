@@ -2,23 +2,23 @@
   "post_id": "49044ba9-a9d7-4efe-bd98-b0def813da9b",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "The pairing the audience had been demanding in other episodes' comments, and the payoff shows in the ratio: 3,947 comments on 879K views, the highest comment-per-view rate in the entire corpus. The top comment, with over 5,000 likes, is a fan playfully scolding her idol for not being able to hold eye contact. Others note she was too shy to look at him at all, and immediately escalate the request to a duet. One comment marks the moment as the pairing finally becoming real. The channel's pinned comment asks who should come next, continuing the queue.",
+  "summary": "คู่ที่ผู้ชมเรียกร้องมาตลอดในคอมเมนต์ของตอนก่อนหน้า และผลตอบรับก็สะท้อนออกมาชัดเจนผ่านอัตราส่วน: 3,947 คอมเมนต์ จากยอดวิว 879,000 ครั้ง ซึ่งเป็นอัตราคอมเมนต์ต่อวิวสูงที่สุดในฐานข้อมูลทั้งหมด คอมเมนต์อันดับหนึ่งที่มียอดไลก์กว่า 5,000 ครั้ง เป็นแฟนคลับที่แซวไอดอลของตัวเองแบบขำๆ ว่าสบตาไม่ได้ ส่วนคนอื่นๆ ตั้งข้อสังเกตว่าเธอเขินจนแทบไม่กล้ามองเขาเลย และรีบยกระดับคำขอไปสู่การให้ร้องเพลงคู่กัน มีคอมเมนต์หนึ่งระบุว่านี่คือช่วงเวลาที่คู่นี้ \"กลายเป็นจริง\" ในที่สุด ขณะที่คอมเมนต์ปักหมุดของช่องถามต่อว่าอยากให้ใครมาเป็นคู่ต่อไป ซึ่งเป็นการสานต่อคิวคำขอนี้ไปเรื่อยๆ",
   "themes": [
-    { "label": "Reacting to the guest's visible shyness", "share": 45, "example": "แฮนน่าหนูไม่สู้ตาเค้าเลยลู๊กกกกกก" },
-    { "label": "The long-awaited pairing finally happening", "share": 22, "example": "เติร์ด แฮนน่า มีจริงมาแล้ว" },
-    { "label": "Escalating to a duet request", "share": 21, "example": "อยากให้เติร์ด แฮนน่าร้องเพลงคู่กันสักครั้ง คงจะดีมากเลย" },
-    { "label": "The channel asking who's next", "share": 12, "example": "เขินไม่ไหว ฟินน! อยากให้ใครมาอีกดีค้าาา" }
+    { "label": "ปฏิกิริยาต่อความเขินอายที่เห็นได้ชัดของแขกรับเชิญ", "share": 45, "example": "แฮนน่าหนูไม่สู้ตาเค้าเลยลู๊กกกกกก" },
+    { "label": "คู่ที่รอคอยมานานในที่สุดก็เกิดขึ้นจริง", "share": 22, "example": "เติร์ด แฮนน่า มีจริงมาแล้ว" },
+    { "label": "ยกระดับไปสู่การขอให้ร้องเพลงคู่กัน", "share": 21, "example": "อยากให้เติร์ด แฮนน่าร้องเพลงคู่กันสักครั้ง คงจะดีมากเลย" },
+    { "label": "ช่องถามผู้ชมว่าอยากให้ใครมาเป็นคู่ต่อไป", "share": 12, "example": "เขินไม่ไหว ฟินน! อยากให้ใครมาอีกดีค้าาา" }
   ],
   "sentiment_breakdown": { "positive": 98, "neutral": 2, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "The highest comment-per-view rate in the corpus — roughly 0.45%, about seven times the long-form talk average — and it came from booking exactly the pair the comments had been asking for",
-    "Delivering a requested booking does not end the demand; it converts into the next ask, here a duet, so the format compounds",
-    "Idol fandoms deliver disproportionate comment volume relative to views, which means this series is undervalued if judged on views alone",
-    "Shyness and restraint generate more engagement than confidence in this format — the tension is the product"
+    "อัตราคอมเมนต์ต่อวิวสูงที่สุดในฐานข้อมูลทั้งหมด อยู่ที่ราว 0.45% หรือประมาณ 7 เท่าของค่าเฉลี่ยรายการทอล์กแบบยาว และเกิดจากการจับคู่แขกรับเชิญตรงตามที่ผู้ชมเรียกร้องมาโดยตรง",
+    "การทำตามคำขอไม่ได้ทำให้ความต้องการของผู้ชมจบลง แต่กลับต่อยอดไปสู่คำขอถัดไป ในกรณีนี้คือการร้องเพลงคู่ ทำให้รูปแบบรายการนี้ทวีความน่าสนใจขึ้นเรื่อยๆ",
+    "ฐานแฟนคลับไอดอลสร้างปริมาณคอมเมนต์ที่ไม่สมส่วนกับยอดวิว หมายความว่าซีรีส์นี้อาจถูกประเมินค่าต่ำเกินไปหากตัดสินจากยอดวิวเพียงอย่างเดียว",
+    "ความเขินอายและความเก็บงำสร้างเอนเกจเมนต์ได้มากกว่าความมั่นใจในฟอร์แมตนี้ กล่าวคือความตึงเครียดทางอารมณ์คือตัวสินค้าที่แท้จริง"
   ],
   "content_requests": [
-    "A duet between the two guests",
-    "More episodes with this pair",
-    "Keep taking pairing requests from the comments"
+    "อยากให้แขกรับเชิญทั้งสองคนร้องเพลงคู่กัน",
+    "อยากให้มีตอนเพิ่มเติมกับคู่นี้",
+    "อยากให้ช่องรับฟังคำขอจับคู่จากคอมเมนต์ต่อไป"
   ]
 }

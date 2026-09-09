@@ -2,22 +2,22 @@
   "post_id": "ad95cf9d-3581-4025-8513-3e23ef9d3eb6",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "A Short cut from a home-visit episode, and the most instructive thing about it is the ratio: 2.48M views against 32 comments on the platform. What little discussion there is splits between approving of the guest keeping some rooms private despite being a public figure, laughing at a host's startled reaction, remarking on how grown-up the young guest looks now, and one request for another family member to appear. There is no thematic depth to extract because the format does not invite any — this clip bought reach, not relationship.",
+  "summary": "คลิปนี้เป็น Short ที่ตัดมาจากตอนไปเยี่ยมบ้าน และสิ่งที่น่าสนใจที่สุดคืออัตราส่วนระหว่างยอดวิวกับคอมเมนต์ — ยอดวิว 2.48 ล้านครั้ง แต่มีคอมเมนต์บนแพลตฟอร์มเพียง 32 ข้อความ การพูดคุยที่มีอยู่น้อยนิดแบ่งออกเป็นการชื่นชมที่แขกรับเชิญยังเก็บบางพื้นที่ในบ้านไว้เป็นส่วนตัวแม้จะเป็นบุคคลสาธารณะ การหัวเราะกับปฏิกิริยาตกใจของพิธีกรคนหนึ่ง การพูดถึงว่าแขกรับเชิญวัยเยาว์ดูโตขึ้นมากแล้ว และคำขอให้สมาชิกครอบครัวอีกคนมาออกรายการ ไม่มีประเด็นเชิงลึกให้สกัดออกมาได้มากนัก เพราะรูปแบบของคลิปไม่ได้เปิดโอกาสให้เกิดการพูดคุยเชิงลึก — คลิปนี้ซื้อการเข้าถึง (reach) ได้ แต่ไม่ได้สร้างความผูกพันกับผู้ชม",
   "themes": [
-    { "label": "Approving of the guest keeping private space private", "share": 40, "example": "ปกติไม่ค่อยเห้นห้องแบบนี้ ดีแล้วครับ ออกสื่อแต่ก้ต้องมีส่วนตัวบ้าง" },
-    { "label": "A host's startled reaction", "share": 25, "example": "พี่ดรีมสดุ้งแรงอยู่นะ" },
-    { "label": "The young guest looking grown up", "share": 20, "example": "น้องดูโตมากดูเป็นสาวมากๆ" },
-    { "label": "Requests for another family member", "share": 15, "example": "ขอเซย่าด้วยค่าาา" }
+    { "label": "การชื่นชมที่แขกรับเชิญเก็บพื้นที่ส่วนตัวไว้เป็นความลับ", "share": 40, "example": "ปกติไม่ค่อยเห้นห้องแบบนี้ ดีแล้วครับ ออกสื่อแต่ก้ต้องมีส่วนตัวบ้าง" },
+    { "label": "ปฏิกิริยาตกใจของพิธีกร", "share": 25, "example": "พี่ดรีมสดุ้งแรงอยู่นะ" },
+    { "label": "แขกรับเชิญวัยเยาว์ดูโตขึ้น", "share": 20, "example": "น้องดูโตมากดูเป็นสาวมากๆ" },
+    { "label": "คำขอให้สมาชิกครอบครัวอีกคนมาออกรายการ", "share": 15, "example": "ขอเซย่าด้วยค่าาา" }
   ],
   "sentiment_breakdown": { "positive": 82, "neutral": 16, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "The starkest reach-versus-relationship gap in the corpus: 2.48M views produced 32 comments, roughly a thousandth of the comment rate of a long-form talk episode with half the views",
-    "Shorts of this kind should be measured as awareness inventory, not engagement — judging them on comments understates their job, and judging the channel's health on their views overstates it",
-    "Even here the audience rewards restraint: the most-liked comment praises the guest for not showing every room",
-    "Shorts cut from full episodes carry no request behaviour, so the guest-demand signal the channel relies on comes almost entirely from long-form"
+    "นี่คือช่องว่างระหว่างการเข้าถึง (reach) กับความผูกพัน (relationship) ที่ชัดเจนที่สุดในชุดข้อมูลนี้ ยอดวิว 2.48 ล้านครั้งสร้างคอมเมนต์เพียง 32 ข้อความ คิดเป็นอัตราส่วนราวหนึ่งในพันเมื่อเทียบกับตอนพูดคุยแบบยาวที่มียอดวิวเพียงครึ่งเดียว",
+    "Shorts ลักษณะนี้ควรวัดผลในฐานะเครื่องมือสร้างการรับรู้ (awareness) ไม่ใช่การมีส่วนร่วม (engagement) — การตัดสินจากจำนวนคอมเมนต์จะประเมินคุณค่าของมันต่ำเกินไป ในขณะที่การตัดสินสุขภาพของช่องจากยอดวิวของมันจะประเมินสูงเกินจริง",
+    "แม้แต่ในคลิปนี้ผู้ชมก็ยังให้คุณค่ากับความสุขุมรอบคอบ คอมเมนต์ที่ได้ไลก์มากที่สุดชื่นชมแขกรับเชิญที่ไม่ได้เปิดเผยทุกห้องในบ้าน",
+    "Shorts ที่ตัดมาจากตอนเต็มแทบไม่ก่อให้เกิดพฤติกรรมการขอแขกรับเชิญ สัญญาณความต้องการแขกรับเชิญที่ช่องพึ่งพาจึงมาจากคอนเทนต์แบบยาวเกือบทั้งหมด"
   ],
   "content_requests": [
-    "Bring another member of the guest's family on",
-    "More home-visit episodes"
+    "เชิญสมาชิกครอบครัวอีกคนของแขกรับเชิญมาออกรายการ",
+    "ทำตอนไปเยี่ยมบ้านเพิ่มเติม"
   ]
 }

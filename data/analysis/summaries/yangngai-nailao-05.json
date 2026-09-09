@@ -2,26 +2,26 @@
   "post_id": "72f8ab11-1f45-442b-8d2f-2e7ebf513609",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "Viewers came for entertainment and left quoting relationship advice — one comment pulls out a line about not letting a partner feel taken for granted and labels it quote of the day, and several say the episode had unexpected substance. The costume concept, three hosts dressed as the Powerpuff Girls, gets its own appreciation thread as a character device. Viewers also notice the crew laughing audibly in the mix and read that as evidence the shoot was genuinely fun rather than sloppy. A comparison thread positions the guest as the female counterpart of an earlier male guest, arguing that is why the chemistry doubled. One host is noted to be picking up her partner's speech mannerisms, which the audience finds endearing rather than intrusive.",
+  "summary": "ผู้ชมเข้ามาดูเพื่อความบันเทิงแต่ออกไปพร้อมคำคมเรื่องความรัก — คอมเมนต์หนึ่งหยิบประโยคเกี่ยวกับการไม่ทำให้คู่รักรู้สึกว่าถูกมองข้ามความสำคัญมาตั้งเป็น Quote of the Day และหลายคนบอกว่าตอนนี้มีเนื้อหาลึกซึ้งเกินคาด คอนเซปต์การแต่งกาย ที่พิธีกรทั้งสามคนแต่งตัวเป็น Powerpuff Girls ได้รับกระทู้ชื่นชมของตัวเองในฐานะกลไกสร้างคาแรกเตอร์ ผู้ชมยังสังเกตเห็นเสียงหัวเราะของทีมงานที่ได้ยินชัดในคลิป และมองว่านั่นเป็นหลักฐานว่ากองถ่ายสนุกจริงๆ ไม่ใช่ความหละหลวมในการตัดต่อ กระทู้เปรียบเทียบหนึ่งวางตำแหน่งให้แขกรับเชิญเป็นเวอร์ชันผู้หญิงของแขกรับเชิญชายคนก่อนหน้า โดยอ้างว่านี่คือเหตุผลที่เคมีระหว่างกันเข้มข้นขึ้นเป็นสองเท่า มีการสังเกตว่าพิธีกรคนหนึ่งเริ่มพูดจาเลียนแบบคู่รักของตัวเอง ซึ่งผู้ชมมองว่าน่ารักมากกว่าจะรู้สึกล่วงล้ำ",
   "themes": [
-    { "label": "Unexpected substance and quotable advice", "share": 30, "example": "\"บางคนดีเกินไป แล้วชอบเจอความรักไม่ดี เราอย่าทำให้เค้ารู้สึกว่าเราเป็นของตายเสมอไป\" ... Quote of the day." },
-    { "label": "The costume concept as character device", "share": 16, "example": "ชอบความคอสเป็น Powerpuff girls แล้วคาแรคเตอร์ได้" },
-    { "label": "Comparing this guest to an earlier one", "share": 15, "example": "ซานิก็คือโอ๊ตเวอร์ชั่นผู้หญิง โอ๊ตก็คือซานิเวอร์ชั่นผู้ชายนั้นแหละ มันเลยสนุกไง x2" },
-    { "label": "Audible crew laughter as authenticity", "share": 13, "example": "รู้เลย ตากล้องจอยมาก คลิปนี้ได้ยินเสียงหัวเราะบ่อยมาก" },
-    { "label": "Guest requests", "share": 14, "example": "อยากให้ชวนยายป๋อมแป๋มมาบ้างงง" },
-    { "label": "A host adopting her partner's mannerisms", "share": 12, "example": "นายหญิงกูนับวันยิ่งเหมือนนายน้อยขึ้นทุกวันละ" }
+    { "label": "เนื้อหาลึกซึ้งเกินคาดและคำคมที่น่าจดจำ", "share": 30, "example": "\"บางคนดีเกินไป แล้วชอบเจอความรักไม่ดี เราอย่าทำให้เค้ารู้สึกว่าเราเป็นของตายเสมอไป\" ... Quote of the day." },
+    { "label": "คอนเซปต์การแต่งกายในฐานะกลไกสร้างคาแรกเตอร์", "share": 16, "example": "ชอบความคอสเป็น Powerpuff girls แล้วคาแรคเตอร์ได้" },
+    { "label": "การเปรียบเทียบแขกรับเชิญคนนี้กับแขกรับเชิญคนก่อนหน้า", "share": 15, "example": "ซานิก็คือโอ๊ตเวอร์ชั่นผู้หญิง โอ๊ตก็คือซานิเวอร์ชั่นผู้ชายนั้นแหละ มันเลยสนุกไง x2" },
+    { "label": "เสียงหัวเราะของทีมงานที่ได้ยินชัดสะท้อนความเป็นธรรมชาติ", "share": 13, "example": "รู้เลย ตากล้องจอยมาก คลิปนี้ได้ยินเสียงหัวเราะบ่อยมาก" },
+    { "label": "การขอแขกรับเชิญ", "share": 14, "example": "อยากให้ชวนยายป๋อมแป๋มมาบ้างงง" },
+    { "label": "พิธีกรเริ่มพูดจาเลียนแบบคู่รักของตัวเอง", "share": 12, "example": "นายหญิงกูนับวันยิ่งเหมือนนายน้อยขึ้นทุกวันละ" }
   ],
   "sentiment_breakdown": { "positive": 94, "neutral": 4, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "The format reliably produces quotable lines, which viewers extract and label themselves — these are ready-made Shorts and social cutdowns the channel is not systematically harvesting",
-    "Deliberately leaving crew laughter in the mix reads as authenticity; polishing it out would cost more than it gains",
-    "Costume and staging concepts give otherwise identical talk episodes distinct identities at negligible cost",
-    "The audience builds its own guest taxonomy, comparing new guests to past ones, which means booking complementary opposites is legible to them",
-    "Parasocial tracking runs deep enough that viewers monitor a host's speech habits changing over time"
+    "รูปแบบรายการนี้สร้างประโยคที่น่าจดจำได้อย่างสม่ำเสมอ ซึ่งผู้ชมหยิบมาตั้งชื่อและแชร์กันเอง — นี่คือวัตถุดิบพร้อมใช้สำหรับ Shorts และคลิปตัดต่อลงโซเชียลที่ช่องยังไม่ได้นำมาใช้ประโยชน์อย่างเป็นระบบ",
+    "การจงใจปล่อยเสียงหัวเราะของทีมงานไว้ในคลิปให้ความรู้สึกเป็นธรรมชาติ การตัดออกเพื่อความเนี้ยบอาจเสียมากกว่าได้",
+    "คอนเซปต์การแต่งกายและการจัดฉากช่วยให้ตอนพูดคุยที่มีรูปแบบเดียวกันมีเอกลักษณ์เฉพาะตัว โดยแทบไม่มีต้นทุนเพิ่ม",
+    "ผู้ชมสร้างระบบจัดหมวดหมู่แขกรับเชิญของตัวเอง ด้วยการเปรียบเทียบแขกรับเชิญใหม่กับคนก่อนหน้า ซึ่งหมายความว่าการจับคู่แขกรับเชิญที่ตรงข้ามกันแต่เข้ากันได้เป็นสิ่งที่ผู้ชมมองเห็นและเข้าใจได้",
+    "ความผูกพันแบบพาราโซเชียลของผู้ชมลึกซึ้งถึงขั้นที่ผู้ชมสังเกตเห็นการเปลี่ยนแปลงพฤติกรรมการพูดของพิธีกรตามกาลเวลา"
   ],
   "content_requests": [
-    "Book Pom Pam",
-    "More costume-concept episodes",
-    "Cut the quotable moments out as standalone clips"
+    "เชิญป้อมแป้มมาออกรายการ",
+    "ทำตอนที่มีคอนเซปต์การแต่งกายเพิ่มเติม",
+    "ตัดช่วงคำคมออกมาเป็นคลิปแยกต่างหาก"
   ]
 }

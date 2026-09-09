@@ -2,25 +2,25 @@
   "post_id": "39345d61-6091-410d-93e6-afdc8ec50547",
   "model": "claude-opus-5",
   "comment_count": 22,
-  "summary": "Published a week before the May 2023 general election with Pita Limjaroenrat as the guest, and the comment section stops being an entertainment thread and becomes a campaign one. Roughly half the comments are explicit endorsements — he should be the next prime minister, vote Move Forward, orange emoji strings — and the channel's own pinned comment simply says don't forget to vote. A significant cluster thanks the channel for making politics feel close to young viewers who would not watch a political interview, framing the hosts as a conduit rather than commentators. A third, much later wave arrived after 14 February 2026 when Goy revealed her relationship with him: commenters confess they came back from Valentine's Day and re-read her admiring gaze in the episode as the beginning of it. A smaller cluster carries hindsight regret that he never became prime minister. At 11,251 comments this is the most-commented post on the channel.",
+  "summary": "เผยแพร่ก่อนการเลือกตั้งทั่วไปเดือนพฤษภาคม 2566 หนึ่งสัปดาห์ โดยมีพิธา ลิ้มเจริญรัตน์เป็นแขกรับเชิญ ทำให้พื้นที่คอมเมนต์เปลี่ยนจากเธรดบันเทิงกลายเป็นเธรดหาเสียงไปโดยปริยาย เกือบครึ่งหนึ่งของคอมเมนต์เป็นการสนับสนุนอย่างตรงไปตรงมา ทั้งบอกว่าเขาควรเป็นนายกรัฐมนตรีคนต่อไป เชิญชวนโหวตพรรคก้าวไกล และใช้อีโมจิสีส้มต่อกันเป็นชุด ส่วนคอมเมนต์ปักหมุดของช่องเองก็เพียงเตือนว่าอย่าลืมไปเลือกตั้ง อีกกลุ่มคอมเมนต์จำนวนมากขอบคุณช่องที่ทำให้การเมืองรู้สึกใกล้ตัวผู้ชมรุ่นใหม่ที่ปกติจะไม่ดูรายการสัมภาษณ์การเมือง โดยมองว่าพิธีกรทำหน้าที่เป็นสื่อกลางมากกว่าผู้วิจารณ์ ส่วนกระแสที่สามซึ่งมาช้ากว่ามากเกิดขึ้นหลังวันที่ 14 กุมภาพันธ์ 2569 เมื่อก้อยเปิดเผยความสัมพันธ์กับเขา คอมเมนต์จำนวนหนึ่งสารภาพว่าตามมาดูหลังวันวาเลนไทน์ และตีความสายตาชื่นชมของเธอในเอพิโสดนี้ว่าเป็นจุดเริ่มต้นของความสัมพันธ์ อีกกลุ่มเล็กๆ แสดงความเสียดายเมื่อมองย้อนกลับไปว่าสุดท้ายเขาไม่ได้เป็นนายกรัฐมนตรี ด้วยจำนวน 11,251 คอมเมนต์ นี่คือโพสต์ที่มีคอมเมนต์มากที่สุดของช่อง",
   "themes": [
-    { "label": "Political endorsement and get-out-the-vote", "share": 48, "example": "คุณทิมเหมาะที่จะเป็น นายกคนต่อไปของประเทศไทยมาก กาก้าวไกลประเทศไทยไม่เหมือนเดิม" },
-    { "label": "Rewatch wave after the 14 Feb 2026 reveal", "share": 16, "example": "ใครตามมาจากวาเลนไทน์ 14/02/2026 สารภาพมา !!!!" },
-    { "label": "Reading Goy's gaze as the start of the romance", "share": 13, "example": "ชอบแววตาก้อยมากไม่เคยเห็นที่ไหนมาก่อน เป็นแววตาที่ชื่นชม ปราบปลื้ม ยกย่อง คุณทิมอย่างมาก" },
-    { "label": "Credit to the channel for making politics accessible", "share": 12, "example": "เปรียบเสมือนพวกพี่ได้เป็นกระบอกเสียงเพื่อให้ทุกคน ทุกเพศ ทุกวัย ได้หันมาสนใจ ... ทำให้รู้สึกว่าเรื่องการเมืองไม่ใช่เรื่องไกลตัวเราเลย" },
-    { "label": "Hindsight regret about the election outcome", "share": 11, "example": "กะจะมาดูโมเม้น พิธา ก้อย แต่กลายเป็นรู้สึกเสียดายจับใจ เสียดายที่ประเทศไทยไม่ได้คนที่มีความคิดดีๆ อย่างนี้มาเป็นนายก" }
+    { "label": "การสนับสนุนทางการเมืองและการรณรงค์ให้ออกไปเลือกตั้ง", "share": 48, "example": "คุณทิมเหมาะที่จะเป็น นายกคนต่อไปของประเทศไทยมาก กาก้าวไกลประเทศไทยไม่เหมือนเดิม" },
+    { "label": "กระแสดูซ้ำหลังการเปิดเผยความสัมพันธ์วันที่ 14 กุมภาพันธ์ 2569", "share": 16, "example": "ใครตามมาจากวาเลนไทน์ 14/02/2026 สารภาพมา !!!!" },
+    { "label": "การตีความสายตาของก้อยว่าเป็นจุดเริ่มต้นของความรัก", "share": 13, "example": "ชอบแววตาก้อยมากไม่เคยเห็นที่ไหนมาก่อน เป็นแววตาที่ชื่นชม ปราบปลื้ม ยกย่อง คุณทิมอย่างมาก" },
+    { "label": "การขอบคุณช่องที่ทำให้การเมืองเข้าถึงง่ายขึ้น", "share": 12, "example": "เปรียบเสมือนพวกพี่ได้เป็นกระบอกเสียงเพื่อให้ทุกคน ทุกเพศ ทุกวัย ได้หันมาสนใจ ... ทำให้รู้สึกว่าเรื่องการเมืองไม่ใช่เรื่องไกลตัวเราเลย" },
+    { "label": "ความเสียดายเมื่อมองย้อนกลับไปถึงผลการเลือกตั้ง", "share": 11, "example": "กะจะมาดูโมเม้น พิธา ก้อย แต่กลายเป็นรู้สึกเสียดายจับใจ เสียดายที่ประเทศไทยไม่ได้คนที่มีความคิดดีๆ อย่างนี้มาเป็นนายก" }
   ],
   "sentiment_breakdown": { "positive": 87, "mixed": 10, "neutral": 3, "negative": 0 },
   "audience_signals": [
-    "A non-entertainment guest booked at the right political moment produced the channel's most-commented post ever — 11,251 comments, roughly double the next highest",
-    "The audience credits the flirt-interview format with lowering the barrier to political content for young viewers, which is a genuine positioning asset the channel does not currently claim",
-    "The episode gained a second life three years later: the hosts' real relationship turned it into a romance origin story and drove a fresh rewatch wave with no new production cost",
-    "Partisan association is permanent and explicit in this thread — worth knowing before pitching brand-sensitive sponsors against the back catalogue",
-    "The format travels far outside entertainment: the same questions applied to a party leader produced substantive answers viewers described as considered"
+    "การเชิญแขกรับเชิญนอกสายบันเทิงในจังหวะการเมืองที่เหมาะสม ทำให้โพสต์นี้มีคอมเมนต์มากที่สุดเท่าที่ช่องเคยมีมา ถึง 11,251 คอมเมนต์ ซึ่งมากกว่าอันดับสองเกือบสองเท่า",
+    "ผู้ชมมองว่ารูปแบบสัมภาษณ์แบบจีบๆ ช่วยลดกำแพงในการเข้าถึงคอนเทนต์การเมืองสำหรับผู้ชมรุ่นใหม่ ซึ่งเป็นจุดแข็งด้านการวางตำแหน่งของช่องที่ยังไม่ได้ถูกนำมาใช้สื่อสารอย่างจริงจัง",
+    "เอพิโสดนี้ได้รับความสนใจอีกครั้งในอีกสามปีต่อมา เมื่อความสัมพันธ์จริงของพิธีกรทำให้มันกลายเป็นจุดเริ่มต้นของเรื่องราวความรัก และดันกระแสดูซ้ำใหม่โดยไม่ต้องลงทุนผลิตเพิ่ม",
+    "การผูกโยงกับฝ่ายการเมืองในเธรดนี้ชัดเจนและติดตัวถาวร เป็นสิ่งที่ควรรู้ก่อนนำคลังคอนเทนต์เก่านี้ไปเสนอสปอนเซอร์ที่อ่อนไหวต่อภาพลักษณ์แบรนด์",
+    "รูปแบบรายการสามารถขยายออกไปไกลกว่าคอนเทนต์บันเทิงได้มาก คำถามชุดเดิมเมื่อใช้กับหัวหน้าพรรคการเมืองกลับได้คำตอบที่มีเนื้อหาจริงจังซึ่งผู้ชมมองว่าผ่านการคิดมาอย่างดี"
   ],
   "content_requests": [
-    "More political and serious guests in the same format",
-    "A follow-up episode with the same guest",
-    "Keep using the format to bring civic topics to a young audience"
+    "เชิญแขกรับเชิญสายการเมืองหรือแขกที่มีน้ำหนักจริงจังมาในรูปแบบเดียวกันเพิ่มเติม",
+    "ทำเอพิโสดต่อเนื่องกับแขกรับเชิญคนเดิม",
+    "ใช้รูปแบบนี้นำเสนอประเด็นทางสังคมและการเมืองสู่ผู้ชมรุ่นใหม่ต่อไป"
   ]
 }

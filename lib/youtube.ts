@@ -219,3 +219,180 @@ export async function getComments(
 
   return out.slice(0, max)
 }
+
+/* ------------------------------------------------------------------ market
+ * Discovery calls for the Thai audience-market corpus. These read OTHER
+ * people's channels, so they carry channelId and categoryId — the two fields
+ * the market views join on and which getVideos() above does not need.
+ *
+ * Quota note, because it shapes how the ingest is written: videos.list costs
+ * 1 unit per call (up to 50 ids), commentThreads 1 unit per 100 comments, but
+ * search.list costs 100 units per call. Trending is therefore the cheap way to
+ * get breadth and search is spent only where the corpus needs balancing.
+ */
+
+export interface MarketVideo extends YouTubeVideo {
+  channelId: string
+  channelTitle: string
+  categoryId: number | null
+}
+
+interface RawVideoItem {
+  id: string
+  snippet: {
+    title: string
+    description: string
+    publishedAt: string
+    channelId: string
+    channelTitle: string
+    categoryId?: string
+    tags?: string[]
+    thumbnails: Record<string, { url: string }>
+    defaultAudioLanguage?: string
+    defaultLanguage?: string
+  }
+  contentDetails: { duration: string }
+  statistics: { viewCount?: string; likeCount?: string; commentCount?: string }
+}
+
+function toMarketVideo(v: RawVideoItem): MarketVideo {
+  const thumbs = v.snippet.thumbnails
+  return {
+    id: v.id,
+    title: v.snippet.title,
+    description: v.snippet.description,
+    thumbnail: thumbs.high?.url ?? thumbs.medium?.url ?? null,
+    publishedAt: v.snippet.publishedAt,
+    durationSeconds: parseDuration(v.contentDetails.duration),
+    views: Number(v.statistics.viewCount ?? 0),
+    likes: Number(v.statistics.likeCount ?? 0),
+    comments: Number(v.statistics.commentCount ?? 0),
+    tags: v.snippet.tags ?? [],
+    channelId: v.snippet.channelId,
+    channelTitle: v.snippet.channelTitle,
+    categoryId: v.snippet.categoryId ? Number(v.snippet.categoryId) : null,
+  }
+}
+
+/**
+ * YouTube's own most-popular chart for a region. This is the closest thing to a
+ * census of what a country is watching right now: it is YouTube's ranking, not
+ * a query result, so it carries no keyword bias of ours.
+ *
+ * Passing a categoryId walks the chart category by category, which is what
+ * keeps Music from swallowing the whole corpus.
+ */
+export async function getTrending(
+  regionCode: string,
+  categoryId?: number,
+  max = 200,
+): Promise<MarketVideo[]> {
+  const out: MarketVideo[] = []
+  let pageToken: string | undefined
+
+  do {
+    let data: { items: RawVideoItem[]; nextPageToken?: string }
+    try {
+      data = await get<{ items: RawVideoItem[]; nextPageToken?: string }>(
+        "videos",
+        {
+          part: "snippet,contentDetails,statistics",
+          chart: "mostPopular",
+          regionCode,
+          maxResults: "50",
+          ...(categoryId ? { videoCategoryId: String(categoryId) } : {}),
+          ...(pageToken ? { pageToken } : {}),
+        },
+      )
+    } catch (err) {
+      // Several categories have no chart in a given region. Not fatal.
+      if (String(err).includes("404") || String(err).includes("400")) return out
+      throw err
+    }
+    out.push(...data.items.map(toMarketVideo))
+    pageToken = data.nextPageToken
+  } while (pageToken && out.length < max)
+
+  return out.slice(0, max)
+}
+
+/** Video ids for a Thai-language query, most-viewed first. 100 quota units. */
+export async function searchVideoIds(opts: {
+  query: string
+  regionCode?: string
+  language?: string
+  publishedAfter?: string
+  order?: "viewCount" | "relevance" | "date"
+  max?: number
+}): Promise<string[]> {
+  const data = await get<{ items: { id: { videoId: string } }[] }>("search", {
+    part: "id",
+    q: opts.query,
+    type: "video",
+    regionCode: opts.regionCode ?? "TH",
+    relevanceLanguage: opts.language ?? "th",
+    order: opts.order ?? "viewCount",
+    maxResults: String(Math.min(opts.max ?? 50, 50)),
+    ...(opts.publishedAfter ? { publishedAfter: opts.publishedAfter } : {}),
+  })
+  return data.items.map((i) => i.id.videoId).filter(Boolean)
+}
+
+/** Full records for ids from search, which returns snippets without stats. */
+export async function getMarketVideos(ids: string[]): Promise<MarketVideo[]> {
+  const out: MarketVideo[] = []
+  for (let i = 0; i < ids.length; i += 50) {
+    const data = await get<{ items: RawVideoItem[] }>("videos", {
+      part: "snippet,contentDetails,statistics",
+      id: ids.slice(i, i + 50).join(","),
+    })
+    out.push(...data.items.map(toMarketVideo))
+  }
+  return out
+}
+
+export interface MarketChannel {
+  channelId: string
+  title: string
+  description: string
+  country: string | null
+  subscribers: number
+  totalViews: number
+  videoCount: number
+}
+
+/** Channel records, 50 at a time. Subscriber counts may be hidden. */
+export async function getChannels(ids: string[]): Promise<MarketChannel[]> {
+  const out: MarketChannel[] = []
+  for (let i = 0; i < ids.length; i += 50) {
+    const data = await get<{
+      items: {
+        id: string
+        snippet: { title: string; description: string; country?: string }
+        statistics: {
+          subscriberCount?: string
+          viewCount?: string
+          videoCount?: string
+          hiddenSubscriberCount?: boolean
+        }
+      }[]
+    }>("channels", {
+      part: "snippet,statistics",
+      id: ids.slice(i, i + 50).join(","),
+    })
+    for (const c of data.items) {
+      out.push({
+        channelId: c.id,
+        title: c.snippet.title,
+        description: c.snippet.description ?? "",
+        country: c.snippet.country ?? null,
+        subscribers: c.statistics.hiddenSubscriberCount
+          ? 0
+          : Number(c.statistics.subscriberCount ?? 0),
+        totalViews: Number(c.statistics.viewCount ?? 0),
+        videoCount: Number(c.statistics.videoCount ?? 0),
+      })
+    }
+  }
+  return out
+}

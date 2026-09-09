@@ -2,19 +2,19 @@
   "post_id": "121b1576-9f9d-427b-8bf2-d812d6af806d",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A travel episode to Madagascar with the group displaying themselves in bikinis at public beaches. The episode has massive reach (8.3M views) but the comment section is entirely critical — viewers shame the hosts for not respecting local culture, not dressing appropriately to the setting, and imposing Thai beauty/body standards on a different context. One viewer sympathizes as someone who worked in hotels, noting that guests are expected to dress appropriately. Another notes the cultural disrespect and the danger it poses. The channel's own reply tries to frame this as jesting, but the audience's tone is serious criticism, not humor.",
+  "summary": "เอพิโสดท่องเที่ยวที่มาดากัสการ์ ซึ่งกลุ่มพิธีกรใส่บิกินี่บนชายหาดสาธารณะ เอพิโสดนี้มียอดการเข้าถึงมหาศาล (8.3 ล้านวิว) แต่ช่องคอมเมนต์กลับเต็มไปด้วยเสียงวิจารณ์ทั้งหมด ผู้ชมตำหนิพิธีกรที่ไม่เคารพวัฒนธรรมท้องถิ่น แต่งกายไม่เหมาะสมกับสถานที่ และนำมาตรฐานความงาม/รูปร่างแบบไทยไปใช้ในบริบทที่ต่างออกไป ผู้ชมรายหนึ่งที่เคยทำงานในธุรกิจโรงแรมแสดงความเห็นใจ โดยระบุว่าแขกผู้เข้าพักถูกคาดหวังให้แต่งกายให้เหมาะสม อีกรายชี้ให้เห็นถึงการไม่เคารพวัฒนธรรมและอันตรายที่อาจเกิดขึ้น การตอบกลับของทางช่องเองพยายามวางกรอบเรื่องนี้ให้เป็นเรื่องล้อเล่น แต่น้ำเสียงของผู้ชมคือการวิจารณ์อย่างจริงจัง ไม่ใช่อารมณ์ขัน",
   "themes": [
-    { "label": "Shame for not respecting local culture", "share": 45, "example": "เข้าใจว่าหุ่นดี อยากโชว์ ถ่ายรูปสวยๆ แต่ไม่ดูกาลเทศะเลย ก้อเกรงใจวัฒนธรรม culture เขาด้วย อันตรายมากๆ" },
-    { "label": "Cultural dress code commentary", "share": 30, "example": "การแต่งตัวมันก็นิสนึงนะครับ กาลเทศะ และมารยาทครับ" },
-    { "label": "Sympathy for cultural backlash", "share": 20, "example": "เข้าใจความรู้สึกเวลาที่คนต่างชาติมาทำอะไรบ้าๆบอๆในประเทศไทย ตอนนี้คนในประเทศเขา ก็คงกำลังด่าคนไทยมึง" },
-    { "label": "Embarrassment", "share": 5, "example": "ไม่รู้สึกอึ้ง ไม่รู้สึกขำ แต่รู้สึกอายแทน" }
+    { "label": "การตำหนิเรื่องการไม่เคารพวัฒนธรรมท้องถิ่น", "share": 45, "example": "เข้าใจว่าหุ่นดี อยากโชว์ ถ่ายรูปสวยๆ แต่ไม่ดูกาลเทศะเลย ก้อเกรงใจวัฒนธรรม culture เขาด้วย อันตรายมากๆ" },
+    { "label": "ความเห็นเรื่องการแต่งกายให้เหมาะสมกับวัฒนธรรม", "share": 30, "example": "การแต่งตัวมันก็นิสนึงนะครับ กาลเทศะ และมารยาทครับ" },
+    { "label": "ความเห็นใจต่อกระแสตอบโต้เชิงวัฒนธรรม", "share": 20, "example": "เข้าใจความรู้สึกเวลาที่คนต่างชาติมาทำอะไรบ้าๆบอๆในประเทศไทย ตอนนี้คนในประเทศเขา ก็คงกำลังด่าคนไทยมึง" },
+    { "label": "ความรู้สึกอับอายแทน", "share": 5, "example": "ไม่รู้สึกอึ้ง ไม่รู้สึกขำ แต่รู้สึกอายแทน" }
   ],
   "sentiment_breakdown": { "positive": 0, "neutral": 10, "mixed": 20, "negative": 70 },
   "audience_signals": [
-    "The audience has a strong cultural awareness and will criticize content that disrespects local customs, even if the hosts do not intend harm",
-    "A single episode can achieve massive reach (8.3M views) while generating overwhelmingly negative comment sentiment — reach and sentiment are independent",
-    "Travel content carries cultural responsibility in the audience's view; frivolous disrespect generates not humor but moral criticism",
-    "This is a significant reputational risk: reach without respect"
+    "ผู้ชมมีความตระหนักรู้เชิงวัฒนธรรมสูง และพร้อมวิจารณ์คอนเทนต์ที่ไม่เคารพขนบธรรมเนียมท้องถิ่น แม้พิธีกรจะไม่มีเจตนาร้ายก็ตาม",
+    "เอพิโสดเดียวสามารถสร้างการเข้าถึงได้มหาศาล (8.3 ล้านวิว) ในขณะที่ความรู้สึกในคอมเมนต์เป็นลบอย่างท่วมท้น แสดงให้เห็นว่ายอดการเข้าถึงและความรู้สึกของผู้ชมเป็นอิสระต่อกัน",
+    "ในมุมมองของผู้ชม คอนเทนต์ท่องเที่ยวมาพร้อมความรับผิดชอบเชิงวัฒนธรรม การไม่เคารพอย่างไม่ใส่ใจจะไม่ก่อให้เกิดอารมณ์ขัน แต่นำไปสู่การวิจารณ์เชิงจริยธรรม",
+    "นี่คือความเสี่ยงด้านภาพลักษณ์ที่สำคัญ คือการเข้าถึงที่มาโดยปราศจากความเคารพ"
   ],
   "content_requests": []
 }

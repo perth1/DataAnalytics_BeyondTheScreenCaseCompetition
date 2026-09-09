@@ -2,26 +2,26 @@
   "post_id": "65c0d25e-6aa8-4db9-ac56-38b2b1a2ed17",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A social-deduction game episode that the audience treats as a prototype needing work. The top comment is a viewer designing new roles for the game in detail — a secretary who can only see the wife, an HR head who can protect one player per night, a security officer who can silence a suspicious employee, a gossiping employee who sees both sides without knowing which is which, and a housekeeper who knows everything and wins alone if voted out. Directly beneath it, another well-liked comment says there were too many mistakes and that if they want to keep making game content a lot needs improving. The channel replies in the thread thanking them for the feedback and promising to simplify the rules next time. The remaining comments ask for the Friendsfly group to play instead, on the grounds that people who are already close would be funnier.",
+  "summary": "ตอนเกมแนวจับผิด/วิเคราะห์บทบาท (social deduction) ที่ผู้ชมมองว่าเป็นเพียงต้นแบบที่ยังต้องปรับปรุง คอมเมนต์อันดับต้นเป็นผู้ชมที่ออกแบบบทบาทใหม่ให้เกมอย่างละเอียด เช่น เลขาที่มองเห็นได้เฉพาะภรรยาหลวง หัวหน้าฝ่ายบุคคลที่ปกป้องผู้เล่นได้หนึ่งคนต่อคืน เจ้าหน้าที่รักษาความปลอดภัยที่ปิดปากพนักงานต้องสงสัยได้ พนักงานปากโป้งที่เห็นทั้งสองฝ่ายแต่ไม่รู้ว่าใครเป็นใคร และแม่บ้านที่รู้ทุกอย่างและชนะคนเดียวหากถูกโหวตออก ต่อจากคอมเมนต์นั้นทันที มีคอมเมนต์ที่ได้รับความนิยมอีกอันบอกว่ามีข้อผิดพลาดเยอะเกินไป และถ้าอยากทำคอนเทนต์เกมต่อต้องปรับปรุงอีกมาก ทางช่องเข้ามาตอบในธรีดขอบคุณสำหรับฟีดแบ็กและสัญญาว่าจะปรับกติกาให้เข้าใจง่ายขึ้นในครั้งหน้า คอมเมนต์ที่เหลือขอให้เอากลุ่ม Friendsfly มาเล่นแทน โดยให้เหตุผลว่าคนที่สนิทกันอยู่แล้วน่าจะสนุกกว่า",
   "themes": [
-    { "label": "A viewer designing new game roles in detail", "share": 30, "example": "ขอแนะนำตัวละครมีพลังเพิ่มเล่น ๆ ครับ - เลขาเมียหลวง ... - หัวหน้าฝ่ายบุคคล ... - ป้าแม่บ้าน รู้หมดว่าใครเป็นอะไร" },
-    { "label": "Too many mistakes, rules need work", "share": 25, "example": "จุดพลาดเยอะมาก ดูเอาฮาได้อยู่ แต่ถ้าจะทำรายการเล่นเกมต่อต้องปรับปรุงอีกเยอะ" },
-    { "label": "The channel replying and committing to changes", "share": 17, "example": "ขอบคุณสำหรับฟีดแบคนะค้า เดี๋ยวโอกาสหน้าจะลองปรับกติกาให้เข้าใจง่ายขึ้นค่ะ" },
-    { "label": "Play it with the Friendsfly group instead", "share": 16, "example": "อยากให้เอาแก๊งfriendflyมาเล่นด้วยกัน คงสนุกมากแน่ๆ เพราะสนิทกันอยู่แล้วอ่ะ" },
-    { "label": "Member appearance praise", "share": 12, "example": "พี่ดรีมสวยมากกก ออร่าสุดๆเทปนี้" }
+    { "label": "ผู้ชมออกแบบบทบาทใหม่ให้เกมอย่างละเอียด", "share": 30, "example": "ขอแนะนำตัวละครมีพลังเพิ่มเล่น ๆ ครับ - เลขาเมียหลวง ... - หัวหน้าฝ่ายบุคคล ... - ป้าแม่บ้าน รู้หมดว่าใครเป็นอะไร" },
+    { "label": "ข้อผิดพลาดเยอะเกินไป กติกาต้องปรับปรุง", "share": 25, "example": "จุดพลาดเยอะมาก ดูเอาฮาได้อยู่ แต่ถ้าจะทำรายการเล่นเกมต่อต้องปรับปรุงอีกเยอะ" },
+    { "label": "ช่องตอบกลับและรับปากจะปรับปรุง", "share": 17, "example": "ขอบคุณสำหรับฟีดแบคนะค้า เดี๋ยวโอกาสหน้าจะลองปรับกติกาให้เข้าใจง่ายขึ้นค่ะ" },
+    { "label": "ให้กลุ่ม Friendsfly มาเล่นแทน", "share": 16, "example": "อยากให้เอาแก๊งfriendflyมาเล่นด้วยกัน คงสนุกมากแน่ๆ เพราะสนิทกันอยู่แล้วอ่ะ" },
+    { "label": "ชื่นชมรูปลักษณ์ของสมาชิก", "share": 12, "example": "พี่ดรีมสวยมากกก ออร่าสุดๆเทปนี้" }
   ],
   "sentiment_breakdown": { "positive": 58, "mixed": 30, "negative": 8, "neutral": 4 },
   "audience_signals": [
-    "The audience will co-design formats given the chance — an unprompted, fully specified role list for a social-deduction game arrived as the top comment, which is free format development",
-    "The channel publicly answers criticism and commits to specific fixes, and viewers see it; that responsiveness is a trust asset worth doing deliberately rather than occasionally",
-    "Game formats are the weakest execution area in the catalogue — rules clarity, not casting, is what the audience says is broken",
-    "Viewers propose using the existing friend group as the cast for game formats, which would solve the chemistry problem at no booking cost",
-    "This is one of the few threads with real negative sentiment, and it is aimed at production quality rather than at the people"
+    "ผู้ชมพร้อมร่วมออกแบบฟอร์แมตหากมีโอกาส คอมเมนต์อันดับต้นคือรายการบทบาทเกมจับผิดที่ครบถ้วนและไม่ได้ถูกขอให้ทำ ถือเป็นการพัฒนาฟอร์แมตให้ฟรีๆ",
+    "ช่องตอบคำวิจารณ์อย่างเปิดเผยและรับปากจะแก้ไขอย่างเป็นรูปธรรม ผู้ชมเห็นสิ่งนี้ ความใส่ใจตอบสนองนี้เป็นสินทรัพย์ด้านความเชื่อใจที่ควรทำอย่างตั้งใจมากกว่าทำเป็นครั้งคราว",
+    "ฟอร์แมตแนวเกมคือจุดที่การดำเนินการอ่อนที่สุดในคลังคอนเทนต์ ผู้ชมบอกว่าปัญหาอยู่ที่ความชัดเจนของกติกา ไม่ใช่การคัดเลือกนักแสดง",
+    "ผู้ชมเสนอให้ใช้กลุ่มเพื่อนที่มีอยู่แล้วเป็นนักแสดงสำหรับฟอร์แมตแนวเกม ซึ่งจะแก้ปัญหาเรื่องความเข้ากันได้โดยไม่มีต้นทุนในการจองแขกรับเชิญเพิ่ม",
+    "นี่คือหนึ่งในไม่กี่ธรีดที่มีความรู้สึกเชิงลบอย่างแท้จริง และมุ่งไปที่คุณภาพการผลิต ไม่ใช่ที่ตัวบุคคล"
   ],
   "content_requests": [
-    "Simplify and explain the game rules",
-    "Add the suggested extra roles",
-    "Play the game with the Friendsfly group",
-    "Keep making game content but fix the execution"
+    "ทำให้กติกาเกมง่ายขึ้นและอธิบายให้ชัดเจน",
+    "เพิ่มบทบาทตามที่มีการเสนอแนะ",
+    "เล่นเกมนี้กับกลุ่ม Friendsfly",
+    "ทำคอนเทนต์แนวเกมต่อไปแต่ต้องแก้ไขการดำเนินการ"
   ]
 }

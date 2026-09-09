@@ -45,23 +45,23 @@ function TooltipCard({
       <p className="font-semibold">{d.name}</p>
       <dl className="mt-1.5 space-y-0.5">
         <div className="flex justify-between gap-4">
-          <dt className="text-muted-foreground">Audience demand</dt>
+          <dt className="text-muted-foreground">อุปสงค์ผู้ชม</dt>
           <dd className="tabular-nums">{formatPercent(d.demandShare)}</dd>
         </div>
         <div className="flex justify-between gap-4">
-          <dt className="text-muted-foreground">Content supply</dt>
+          <dt className="text-muted-foreground">อุปทานคอนเทนต์</dt>
           <dd className="tabular-nums">{formatPercent(d.supplyShare)}</dd>
         </div>
         <div className="flex justify-between gap-4 border-t pt-0.5">
-          <dt className="text-muted-foreground">Gap</dt>
+          <dt className="text-muted-foreground">ช่องว่าง</dt>
           <dd className="tabular-nums">
             {gap > 0 ? "+" : ""}
-            {formatPercent(gap)} pts
+            {formatPercent(gap)} จุด
           </dd>
         </div>
       </dl>
       <p className="text-muted-foreground mt-1.5 tabular-nums">
-        {d.signals.toLocaleString()} comment signals · {d.postCount} posts
+        {d.signals.toLocaleString()} สัญญาณจากคอมเมนต์ · {d.postCount} โพสต์
       </p>
     </div>
   )
@@ -78,14 +78,14 @@ export function DemandSupplyBars({ data }: { data: DemandSupplyDatum[] }) {
             className="size-2.5 rounded-sm"
             style={{ background: "var(--chart-1)" }}
           />
-          Audience demand (share of comment signals)
+          อุปสงค์ผู้ชม (สัดส่วนสัญญาณจากคอมเมนต์)
         </span>
         <span className="flex items-center gap-1.5">
           <span
             className="size-2.5 rounded-sm"
             style={{ background: "var(--chart-4)" }}
           />
-          Content supply (share of classified posts)
+          อุปทานคอนเทนต์ (สัดส่วนโพสต์ที่จัดกลุ่มได้)
         </span>
       </div>
 
@@ -124,7 +124,7 @@ export function DemandSupplyBars({ data }: { data: DemandSupplyDatum[] }) {
           />
           <Bar
             dataKey="demandShare"
-            name="Audience demand"
+            name="อุปสงค์ผู้ชม"
             fill="var(--chart-1)"
             radius={[0, 4, 4, 0]}
             barSize={12}
@@ -138,7 +138,7 @@ export function DemandSupplyBars({ data }: { data: DemandSupplyDatum[] }) {
           />
           <Bar
             dataKey="supplyShare"
-            name="Content supply"
+            name="อุปทานคอนเทนต์"
             fill="var(--chart-4)"
             radius={[0, 4, 4, 0]}
             barSize={12}

@@ -2,24 +2,24 @@
   "post_id": "7aff0769-ce1e-4a54-af0a-7c802f059311",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A recent revival of the question-challenge format with an actress guest, and the channel's own pinned comment says it out loud: it has been a long time since they did this one, do people still like it, and what should they do next. The reaction is positive and specifically about timing — the three-way comedic rhythm between the guest and two hosts is named as what makes it work, and the guest's energy is described as easy to approach. Several commenters note that the guest rarely appears on YouTube at all, so this is effectively her YouTube debut. The top comment immediately routes her elsewhere, asking for her and her partner to appear on the couples driving series.",
+  "summary": "การรื้อฟื้นฟอร์แมตเกมตอบคำถามล่าสุดกับนักแสดงหญิงแขกรับเชิญ คอมเมนต์ปักหมุดของช่องเองพูดตรงๆ ว่าห่างหายจากฟอร์แมตนี้ไปนานแล้ว ผู้ชมยังชอบอยู่ไหม และควรทำอะไรต่อไป ปฏิกิริยาของผู้ชมเป็นบวกและเน้นไปที่จังหวะโดยเฉพาะ จังหวะมุกตลกแบบสามคนระหว่างแขกรับเชิญกับพิธีกรสองคนถูกระบุว่าเป็นสิ่งที่ทำให้ตอนนี้ใช้ได้ผล และพลังงานของแขกรับเชิญถูกบรรยายว่าเข้าถึงง่าย ผู้แสดงความเห็นหลายคนตั้งข้อสังเกตว่าแขกรับเชิญแทบไม่ปรากฏตัวบนยูทูปเลย ทำให้ตอนนี้กลายเป็นการเดบิวต์บนยูทูปของเธอโดยพฤตินัย คอมเมนต์อันดับต้นส่งต่อเธอไปยังรายการอื่นทันที โดยขอให้เธอกับแฟนไปออกซีรีส์ขับรถคู่รัก",
   "themes": [
-    { "label": "Three-way comedic timing", "share": 34, "example": "จังหวะใบ ดรีม ก้อย ลงตัวแบบสุดดดขำทั้งคลิปปป" },
-    { "label": "The guest's approachable energy", "share": 25, "example": "พี่ใบเฟิร์นคือเอนเนอจี้น่าเข้าหามากก น่ารักกกกก" },
-    { "label": "Route her to the couples series", "share": 18, "example": "อยากเห็นมาร์ชจุกับใบมา car รา car ซัง ให้กันได้มั้ยค้าาาาาา" },
-    { "label": "The channel asking whether to continue the format", "share": 12, "example": "ห่างหายท้าตอบไปนานมากก เพื่อนๆยังชอบมั้ยค้า อยากให้พวกเราทำอะไรอีกเม้นมาได้เลยยย" },
-    { "label": "The guest's YouTube debut", "share": 11, "example": "ในที่สุดใบก็ออกช่องยูทูปบ้างแล้ว" }
+    { "label": "จังหวะมุกตลกแบบสามคน", "share": 34, "example": "จังหวะใบ ดรีม ก้อย ลงตัวแบบสุดดดขำทั้งคลิปปป" },
+    { "label": "พลังงานที่เข้าถึงง่ายของแขกรับเชิญ", "share": 25, "example": "พี่ใบเฟิร์นคือเอนเนอจี้น่าเข้าหามากก น่ารักกกกก" },
+    { "label": "ส่งต่อเธอไปยังซีรีส์คู่รัก", "share": 18, "example": "อยากเห็นมาร์ชจุกับใบมา car รา car ซัง ให้กันได้มั้ยค้าาาาาา" },
+    { "label": "ช่องถามว่าควรทำฟอร์แมตนี้ต่อไหม", "share": 12, "example": "ห่างหายท้าตอบไปนานมากก เพื่อนๆยังชอบมั้ยค้า อยากให้พวกเราทำอะไรอีกเม้นมาได้เลยยย" },
+    { "label": "การเดบิวต์บนยูทูปของแขกรับเชิญ", "share": 11, "example": "ในที่สุดใบก็ออกช่องยูทูปบ้างแล้ว" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "The channel puts format-revival decisions to the audience directly — asking whether a dormant series should continue is a standing habit and it gets answered",
-    "The channel is where television actors make their first YouTube appearance, which is a specific access claim worth stating to talent agencies",
-    "Guest routing between the channel's formats is the audience's default reflex; the first comment on a new guest is usually which other show to put them on next",
-    "Reach for this format has settled around 700K, well below the 1.2-1.4M of its 2022 peak, so the revival is working but not at former scale"
+    "ช่องนี้ให้ผู้ชมมีส่วนร่วมตัดสินใจโดยตรงว่าจะรื้อฟื้นฟอร์แมตหรือไม่ การถามว่าซีรีส์ที่หยุดไปแล้วควรทำต่อไหมเป็นธรรมเนียมที่ทำเป็นประจำและได้รับคำตอบเสมอ",
+    "ช่องนี้เป็นที่ที่นักแสดงโทรทัศน์มาปรากฏตัวบนยูทูปเป็นครั้งแรก ซึ่งเป็นจุดแข็งเฉพาะที่ควรนำไปสื่อสารกับบริษัทตัวแทนนักแสดง",
+    "การส่งต่อแขกรับเชิญระหว่างฟอร์แมตต่างๆ ของช่องเป็นปฏิกิริยาโดยธรรมชาติของผู้ชม คอมเมนต์แรกต่อแขกรับเชิญใหม่มักจะเป็นการเสนอว่าควรไปออกรายการอื่นใดต่อ",
+    "ยอดเข้าถึงของฟอร์แมตนี้อยู่ที่ประมาณ 700,000 ซึ่งต่ำกว่าจุดสูงสุดในปี 2022 ที่ 1.2-1.4 ล้านอย่างมาก แสดงว่าการรื้อฟื้นได้ผลแต่ยังไม่ถึงระดับเดิม"
   ],
   "content_requests": [
-    "Put the guest and her partner on CarราCarซัง",
-    "Keep the question-challenge format running",
-    "More episodes with this guest"
+    "ให้แขกรับเชิญและแฟนไปออกรายการ Carรา Carซัง",
+    "ทำฟอร์แมตเกมตอบคำถามนี้ต่อไป",
+    "ทำตอนกับแขกรับเชิญคนนี้เพิ่มขึ้น"
   ]
 }

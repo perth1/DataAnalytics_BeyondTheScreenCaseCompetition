@@ -17,13 +17,13 @@ export function TopContentTable({ posts }: { posts: PostWithMetrics[] }) {
       <TableHeader>
         <TableRow>
           <TableHead className="w-8">#</TableHead>
-          <TableHead>Content</TableHead>
-          <TableHead>Category</TableHead>
-          <TableHead className="text-right">Views</TableHead>
-          <TableHead className="text-right">Likes</TableHead>
-          <TableHead className="text-right">Comments</TableHead>
+          <TableHead>เนื้อหา</TableHead>
+          <TableHead>ซีรีส์</TableHead>
+          <TableHead className="text-right">ยอดวิว</TableHead>
+          <TableHead className="text-right">ไลก์</TableHead>
+          <TableHead className="text-right">คอมเมนต์</TableHead>
           <TableHead className="text-right">ER</TableHead>
-          <TableHead className="text-right">Published</TableHead>
+          <TableHead className="text-right">วันที่เผยแพร่</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -46,7 +46,7 @@ export function TopContentTable({ posts }: { posts: PostWithMetrics[] }) {
               </a>
             </TableCell>
             <TableCell>
-              <Badge variant="muted">{post.category_name ?? "Uncategorized"}</Badge>
+              <Badge variant="muted">{post.category_name ?? "ยังไม่จัดหมวดหมู่"}</Badge>
             </TableCell>
             <TableCell className="text-right tabular-nums">
               {formatCompact(post.views)}

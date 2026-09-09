@@ -19,7 +19,7 @@ export function PlatformNav() {
             : "hover:bg-muted",
         )}
       >
-        All platforms
+        ทุกแพลตฟอร์ม
       </Link>
       {PLATFORMS.map((p) => {
         const href = `/analytics/${p.key}`
@@ -49,7 +49,7 @@ export function PlatformNav() {
             : "hover:bg-muted",
         )}
       >
-        Market
+        ภาพรวมตลาด
       </Link>
     </nav>
   )

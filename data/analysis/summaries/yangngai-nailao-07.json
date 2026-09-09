@@ -2,24 +2,24 @@
   "post_id": "be8e29ad-3e3b-4698-94f8-e388d00ade84",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "A top-tier actress as guest, and most of the thread is about how she looks — several commenters who have met her in person describe being stunned, and multiple say they do not usually favour any Thai actress but would name her. The second cluster is booking prestige: viewers say the channel can apparently get anyone and immediately escalate the requests to Yaya and, jokingly, Lisa. A smaller but commercially notable comment actively promotes the episode's sponsor, praising the brand for funding youth camps and encouraging others to buy, then jokes about sounding like a paid plant. Another cluster defends the guest against past online drama and credits her for proving herself. Comment depth is shallower here than on episodes with more opinionated guests — high reach, low substance.",
+  "summary": "แขกรับเชิญคือนักแสดงหญิงระดับแถวหน้า และคอมเมนต์ส่วนใหญ่พูดถึงความสวยของเธอ ผู้ชมหลายคนที่เคยเจอตัวจริงบอกว่าประทับใจจนตะลึง และหลายคนบอกว่าปกติไม่ได้เป็นแฟนนักแสดงหญิงไทยคนไหนเป็นพิเศษ แต่ถ้าให้เลือกก็จะเลือกเธอ กลุ่มคอมเมนต์ที่สองพูดถึงความน่าเชื่อถือด้านการดึงแขกรับเชิญของช่อง โดยผู้ชมบอกว่าช่องนี้ดูเหมือนจะเชิญใครมาก็ได้ และรีบยกระดับคำขอไปถึงญาญ่า และแบบติดตลกไปถึงลิซ่า มีคอมเมนต์หนึ่งที่มีนัยเชิงพาณิชย์ โดยผู้ชมช่วยโปรโมตสปอนเซอร์ของตอนนี้เอง ชื่นชมแบรนด์ที่สนับสนุนงบให้ค่ายเยาวชน และชวนคนอื่นอุดหนุน ก่อนจะแซวตัวเองว่าฟังดูเหมือนพนักงานของแบรนด์ อีกกลุ่มออกมาปกป้องแขกรับเชิญจากดราม่าในอดีต และให้เครดิตที่เธอพิสูจน์ตัวเองได้ ความลึกของคอมเมนต์ในตอนนี้ตื้นกว่าตอนที่มีแขกรับเชิญซึ่งมีความคิดเห็นชัดเจนกว่า — เข้าถึงคนได้กว้างแต่เนื้อหาการพูดคุยไม่ลึก",
   "themes": [
-    { "label": "The guest's beauty", "share": 39, "example": "เคยเจอตัวจริง น้องใหม่ ดาวิกา คือแบบ I'm completely STUNNED ไปเลย" },
-    { "label": "Booking prestige and escalating requests", "share": 22, "example": "โอโห แขกแต่ละคน ตัวท็อปมากๆ คนต่อไปขอญาญ่าค่ะ ลิซ่าต้องมาแล้วแหละถ้าเอาเบอร์นี้มาได้" },
-    { "label": "Organic sponsor advocacy", "share": 14, "example": "ช่วยสนับสนุนแลคตาซอยกันเยอะๆนะคะ เห็นชอบให้งบเด็กๆไปทำค่ายดีๆสร้างสรรค์" },
-    { "label": "Defending the guest against past drama", "share": 13, "example": "ตอนเจอกระแสดราม่าใหม่ คือเรานี่ ตามให้กำลังใจนางทุกที่ที่มีข่าว" },
-    { "label": "Her attentive listening on camera", "share": 12, "example": "ทำไมพี่ใหม่ดูแบบตั้งใจฟังทุกคนจริงๆอะมองหน้าแบบจริงจังมาก" }
+    { "label": "ความสวยของแขกรับเชิญ", "share": 39, "example": "เคยเจอตัวจริง น้องใหม่ ดาวิกา คือแบบ I'm completely STUNNED ไปเลย" },
+    { "label": "ความน่าเชื่อถือด้านการดึงแขกรับเชิญและการยกระดับคำขอ", "share": 22, "example": "โอโห แขกแต่ละคน ตัวท็อปมากๆ คนต่อไปขอญาญ่าค่ะ ลิซ่าต้องมาแล้วแหละถ้าเอาเบอร์นี้มาได้" },
+    { "label": "การช่วยโปรโมตสปอนเซอร์โดยธรรมชาติ", "share": 14, "example": "ช่วยสนับสนุนแลคตาซอยกันเยอะๆนะคะ เห็นชอบให้งบเด็กๆไปทำค่ายดีๆสร้างสรรค์" },
+    { "label": "การปกป้องแขกรับเชิญจากดราม่าในอดีต", "share": 13, "example": "ตอนเจอกระแสดราม่าใหม่ คือเรานี่ ตามให้กำลังใจนางทุกที่ที่มีข่าว" },
+    { "label": "การตั้งใจรับฟังของเธอต่อหน้ากล้อง", "share": 12, "example": "ทำไมพี่ใหม่ดูแบบตั้งใจฟังทุกคนจริงๆอะมองหน้าแบบจริงจังมาก" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "Sponsor goodwill can be organic: a viewer voluntarily promoted the brand and cited its youth-camp funding, which suggests brands with a visible social contribution get advocacy rather than tolerance on this channel",
-    "Booking prestige compounds — each A-list guest raises the ceiling of what the audience believes the channel can land, and they say so",
-    "Beauty-led episodes deliver high reach but shallow comment substance compared with opinionated guests; reach and insight are not the same axis",
-    "The audience will defend a guest's reputation in the thread, which makes the channel a relatively safe venue for guests recovering from controversy"
+    "ความน่าเชื่อถือของสปอนเซอร์เกิดขึ้นได้เองตามธรรมชาติ ผู้ชมคนหนึ่งช่วยโปรโมตแบรนด์โดยไม่มีใครขอ และอ้างถึงการสนับสนุนงบค่ายเยาวชน ซึ่งบ่งชี้ว่าแบรนด์ที่มีบทบาทต่อสังคมอย่างเป็นรูปธรรมจะได้รับการสนับสนุนจากผู้ชมของช่องนี้ ไม่ใช่แค่การยอมรับเฉยๆ",
+    "ความน่าเชื่อถือด้านการดึงแขกรับเชิญสะสมเพิ่มขึ้นเรื่อยๆ — แขกรับเชิญระดับเอลิสต์แต่ละคนยกระดับความคาดหวังของผู้ชมว่าช่องนี้สามารถเชิญใครมาได้บ้าง และผู้ชมก็พูดถึงเรื่องนี้อย่างชัดเจน",
+    "ตอนที่เน้นความสวยงามของแขกรับเชิญให้การเข้าถึงที่กว้างแต่เนื้อหาคอมเมนต์ตื้นกว่าตอนที่มีแขกรับเชิญซึ่งมีความคิดเห็นชัดเจน การเข้าถึงกับข้อมูลเชิงลึกจึงเป็นคนละมิติกัน",
+    "ผู้ชมพร้อมปกป้องชื่อเสียงของแขกรับเชิญในกระทู้คอมเมนต์ ซึ่งทำให้ช่องนี้เป็นพื้นที่ที่ค่อนข้างปลอดภัยสำหรับแขกรับเชิญที่กำลังฟื้นฟูภาพลักษณ์จากกระแสดราม่า"
   ],
   "content_requests": [
-    "Book Yaya",
-    "More A-list actress guests",
-    "Keep the sponsor integrations light"
+    "เชิญญาญ่ามาออกรายการ",
+    "เชิญนักแสดงหญิงระดับเอลิสต์มาออกรายการเพิ่มเติม",
+    "คงการสอดแทรกสปอนเซอร์ให้เป็นไปอย่างเบาๆ ไม่หนักเกินไป"
   ]
 }

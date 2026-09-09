@@ -2,26 +2,26 @@
   "post_id": "da7ef55e-e2ff-408f-b254-49bf3d6b0f0c",
   "model": "claude-opus-5",
   "comment_count": 19,
-  "summary": "Built on a sunflower metaphor for one-sided love, and the audience extends the metaphor rather than just praising the song — the single most-liked comment is a viewer saying she is tired of letting the sun decide whether she blooms and wants to bloom on her own. The second cluster works through the mismatch between the cheerful melody and the sad story and resolves it as loving someone without needing to possess them, quoting the hook back. A third cluster is about the MV cast, particularly the director-turned-lead Boss, whose own supporters ask the channel admin to pass praise along to him. A smaller thread credits the producer Ton Hon as her consistent collaborator and calls the pairing a signature. Several comments simply ask her never to stop releasing music.",
+  "summary": "เพลงนี้สร้างจากอุปมาดอกทานตะวันเพื่อสื่อถึงความรักข้างเดียว และผู้ชมต่อยอดอุปมานี้มากกว่าจะแค่ชมเพลงเฉยๆ คอมเมนต์ที่ได้รับไลก์สูงสุดคือผู้ชมคนหนึ่งบอกว่าเธอเหนื่อยกับการปล่อยให้แสงแดดเป็นตัวตัดสินว่าเธอจะบานหรือไม่ และอยากบานด้วยตัวเองบ้าง กลุ่มที่สองตีความความขัดแย้งระหว่างทำนองที่สนุกสนานกับเนื้อหาที่เศร้า และสรุปว่าคือการรักใครสักคนโดยไม่จำเป็นต้องครอบครอง พร้อมยกท่อนฮุคมาซ้ำ กลุ่มที่สามพูดถึงนักแสดงใน MV โดยเฉพาะบอส ผู้กำกับที่ผันตัวมารับบทนำ ซึ่งฐานแฟนของเขาขอให้แอดมินช่องช่วยส่งคำชมไปให้ กระแสย่อยอีกส่วนให้เครดิตโปรดิวเซอร์ ต้นหน ในฐานะคู่หูที่ทำงานร่วมกันมาสม่ำเสมอ และเรียกการร่วมงานนี้ว่าเป็นเอกลักษณ์เฉพาะตัว มีคอมเมนต์หลายรายการที่ขอให้เธออย่าหยุดทำเพลงเด็ดขาด",
   "themes": [
-    { "label": "Viewers extending the sunflower metaphor", "share": 34, "example": "ตอนนี้อยากลองเป็นดอกทานตะวันที่บานด้วยตัวเองบ้าง ไม่อยากให้แสงแดดมามีผลอีกแล้ว" },
-    { "label": "Happy melody over a sad story / loving without possessing", "share": 25, "example": "ความรักจริงๆ ก็คือการเห็นคนที่เรารักมีความสุขกับทางที่เค้าเลือก" },
-    { "label": "MV cast and chemistry", "share": 18, "example": "โฟกัสแต่เอ็มวี บอสสอกกกกกกกก นางมีของนะ 10 เต็มเลยยยยยย" },
-    { "label": "Producer continuity with Ton Hon", "share": 11, "example": "ต้นหนทำเพลงให้ก้อยได้ดีทุกเพลงเลยค่ะ เหมือนแบบเป็นลายเส้นไปแล้วค่ะ" },
-    { "label": "Don't stop making music / voice keeps improving", "share": 12, "example": "พี่อย่าเลิกร้องเพลงนะ หนูชอบเสียงพี่มากๆเลย" }
+    { "label": "ผู้ชมต่อยอดอุปมาดอกทานตะวัน", "share": 34, "example": "ตอนนี้อยากลองเป็นดอกทานตะวันที่บานด้วยตัวเองบ้าง ไม่อยากให้แสงแดดมามีผลอีกแล้ว" },
+    { "label": "ทำนองสนุกบนเนื้อหาเศร้า / การรักโดยไม่ครอบครอง", "share": 25, "example": "ความรักจริงๆ ก็คือการเห็นคนที่เรารักมีความสุขกับทางที่เค้าเลือก" },
+    { "label": "นักแสดงใน MV และเคมีระหว่างกัน", "share": 18, "example": "โฟกัสแต่เอ็มวี บอสสอกกกกกกกก นางมีของนะ 10 เต็มเลยยยยยย" },
+    { "label": "ความต่อเนื่องในการทำงานกับโปรดิวเซอร์ต้นหน", "share": 11, "example": "ต้นหนทำเพลงให้ก้อยได้ดีทุกเพลงเลยค่ะ เหมือนแบบเป็นลายเส้นไปแล้วค่ะ" },
+    { "label": "ขอให้อย่าหยุดทำเพลง / เสียงร้องพัฒนาขึ้นเรื่อยๆ", "share": 12, "example": "พี่อย่าเลิกร้องเพลงนะ หนูชอบเสียงพี่มากๆเลย" }
   ],
   "sentiment_breakdown": { "positive": 65, "mixed": 31, "neutral": 4, "negative": 0 },
   "audience_signals": [
-    "A metaphor in the title invites the audience to write their own version of it — the top comment is a viewer's reframing rather than praise, which is the highest-value kind of engagement",
-    "Crew members have their own followings: commenters ask the channel admin to relay praise to the director by name, so crediting the team publicly pays back",
-    "Producer continuity is recognised as part of the artist brand, not an implementation detail",
-    "The audience casts future MVs unprompted, naming the friend group members they want to see act",
-    "Views are stepping down across the music catalogue (44.7M to 826K), so reach now depends on collaborators and cast rather than the song alone"
+    "อุปมาในชื่อเพลงชวนให้ผู้ชมตีความและต่อยอดเป็นเวอร์ชันของตัวเอง คอมเมนต์อันดับต้นๆ คือการตีความใหม่ของผู้ชม ไม่ใช่แค่คำชม ซึ่งถือเป็นการมีส่วนร่วมที่มีคุณค่าสูงสุด",
+    "ทีมงานเบื้องหลังก็มีฐานแฟนของตัวเอง ผู้ชมขอให้แอดมินช่องส่งคำชมไปถึงผู้กำกับโดยตรง แสดงว่าการให้เครดิตทีมงานอย่างเปิดเผยส่งผลดีกลับมา",
+    "ความต่อเนื่องในการทำงานกับโปรดิวเซอร์ถูกมองว่าเป็นส่วนหนึ่งของแบรนด์ศิลปิน ไม่ใช่แค่รายละเอียดด้านการผลิต",
+    "ผู้ชมเสนอชื่อนักแสดงสำหรับ MV ในอนาคตเองโดยไม่มีใครชี้นำ โดยระบุชื่อสมาชิกในกลุ่มเพื่อนที่อยากเห็นแสดง",
+    "ยอดวิวของผลงานเพลงมีแนวโน้มลดลงเรื่อยๆ (จาก 44.7 ล้านวิวเหลือ 826,000 วิว) ดังนั้นการเข้าถึงในตอนนี้จึงขึ้นอยู่กับผู้ร่วมงานและนักแสดงมากกว่าตัวเพลงเพียงอย่างเดียว"
   ],
   "content_requests": [
-    "Next MV starring Namhom and Ammy",
-    "Keep working with Ton Hon",
-    "Never stop releasing music",
-    "More acting roles for the crew members who appeared here"
+    "อยากให้ MV ต่อไปมีน้ำหอมและแอมมี่แสดงนำ",
+    "อยากให้ทำงานร่วมกับต้นหนต่อไป",
+    "ขอให้อย่าหยุดทำเพลงเด็ดขาด",
+    "อยากให้ทีมงานที่ปรากฏตัวในคลิปนี้ได้มีบทบาทแสดงเพิ่มขึ้น"
   ]
 }

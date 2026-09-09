@@ -19,7 +19,8 @@
     "apply:summaries": "tsx scripts/apply-summaries.ts",
     "export:titles": "tsx scripts/export-titles.ts",
     "apply:themes": "tsx scripts/apply-themes.ts",
-    "apply:categories": "tsx scripts/apply-categories.ts"
+    "apply:categories": "tsx scripts/apply-categories.ts",
+    "ingest:market": "tsx scripts/ingest/market.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.6",

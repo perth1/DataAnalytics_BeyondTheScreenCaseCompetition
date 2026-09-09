@@ -2,23 +2,23 @@
   "post_id": "47f9a1a5-0234-42f2-a9b0-87c51c2f77c0",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A Children's Day dress-up video whose comment section is barely about the video at all. Most of the thread is reacting to something that happened off-platform the day before — Goy publicly answering back to a member of parliament on Twitter — with fans praising how she did it, telling her not to take the abuse to heart, and declaring loyalty in the ship's own vocabulary. One comment jokes that you can insult someone's parents and still be friends, but insulting their 'lady of the house' is unforgivable. Requests for content with her partner follow. The hosts' pinned comment is a registration link for an education platform, which is a lead-generation sponsorship rather than a product placement.",
+  "summary": "วิดีโอแต่งกายวันเด็กที่ช่องคอมเมนต์แทบไม่ได้พูดถึงตัววิดีโอเลย ธรีดส่วนใหญ่เป็นปฏิกิริยาต่อเหตุการณ์ที่เกิดขึ้นนอกแพลตฟอร์มเมื่อวันก่อน คือก้อยตอบโต้สมาชิกสภาผู้แทนราษฎรต่อสาธารณะทางทวิตเตอร์ แฟนคลับชื่นชมวิธีที่เธอตอบโต้ บอกให้เธออย่าเก็บคำด่ามาใส่ใจ และประกาศความจงรักภักดีด้วยคำศัพท์เฉพาะของกลุ่มแฟนคลับคู่จิ้น คอมเมนต์หนึ่งพูดติดตลกว่าจะด่าพ่อแม่ใครก็ยังเป็นเพื่อนกันได้ แต่ถ้าด่า 'นายหญิง' ของพวกเขาถือว่าให้อภัยไม่ได้ ตามมาด้วยข้อเรียกร้องให้ทำคอนเทนต์กับแฟนของเธอ คอมเมนต์ปักหมุดของพิธีกรเป็นลิงก์ลงทะเบียนแพลตฟอร์มการศึกษา ซึ่งเป็นสปอนเซอร์แบบสร้างลีดมากกว่าการวางสินค้า",
   "themes": [
-    { "label": "Reacting to an off-platform Twitter incident", "share": 44, "example": "นิกกี้ก้อย ใน ทวีต เมื่อ วาน ด่า สส ตัว หนึ่ง ทั้ง เดือด ทั้ง ฮา ... ถ้าอีเอ๋อมันมาแขวะอะไรก็อย่าเก็บเอามันมาใส่ใจเลย นะ ครับ" },
-    { "label": "Fandom loyalty declarations", "share": 26, "example": "นี่คือนายหญิง ของพวกข้า ผู้กุมซุปเปอร์สตาร์ยูทูปไทย" },
-    { "label": "Requests for content with her partner", "share": 15, "example": "ทำคลิปกับ พี่นิกกี้ ณวัตร หน่อยครับพี่ก้อย" },
-    { "label": "Lead-generation sponsor link", "share": 10, "example": "Link สำหรับลงทะเบียนเรียนนะค้า" },
-    { "label": "Praise for the episode itself", "share": 5, "example": "น้องก้อยสุดยอด" }
+    { "label": "ปฏิกิริยาต่อเหตุการณ์ในทวิตเตอร์นอกแพลตฟอร์ม", "share": 44, "example": "นิกกี้ก้อย ใน ทวีต เมื่อ วาน ด่า สส ตัว หนึ่ง ทั้ง เดือด ทั้ง ฮา ... ถ้าอีเอ๋อมันมาแขวะอะไรก็อย่าเก็บเอามันมาใส่ใจเลย นะ ครับ" },
+    { "label": "การประกาศความจงรักภักดีของแฟนคลับ", "share": 26, "example": "นี่คือนายหญิง ของพวกข้า ผู้กุมซุปเปอร์สตาร์ยูทูปไทย" },
+    { "label": "ข้อเรียกร้องให้ทำคอนเทนต์กับแฟนของเธอ", "share": 15, "example": "ทำคลิปกับ พี่นิกกี้ ณวัตร หน่อยครับพี่ก้อย" },
+    { "label": "ลิงก์สปอนเซอร์แบบสร้างลีด", "share": 10, "example": "Link สำหรับลงทะเบียนเรียนนะค้า" },
+    { "label": "ชื่นชมตัวตอนเอง", "share": 5, "example": "น้องก้อยสุดยอด" }
   ],
   "sentiment_breakdown": { "positive": 78, "mixed": 13, "negative": 6, "neutral": 3 },
   "audience_signals": [
-    "The comment section can be entirely captured by an off-platform event — the audience's relationship is with the people, not the video, so news anywhere lands here",
-    "Publicly answering back to a politician earned fandom approval rather than caution, consistent with the channel's political-adjacent positioning",
-    "Sponsorship here is lead generation (course registration), showing the channel already sells action, not just awareness",
-    "This thread carries the highest concentration of coarse, partisan language in the corpus — a brand-safety consideration for the back catalogue"
+    "ช่องคอมเมนต์อาจถูกครอบครองทั้งหมดโดยเหตุการณ์นอกแพลตฟอร์ม ความสัมพันธ์ของผู้ชมอยู่ที่ตัวบุคคล ไม่ใช่ตัววิดีโอ ดังนั้นข่าวจากที่ไหนก็ตามจะมาปรากฏที่นี่",
+    "การตอบโต้นักการเมืองต่อสาธารณะได้รับการยอมรับจากแฟนคลับ มากกว่าความระมัดระวัง ซึ่งสอดคล้องกับจุดยืนของช่องที่เกี่ยวข้องกับการเมือง",
+    "สปอนเซอร์ในที่นี้เป็นแบบสร้างลีด (การลงทะเบียนเรียน) แสดงว่าช่องนี้ขาย 'การกระทำ' ไม่ใช่แค่การรับรู้แบรนด์",
+    "ธรีดนี้มีการใช้ภาษาหยาบคายและฝักใฝ่ฝ่ายการเมืองในสัดส่วนสูงที่สุดในชุดข้อมูล ซึ่งเป็นประเด็นด้านความปลอดภัยของแบรนด์ที่ควรพิจารณาสำหรับคลังคอนเทนต์เก่า"
   ],
   "content_requests": [
-    "Make content with her partner",
-    "More dress-up and disguise formats"
+    "ทำคอนเทนต์กับแฟนของเธอ",
+    "ทำฟอร์แมตแต่งกาย/ปลอมตัวเพิ่มขึ้น"
   ]
 }

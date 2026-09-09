@@ -1,377 +1,560 @@
-import { Activity, Info } from "lucide-react"
+import { Info, Users } from "lucide-react"
 import { PageShell } from "@/components/layout/page-shell"
 import { PlatformNav } from "@/components/analytics/platform-nav"
 import { StatRow, StatTile } from "@/components/analytics/stat-tile"
 import { ChartFrame } from "@/components/analytics/chart-frame"
-import { DemandSupplyBars } from "@/components/analytics/demand-supply-bars"
-import { TerritoryTable } from "@/components/analytics/territory-table"
-import { MomentumGrid } from "@/components/analytics/momentum-grid"
-import {
-  CohortLeans,
-  CohortMatrix,
-} from "@/components/analytics/cohort-matrix"
 import { EmptyState } from "@/components/ui/empty-state"
+import { HeatTable } from "@/components/market/heat-table"
+import { ResearchSources } from "@/components/market/research-sources"
+import { ScaleBars } from "@/components/market/scale-bars"
+import { ReachTable } from "@/components/market/reach-table"
+import { CohortProfiles } from "@/components/market/cohort-profiles"
+import { MarketLeaders } from "@/components/market/market-leaders"
+import { FormatByCohort } from "@/components/market/format-by-cohort"
 import {
-  getCohortSeries,
-  getCohortTerritories,
-  getSignalCoverage,
-  getTerritoryDemand,
-  getTerritoryMomentum,
-  getTerritorySupply,
-} from "@/lib/queries/market"
+  getCategoryScale,
+  getChannelReach,
+  getCohortCategories,
+  getCohortFormats,
+  getCohortQuotes,
+  getCohortThemes,
+  getCohortTotals,
+  getCohortVideos,
+  getMarketCoverage,
+  getThemeScale,
+} from "@/lib/queries/thai-market"
 import {
-  cohortRows,
-  momentumDelta,
-  momentumYears,
-  territoryRows,
-  MIN_HEADLINE_POSTS,
-  MIN_HEADLINE_SIGNALS,
-  TERRITORIES,
-} from "@/lib/market"
-import { BRAND } from "@/lib/constants"
+  categoryScaleRows,
+  cohortCategoryMatrix,
+  cohortThemeMatrix,
+  COHORTS,
+  formatRows,
+  MIN_CELL_SIGNALS,
+  themeScaleRows,
+} from "@/lib/thai-market"
+import { figure, pivot, RESEARCH_SOURCES } from "@/lib/market-research"
 import { formatCompact, formatNumber, formatPercent } from "@/lib/utils"
 
 export const dynamic = "force-dynamic"
 
-/** Comment history starts in 2020 but only thickens from 2022. */
-const MOMENTUM_FROM_YEAR = 2022
-
+/**
+ * The Thai audience market — which content each age group watches.
+ *
+ * THE QUESTION, AND WHY THE PAGE IS BUILT IN TWO LAYERS
+ * "What is each age group in Thailand interested in" cannot be answered from
+ * one channel's own comments, which is what this page used to do: that sample
+ * is the people we already reach, so it can only describe our audience, never
+ * the market. It also cannot be answered by measurement alone, because YouTube
+ * releases viewer age only through the Analytics API and only to the owner of
+ * the channel being measured.
+ *
+ * So the page carries two independent bodies of evidence and never blends them:
+ *
+ *   1. PUBLISHED RESEARCH (data/market/thai-audience-research.json) — national
+ *      surveys with real age brackets and real sample sizes. This is the layer
+ *      that actually answers the question at population scale. Its weakness is
+ *      that it is annual, coarse, and says nothing about specific content.
+ *
+ *   2. OUR OWN MEASUREMENT (migration 0011) — thousands of Thai channels pulled
+ *      from YouTube's Thailand trending charts and Thai topic searches. Content
+ *      is read from each video's own category, and age only from comments where
+ *      the commenter states their own age, with the referent resolved so that
+ *      "สามีอายุ 65" is not counted as the viewer. Precise and current, but the
+ *      age evidence is rare — well under 1% of comments.
+ *
+ * They are kept apart because their age brackets differ (NBTC uses generations,
+ * NSO uses 15-24/25-39/40-59, we use 13-19/20-24/25-39/40-54/55+) and merging
+ * them would mean inventing a distribution inside each band.
+ */
 export default async function MarketAnalysisPage() {
-  const [demand, supply, cohortTerritories, cohortSeriesRows, momentum, coverage] =
-    await Promise.all([
-      getTerritoryDemand(),
-      getTerritorySupply(),
-      getCohortTerritories(),
-      getCohortSeries(),
-      getTerritoryMomentum(),
-      getSignalCoverage(),
-    ])
+  const [
+    coverage,
+    categoryScale,
+    themeScale,
+    cohortTotals,
+    cohortCategories,
+    cohortThemes,
+    cohortFormats,
+    channelReach,
+    cohortVideos,
+  ] = await Promise.all([
+    getMarketCoverage(),
+    getCategoryScale(),
+    getThemeScale(),
+    getCohortTotals(),
+    getCohortCategories(),
+    getCohortThemes(),
+    getCohortFormats(),
+    getChannelReach(12),
+    getCohortVideos(3),
+  ])
 
-  const territories = territoryRows(demand, supply)
-  const cohorts = cohortRows(cohortTerritories, cohortSeriesRows)
-  const years = momentumYears(momentum, MOMENTUM_FROM_YEAR)
-
-  const totals = coverage.reduce(
-    (acc, c) => ({
-      comments: acc.comments + Number(c.comments),
-      territorySignals: acc.territorySignals + Number(c.territory_signals),
-      cohortSignals: acc.cohortSignals + Number(c.cohort_signals),
-      postsWithComments: acc.postsWithComments + Number(c.posts_with_comments),
-    }),
-    { comments: 0, territorySignals: 0, cohortSignals: 0, postsWithComments: 0 },
+  const quoteLists = await Promise.all(
+    COHORTS.map((c) => getCohortQuotes(c.band, 2)),
+  )
+  const quotes = Object.fromEntries(
+    COHORTS.map((c, i) => [c.band, quoteLists[i]]),
   )
 
-  const catalogue = supply.reduce(
-    (acc, s) => ({
-      posts: acc.posts + Number(s.post_count),
-      views: acc.views + Number(s.total_views),
-    }),
-    { posts: 0, views: 0 },
-  )
+  const categories = categoryScaleRows(categoryScale)
+  const themes = themeScaleRows(themeScale).filter((t) => t.key !== "none")
+  const {
+    rows: cohortRows,
+    columns: cohortColumns,
+    dropped: cohortDropped,
+  } = cohortCategoryMatrix(cohortTotals, cohortCategories)
+  const {
+    rows: themeRows,
+    columns: themeColumns,
+    dropped: themeDropped,
+  } = cohortThemeMatrix(cohortTotals, cohortThemes)
+  const formats = formatRows(cohortFormats)
 
-  const hasData = totals.territorySignals > 0
+  const platforms = figure("daily-viewing")
+  const ott = figure("ott-content")
+  const social = figure("social-video-preference")
+  const commerce = figure("genz-commerce")
+  const reach = figure("youtube-reach")
+  const usage = figure("internet-usage-rate")
 
-  // Headline reads, all derived — nothing here is a hand-written finding.
-  //
-  // The residual reaction bucket is held out of all three opportunity
-  // headlines. It wins every one of them on the lexicon alone (its markers are
-  // reactions like ขำ and สนุก, which land on any video whatever its subject),
-  // which would bury the territories the channel could actually act on. It
-  // stays in the chart, the table, and the matrix below.
-  const actionable = territories.filter((t) => !t.broad)
-
-  const underServed = actionable
-    .filter((t) => t.gap > 0)
-    .sort((a, b) => b.gap - a.gap)
-  const bestEngagement = [...actionable]
-    .filter((t) => t.postCount >= MIN_HEADLINE_POSTS)
-    .sort((a, b) => b.avgEngagementRate - a.avgEngagementRate)[0]
-  // Empty until two years are on record, which also blanks the momentum card.
-  const deltas = momentumDelta(years)
-  const risers =
-    deltas.size === 0
-      ? []
-      : TERRITORIES.filter((t) => !t.broad)
-          .map((t) => ({ label: t.label, delta: deltas.get(t.slug) ?? 0 }))
-          .sort((a, b) => b.delta - a.delta)
-  const strongestLean = cohorts
-    .flatMap((row) => row.leans.map((cell) => ({ row, cell })))
-    .filter(({ cell }) => cell.signals >= MIN_HEADLINE_SIGNALS)
-    .sort((a, b) => b.cell.index - a.cell.index)[0]
-
-  const partialYear = years.length > 0 ? years[years.length - 1].year : undefined
+  const corpusReady = (coverage?.videos ?? 0) > 0
+  const cohortSignals = Number(coverage?.cohort_signals ?? 0)
+  const comments = Number(coverage?.comments ?? 0)
+  const latestReach = reach?.rows[reach.rows.length - 1]
 
   return (
     <PageShell
-      title="Market Analysis"
-      description={`${BRAND.subject} — where audience interest sits, and what each life stage cares about`}
+      title="ตลาดผู้ชมไทย"
+      description="คนแต่ละช่วงวัยในประเทศไทยดูคอนเทนต์อะไร — จากงานวิจัยระดับประเทศ และจากการวัดคอนเทนต์ไทยหลายพันช่องบน YouTube"
       actions={<PlatformNav />}
     >
-      {!hasData ? (
-        <EmptyState
-          icon={Activity}
-          title="No comment signals yet"
-          description="This page reads interest territories off ingested comments. Run npm run ingest:youtube -- --comments, then apply the 0008 and 0009 migrations in supabase/migrations."
-        />
-      ) : (
-        <div className="space-y-8">
-          <StatRow>
-            <StatTile label="Total reach" value={formatCompact(catalogue.views)} />
-            <StatTile label="Posts published" value={formatCompact(catalogue.posts)} />
-            <StatTile
-              label="Comments read"
-              value={formatCompact(totals.comments)}
-              sub={`${formatNumber(totals.postsWithComments)} posts sampled`}
-            />
-            <StatTile
-              label="Interest signals"
-              value={formatCompact(totals.territorySignals)}
-              sub={`${formatPercent(
-                (totals.territorySignals / totals.comments) * 100,
-              )} of comments`}
-            />
-            <StatTile
-              label="Life-stage signals"
-              value={formatCompact(totals.cohortSignals)}
-              sub={`${formatPercent(
-                (totals.cohortSignals / totals.comments) * 100,
-              )} of comments`}
-            />
-            <StatTile
-              label="Territories"
-              value={formatNumber(TERRITORIES.length)}
-              sub="one shared lexicon"
-            />
-          </StatRow>
+      <div className="space-y-10">
+        {/* ---------------------------------------------- how to read this */}
+        <div className="flex gap-3 rounded-xl border px-5 py-4">
+          <Info className="text-muted-foreground mt-0.5 size-4 shrink-0" />
+          <div className="space-y-1.5 text-xs leading-relaxed">
+            <p className="text-sm font-semibold tracking-tight">
+              หน้านี้อ่านอย่างไร
+            </p>
+            <p className="text-muted-foreground">
+              หน้านี้ไม่อิงข้อมูลช่องเราเลย และแยกหลักฐานเป็นสองชั้นที่ไม่ผสมกัน
+              ชั้นแรกคือ{" "}
+              <span className="text-foreground font-medium">
+                งานวิจัยที่เผยแพร่แล้ว
+              </span>{" "}
+              ซึ่งสำรวจประชากรจริงและมีช่วงวัยจริง เป็นชั้นที่ตอบคำถามได้ในระดับ
+              ประเทศ ชั้นที่สองคือ{" "}
+              <span className="text-foreground font-medium">
+                การวัดของเราเองผ่าน YouTube API
+              </span>{" "}
+              ซึ่งอ่านหมวดคอนเทนต์จากข้อมูลที่เจ้าของคลิปตั้งไว้ และอ่านช่วงวัย
+              จากคอมเมนต์ที่ผู้ชมบอกอายุตัวเองเท่านั้น
+            </p>
+            <p className="text-muted-foreground">
+              ทั้งสองชั้นใช้{" "}
+              <span className="text-foreground font-medium">
+                ช่วงวัยไม่เหมือนกัน
+              </span>{" "}
+              — NBTC ใช้เจเนอเรชัน (Gen Z คือ 14–26 ปี) สำนักงานสถิติใช้
+              15–24/25–39/40–59 ส่วนการวัดของเราใช้ 13–19/20–24/25–39/40–54/55+
+              การเกลี่ยช่วงวัยให้ตรงกันต้องสมมติการกระจายตัวภายในช่วง
+              ซึ่งจะกลายเป็นตัวเลขที่เราคิดขึ้นเอง จึงคงช่วงวัยของแต่ละแหล่งไว้
+            </p>
+          </div>
+        </div>
 
-          <div className="flex gap-3 rounded-xl border px-5 py-4">
-            <Info className="text-muted-foreground mt-0.5 size-4 shrink-0" />
-            <div className="space-y-1.5 text-xs leading-relaxed">
-              <p className="text-sm font-semibold tracking-tight">
-                How this page is built
-              </p>
-              <p className="text-muted-foreground">
-                <span className="text-foreground font-medium">Demand</span> is
-                counted in comment signals: every ingested comment is scored
-                against a keyword lexicon of eight interest territories.{" "}
-                <span className="text-foreground font-medium">Supply</span> is
-                the same lexicon applied to the titles, descriptions, and
-                hashtags of everything the channel published. Because both sides
-                use one vocabulary, the gap between them is comparable rather
-                than two unrelated rankings.
-              </p>
-              <p className="text-muted-foreground">
-                Age is <span className="text-foreground font-medium">inferred</span>,
-                never measured — YouTube&apos;s demographic splits need Analytics
-                API access that only the channel owner has. Life stages come from
-                language viewers volunteer about themselves (มัธยม, มนุษย์เงินเดือน,
-                ลูกสาว, ยาย, เกษียณ), which only{" "}
-                {formatPercent((totals.cohortSignals / totals.comments) * 100)} of
-                comments do. Read the cohort section as a directional signal on a
-                self-selected sample, not as a demographic measurement.
-              </p>
-            </div>
+        {/* ============================================================
+            LAYER 1 — published research
+           ============================================================ */}
+        <section className="space-y-6">
+          <div className="space-y-1">
+            <h2 className="text-base font-semibold tracking-tight">
+              ชั้นที่ 1 · งานวิจัยระดับประเทศ
+            </h2>
+            <p className="text-muted-foreground text-sm">
+              ตัวเลขจากการสำรวจประชากรจริง คัดลอกตามต้นฉบับ
+              พร้อมขนาดกลุ่มตัวอย่างของทุกค่า
+            </p>
           </div>
 
-          <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {underServed[0] && (
-              <div className="rounded-xl border p-5">
-                <p className="text-muted-foreground text-xs">
-                  Largest demand gap
-                </p>
-                <p className="mt-2 text-sm font-semibold">
-                  {underServed[0].label}
-                </p>
-                <p className="mt-1 text-2xl font-semibold tabular-nums">
-                  +{underServed[0].gap.toFixed(2)}
-                  <span className="text-muted-foreground ml-1 text-xs font-normal">
-                    pts
-                  </span>
-                </p>
-                <p className="text-muted-foreground mt-1 text-xs">
-                  {formatPercent(underServed[0].demandShare)} of audience
-                  interest, {formatPercent(underServed[0].supplyShare)} of posts
-                </p>
-              </div>
+          <StatRow>
+            {latestReach && (
+              <StatTile
+                label={`YouTube เข้าถึงคนไทย (${latestReach.category})`}
+                value={`${latestReach.value} ล้าน`}
+                sub="ประมาณการจากเครื่องมือโฆษณา ไม่ใช่ผู้ใช้รายเดือน"
+              />
             )}
-            {bestEngagement && (
-              <div className="rounded-xl border p-5">
-                <p className="text-muted-foreground text-xs">
-                  Best engagement rate
-                </p>
-                <p className="mt-2 text-sm font-semibold">
-                  {bestEngagement.label}
-                </p>
-                <p className="mt-1 text-2xl font-semibold tabular-nums">
-                  {formatPercent(bestEngagement.avgEngagementRate)}
-                </p>
-                <p className="text-muted-foreground mt-1 text-xs">
-                  across {formatNumber(bestEngagement.postCount)} posts averaging{" "}
-                  {formatCompact(bestEngagement.avgViews)} views
-                </p>
-              </div>
+            {usage && (
+              <>
+                <StatTile
+                  label="อัตราใช้เน็ต อายุ 15–24"
+                  value={formatPercent(
+                    usage.rows.find((r) => r.age_group === "15-24")?.value ?? 0,
+                  )}
+                  sub="สำนักงานสถิติแห่งชาติ 2567"
+                />
+                <StatTile
+                  label="อัตราใช้เน็ต อายุ 60+"
+                  value={formatPercent(
+                    usage.rows.find((r) => r.age_group === "60+")?.value ?? 0,
+                  )}
+                  sub="ช่วงวัยเดียวที่ยังเข้าไม่ถึงเน็ตจำนวนมาก"
+                />
+              </>
             )}
-            {risers[0] && (
-              <div className="rounded-xl border p-5">
-                <p className="text-muted-foreground text-xs">
-                  Fastest-rising interest
-                </p>
-                <p className="mt-2 text-sm font-semibold">{risers[0].label}</p>
-                <p className="mt-1 text-2xl font-semibold tabular-nums">
-                  {risers[0].delta > 0 ? "+" : ""}
-                  {risers[0].delta.toFixed(2)}
-                  <span className="text-muted-foreground ml-1 text-xs font-normal">
-                    pts
-                  </span>
-                </p>
-                <p className="text-muted-foreground mt-1 text-xs">
-                  share of signals, {years[0]?.year} to{" "}
-                  {years[years.length - 1]?.year}
-                </p>
-              </div>
-            )}
-            {strongestLean && (
-              <div className="rounded-xl border p-5">
-                <p className="text-muted-foreground text-xs">
-                  Strongest cohort lean
-                </p>
-                <p className="mt-2 text-sm font-semibold">
-                  {strongestLean.row.meta.label} → {strongestLean.cell.label}
-                </p>
-                <p className="mt-1 text-2xl font-semibold tabular-nums">
-                  {strongestLean.cell.index.toFixed(1)}×
-                </p>
-                <p className="text-muted-foreground mt-1 text-xs">
-                  the life-stage-signalled average · n={strongestLean.cell.signals}{" "}
-                  of{" "}
-                  {formatNumber(strongestLean.row.signals)}
-                </p>
-              </div>
-            )}
-          </section>
+            {commerce?.rows.map((r) => (
+              <StatTile
+                key={r.category}
+                label={
+                  r.category.length > 42
+                    ? `${r.category.slice(0, 42)}…`
+                    : r.category
+                }
+                value={formatPercent(r.value)}
+                sub="Gen Z ไทย · Think with Google"
+              />
+            ))}
+          </StatRow>
 
-          <p className="text-muted-foreground text-xs leading-relaxed">
-            The three opportunity cards exclude{" "}
-            {TERRITORIES.find((t) => t.broad)?.label}: its markers are reactions
-            (ขำ, สนุก, ชอบมาก) that land on any video whatever its subject, so its
-            demand share measures affect rather than a subject the channel could
-            publish more of. It is still counted everywhere below.
-          </p>
-
-          <ChartFrame
-            title="Audience demand vs content supply"
-            caption="Where the audience's interest and the channel's output diverge"
-          >
-            <DemandSupplyBars
-              data={territories.map((t) => ({
-                name: t.label,
-                demandShare: t.demandShare,
-                supplyShare: t.supplyShare,
-                signals: t.signals,
-                postCount: t.postCount,
-              }))}
-            />
-          </ChartFrame>
-
-          <section className="space-y-3">
-            <div className="space-y-1">
-              <h2 className="text-sm font-semibold tracking-tight">
-                Interest territories
-              </h2>
-              <p className="text-muted-foreground text-xs">
-                Demand share is of {formatNumber(totals.territorySignals)} comment
-                signals; supply share is of classified posts only, since posts
-                titled after a series or a guest carry no territory. A positive
-                gap means the audience raises the subject more often than the
-                channel publishes it.
-              </p>
-            </div>
-            <div className="rounded-xl border">
-              <TerritoryTable rows={territories} />
-            </div>
-          </section>
-
-          {years.length >= 2 && (
+          {platforms && (
             <ChartFrame
-              title="Interest momentum"
-              caption={`Share of comment signals per year, ${years[0].year}–${
-                years[years.length - 1].year
-              }`}
+              title="แต่ละช่วงวัยเปิดแพลตฟอร์มไหนทุกวัน"
+              caption={`${RESEARCH_SOURCES[platforms.source]?.publisher} ${
+                RESEARCH_SOURCES[platforms.source]?.year
+              } · ${RESEARCH_SOURCES[platforms.source]?.sample_size} · ตัวเลขคือสัดส่วนผู้ตอบที่ระบุว่ารับชมทุกวัน`}
             >
-              <MomentumGrid years={years} partialYear={partialYear} />
+              <HeatTable
+                rowHeader="แพลตฟอร์ม"
+                columns={pivot(platforms).columns}
+                rows={pivot(platforms).rows.map((r) => ({
+                  label: r.label,
+                  cells: r.cells.map((v) => ({ value: v })),
+                }))}
+                scale="share"
+                format={(v) => formatPercent(v)}
+              />
+              <p className="text-muted-foreground mt-3 px-3 text-xs leading-relaxed">
+                กลุ่ม Baby Boomer มีผู้ตอบเพียง 31 คน
+                ค่าของช่วงวัยนี้จึงเป็นทิศทาง ไม่ใช่การวัดที่แม่นยำ
+                และตัวเลขนี้วัดความถี่ในการเปิดใช้ ไม่ใช่จำนวนผู้ใช้ทั้งหมด
+              </p>
             </ChartFrame>
           )}
 
-          {cohorts.length > 0 && (
+          <div className="grid gap-4 lg:grid-cols-2">
+            {ott && (
+              <ChartFrame
+                title="คอนเทนต์ที่ดูมากที่สุดบน OTT"
+                caption="ต้นฉบับเผยแพร่เฉพาะอันดับต้นของแต่ละเจเนอเรชัน ช่องว่างคือไม่มีข้อมูล"
+              >
+                <HeatTable
+                  rowHeader="ประเภท"
+                  columns={pivot(ott).columns}
+                  rows={pivot(ott).rows.map((r) => ({
+                    label: r.label,
+                    cells: r.cells.map((v) => ({ value: v })),
+                  }))}
+                  scale="share"
+                  format={(v) => formatPercent(v)}
+                />
+              </ChartFrame>
+            )}
+            {social && (
+              <ChartFrame
+                title="คอนเทนต์ที่ชอบบน social video"
+                caption="จุดที่ช่วงวัยแยกกันชัดที่สุด — Gen Z ไปทางเพลง ช่วงวัยอื่นไปทางข่าว"
+              >
+                <HeatTable
+                  rowHeader="ประเภท"
+                  columns={pivot(social).columns}
+                  rows={pivot(social).rows.map((r) => ({
+                    label: r.label,
+                    cells: r.cells.map((v) => ({ value: v })),
+                  }))}
+                  scale="share"
+                  format={(v) => formatPercent(v)}
+                />
+              </ChartFrame>
+            )}
+          </div>
+
+          <ChartFrame
+            title="ขนาดของแต่ละช่วงวัยในประเทศไทย"
+            caption="สำนักงานสถิติแห่งชาติ 2567 · ช่วงอายุตามที่ต้นฉบับใช้ ซึ่งไม่ตรงกับช่วงวัยของ NBTC"
+          >
+            <ReachTable />
+            <p className="text-muted-foreground mt-3 px-3 text-xs leading-relaxed">
+              ช่วง 40–59 ปีเป็นกลุ่มประชากรที่ใหญ่ที่สุดของประเทศ
+              ขณะที่กลุ่ม 60+ เป็นช่วงวัยเดียวที่ยังมีคนจำนวนมากไม่ได้ใช้
+              อินเทอร์เน็ต ซึ่งเป็นเหตุผลว่าทำไมการวัดจากคอมเมนต์ในชั้นที่ 2
+              จะเก็บเสียงของกลุ่มนี้ได้น้อยกว่าสัดส่วนจริงเสมอ
+            </p>
+          </ChartFrame>
+
+          <ResearchSources />
+        </section>
+
+        {/* ============================================================
+            LAYER 2 — our own measurement
+           ============================================================ */}
+        <section className="space-y-6">
+          <div className="space-y-1">
+            <h2 className="text-base font-semibold tracking-tight">
+              ชั้นที่ 2 · การวัดคอนเทนต์ไทยด้วย YouTube API
+            </h2>
+            <p className="text-muted-foreground text-sm">
+              เก็บคลิปจากชาร์ตยอดนิยมของประเทศไทยและการค้นหาภาษาไทยหลายพันช่อง
+              ไม่มีคลิปของช่องเราอยู่ในกลุ่มตัวอย่าง
+            </p>
+          </div>
+
+          {!corpusReady ? (
+            <EmptyState
+              icon={Users}
+              title="ยังไม่มีข้อมูลตลาด"
+              description="รัน npm run ingest:market เพื่อเก็บคลิปจากชาร์ตยอดนิยมของไทยและการค้นหาภาษาไทย แล้วรัน npm run ingest:market -- --comments-only เพื่อเก็บคอมเมนต์"
+            />
+          ) : (
             <>
-              <section className="space-y-3">
-                <div className="space-y-1">
-                  <h2 className="text-sm font-semibold tracking-tight">
-                    What each life stage cares about
-                  </h2>
-                  <p className="text-muted-foreground text-xs">
-                    Shaded by index — a cohort&apos;s share of a territory divided
-                    by that territory&apos;s share across every life-stage-signalled
-                    comment, so both sides carry the same self-selection. Every cohort talks about
-                    entertainment most, so the index is what isolates a genuine
-                    lean. Built on{" "}
-                    {formatNumber(totals.cohortSignals)} comments that volunteer a
-                    life-stage marker.
+              <StatRow>
+                <StatTile
+                  label="คลิปที่เก็บ"
+                  value={formatCompact(Number(coverage?.videos ?? 0))}
+                />
+                <StatTile
+                  label="ช่องที่เกี่ยวข้อง"
+                  value={formatCompact(Number(coverage?.channels ?? 0))}
+                />
+                <StatTile
+                  label="ยอดวิวรวมในกลุ่มตัวอย่าง"
+                  value={formatCompact(Number(coverage?.corpus_views ?? 0))}
+                />
+                <StatTile
+                  label="คอมเมนต์ที่อ่าน"
+                  value={formatCompact(comments)}
+                />
+                <StatTile
+                  label="คอมเมนต์ที่บอกอายุตัวเอง"
+                  value={formatNumber(cohortSignals)}
+                  sub={
+                    comments > 0
+                      ? `${formatPercent((cohortSignals / comments) * 100)} ของคอมเมนต์`
+                      : undefined
+                  }
+                />
+                <StatTile
+                  label="บอกอายุเป็นตัวเลข"
+                  value={formatNumber(
+                    Number(coverage?.stated_age_signals ?? 0),
+                  )}
+                  sub="หลักฐานชั้นที่แข็งที่สุด"
+                />
+              </StatRow>
+
+              <div className="flex gap-3 rounded-xl border px-5 py-4">
+                <Info className="text-muted-foreground mt-0.5 size-4 shrink-0" />
+                <div className="space-y-1.5 text-xs leading-relaxed">
+                  <p className="text-sm font-semibold tracking-tight">
+                    ชั้นนี้วัดอย่างไร
+                  </p>
+                  <p className="text-muted-foreground">
+                    <span className="text-foreground font-medium">
+                      หมวดคอนเทนต์
+                    </span>{" "}
+                    มาจาก categoryId ที่เจ้าของคลิปตั้งไว้เอง ไม่ได้เดาจากคำใน
+                    ชื่อคลิป ส่วน{" "}
+                    <span className="text-foreground font-medium">ช่วงวัย</span>{" "}
+                    นับเฉพาะคอมเมนต์ที่ผู้ชมบอกอายุตัวเอง โดยตรวจว่าอายุที่พูดถึง
+                    เป็นของคนที่คอมเมนต์จริง — “ผมอายุ 27” นับ แต่ “สามีอายุ 65”
+                    ไม่นับ เพราะคำที่ใกล้ตัวเลขที่สุดคือคนอื่น
+                  </p>
+                  <p className="text-muted-foreground">
+                    วิธีนี้แม่นแต่ได้สัญญาณน้อยมาก คือ{" "}
+                    {comments > 0
+                      ? formatPercent((cohortSignals / comments) * 100)
+                      : "—"}{" "}
+                    ของคอมเมนต์ทั้งหมด เพราะคนจะบอกอายุตัวเองเมื่ออายุนั้นสำคัญ
+                    ต่อคำตอบที่เขาอยากได้ เช่นคลิปให้คำปรึกษาเรื่องเงินหรือสุขภาพ
+                    ส่วนคลิปเพลงหรือคลิปตลกแทบไม่มีใครบอกอายุ ให้อ่านชั้นนี้เป็น
+                    สัญญาณบอกทิศทางจากกลุ่มที่เลือกตัวเอง ไม่ใช่สัดส่วนประชากร
                   </p>
                 </div>
-                <div className="rounded-xl border px-3 py-4 sm:px-5">
-                  <CohortMatrix rows={cohorts} />
-                </div>
-              </section>
+              </div>
 
-              <section className="space-y-3">
-                <h2 className="text-sm font-semibold tracking-tight">
-                  Cohort profiles
-                </h2>
-                <CohortLeans rows={cohorts} />
+              <ChartFrame
+                title="ตลาดไทยดูหมวดอะไร"
+                caption="สัดส่วนยอดวิวของแต่ละหมวดในกลุ่มตัวอย่าง — ด้านนี้ไม่ใช้คอมเมนต์เลย จึงเป็นส่วนที่มั่นใจได้มากที่สุดของชั้นนี้"
+              >
+                <ScaleBars rows={categories} limit={12} />
+              </ChartFrame>
+
+              {themes.length > 0 && (
+                <ChartFrame
+                  title="แยกละเอียดตามหัวเรื่อง"
+                  caption="อ่านจากชื่อคลิป คำอธิบาย และแท็ก เพราะ 15 หมวดของ YouTube แยกการเงินออกจากสุขภาพไม่ได้ — คลิปหนึ่งนับได้หัวเรื่องเดียว"
+                >
+                  <ScaleBars rows={themes} limit={10} />
+                </ChartFrame>
+              )}
+
+              {themeRows.length > 0 && (
+                <section className="space-y-3">
+                  <div className="space-y-1">
+                    <h3 className="text-sm font-semibold tracking-tight">
+                      แต่ละช่วงวัยสนใจหัวเรื่องอะไร
+                    </h3>
+                    <p className="text-muted-foreground text-xs leading-relaxed">
+                      นี่คือคำตอบที่ตรงกับคำถามที่สุดในชั้นที่วัดเอง
+                      และคมกว่าตารางหมวด YouTube ด้านล่าง เพราะหลายช่องตั้งหมวด
+                      คลิปเป็น “บุคคลและบล็อก” กับทุกคลิปไม่ว่าเนื้อหาจะเป็น
+                      เรื่องอะไร หัวเรื่องจึงอ่านจากชื่อคลิป คำอธิบาย และแท็ก
+                      แทน ตัวเลขคือดัชนีเทียบค่าเฉลี่ยของคอมเมนต์ที่ระบุอายุ
+                      ทั้งหมด — 1.0 คือเท่าค่าเฉลี่ย ช่องที่บางกว่า{" "}
+                      {MIN_CELL_SIGNALS} รายการแสดงจำนวน n แทน
+                    </p>
+                  </div>
+                  <div className="rounded-xl border px-3 py-4 sm:px-5">
+                    <HeatTable
+                      rowHeader="ช่วงวัย"
+                      columns={themeColumns.map((c) => ({
+                        key: c.key,
+                        label: c.label,
+                      }))}
+                      rows={themeRows.map((r) => ({
+                        label: r.meta.label,
+                        sub: `${r.meta.ageRange} ปี · n=${formatNumber(r.signals)}`,
+                        cells: r.cells.map((c) => ({
+                          value: c.index,
+                          n: c.signals,
+                          thin: c.thin,
+                        })),
+                      }))}
+                      scale="index"
+                      format={(v) => `${v.toFixed(1)}×`}
+                    />
+                  </div>
+                  {themeDropped > 0 && (
+                    <p className="text-muted-foreground text-xs">
+                      ซ่อนหัวเรื่องอีก {themeDropped} หัวเรื่องที่ยังไม่มีสัญญาณ
+                      ถึง {MIN_CELL_SIGNALS} รายการในช่วงวัยใดเลย
+                      การแสดงคอลัมน์เปล่าจะกลบหัวเรื่องที่มีข้อมูลจริง
+                    </p>
+                  )}
+                </section>
+              )}
+
+              {cohortRows.length > 0 && (
+                <section className="space-y-3">
+                  <div className="space-y-1">
+                    <h3 className="text-sm font-semibold tracking-tight">
+                      แต่ละช่วงวัยคอมเมนต์ในหมวดของ YouTube ไหนมากกว่าค่าเฉลี่ย
+                    </h3>
+                    <p className="text-muted-foreground text-xs leading-relaxed">
+                      ตัวเลขในช่องคือดัชนี — สัดส่วนของช่วงวัยนั้นในหมวดหนึ่ง
+                      หารด้วยสัดส่วนของช่วงวัยเดียวกันในคอมเมนต์ที่ระบุอายุทั้งหมด
+                      ค่า 1.0 คือเท่าค่าเฉลี่ยพอดี ที่ต้องใช้ดัชนีเพราะทุกช่วงวัย
+                      คอมเมนต์ในหมวดบันเทิงมากที่สุดเป็นปกติ ถ้าดูสัดส่วนดิบจะเห็น
+                      แค่ข้อนั้นซ้ำ ๆ ช่องที่มีสัญญาณน้อยกว่า {MIN_CELL_SIGNALS}{" "}
+                      รายการจะแสดงจำนวน n แทนดัชนี
+                    </p>
+                  </div>
+                  <div className="rounded-xl border px-3 py-4 sm:px-5">
+                    <HeatTable
+                      rowHeader="ช่วงวัย"
+                      columns={cohortColumns.map((c) => ({
+                        key: c.key,
+                        label: c.label,
+                      }))}
+                      rows={cohortRows.map((r) => ({
+                        label: r.meta.label,
+                        sub: `${r.meta.ageRange} ปี · n=${formatNumber(r.signals)}`,
+                        cells: r.cells.map((c) => ({
+                          value: c.index,
+                          n: c.signals,
+                          thin: c.thin,
+                        })),
+                      }))}
+                      scale="index"
+                      format={(v) => `${v.toFixed(1)}×`}
+                    />
+                  </div>
+                  {cohortDropped > 0 && (
+                    <p className="text-muted-foreground text-xs">
+                      ซ่อนอีก {cohortDropped} หมวดที่สัญญาณยังไม่ถึง{" "}
+                      {MIN_CELL_SIGNALS} รายการในช่วงวัยใดเลย
+                    </p>
+                  )}
+                </section>
+              )}
+
+              {formats.length > 0 && (
+                <ChartFrame
+                  title="Shorts เทียบคลิปยาว แยกตามช่วงวัย"
+                  caption="ความยาวคลิปเป็นข้อเท็จจริง ไม่ต้องตีความ — สิ่งเดียวที่อนุมานคืออายุของคนคอมเมนต์"
+                >
+                  <FormatByCohort rows={formats} />
+                </ChartFrame>
+              )}
+
+              {cohortRows.length > 0 && (
+                <section className="space-y-3">
+                  <h3 className="text-sm font-semibold tracking-tight">
+                    โปรไฟล์แต่ละช่วงวัย พร้อมหลักฐานที่วัดได้
+                  </h3>
+                  <CohortProfiles
+                    rows={themeRows.length > 0 ? themeRows : cohortRows}
+                    videos={cohortVideos}
+                    quotes={quotes}
+                  />
+                </section>
+              )}
+
+              <ChartFrame
+                title="ช่องที่ถือการเข้าถึงในกลุ่มตัวอย่าง"
+                caption="เรียงตามยอดวิวของคลิปที่เก็บได้ ไม่ใช่ขนาดช่องทั้งหมด และไม่มีช่องเราในตารางนี้"
+              >
+                <MarketLeaders rows={channelReach} />
+              </ChartFrame>
+
+              <section className="space-y-3 rounded-xl border px-5 py-5">
+                <h3 className="text-sm font-semibold tracking-tight">
+                  ข้อจำกัดของชั้นที่วัดเอง
+                </h3>
+                <ul className="text-muted-foreground space-y-2 text-xs leading-relaxed">
+                  <li>
+                    ชาร์ตยอดนิยมของ YouTube เป็นภาพของช่วงเวลาที่ดึงข้อมูล
+                    ไม่ใช่ค่าเฉลี่ยของปี และเอนไปทางเพลงกับบันเทิงอย่างมาก
+                    ส่วนคลิปที่ได้จากการค้นหาถูกเพิ่มเข้ามาเพื่อถ่วงให้หัวเรื่อง
+                    อย่างการเงิน สุขภาพ การเรียน มีน้ำหนักพอที่จะอ่านได้
+                  </li>
+                  <li>
+                    คอมเมนต์ที่บอกอายุมี {formatNumber(cohortSignals)} รายการจาก{" "}
+                    {formatNumber(comments)} รายการ ทุกช่องในตารางดัชนีจึงต้อง
+                    อ่านคู่กับค่า n ของตัวเอง และช่องที่บางเกินไม่แสดงดัชนีเลย
+                  </li>
+                  <li>
+                    คนที่ยอมบอกอายุตัวเองในคอมเมนต์เลือกตัวเองเข้ามา
+                    มักเป็นคนที่กำลังขอคำแนะนำ กลุ่มนี้จึงไม่ใช่ตัวแทนของผู้ชม
+                    ทั้งหมดในช่วงวัยเดียวกัน
+                  </li>
+                  <li>
+                    หมวดของคลิปคือหมวดที่เจ้าของคลิปเลือก ซึ่งบางช่องตั้งเป็น
+                    “บุคคลและบล็อก” กับทุกคลิปไม่ว่าเนื้อหาจะเป็นเรื่องอะไร
+                    ชั้นหัวเรื่องมีไว้ชดเชยข้อนี้
+                  </li>
+                  <li>
+                    ยอดวิวและยอดคอมเมนต์คือค่าที่อ่านได้ ณ เวลาที่ดึงข้อมูล
+                    {coverage?.fetched_at &&
+                      ` ล่าสุดคือ ${new Date(coverage.fetched_at).toLocaleDateString("th-TH")}`}
+                    คลิปใหม่จะยังสะสมยอดต่อไปหลังจากนั้น
+                  </li>
+                </ul>
               </section>
             </>
           )}
-
-          <section className="space-y-2 rounded-xl border border-dashed px-5 py-4">
-            <h2 className="text-sm font-semibold tracking-tight">
-              Method and limits
-            </h2>
-            <ul className="text-muted-foreground space-y-1.5 text-xs leading-relaxed">
-              <li>
-                — Comments are ingested for the top posts per series
-                ({formatNumber(totals.postsWithComments)} of{" "}
-                {formatNumber(catalogue.posts)} posts), so demand reflects the
-                audience of mass-reach content, not the whole catalogue.
-              </li>
-              <li>
-                — A keyword lexicon assigns one territory per comment, first match
-                wins, specific territories before broad ones. It scores{" "}
-                {formatPercent(
-                  (totals.territorySignals / totals.comments) * 100,
-                )}{" "}
-                of comments; the rest are reactions with no subject matter.
-              </li>
-              <li>
-                — Life stage is inferred from self-descriptive language, so
-                cohorts are self-selected and small. Cells under five signals show
-                a raw n instead of an index, because a ratio on four comments is
-                noise.
-              </li>
-              <li>
-                — Territory supply is read off titles, descriptions, and hashtags,
-                not from watching the videos: a wellness moment inside a
-                relationship episode counts as relationship supply.
-              </li>
-              <li>
-                — Measured age and gender splits require YouTube Analytics API
-                access held by the channel owner. With it, these inferred cohorts
-                can be replaced by real ones.
-              </li>
-            </ul>
-          </section>
-        </div>
-      )}
+        </section>
+      </div>
     </PageShell>
   )
 }

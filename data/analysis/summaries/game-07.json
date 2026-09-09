@@ -2,25 +2,25 @@
   "post_id": "f5ccbc8e-1cbb-4ff1-b71c-506d18928c0c",
   "model": "claude-opus-5",
   "comment_count": 6,
-  "summary": "A word game against a comedy creator group, and the top comment is from the guests' own official account asking for a rematch — which sets up a sequel for free and signals a working cross-channel relationship. The channel replies underneath asking whether viewers want to see more with them. Namhom is again singled out as naturally funny in every line she speaks. The recurring structural complaint returns: viewers want more rounds because it was over too quickly. A prank call placed to Violette during the game is picked out as the highlight, and one viewer proposes a specific follow-up game format by name.",
+  "summary": "เกมทายคำกับกลุ่มครีเอเตอร์สายคอมเมดี้ คอมเมนต์อันดับต้นมาจากบัญชีทางการของแขกรับเชิญเองที่ขอแข่งใหม่ ซึ่งเป็นการวางแผนภาคต่อแบบไม่มีค่าใช้จ่าย และเป็นสัญญาณว่าความสัมพันธ์ข้ามช่องนี้ทำงานได้ดี ช่องเข้ามาตอบด้านล่างถามผู้ชมว่าอยากเห็นพวกเขาร่วมงานกันอีกไหม น้ำหอมถูกยกให้เป็นคนตลกโดยธรรมชาติในทุกประโยคที่พูดอีกครั้ง ข้อร้องเรียนเชิงโครงสร้างที่พบซ้ำๆ กลับมาอีก ผู้ชมอยากให้มีรอบเพิ่มขึ้นเพราะจบเร็วเกินไป การโทรแกล้งวิโอเล็ตระหว่างเกมถูกยกให้เป็นไฮไลต์ และผู้ชมคนหนึ่งเสนอฟอร์แมตเกมต่อไปแบบเจาะจงชื่อ",
   "themes": [
-    { "label": "The guest group asking for a rematch", "share": 28, "example": "อยากแก้มือครับ" },
-    { "label": "Namhom's natural comedy", "share": 22, "example": "ทุกครั้งที่พี่น้ำหอมพูดคือโคตรตลก เป็นคนตลกโดยธรรมชาติจริงๆ" },
-    { "label": "Too short — more rounds", "share": 20, "example": "เกมนี้สนุกมากค้าบบ แต่อยากให้มีรอบเยอะกว่านี้จังมันเพลินมาก" },
-    { "label": "Proposing a specific follow-up game", "share": 16, "example": "คำต้องเชื่อม (ยกกำลัง) X GoyNattyDream ต้องมาแล้ว" },
-    { "label": "The prank call as the highlight", "share": 14, "example": "ตอนโทรไปหาวี วิโอเล็ตคือปั่นสุดๆ" }
+    { "label": "กลุ่มแขกรับเชิญขอแข่งใหม่", "share": 28, "example": "อยากแก้มือครับ" },
+    { "label": "ความตลกโดยธรรมชาติของน้ำหอม", "share": 22, "example": "ทุกครั้งที่พี่น้ำหอมพูดคือโคตรตลก เป็นคนตลกโดยธรรมชาติจริงๆ" },
+    { "label": "สั้นเกินไป อยากได้รอบเพิ่ม", "share": 20, "example": "เกมนี้สนุกมากค้าบบ แต่อยากให้มีรอบเยอะกว่านี้จังมันเพลินมาก" },
+    { "label": "เสนอเกมต่อไปแบบเจาะจง", "share": 16, "example": "คำต้องเชื่อม (ยกกำลัง) X GoyNattyDream ต้องมาแล้ว" },
+    { "label": "การโทรแกล้งเป็นไฮไลต์", "share": 14, "example": "ตอนโทรไปหาวี วิโอเล็ตคือปั่นสุดๆ" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 3, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "A guest creator publicly asking for a rematch is the cheapest possible sequel commissioning — the demand, the cast and the cross-promotion are all pre-agreed in the comments",
-    "Runtime and round count are the persistent complaints across every game episode; the format is consistently under-served rather than over-long",
-    "Supporting cast members outperform the hosts on comedy in this format, which argues for building game episodes around the wider crew",
-    "Viewers name specific game formats they want next, so the format pipeline can be sourced from comments rather than invented"
+    "การที่ครีเอเตอร์แขกรับเชิญขอแข่งใหม่อย่างเปิดเผยคือวิธีสั่งภาคต่อที่ต้นทุนต่ำที่สุด ทั้งความต้องการ นักแสดง และการโปรโมตข้ามช่อง ล้วนถูกตกลงไว้ล่วงหน้าในคอมเมนต์แล้ว",
+    "ความยาวและจำนวนรอบเป็นข้อร้องเรียนที่เกิดขึ้นซ้ำในทุกตอนแนวเกม ฟอร์แมตนี้มักถูกทำให้สั้นเกินความต้องการอยู่เสมอ ไม่ใช่ยาวเกินไป",
+    "สมาชิกร่วมสร้างความฮาได้มากกว่าพิธีกรหลักในฟอร์แมตนี้ ซึ่งสนับสนุนแนวคิดที่จะสร้างตอนแนวเกมโดยเน้นทีมงานที่กว้างขึ้น",
+    "ผู้ชมระบุชื่อฟอร์แมตเกมที่ต้องการดูต่อไปอย่างเจาะจง ทำให้สามารถหาไอเดียฟอร์แมตต่อไปได้จากคอมเมนต์ แทนที่จะต้องคิดขึ้นเอง"
   ],
   "content_requests": [
-    "A rematch with the same guests",
-    "More rounds per episode",
-    "Try the specific word-chain game viewers named",
-    "More prank calls to friends during games"
+    "แข่งใหม่กับแขกรับเชิญชุดเดิม",
+    "เพิ่มจำนวนรอบต่อตอน",
+    "ลองเล่นเกมต่อคำที่ผู้ชมระบุชื่อไว้",
+    "โทรแกล้งเพื่อนระหว่างเล่นเกมเพิ่มขึ้น"
   ]
 }

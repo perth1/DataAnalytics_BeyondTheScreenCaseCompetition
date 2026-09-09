@@ -26,7 +26,14 @@ import type {
 
 export interface TerritoryMeta {
   slug: TerritorySlug
+  /** Thai label — what the page shows. */
   label: string
+  /**
+   * English label, kept alongside because these are the terms the brief and the
+   * market decks use ("longevity wellness"), and the tight chart axes only have
+   * room for the Thai one.
+   */
+  labelEn: string
   /** What the lexicon treats as belonging here, in the audience's own words. */
   note: string
   /**
@@ -44,38 +51,50 @@ export interface TerritoryMeta {
 export const TERRITORIES: TerritoryMeta[] = [
   {
     slug: "longevity-wellness",
-    label: "Longevity & Wellness",
+    label: "สุขภาพ & ชะลอวัย",
+    labelEn: "Longevity & Wellness",
     note: "สุขภาพ · ออกกำลังกาย · นอนไม่หลับ · อาหารเสริม · ป่วย · รักษา",
   },
   {
     slug: "self-development",
-    label: "Self-development",
+    label: "พัฒนาตัวเอง",
+    labelEn: "Self-development",
     note: "พัฒนาตัวเอง · แรงบันดาลใจ · ข้อคิด · มุมมอง · เป้าหมาย",
   },
   {
     slug: "money-career",
-    label: "Money & Career",
+    label: "เงิน & อาชีพ",
+    labelEn: "Money & Career",
     note: "ลงทุน · เก็บเงิน · หนี้ · ธุรกิจ · อาชีพ · รายได้",
   },
   {
     slug: "relationships",
-    label: "Relationships",
+    label: "ความรัก & ความสัมพันธ์",
+    labelEn: "Relationships",
     note: "ความรัก · แฟน · แต่งงาน · ครอบครัว · อกหัก · โสด",
   },
   {
     slug: "beauty-fashion",
-    label: "Beauty & Fashion",
+    label: "ความสวย & แฟชั่น",
+    labelEn: "Beauty & Fashion",
     note: "แต่งหน้า · เสื้อผ้า · ทรงผม · สกินแคร์ · ผิว",
   },
-  { slug: "food", label: "Food & Dining", note: "ร้านอาหาร · เมนู · อร่อย · คาเฟ่" },
+  {
+    slug: "food",
+    label: "อาหาร & ร้านอาหาร",
+    labelEn: "Food & Dining",
+    note: "ร้านอาหาร · เมนู · อร่อย · คาเฟ่",
+  },
   {
     slug: "travel",
-    label: "Travel",
+    label: "ท่องเที่ยว",
+    labelEn: "Travel",
     note: "เที่ยว · ทริป · ที่พัก · ต่างประเทศ · โรงแรม",
   },
   {
     slug: "entertainment",
-    label: "Entertainment & Fandom",
+    label: "ความบันเทิง & แฟนคลับ",
+    labelEn: "Entertainment & Fandom",
     note: "ขำ · ตลก · สนุก · ติ่ง · เพลง · ซีรีส์ · เกม",
     broad: true,
   },
@@ -94,39 +113,39 @@ export interface CohortMeta {
 export const COHORTS: CohortMeta[] = [
   {
     slug: "teen",
-    label: "Students (school)",
-    approxAge: "13–19",
+    label: "นักเรียน (มัธยม)",
+    approxAge: "13–19 ปี",
     note: "มัธยม · ปิดเทอม · การบ้าน · สอบเข้า",
   },
   {
     slug: "student-uni",
-    label: "Students (university)",
-    approxAge: "18–24",
+    label: "นักศึกษา",
+    approxAge: "18–24 ปี",
     note: "มหาลัย · เฟรชชี่ · ฝึกงาน · จบใหม่",
   },
   {
     slug: "working",
-    label: "Working age",
-    approxAge: "25–39",
+    label: "วัยทำงาน",
+    approxAge: "25–39 ปี",
     note: "มนุษย์เงินเดือน · ออฟฟิศ · ที่ทำงาน · เจ้านาย",
   },
   {
     slug: "parent",
-    label: "Parents",
-    approxAge: "30–49",
+    label: "พ่อแม่",
+    approxAge: "30–49 ปี",
     note: "ลูกสาว · ลูกชาย · สามี · แม่บ้าน · ท้อง",
   },
   {
     slug: "senior",
-    label: "Older adults",
-    approxAge: "50+",
+    label: "ผู้สูงวัย",
+    approxAge: "50 ปีขึ้นไป",
     note: "ป้า · ยาย · หลาน · เกษียณ · วัยทอง",
   },
   {
     slug: "junior-voice",
-    label: 'Speaks as junior ("หนู")',
-    approxAge: "teens–20s",
-    note: "Self-reference only — in Thai anyone may use it toward an elder",
+    label: 'เรียกตัวเองว่า "หนู"',
+    approxAge: "วัยรุ่น–20s",
+    note: 'เป็นคำแทนตัวเองเท่านั้น — คนไทยทุกวัยใช้ "หนู" กับผู้ที่อายุมากกว่าได้',
     weak: true,
   },
 ]
@@ -147,6 +166,7 @@ export const MIN_HEADLINE_POSTS = 10
 export interface TerritoryRow {
   slug: TerritorySlug
   label: string
+  labelEn: string
   note: string
   /** Residual reaction bucket — see TerritoryMeta.broad. */
   broad: boolean
@@ -215,6 +235,7 @@ export function territoryRows(
     return {
       slug: meta.slug,
       label: meta.label,
+      labelEn: meta.labelEn,
       note: meta.note,
       broad: meta.broad ?? false,
       signals: d.signals,

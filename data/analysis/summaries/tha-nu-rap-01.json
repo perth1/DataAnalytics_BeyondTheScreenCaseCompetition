@@ -2,28 +2,28 @@
   "post_id": "b2193385-53fe-4363-a5dc-0c1b24ef0c96",
   "model": "claude-opus-5",
   "comment_count": 53,
-  "summary": "The most-viewed talk episode on the channel, and the comments show why: the guest brought his own organised fandom. Nicky Nachat's followers self-identify as 'แก๊งขาหื่น', announce which channel they came from, and run explicit view-count campaigns because the guest promised rewards at milestones — a boat trip at 2M, a Japan trip at 3M — with commenters reporting each threshold as it is passed. The second and equally large cluster is retroactive shipping: the pair later dated in real life, so viewers return to re-read the episode as evidence, timestamping blushes and physical contact, and a later wave returns again after the relationship ends, which gives a handful of openly sad comments. Rewatching is heavy and self-reported, ten or more times for many. A distinct cluster uses the comments as a guest-request board, naming Oat Pramote, Lee Thanat and Tor Thanapob and asking others to upvote.",
+  "summary": "เอพิโสดทอล์กที่มียอดวิวสูงสุดของช่อง และคอมเมนต์ก็บอกเหตุผลชัดเจนว่าทำไม นั่นคือแขกรับเชิญพาแฟนคลับที่รวมตัวกันอย่างเป็นระบบมาด้วย แฟนคลับของนิกกี้ ณฉัตร เรียกตัวเองว่า 'แก๊งขาหื่น' ประกาศว่ามาจากช่องไหน และจัดแคมเปญปั่นยอดวิวอย่างจริงจัง เพราะแขกรับเชิญให้สัญญารางวัลตามยอดวิวที่ทำได้ เช่น ทริปล่องเรือที่ 2 ล้านวิว ทริปญี่ปุ่นที่ 3 ล้านวิว โดยมีคอมเมนต์รายงานทุกครั้งที่ยอดวิวผ่านแต่ละหลักไมล์ กลุ่มคอมเมนต์ที่ใหญ่พอกันคือการย้อนกลับมาตีความความสัมพันธ์ เพราะทั้งคู่คบกันจริงในภายหลัง ผู้ชมจึงย้อนกลับมาดูเอพิโสดนี้เพื่อหาหลักฐาน จับเวลาช่วงที่หน้าแดงหรือมีการสัมผัสกัน และมีอีกกระแสที่กลับมาดูอีกครั้งหลังทั้งคู่เลิกกัน ซึ่งมีคอมเมนต์เศร้าใจปรากฏอยู่บ้าง การดูซ้ำเกิดขึ้นหนักมากและมีการรายงานด้วยตัวเองว่าดูซ้ำสิบรอบขึ้นไปสำหรับผู้ชมหลายคน อีกกลุ่มคอมเมนต์หนึ่งใช้พื้นที่คอมเมนต์เป็นกระดานขอแขกรับเชิญ โดยระบุชื่อโอ๊ต ปราโมทย์, ลี ธนัฐ และต่อ ธนภพ พร้อมชวนคนอื่นมากดไลก์สนับสนุน",
   "themes": [
-    { "label": "Guest's fandom mobilising and running view campaigns", "share": 31, "example": "2 ล้านวิวนั่งเรือ 3 ล้านวิวไปญี่ปุ่น 4 ล้านวิวไปนั่งเรือที่ญี่ปุ่นครับพี่นิกกี้" },
-    { "label": "Retroactive shipping of Nicky and Goy", "share": 29, "example": "พอย้อนกลับมาดู ช่วงนี้น่าจะคุยๆกันมาสักพักแล้ว สังเกตจากการสกินชิพของก้อย" },
-    { "label": "Heavy self-reported rewatching", "share": 15, "example": "ใครดูเกิน 10 รอบขอเสียงหน่อย Fc ขาหื่น" },
-    { "label": "Guest requests for future episodes", "share": 11, "example": "ขอพี่ลี ฐานัฐ หน่อยค้ะ ใครเห้นด้วยช่วยกันดันหน่อยย" },
-    { "label": "The guest stole the show from the hosts", "share": 8, "example": "เอาจริงเหมือนโดนนิคกี้กลืนรายการเป็นของตัวเองเลย มา3ยังเอาอยู่" },
-    { "label": "Sadness revisiting it after the breakup", "share": 6, "example": "พวกพี่ทั้ง2จะย้อนมาดูบ้างมั้ยนะในวันที่ความสัมพันธ์มันได้จบลง ตอนนั้นพวกพี่ดูมีความสุขกันมากๆเลยนะคับ" }
+    { "label": "แฟนคลับของแขกรับเชิญรวมตัวจัดแคมเปญปั่นยอดวิว", "share": 31, "example": "2 ล้านวิวนั่งเรือ 3 ล้านวิวไปญี่ปุ่น 4 ล้านวิวไปนั่งเรือที่ญี่ปุ่นครับพี่นิกกี้" },
+    { "label": "การย้อนกลับมาจับคู่นิกกี้กับก้อยหลังรู้ว่าคบกันจริง", "share": 29, "example": "พอย้อนกลับมาดู ช่วงนี้น่าจะคุยๆกันมาสักพักแล้ว สังเกตจากการสกินชิพของก้อย" },
+    { "label": "การดูซ้ำจำนวนมากที่ผู้ชมรายงานด้วยตัวเอง", "share": 15, "example": "ใครดูเกิน 10 รอบขอเสียงหน่อย Fc ขาหื่น" },
+    { "label": "การขอแขกรับเชิญสำหรับเอพิโสดถัดไป", "share": 11, "example": "ขอพี่ลี ฐานัฐ หน่อยค้ะ ใครเห้นด้วยช่วยกันดันหน่อยย" },
+    { "label": "แขกรับเชิญกลืนรายการจนโดดเด่นกว่าพิธีกร", "share": 8, "example": "เอาจริงเหมือนโดนนิคกี้กลืนรายการเป็นของตัวเองเลย มา3ยังเอาอยู่" },
+    { "label": "ความเศร้าเมื่อย้อนกลับมาดูหลังทั้งคู่เลิกกัน", "share": 6, "example": "พวกพี่ทั้ง2จะย้อนมาดูบ้างมั้ยนะในวันที่ความสัมพันธ์มันได้จบลง ตอนนั้นพวกพี่ดูมีความสุขกันมากๆเลยนะคับ" }
   ],
   "sentiment_breakdown": { "positive": 77, "mixed": 16, "neutral": 5, "negative": 2 },
   "audience_signals": [
-    "The guest's own fandom is the acquisition engine for talk episodes — commenters state which channel they arrived from, giving a traceable referral path",
-    "Reward-gated view targets work: the guest's public promise at 2M/3M/4M produced self-organised, self-reported view campaigns and is a repeatable growth mechanic",
-    "Real-life romance converted this episode into an evergreen asset — rewatch waves are keyed to later news events (dating reveal, EP100, breakup), so old episodes keep earning views",
-    "The comment section operates as a fandom home base with its own name and in-group identity, not just a reaction space",
-    "An explicit, upvote-ranked guest demand list already exists in the comments and can be read as a booking backlog",
-    "Chemistry, not the format, is what viewers rewatch — the questions are secondary to reading the hosts' reactions"
+    "แฟนคลับของแขกรับเชิญเองเป็นกลไกหลักในการดึงผู้ชมใหม่มาสู่เอพิโสดทอล์ก คอมเมนต์ระบุชัดว่ามาจากช่องไหน ทำให้ตามรอยที่มาของผู้ชมได้",
+    "การตั้งเป้ายอดวิวแลกรางวัลได้ผลจริง คำสัญญาต่อสาธารณะของแขกรับเชิญที่ 2 ล้าน/3 ล้าน/4 ล้านวิว ทำให้แฟนคลับรวมตัวจัดแคมเปญปั่นยอดวิวเองและรายงานผลเอง ถือเป็นกลไกกระตุ้นการเติบโตที่นำไปใช้ซ้ำได้",
+    "ความสัมพันธ์จริงนอกจอเปลี่ยนเอพิโสดนี้ให้กลายเป็นคอนเทนต์ที่มีคุณค่าตลอดกาล กระแสการดูซ้ำผูกกับข่าวคราวที่เกิดขึ้นภายหลัง ทั้งการเปิดตัวคบกัน, EP100 และการเลิกรา ทำให้เอพิโสดเก่ายังคงทำยอดวิวได้ต่อเนื่อง",
+    "พื้นที่คอมเมนต์ทำหน้าที่เป็นฐานที่มั่นของแฟนคลับที่มีชื่อเรียกและอัตลักษณ์กลุ่มของตัวเอง ไม่ใช่แค่พื้นที่แสดงความคิดเห็นทั่วไป",
+    "มีรายชื่อแขกรับเชิญที่ผู้ชมต้องการพร้อมระบบโหวตอยู่แล้วในคอมเมนต์ ซึ่งอ่านได้ว่าเป็นรายการรอคิวสำหรับการจองแขกรับเชิญในอนาคต",
+    "สิ่งที่ผู้ชมกลับมาดูซ้ำคือเคมีระหว่างคู่ ไม่ใช่รูปแบบรายการ คำถามในรายการเป็นเรื่องรอง ปฏิกิริยาของพิธีกรต่างหากที่สำคัญกว่า"
   ],
   "content_requests": [
-    "Book Oat Pramote, Lee Thanat and Tor Thanapob as guests",
-    "Bring Nicky onto ยังไงไหนเล่า as well",
-    "Honour the milestone promises — the boat trip and the Japan trip",
-    "A follow-up episode with the same guest"
+    "เชิญโอ๊ต ปราโมทย์, ลี ธนัฐ และต่อ ธนภพ มาเป็นแขกรับเชิญ",
+    "เชิญนิกกี้มาออกรายการยังไงไหนเล่าด้วย",
+    "ทำตามสัญญาที่ให้ไว้ ทั้งทริปล่องเรือและทริปญี่ปุ่น",
+    "ทำเอพิโสดต่อเนื่องกับแขกรับเชิญคนเดิม"
   ]
 }

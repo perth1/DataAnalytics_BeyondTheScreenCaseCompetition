@@ -2,20 +2,20 @@
   "post_id": "77d18be9-6144-43f7-9f3d-59f3ec719f83",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "An episode in which the cupid becomes the guest — one of the hosts is matched with the actor Mike, and the comment section is a small but unanimous shipping thread: they suit each other, stop treating it as fiction and make it real, and is there any chance of getting a series with the two of them. At 682K views this drew only 103 comments on the platform, far below the series norm, which is worth noting: the same format with a host in the guest seat and a non-idol partner produced a fraction of the engagement of the idol pairings.",
+  "summary": "ตอนที่ผู้จับคู่กลับกลายมาเป็นผู้ถูกจับคู่เสียเอง โดยหนึ่งในพิธีกรถูกจับคู่กับนักแสดงไมค์ และคอมเมนต์ในช่องนี้แม้จะมีจำนวนไม่มากแต่ก็เป็นเสียงจิ้นที่ไปในทิศทางเดียวกันทั้งหมด ทั้งคู่เหมาะสมกัน ขอให้เลิกทำเป็นเรื่องสมมติแล้วทำให้เป็นเรื่องจริงเสียที และมีโอกาสไหมที่จะได้เห็นซีรีส์ของทั้งคู่ ด้วยยอดวิว 682,000 ครั้ง แต่มีคอมเมนต์เพียง 103 คอมเมนต์บนแพลตฟอร์ม ต่ำกว่าค่าเฉลี่ยของซีรีส์อย่างมาก ซึ่งเป็นประเด็นที่น่าสังเกต เพราะฟอร์แมตเดียวกันที่ให้พิธีกรมานั่งในตำแหน่งแขกรับเชิญคู่กับพาร์ตเนอร์ที่ไม่ใช่ไอดอล กลับสร้างเอนเกจเมนต์ได้เพียงเสี้ยวเดียวเมื่อเทียบกับคู่ไอดอล",
   "themes": [
-    { "label": "Shipping the host with the guest", "share": 50, "example": "ดูทีไรยิ้มตามเลยก้อยไมค์จิ้นๆๆๆๆ" },
-    { "label": "Asking for it to be real, not fictional", "share": 30, "example": "คู่นี้เหมาะสมกันมากจริงๆ ไม่จิ้นได้ใหม ขอเป็นเรื่องจริง" },
-    { "label": "Wanting a drama series with the pair", "share": 20, "example": "จะมีบุญวาสนาได้ดูซีรี่ก้อยไมค์สักเรื่องไหมน้อ" }
+    { "label": "จิ้นพิธีกรกับแขกรับเชิญ", "share": 50, "example": "ดูทีไรยิ้มตามเลยก้อยไมค์จิ้นๆๆๆๆ" },
+    { "label": "ขอให้เป็นเรื่องจริง ไม่ใช่แค่เรื่องสมมติ", "share": 30, "example": "คู่นี้เหมาะสมกันมากจริงๆ ไม่จิ้นได้ใหม ขอเป็นเรื่องจริง" },
+    { "label": "อยากให้มีซีรีส์ดราม่ากับคู่นี้", "share": 20, "example": "จะมีบุญวาสนาได้ดูซีรี่ก้อยไมค์สักเรื่องไหมน้อ" }
   ],
   "sentiment_breakdown": { "positive": 96, "neutral": 4, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "Putting a host in the guest seat is a novelty that reads well but does not replicate the engagement of idol pairings — 103 comments on 682K views against nearly 4,000 on comparable idol episodes",
-    "The engagement in this series comes from the guests' existing fandoms, not from the format itself, which is the key strategic distinction for scaling it",
-    "Shipping demand extends beyond the channel: viewers want to see the pairing in scripted drama, an adjacent business the hosts could broker"
+    "การให้พิธีกรมานั่งในตำแหน่งแขกรับเชิญเป็นความแปลกใหม่ที่ได้รับผลตอบรับดี แต่ไม่สามารถสร้างเอนเกจเมนต์เทียบเท่าคู่ไอดอลได้ — 103 คอมเมนต์ จากยอดวิว 682,000 ครั้ง เทียบกับเกือบ 4,000 คอมเมนต์ในตอนที่มีไอดอลลักษณะใกล้เคียงกัน",
+    "เอนเกจเมนต์ในซีรีส์นี้มาจากฐานแฟนคลับเดิมของแขกรับเชิญ ไม่ใช่จากตัวฟอร์แมตเอง ซึ่งเป็นข้อแตกต่างเชิงกลยุทธ์ที่สำคัญหากต้องการขยายผลรายการนี้",
+    "ความต้องการจิ้นคู่ของผู้ชมขยายออกไปนอกเหนือขอบเขตของช่อง โดยผู้ชมอยากเห็นคู่นี้ในละครที่มีบทจริงจัง ซึ่งเป็นธุรกิจที่เกี่ยวเนื่องที่พิธีกรอาจต่อยอดได้"
   ],
   "content_requests": [
-    "Make the pairing real rather than fictional",
-    "A drama series featuring the pair"
+    "อยากให้ทำให้คู่นี้เป็นเรื่องจริง ไม่ใช่แค่เรื่องสมมติ",
+    "อยากให้มีซีรีส์ดราม่านำแสดงโดยคู่นี้"
   ]
 }

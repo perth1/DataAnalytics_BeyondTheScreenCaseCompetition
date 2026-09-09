@@ -32,13 +32,13 @@ export function sumTotals(posts: PostWithMetrics[]): Totals {
 }
 
 const FORMAT_LABELS: Record<string, string> = {
-  long: "Long-form video",
+  long: "วิดีโอยาว",
   short: "Shorts",
   reel: "Reels",
-  image: "Image post",
-  carousel: "Carousel",
-  live: "Live",
-  text: "Text post",
+  image: "โพสต์รูปภาพ",
+  carousel: "อัลบั้มรูป (Carousel)",
+  live: "ไลฟ์สด",
+  text: "โพสต์ข้อความ",
 }
 
 export function formatSplit(posts: PostWithMetrics[]) {
@@ -55,7 +55,7 @@ export function formatSplit(posts: PostWithMetrics[]) {
 
   return [...buckets.entries()]
     .map(([key, b]) => ({
-      label: FORMAT_LABELS[key] ?? "Unclassified",
+      label: FORMAT_LABELS[key] ?? "ไม่ระบุรูปแบบ",
       posts: b.posts,
       views: b.views,
       share: totalViews > 0 ? (b.views / totalViews) * 100 : 0,
@@ -119,7 +119,7 @@ export function seriesTop(posts: PostWithMetrics[], limit = 10): SeriesTop[] {
   for (const p of posts) {
     const slug = p.category_slug ?? "uncategorized"
     const group = groups.get(slug) ?? {
-      name: p.category_name ?? "Uncategorized",
+      name: p.category_name ?? "ยังไม่จัดหมวดหมู่",
       posts: [],
     }
     group.posts.push(p)

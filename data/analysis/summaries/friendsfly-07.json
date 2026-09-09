@@ -2,24 +2,24 @@
   "post_id": "887231fd-8a8e-4481-b6cb-f8c028f6df9d",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "The Madagascar trip the audience voted for, and the channel opens the thread by calling everyone who voted for it to gather. The most affecting comment is from someone who says she has few friends and rarely leaves the house, and watching this feels like living out the dream by proxy — she asks them never to stop. Destination requests continue, with India and Japan argued for on the grounds of what would happen to this specific group there. Viewers notice small acts of inclusion, singling out the moment a host turned the camera to bring a crew member into frame. There is also role recognition: Natty is identified as the one holding the trip together while everyone else falls apart.",
+  "summary": "ทริปมาดากัสการ์ที่ผู้ชมโหวตเลือกเอง โดยทางช่องเปิดเธรดด้วยการเรียกให้ทุกคนที่โหวตให้จุดหมายนี้มารวมตัวกัน คอมเมนต์ที่กระทบใจที่สุดมาจากผู้ชมที่บอกว่าตัวเองมีเพื่อนน้อยและแทบไม่ค่อยได้ออกจากบ้าน การดูคลิปนี้เหมือนได้ใช้ชีวิตตามความฝันแทนตัวเอง เธอขอให้ทางช่องอย่าหยุดทำรายการนี้ คำขอจุดหมายปลายทางยังคงมีต่อเนื่อง โดยมีการเสนออินเดียและญี่ปุ่น พร้อมให้เหตุผลว่าจะเกิดอะไรขึ้นหากกลุ่มนี้ไปที่นั่น ผู้ชมสังเกตเห็นการกระทำเล็กๆ ที่แสดงถึงการไม่ทิ้งใครไว้ข้างหลัง โดยเฉพาะช่วงที่พิธีกรคนหนึ่งหันกล้องไปถ่ายเพื่อดึงทีมงานเข้ามาอยู่ในเฟรม นอกจากนี้ยังมีการยอมรับบทบาทของแต่ละคน คือ นัตตี้ถูกมองว่าเป็นคนที่ประคองทริปเอาไว้ในขณะที่คนอื่นๆ ต่างงอแง",
   "themes": [
-    { "label": "Vicarious travel for viewers without that life", "share": 30, "example": "เป็นคนเพื่อนน้อยไม่ค่อยได้ออกจากบ้านเลย ดูพี่ๆแล้วรู้สึกได้สานฝันตัวเอง เหมือนได้ไปเที่ยวด้วยเลยค่ะ อย่าหยุดทำนะคะ" },
-    { "label": "Destination requests with reasoning", "share": 25, "example": "อยากเห็นแก๊งค์นี้ไปอินเดีย คงสนุกน่าดู คนอินเดียคงวิ่งมาเข้ากล้องตลอดทริป" },
-    { "label": "Small acts of inclusion noticed", "share": 18, "example": "พี่บอสสอคอยากเข้าเฟรมด้วย แล้ววีหันกล้องไปถ่ายทันที มันใจฟูมาก" },
-    { "label": "Role recognition within the group", "share": 15, "example": "นัตตี้คือผู้ประคองทริปของจริง งอแงกันทุกคนนน" },
-    { "label": "Payoff from the destination vote", "share": 12, "example": "ใครโหวตมาดากัสการ์ มารวมกันตรงนี่เลยค่า!!" }
+    { "label": "การเที่ยวแทนตัวเองสำหรับผู้ชมที่ไม่มีโอกาสแบบนั้นในชีวิตจริง", "share": 30, "example": "เป็นคนเพื่อนน้อยไม่ค่อยได้ออกจากบ้านเลย ดูพี่ๆแล้วรู้สึกได้สานฝันตัวเอง เหมือนได้ไปเที่ยวด้วยเลยค่ะ อย่าหยุดทำนะคะ" },
+    { "label": "คำขอจุดหมายปลายทางพร้อมเหตุผลประกอบ", "share": 25, "example": "อยากเห็นแก๊งค์นี้ไปอินเดีย คงสนุกน่าดู คนอินเดียคงวิ่งมาเข้ากล้องตลอดทริป" },
+    { "label": "การสังเกตเห็นการกระทำเล็กๆ ที่แสดงถึงการไม่ทิ้งใครไว้ข้างหลัง", "share": 18, "example": "พี่บอสสอคอยากเข้าเฟรมด้วย แล้ววีหันกล้องไปถ่ายทันที มันใจฟูมาก" },
+    { "label": "การยอมรับบทบาทของแต่ละคนในกลุ่ม", "share": 15, "example": "นัตตี้คือผู้ประคองทริปของจริง งอแงกันทุกคนนน" },
+    { "label": "ผลตอบแทนจากการโหวตจุดหมายปลายทาง", "share": 12, "example": "ใครโหวตมาดากัสการ์ มารวมกันตรงนี่เลยค่า!!" }
   ],
   "sentiment_breakdown": { "positive": 95, "neutral": 3, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "Closing the loop on the vote — calling the voters back to the episode they chose — turns a one-off poll into a returning-audience mechanic",
-    "A meaningful part of this audience is socially isolated and watches for substitute companionship, which explains why friendship beats destination in every comment thread",
-    "Viewers assign roles to cast members (the stabiliser, the chaos, the comic) and track them across episodes; the group works as an ensemble cast",
-    "Destination requests come with reasoning about what would happen to this group there, so viewers are pitching scenarios rather than places"
+    "การปิดวงจรของการโหวต โดยเรียกผู้ที่โหวตให้กลับมาดูเอพิโสดที่ตนเลือก ช่วยเปลี่ยนการโหวตครั้งเดียวให้กลายเป็นกลไกที่ดึงผู้ชมกลับมาซ้ำ",
+    "ผู้ชมส่วนหนึ่งที่มีนัยสำคัญอยู่ในภาวะโดดเดี่ยวทางสังคม และดูรายการนี้เพื่อหาความรู้สึกเป็นเพื่อนทดแทน ซึ่งอธิบายได้ว่าทำไมมิตรภาพจึงสำคัญกว่าจุดหมายปลายทางในทุกเธรดคอมเมนต์",
+    "ผู้ชมกำหนดบทบาทให้สมาชิกแต่ละคน (คนประคองสถานการณ์ คนสร้างความวุ่นวาย คนตลก) และติดตามบทบาทเหล่านี้ในทุกเอพิโสด กลุ่มนี้ทำหน้าที่เหมือนนักแสดงประกอบที่มีบทบาทชัดเจน",
+    "คำขอจุดหมายปลายทางมาพร้อมเหตุผลว่าจะเกิดอะไรขึ้นกับกลุ่มนี้ที่นั่น แสดงว่าผู้ชมกำลังเสนอสถานการณ์มากกว่าแค่สถานที่"
   ],
   "content_requests": [
-    "Take the group to India and to Japan",
-    "Never stop making the series",
-    "Keep the crew in frame"
+    "พาไปกลุ่มเที่ยวอินเดียและญี่ปุ่น",
+    "อย่าหยุดทำซีรีส์นี้",
+    "คงให้ทีมงานปรากฏอยู่ในเฟรม"
   ]
 }

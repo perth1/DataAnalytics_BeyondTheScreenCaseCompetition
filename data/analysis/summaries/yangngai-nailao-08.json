@@ -2,23 +2,23 @@
   "post_id": "b3819b84-4e99-485b-a2ae-37fba983eb29",
   "model": "claude-opus-5",
   "comment_count": 10,
-  "summary": "An idol-group episode that functioned as a discovery surface: roughly half the thread is viewers declaring a new bias mid-episode, almost all of them for Hanna, with several applying to join her fanbase on the spot and saying they could not look away. The second cluster thinks like producers, proposing a 4EVE and Trinity collaboration and casting it position by position — main vocal to main vocal, rapper to rapper. A third cluster values seeing idols away from the stage and thanks the channel for booking them. The hosts' own pinned comment praises the guests' distinct characters and wishes a sick member a quick recovery, which reads as genuine relationship management rather than promotion.",
+  "summary": "ตอนนี้เป็นตอนที่มีไอดอลกรุ๊ปเป็นแขกรับเชิญ และทำหน้าที่เป็นพื้นที่ค้นพบไอดอลใหม่ๆ ให้ผู้ชม โดยเกือบครึ่งหนึ่งของกระทู้เป็นผู้ชมที่ประกาศเปลี่ยนเบียส (bias) กลางตอน เกือบทั้งหมดเทให้แฮนน่า หลายคนสมัครเข้าแฟนคลับของเธอทันที และบอกว่าละสายตาไม่ได้เลย กลุ่มคอมเมนต์ที่สองคิดแบบโปรดิวเซอร์ เสนอให้จัดคอลแลบระหว่าง 4EVE และ Trinity โดยจับคู่ตำแหน่งกันทีละตำแหน่ง เช่น เมนวอคัลคู่เมนวอคัล แรปเปอร์คู่แรปเปอร์ กลุ่มที่สามให้คุณค่ากับการได้เห็นไอดอลนอกเวทีคอนเสิร์ต และขอบคุณช่องที่เชิญพวกเธอมาออกรายการ คอมเมนต์ปักหมุดของพิธีกรเองชื่นชมคาแรกเตอร์ที่แตกต่างของแขกรับเชิญแต่ละคน และอวยพรให้สมาชิกที่ป่วยหายเร็วๆ ซึ่งสะท้อนการดูแลความสัมพันธ์กับแขกรับเชิญอย่างจริงใจ มากกว่าจะเป็นการโปรโมต",
   "themes": [
-    { "label": "Declaring a new bias mid-episode", "share": 48, "example": "แฮนน่าดาเมจรุนแรงมากก ขอสมัครเป็นแฟนคลับน้องด้วยคนค่า" },
-    { "label": "Casting a cross-group collaboration position by position", "share": 21, "example": "อยากให้ร่วมงานกันจัง 4eve กับtriityค่ะ น้องอ๊ะอาย = jackie เมนร้อง น้องโจริญ = ปอร์เช่ เมนแรป" },
-    { "label": "Seeing idols away from the stage", "share": 17, "example": "ชอบที่น้องๆได้ออกรายการแบบนี้ ได้รู้จักมุมต่างๆของน้องๆ" },
-    { "label": "The hosts' own message to the guests", "share": 14, "example": "พวกพี่ขอเป็นกำลังใจให้น้องอ๊ะอายกลับมาสุขภาพแข็งแรงเร็วๆ" }
+    { "label": "การประกาศเปลี่ยนเบียสกลางตอน", "share": 48, "example": "แฮนน่าดาเมจรุนแรงมากก ขอสมัครเป็นแฟนคลับน้องด้วยคนค่า" },
+    { "label": "การเสนอจับคู่คอลแลบข้ามวงทีละตำแหน่ง", "share": 21, "example": "อยากให้ร่วมงานกันจัง 4eve กับtriityค่ะ น้องอ๊ะอาย = jackie เมนร้อง น้องโจริญ = ปอร์เช่ เมนแรป" },
+    { "label": "การได้เห็นไอดอลนอกเวทีคอนเสิร์ต", "share": 17, "example": "ชอบที่น้องๆได้ออกรายการแบบนี้ ได้รู้จักมุมต่างๆของน้องๆ" },
+    { "label": "ข้อความจากพิธีกรถึงแขกรับเชิญ", "share": 14, "example": "พวกพี่ขอเป็นกำลังใจให้น้องอ๊ะอายกลับมาสุขภาพแข็งแรงเร็วๆ" }
   ],
   "sentiment_breakdown": { "positive": 97, "neutral": 3, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "The channel works as an idol-discovery surface — viewers pick a new bias while watching, which is a concrete, sellable value proposition to labels and idol agencies",
-    "The audience proposes collaborations with production-level specificity, matching members by role; that is a free A&R suggestion list",
-    "Idol fandoms arrive as blocks and stay on the episode rather than the channel, so converting them requires a follow-up hook",
-    "The hosts' pinned comments are used for guest relationship management, which visibly builds the booking network"
+    "ช่องนี้ทำหน้าที่เป็นพื้นที่ค้นพบไอดอลใหม่ — ผู้ชมเลือกเบียสใหม่ระหว่างที่กำลังดูอยู่ ซึ่งเป็นคุณค่าที่จับต้องได้และนำไปเสนอขายให้ค่ายเพลงหรือเอเจนซี่ไอดอลได้",
+    "ผู้ชมเสนอไอเดียคอลแลบในระดับที่ละเอียดเทียบเท่าทีมโปรดักชัน ด้วยการจับคู่สมาชิกตามบทบาท นี่คือรายชื่อข้อเสนอแนะเชิง A&R ที่ได้มาฟรี",
+    "แฟนคลับไอดอลเข้ามาเป็นกลุ่มก้อนและอยู่กับตอนนั้นๆ มากกว่าจะติดตามช่อง การเปลี่ยนพวกเขาให้เป็นผู้ชมประจำจึงต้องมีตัวดึงดูดต่อเนื่อง",
+    "คอมเมนต์ปักหมุดของพิธีกรถูกใช้เพื่อดูแลความสัมพันธ์กับแขกรับเชิญ ซึ่งเห็นได้ชัดว่าช่วยสร้างเครือข่ายในการเชิญแขกรับเชิญต่อไป"
   ],
   "content_requests": [
-    "Arrange a 4EVE and Trinity collaboration",
-    "More idol-group episodes",
-    "Individual episodes with the members who stood out"
+    "จัดคอลแลบระหว่าง 4EVE และ Trinity",
+    "ทำตอนที่มีไอดอลกรุ๊ปเป็นแขกรับเชิญเพิ่มเติม",
+    "ทำตอนเดี่ยวกับสมาชิกที่โดดเด่น"
   ]
 }

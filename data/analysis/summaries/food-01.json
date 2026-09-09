@@ -2,21 +2,21 @@
   "post_id": "d2db15ed-a2f0-40c6-8aef-a688ba372500",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A home-renovation episode, technically a lifestyle video, but the comment section is entirely about shipping. Viewers praise one guest's appeal, say the pairing is perfect, and immediately request content with that couple. Multiple comments ask for a day-in-the-life with each host's actual partner and for all three couples to take a trip together. The comments read like a spillover from the relationship-focused interview show into the design space.",
+  "summary": "เอพิโสดรีโนเวทบ้าน ซึ่งโดยเนื้อหาแล้วเป็นวิดีโอไลฟ์สไตล์ แต่ช่องคอมเมนต์กลับเต็มไปด้วยเรื่องการปั้นคู่ทั้งหมด ผู้ชมชื่นชมเสน่ห์ของแขกรับเชิญคนหนึ่ง บอกว่าคู่นี้เข้ากันได้อย่างลงตัว และเรียกร้องคอนเทนต์ของคู่นี้ในทันที มีคอมเมนต์จำนวนมากขอให้ทำคลิปแนว 'หนึ่งวันในชีวิต' กับแฟนตัวจริงของพิธีกรแต่ละคน และขอให้ทั้งสามคู่ไปเที่ยวด้วยกัน คอมเมนต์เหล่านี้ดูเหมือนอารมณ์ที่ล้นมาจากรายการสัมภาษณ์แนวความสัมพันธ์ ทะลักเข้าสู่พื้นที่ของรายการแต่งบ้าน",
   "themes": [
-    { "label": "Praising one guest's appeal", "share": 48, "example": "มีนดรีมคือน่ารักนุ้บนิ้บหัวใจมาก คู่นี้เหมาะสมกันสุดๆ" },
-    { "label": "Requesting couple content", "share": 25, "example": "อยากให้ถ่ายคลิปด้วยกันบ่อยๆนะคะ" },
-    { "label": "Requesting a day-in-the-life format", "share": 19, "example": "อยากให้พี่ๆทำคลิปแบบ 1 day with boyfriend ให้พี่ๆทั้ง3คนใช้ชีวิต1วันกับแฟนของตัวเอง" },
-    { "label": "Requesting a group trip", "share": 8, "example": "อยากให้พี่ๆ7คนและคู่รักของพี่ๆไปทริปเที่ยวด้วยกัน" }
+    { "label": "การชื่นชมเสน่ห์ของแขกรับเชิญคนหนึ่ง", "share": 48, "example": "มีนดรีมคือน่ารักนุ้บนิ้บหัวใจมาก คู่นี้เหมาะสมกันสุดๆ" },
+    { "label": "การเรียกร้องคอนเทนต์ของคู่รัก", "share": 25, "example": "อยากให้ถ่ายคลิปด้วยกันบ่อยๆนะคะ" },
+    { "label": "การเรียกร้องรูปแบบ 'หนึ่งวันในชีวิต'", "share": 19, "example": "อยากให้พี่ๆทำคลิปแบบ 1 day with boyfriend ให้พี่ๆทั้ง3คนใช้ชีวิต1วันกับแฟนของตัวเอง" },
+    { "label": "การเรียกร้องทริปเที่ยวแบบกลุ่ม", "share": 8, "example": "อยากให้พี่ๆ7คนและคู่รักของพี่ๆไปทริปเที่ยวด้วยกัน" }
   ],
   "sentiment_breakdown": { "positive": 97, "neutral": 3, "mixed": 0, "negative": 0 },
   "audience_signals": [
-    "The relationship premise transcends format — viewers bring shipping energy to design, travel, and food episodes if the guests are right",
-    "A single popular pairing can generate requests for expanded group formats (all three hosts + partners) that would dwarf any single episode"
+    "แนวคิดเรื่องความสัมพันธ์ก้าวข้ามรูปแบบรายการ ผู้ชมพร้อมนำพลังของการปั้นคู่มาใส่ในเอพิโสดแต่งบ้าน ท่องเที่ยว หรืออาหาร หากแขกรับเชิญเข้าคู่กันได้ดี",
+    "คู่ที่ได้รับความนิยมเพียงคู่เดียวสามารถกระตุ้นให้เกิดคำขอรูปแบบรายการกลุ่มขนาดใหญ่ (พิธีกรทั้งสามคนพร้อมคู่รัก) ซึ่งมีศักยภาพเหนือกว่าเอพิโสดเดี่ยวใดๆ"
   ],
   "content_requests": [
-    "More content with the popular pair",
-    "Day-in-the-life with all three hosts and their partners",
-    "A group trip with all three couples"
+    "คอนเทนต์เพิ่มเติมของคู่ที่ได้รับความนิยม",
+    "คลิปแนวหนึ่งวันในชีวิตของพิธีกรทั้งสามคนพร้อมคู่รัก",
+    "ทริปเที่ยวกลุ่มของทั้งสามคู่"
   ]
 }

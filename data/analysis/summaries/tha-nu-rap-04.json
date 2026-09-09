@@ -2,27 +2,27 @@
   "post_id": "199a0a81-3af4-4f37-97f5-47428f2f32fa",
   "model": "claude-opus-5",
   "comment_count": 16,
-  "summary": "A comedian couple as guests, and the thread is mostly delight at how naturally funny they are with almost no criticism. The most valuable comment in the set is from a long-time viewer who lists a format element the show has quietly dropped — staged role-play situations where guests act out how they actually flirt or make up after a fight, rather than just describing it — and argues it was what made the show unlike anything else. Another cluster is guest requests, including a specific ask for an episode 100 featuring all three hosts' real partners, plus names from the comedian circuit. Viewers also notice and enjoy the product tie-in being folded into the guest's own dialogue rather than read out, and a separate thread observes that the guest's wife has become a performer in her own right through these appearances.",
+  "summary": "แขกรับเชิญเป็นคู่รักตลก และเธรดนี้เต็มไปด้วยความประทับใจในความตลกโดยธรรมชาติของทั้งคู่ แทบไม่มีคำวิจารณ์เชิงลบเลย คอมเมนต์ที่มีคุณค่าที่สุดในกลุ่มนี้มาจากผู้ชมที่ติดตามรายการมานาน ซึ่งชี้ให้เห็นองค์ประกอบหนึ่งของรายการที่ค่อยๆ หายไปโดยไม่มีใครพูดถึง นั่นคือฉากการแสดงบทบาทสมมติที่ให้แขกรับเชิญแสดงจริงว่าตัวเองจีบกันหรือง้อกันหลังทะเลาะอย่างไร แทนที่จะเพียงเล่าให้ฟัง และให้เหตุผลว่านี่คือสิ่งที่ทำให้รายการนี้ไม่เหมือนใคร อีกกลุ่มคอมเมนต์คือการขอแขกรับเชิญ รวมถึงการขอเอพิโสด 100 ที่มีคู่รักตัวจริงของพิธีกรทั้งสามคนมาร่วมรายการ พร้อมชื่อจากวงการนักแสดงตลก ผู้ชมยังสังเกตเห็นและชื่นชอบการสอดแทรกโฆษณาสินค้าเข้าไปในบทสนทนาของแขกรับเชิญเองแทนที่จะพูดแบบตรงๆ และอีกเธรดหนึ่งตั้งข้อสังเกตว่าภรรยาของแขกรับเชิญกลายเป็นบุคคลที่มีชื่อเสียงในตัวเองจากการมาออกรายการเหล่านี้",
   "themes": [
-    { "label": "Comedian guests' natural humour", "share": 30, "example": "แจ๊สตลกธรรมชาติสุดๆ ep.นี้ดีจัด อย่างเรียล" },
-    { "label": "Guest requests including an EP100 concept", "share": 22, "example": "Ep. 100 ขอหวานใจของทั้ง 3 คนมาพร้อมกันได้มุ้ยยย" },
-    { "label": "Bring back the staged role-play scenarios", "share": 16, "example": "สมัยก่อน จะมีการเล่นละครกับแขกรับเชิญ ... อยากให้เพิ่ม element เหล่านั้นกลับเข้ามานะคะ" },
-    { "label": "The guest's wife as a personality in her own right", "share": 13, "example": "พี่แจงออกรายการคู่พี่แจ๊สบ่อย จนเดี๋ยวนี้แกเป็นดาราท่านหนึ่งเลย พูดคล่องขายเก่ง" },
-    { "label": "Product tie-in noticed with amusement", "share": 10, "example": "พอพี่แจงพูดว่า \"เป็นผู้หญิงต้องดูแลตัวเอง\" ผมเชื่อว่าทุกคนคิดเหมือนผม (ไทอินเข้าลูกค้า)" },
-    { "label": "Meeting them in person / size jokes", "share": 9, "example": "พอเจอตัวจริงคือเข้าใจเลย ไซส์มินิจริงๆ" }
+    { "label": "ความตลกโดยธรรมชาติของแขกรับเชิญสายตลก", "share": 30, "example": "แจ๊สตลกธรรมชาติสุดๆ ep.นี้ดีจัด อย่างเรียล" },
+    { "label": "การขอแขกรับเชิญ รวมถึงไอเดียเอพิโสด 100", "share": 22, "example": "Ep. 100 ขอหวานใจของทั้ง 3 คนมาพร้อมกันได้มุ้ยยย" },
+    { "label": "ขอให้นำฉากบทบาทสมมติกลับมา", "share": 16, "example": "สมัยก่อน จะมีการเล่นละครกับแขกรับเชิญ ... อยากให้เพิ่ม element เหล่านั้นกลับเข้ามานะคะ" },
+    { "label": "ภรรยาของแขกรับเชิญกลายเป็นบุคคลมีชื่อเสียงในตัวเอง", "share": 13, "example": "พี่แจงออกรายการคู่พี่แจ๊สบ่อย จนเดี๋ยวนี้แกเป็นดาราท่านหนึ่งเลย พูดคล่องขายเก่ง" },
+    { "label": "การสังเกตเห็นการสอดแทรกโฆษณาสินค้าอย่างขบขัน", "share": 10, "example": "พอพี่แจงพูดว่า \"เป็นผู้หญิงต้องดูแลตัวเอง\" ผมเชื่อว่าทุกคนคิดเหมือนผม (ไทอินเข้าลูกค้า)" },
+    { "label": "การได้พบตัวจริง / มุกล้อเรื่องรูปร่าง", "share": 9, "example": "พอเจอตัวจริงคือเข้าใจเลย ไซส์มินิจริงๆ" }
   ],
   "sentiment_breakdown": { "positive": 91, "neutral": 7, "mixed": 2, "negative": 0 },
   "audience_signals": [
-    "Long-tenure viewers track format drift and can name exactly which segment was dropped — the staged role-play scenarios — and want it back; that is a free content-development note from the people who watch every episode",
-    "Tie-in copy delivered inside guest dialogue reads as a joke to be enjoyed rather than an interruption, which is the sponsor pattern this audience accepts",
-    "Milestone episodes are anticipated in advance and viewers propose the concept themselves",
-    "Comedian guests produce high satisfaction at low production cost — no staging, no location, and the humour carries the episode",
-    "Recurring guests build their own following on the channel, which creates a bench of semi-regulars"
+    "ผู้ชมที่ติดตามมานานสังเกตเห็นการเปลี่ยนแปลงของรูปแบบรายการ และสามารถระบุได้ชัดเจนว่าเซกเมนต์ใดที่หายไป นั่นคือฉากบทบาทสมมติ พร้อมอยากให้นำกลับมา ถือเป็นข้อเสนอแนะด้านการพัฒนาคอนเทนต์ที่ได้มาฟรีจากผู้ชมที่ดูทุกเอพิโสด",
+    "ข้อความโฆษณาที่แทรกอยู่ในบทสนทนาของแขกรับเชิญถูกมองว่าเป็นมุกตลกที่สนุกไปด้วย มากกว่าจะเป็นการขัดจังหวะ ซึ่งเป็นรูปแบบการนำเสนอสปอนเซอร์ที่ผู้ชมกลุ่มนี้ยอมรับได้",
+    "ผู้ชมรอคอยเอพิโสดครบรอบสำคัญล่วงหน้า และเสนอไอเดียคอนเซปต์ขึ้นมาเอง",
+    "แขกรับเชิญสายตลกสร้างความพึงพอใจสูงด้วยต้นทุนการผลิตต่ำ ไม่ต้องจัดฉากหรือหาโลเคชันพิเศษ เพราะความตลกเป็นตัวขับเคลื่อนเอพิโสดเอง",
+    "แขกรับเชิญที่มาออกรายการซ้ำๆ สร้างฐานแฟนคลับของตัวเองบนช่อง ทำให้เกิดกลุ่มแขกรับเชิญขาประจำ"
   ],
   "content_requests": [
-    "Bring back staged role-play situations with guests",
-    "An episode 100 with all three hosts' real partners",
-    "Book Dew, Mum Jokmok and the Sam Cha comedians",
-    "A segment where the hosts do each other's makeup in their own style"
+    "นำฉากบทบาทสมมติกับแขกรับเชิญกลับมา",
+    "จัดเอพิโสด 100 โดยมีคู่รักตัวจริงของพิธีกรทั้งสามคน",
+    "เชิญดิว, หม่ำ จ๊กมก และตลกจากสามช่ามาเป็นแขกรับเชิญ",
+    "เซกเมนต์ที่พิธีกรแต่งหน้าให้กันในสไตล์ของตัวเอง"
   ]
 }

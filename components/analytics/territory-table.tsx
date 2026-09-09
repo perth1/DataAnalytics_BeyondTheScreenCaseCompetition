@@ -50,15 +50,15 @@ export function TerritoryTable({ rows }: { rows: TerritoryRow[] }) {
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead>Interest territory</TableHead>
-          <TableHead className="text-right">Signals</TableHead>
-          <TableHead className="text-right">Demand share</TableHead>
-          <TableHead className="text-right">Posts</TableHead>
-          <TableHead className="text-right">Supply share</TableHead>
-          <TableHead className="text-right">Gap (pts)</TableHead>
-          <TableHead className="text-right">Views</TableHead>
-          <TableHead className="text-right">Avg views</TableHead>
-          <TableHead className="text-right">Avg ER</TableHead>
+          <TableHead>กลุ่มความสนใจ</TableHead>
+          <TableHead className="text-right">สัญญาณ</TableHead>
+          <TableHead className="text-right">สัดส่วนอุปสงค์</TableHead>
+          <TableHead className="text-right">โพสต์</TableHead>
+          <TableHead className="text-right">สัดส่วนอุปทาน</TableHead>
+          <TableHead className="text-right">ช่องว่าง (จุด)</TableHead>
+          <TableHead className="text-right">ยอดวิว</TableHead>
+          <TableHead className="text-right">วิวเฉลี่ย</TableHead>
+          <TableHead className="text-right">ER เฉลี่ย</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
@@ -70,14 +70,14 @@ export function TerritoryTable({ rows }: { rows: TerritoryRow[] }) {
                 {row.broad && (
                   <Badge
                     variant="outline"
-                    title="Markers are reactions rather than subject matter, so this row's gap is not white space."
+                    title="คำที่จับได้เป็นคำแสดงอารมณ์ ไม่ใช่หัวเรื่อง ช่องว่างของแถวนี้จึงไม่ใช่ช่องว่างทางการตลาด"
                   >
-                    reaction bucket
+                    กลุ่มคำแสดงอารมณ์
                   </Badge>
                 )}
               </span>
               <span className="text-muted-foreground mt-0.5 block text-xs">
-                {row.note}
+                {row.labelEn} · {row.note}
               </span>
             </TableCell>
             <TableCell className="text-right tabular-nums">

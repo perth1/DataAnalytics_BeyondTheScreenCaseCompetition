@@ -2,19 +2,19 @@
   "post_id": "83fd4312-53a6-47d2-8384-a9c775e3a24d",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A celebrity guest talk episode in a game-show format. The audience explicitly demands a specific host's appearance; multiple comments ask when will this host be on the show, and when the channel replies that the guest has already revealed a relationship, viewers joke that it doesn't matter and the host should still appear to 'defend their honour'. The channel embraces this and frames it as jesting fan pressure. At 665 comments on 871K views this is a healthy engagement rate for this series.",
+  "summary": "เอพิโสดพูดคุยกับแขกรับเชิญคนดังในรูปแบบเกมโชว์ ผู้ชมเรียกร้องอย่างชัดเจนให้พิธีกรคนหนึ่งมาออกรายการ มีคอมเมนต์จำนวนมากถามว่าพิธีกรคนนี้จะมาออกรายการเมื่อไหร่ และเมื่อทางช่องตอบว่าแขกรับเชิญได้เปิดเผยความสัมพันธ์ไปแล้ว ผู้ชมก็ยังคงติดตลกว่าไม่เป็นไร พิธีกรก็ควรมาออกรายการเพื่อ 'แก้ตัว' อยู่ดี ทางช่องรับลูกและวางกรอบเรื่องนี้ให้เป็นแรงกดดันแบบติดตลกจากแฟนคลับ ด้วยยอดคอมเมนต์ 665 รายการจากยอดวิว 871,000 ครั้ง ถือเป็นอัตราการมีส่วนร่วมที่ดีสำหรับซีรีส์นี้",
   "themes": [
-    { "label": "Demanding a specific host's appearance", "share": 45, "example": "ท๊อปก้อยมาตอนไหนคะ พี่จะแก้บน" },
-    { "label": "Even if the guest has revealed a relationship", "share": 35, "example": "ท๊อปก้อยซักรายการได้ไหม ต่อลมหายใจหนูที" },
-    { "label": "The channel acknowledging and playing along", "share": 20, "example": "ถึงเขาจะเปิดตัวไปแล้ว แต่ชาวเราอย่าหวั่น มาเหยินไปพร้อมๆกันค่ะ" }
+    { "label": "การเรียกร้องให้พิธีกรคนหนึ่งมาออกรายการ", "share": 45, "example": "ท๊อปก้อยมาตอนไหนคะ พี่จะแก้บน" },
+    { "label": "แม้แขกรับเชิญจะเปิดเผยความสัมพันธ์ไปแล้วก็ตาม", "share": 35, "example": "ท๊อปก้อยซักรายการได้ไหม ต่อลมหายใจหนูที" },
+    { "label": "ทางช่องรับรู้และเล่นไปกับกระแสนี้", "share": 20, "example": "ถึงเขาจะเปิดตัวไปแล้ว แต่ชาวเราอย่าหวั่น มาเหยินไปพร้อมๆกันค่ะ" }
   ],
   "sentiment_breakdown": { "positive": 87, "neutral": 10, "mixed": 3, "negative": 0 },
   "audience_signals": [
-    "A game show featuring guests creates a different demand signal than matchmaking — viewers want specific pairings with hosts, not between guests",
-    "The audience has a joking-but-serious shipping energy around host-guest interactions",
-    "The channel leans into this and uses it as banter with the audience"
+    "รายการเกมโชว์ที่มีแขกรับเชิญสร้างสัญญาณความต้องการที่ต่างจากรายการจับคู่ ผู้ชมต้องการเห็นการจับคู่ระหว่างแขกรับเชิญกับพิธีกรคนใดคนหนึ่งโดยเฉพาะ ไม่ใช่ระหว่างแขกรับเชิญด้วยกันเอง",
+    "ผู้ชมมีพลังของการ 'ปั้นคู่' ที่ดูเหมือนล้อเล่นแต่จริงจังต่อปฏิสัมพันธ์ระหว่างพิธีกรกับแขกรับเชิญ",
+    "ทางช่องใช้ประโยชน์จากกระแสนี้เป็นมุกโต้ตอบกับผู้ชม"
   ],
   "content_requests": [
-    "A specific host appearing on the show"
+    "อยากให้พิธีกรคนดังกล่าวมาออกรายการ"
   ]
 }

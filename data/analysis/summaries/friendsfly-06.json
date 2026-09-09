@@ -2,25 +2,25 @@
   "post_id": "288b01ea-b5d4-43af-8987-268492fcafde",
   "model": "claude-opus-5",
   "comment_count": 8,
-  "summary": "A crew member's breakup becomes the episode, and the comments are the most emotionally invested in the series. The dominant thread is admiration for how the friends handle it: they drop important work to be there, they tease him constantly but never correct him in anger, and they use careful words — one commenter says watching it was genuinely healing, another says she has never experienced friendship like this. He replies at the top of the thread promising to read every comment, and the hosts add a comment asking viewers to encourage him because he is too shy to ask. The channel stacks two engagement prompts underneath: a vote on which friend is closest to him, with the prize being that they share a room on the next trip, and an open question asking viewers how they cope with heartbreak.",
+  "summary": "การเลิกราของทีมงานคนหนึ่งกลายเป็นประเด็นหลักของเอพิโสดนี้ และคอมเมนต์ก็เต็มไปด้วยอารมณ์ร่วมมากที่สุดในซีรีส์ เธรดหลักคือความชื่นชมในวิธีที่เพื่อนๆ รับมือกับเรื่องนี้ พวกเขาทิ้งงานสำคัญเพื่อมาอยู่เคียงข้าง แซวกันตลอดแต่ไม่เคยตำหนิด้วยอารมณ์โกรธ และเลือกใช้คำพูดอย่างระมัดระวัง ผู้ชมรายหนึ่งบอกว่าการดูคลิปนี้ช่วยเยียวยาใจได้จริง อีกรายบอกว่าไม่เคยพบมิตรภาพแบบนี้มาก่อน ตัวทีมงานคนดังกล่าวเองก็เข้ามาตอบคอมเมนต์ต้นเธรด สัญญาว่าจะอ่านทุกคอมเมนต์ และพิธีกรก็เพิ่มคอมเมนต์ขอให้ผู้ชมช่วยให้กำลังใจเขา เพราะเขาเขินเกินกว่าจะขอเอง ทางช่องวางคำถามกระตุ้นการมีส่วนร่วมไว้ต่อกันสองข้อ คือการโหวตว่าเพื่อนคนไหนสนิทกับเขาที่สุด โดยรางวัลคือได้นอนห้องเดียวกันในทริปหน้า และคำถามปลายเปิดถามผู้ชมว่ารับมือกับความอกหักอย่างไร",
   "themes": [
-    { "label": "Admiration for the quality of the friendship", "share": 39, "example": "แต่ไม่เคยมีครั้งไหนที่เตือนด้วยอารมณ์ พวกเธอใช้สติตลอด พูดด้วยคำพูดที่ดี เออ มันช่วยฮีลใจได้ดีเลย" },
-    { "label": "Consolation aimed at the crew member, who replies", "share": 25, "example": "ขอบคุณทุกคนมากเลยนะครับ จะทยอยอ่านคอมเม้นทุกอันเลยย" },
-    { "label": "Stacked engagement prompts from the channel", "share": 16, "example": "อย่าลืมโหวตรูปคนที่ดูสนิทกับบอสสอกที่สุดนะค้า ผู้ชนะจะได้รางวัลเป็นการนอนกับบอสสอกทริปหน้า" },
-    { "label": "Tears and personal projection", "share": 14, "example": "เข้าใจมากๆว่ากว่าจะยอมรับความจริงแล้วผ่านมันไปให้ได้ด้วยตัวเองมันยากมากๆ" },
-    { "label": "Envy at not having friends like this", "share": 6, "example": "ในชีวิตนี้ไม่เคยเจองี้บ้างเลยยอ่ะ" }
+    { "label": "ความชื่นชมในคุณภาพของมิตรภาพ", "share": 39, "example": "แต่ไม่เคยมีครั้งไหนที่เตือนด้วยอารมณ์ พวกเธอใช้สติตลอด พูดด้วยคำพูดที่ดี เออ มันช่วยฮีลใจได้ดีเลย" },
+    { "label": "การปลอบใจทีมงานคนดังกล่าว ซึ่งเขาก็ตอบกลับ", "share": 25, "example": "ขอบคุณทุกคนมากเลยนะครับ จะทยอยอ่านคอมเม้นทุกอันเลยย" },
+    { "label": "คำถามกระตุ้นการมีส่วนร่วมที่ทางช่องวางซ้อนกันไว้", "share": 16, "example": "อย่าลืมโหวตรูปคนที่ดูสนิทกับบอสสอกที่สุดนะค้า ผู้ชนะจะได้รางวัลเป็นการนอนกับบอสสอกทริปหน้า" },
+    { "label": "น้ำตาและการเทียบเคียงกับประสบการณ์ส่วนตัว", "share": 14, "example": "เข้าใจมากๆว่ากว่าจะยอมรับความจริงแล้วผ่านมันไปให้ได้ด้วยตัวเองมันยากมากๆ" },
+    { "label": "ความอิจฉาที่ไม่มีเพื่อนแบบนี้บ้าง", "share": 6, "example": "ในชีวิตนี้ไม่เคยเจองี้บ้างเลยยอ่ะ" }
   ],
   "sentiment_breakdown": { "positive": 66, "mixed": 27, "neutral": 6, "negative": 1 },
   "audience_signals": [
-    "Emotional vulnerability produces the deepest comments and the strongest expressions of loyalty in the whole series — deeper than any travel or comedy episode",
-    "The channel stacks multiple prompts in pinned comments (a poll plus an open question), and both get answered, so prompt density is not hitting a ceiling",
-    "Crew members are characters with their own followings and reply in their own voice, which widens the cast beyond the three hosts at no extra cost",
-    "The friendship is explicitly framed by viewers as a model — correcting each other without anger — which is a positioning the channel could own deliberately rather than incidentally",
-    "The audience treats the group as a source of emotional support, not entertainment, which is the deepest form of retention available"
+    "ความเปราะบางทางอารมณ์ก่อให้เกิดคอมเมนต์ที่ลึกซึ้งที่สุดและการแสดงความภักดีที่แข็งแกร่งที่สุดในซีรีส์ทั้งหมด ลึกซึ้งกว่าเอพิโสดท่องเที่ยวหรือตลกใดๆ",
+    "ทางช่องวางคำถามหลายข้อซ้อนกันในคอมเมนต์ปักหมุด (ทั้งโหวตและคำถามปลายเปิด) และทั้งสองข้อก็ได้รับคำตอบ แสดงว่าความหนาแน่นของคำถามยังไม่ถึงจุดอิ่มตัว",
+    "ทีมงานเป็นตัวละครที่มีฐานผู้ติดตามของตัวเองและตอบกลับด้วยน้ำเสียงของตัวเอง ซึ่งช่วยขยายกลุ่มตัวละครให้กว้างกว่าพิธีกรทั้งสามคนโดยไม่ต้องเพิ่มต้นทุน",
+    "ผู้ชมมองมิตรภาพนี้อย่างชัดเจนว่าเป็นต้นแบบ คือการตักเตือนกันโดยไม่ใช้อารมณ์โกรธ ซึ่งเป็นจุดยืนที่ทางช่องสามารถสร้างขึ้นอย่างตั้งใจแทนที่จะปล่อยให้เกิดขึ้นเอง",
+    "ผู้ชมมองกลุ่มนี้เป็นแหล่งพลังใจ ไม่ใช่แค่ความบันเทิง ซึ่งเป็นรูปแบบการรักษาผู้ชมที่ลึกซึ้งที่สุดเท่าที่จะเป็นไปได้"
   ],
   "content_requests": [
-    "More episodes where the group deals with something real",
-    "Follow up on how he is doing",
-    "Keep the whole crew on camera, not just the three hosts"
+    "เอพิโสดที่กลุ่มรับมือกับเรื่องจริงเพิ่มเติม",
+    "ติดตามความเป็นไปของเขาต่อ",
+    "คงให้ทีมงานทั้งหมดปรากฏในกล้อง ไม่ใช่แค่พิธีกรทั้งสามคน"
   ]
 }

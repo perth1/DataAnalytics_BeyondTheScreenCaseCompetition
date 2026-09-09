@@ -2,26 +2,26 @@
   "post_id": "d488d2f1-4143-4c29-8fb1-c7102f363f79",
   "model": "claude-opus-5",
   "comment_count": 141,
-  "summary": "The comment section reads as a confessional, not a music review. Viewers treat จางหาย as autobiography and respond by posting their own long-form breakup stories — several of the most-liked comments run 80-200 words about an ex they never got over, one about a partner lost to cancer. The second-largest cluster is career pride: viewers list everything Goy did herself (wrote lyrics and melody, sang, directed the MV) and frame her as an all-round talent rather than an actress who released a song. A third cluster reads the MV as a coded message to her real ex-partner Nicky, decoding specific shots (the football scene, the first book) and openly asking the pair to reunite. Lyric-quoting and timestamp comments show repeat listening. A visible minority arrived from the TV show The Wall Song rather than from the channel itself.",
+  "summary": "ช่องคอมเมนต์ของคลิปนี้มีลักษณะเหมือนพื้นที่ระบายความในใจมากกว่าการรีวิวเพลง ผู้ชมมองว่าเพลง \"จางหาย\" คือเรื่องราวชีวิตจริงของก้อย และตอบสนองด้วยการเล่าเรื่องอกหักของตัวเองแบบยาวๆ คอมเมนต์ที่มียอดไลก์สูงหลายรายการมีความยาว 80-200 คำ เล่าถึงแฟนเก่าที่ยังทำใจไม่ได้ หรือคู่รักที่จากไปด้วยโรคมะเร็ง กลุ่มที่ใหญ่เป็นอันดับสองคือความภูมิใจในฝีมือของก้อย ผู้ชมไล่เรียงสิ่งที่เธอทำเองทั้งหมด (แต่งเนื้อร้อง ทำนอง ร้องเอง และกำกับ MV เอง) และมองว่าเธอเป็นศิลปินที่มีความสามารถรอบด้าน ไม่ใช่แค่นักแสดงที่มาปล่อยเพลง กลุ่มที่สามตีความ MV ว่าเป็นข้อความแฝงถึงอดีตคนรักตัวจริงของเธออย่างนิกกี้ โดยตีความฉากต่างๆ อย่างละเอียด (ฉากฟุตบอล ฉากหนังสือเล่มแรก) และเรียกร้องให้ทั้งคู่กลับมาคืนดีกันอย่างเปิดเผย นอกจากนี้ยังมีคอมเมนต์ยกเนื้อเพลงและระบุช่วงเวลาที่ชอบ ซึ่งสะท้อนการฟังซ้ำหลายรอบ และมีผู้ชมส่วนหนึ่งที่มาจากรายการ The Wall Song มากกว่าจากช่องโดยตรง",
   "themes": [
-    { "label": "Viewers confessing their own heartbreak", "share": 34, "example": "ผมกับแฟนจากกันด้วยโรคมะเร็ง เขาไปเป็นนางฟ้าแล้วครับ ได้ฟังเพลงนี้แค่ประโยคแรกก็ทำให้ความคิดถึงกลับมา" },
-    { "label": "Pride in Goy as multi-talent creator", "share": 24, "example": "เต้นได้ ร้องได้ เขียนเพลง เขียนบท สอนการแสดง เป็นนักแสดง เป็นยูทูปเบอร์ คนๆนึงสุดที่ตรงไหน" },
-    { "label": "Decoding the MV as her real relationship / reunion wishes", "share": 22, "example": "ทำไมดูเอ็มวี แล้วนึกว่่าต้องเป็นนิ้กกี้แน่ๆ แสดงว่าไม่เป็นไร แต่ในใจคงเจ็บมาก" },
-    { "label": "Lyric quoting and favourite-moment timestamps", "share": 12, "example": "2:21 ชอบท่อนนี้" },
-    { "label": "Arrived from The Wall Song / cross-media discovery", "share": 8, "example": "ตามมาจาก the wall เพลงเพราะมากค่ะไม่รู้ว่าเพลงของก้อย" }
+    { "label": "ผู้ชมระบายเรื่องอกหักของตัวเอง", "share": 34, "example": "ผมกับแฟนจากกันด้วยโรคมะเร็ง เขาไปเป็นนางฟ้าแล้วครับ ได้ฟังเพลงนี้แค่ประโยคแรกก็ทำให้ความคิดถึงกลับมา" },
+    { "label": "ความภูมิใจที่ก้อยเป็นครีเอเตอร์ความสามารถรอบด้าน", "share": 24, "example": "เต้นได้ ร้องได้ เขียนเพลง เขียนบท สอนการแสดง เป็นนักแสดง เป็นยูทูปเบอร์ คนๆนึงสุดที่ตรงไหน" },
+    { "label": "การตีความ MV ว่าเชื่อมโยงกับความสัมพันธ์จริงของเธอ / ความหวังให้กลับมาคืนดี", "share": 22, "example": "ทำไมดูเอ็มวี แล้วนึกว่่าต้องเป็นนิ้กกี้แน่ๆ แสดงว่าไม่เป็นไร แต่ในใจคงเจ็บมาก" },
+    { "label": "การยกเนื้อเพลงและระบุช่วงเวลาที่ชื่นชอบ", "share": 12, "example": "2:21 ชอบท่อนนี้" },
+    { "label": "ผู้ชมที่มาจากรายการ The Wall Song / การค้นพบข้ามแพลตฟอร์ม", "share": 8, "example": "ตามมาจาก the wall เพลงเพราะมากค่ะไม่รู้ว่าเพลงของก้อย" }
   ],
   "sentiment_breakdown": { "positive": 72, "mixed": 16, "neutral": 9, "negative": 3 },
   "audience_signals": [
-    "Parasocial investment in Goy's real-life relationship is the single strongest engagement driver — viewers know the ex by name and read shots as evidence",
-    "The comment section functions as a safe space for personal confession; the most-liked comments are long first-person stories, not compliments",
-    "Long-tenure fanbase that tracks her across acting, stage, writing and YouTube — repeated 'ภูมิใจในตัวพี่ก้อย' framing signals ownership, not casual viewing",
-    "Terrestrial TV exposure (The Wall Song) imports viewers who did not know the song was hers — a proven top-of-funnel outside YouTube",
-    "Audience is protective: several comments ask her to prioritise self-love over the reunion narrative other fans push"
+    "ความผูกพันเชิงพาราโซเชียลกับความสัมพันธ์ส่วนตัวของก้อยเป็นปัจจัยขับเคลื่อนการมีส่วนร่วมที่แข็งแกร่งที่สุด ผู้ชมรู้จักชื่อแฟนเก่าและตีความฉากต่างๆ เป็นหลักฐาน",
+    "ช่องคอมเมนต์ทำหน้าที่เป็นพื้นที่ปลอดภัยสำหรับการระบายเรื่องส่วนตัว คอมเมนต์ที่มียอดไลก์สูงสุดเป็นเรื่องราวส่วนตัวความยาวมาก ไม่ใช่คำชม",
+    "ฐานแฟนคลับที่ติดตามมายาวนานและติดตามเธอในทุกบทบาท ทั้งการแสดง เวทีการแสดงสด งานเขียน และ YouTube คอมเมนต์ที่พูดซ้ำๆ ว่า \"ภูมิใจในตัวพี่ก้อย\" สะท้อนความรู้สึกเป็นเจ้าของ ไม่ใช่แค่การรับชมทั่วไป",
+    "การออกอากาศทางโทรทัศน์ภาคพื้นดิน (รายการ The Wall Song) นำพาผู้ชมกลุ่มใหม่ที่ไม่เคยรู้มาก่อนว่าเพลงนี้เป็นของเธอ ถือเป็นช่องทางสร้างการรับรู้ (top-of-funnel) ที่พิสูจน์แล้วว่าได้ผลนอกเหนือจาก YouTube",
+    "ผู้ชมมีความรู้สึกปกป้อง มีคอมเมนต์หลายรายการขอให้เธอให้ความสำคัญกับการรักตัวเองมากกว่าการกลับไปคืนดีตามที่แฟนคลับบางส่วนเรียกร้อง"
   ],
   "content_requests": [
-    "A live performance of the song / hear her sing it at a concert",
-    "The duet version with Hai from The Wall Song released as its own track",
-    "A reaction video from the Friendsfly friend group, especially Vee",
-    "More original songs written by her"
+    "อยากให้มีการแสดงสดเพลงนี้ / ได้ฟังเธอร้องในคอนเสิร์ต",
+    "อยากให้ปล่อยเวอร์ชันคู่กับไห่จากรายการ The Wall Song เป็นเพลงแยกต่างหาก",
+    "อยากให้กลุ่มเพื่อนจาก Friendsfly ทำวิดีโอรีแอคชัน โดยเฉพาะวี",
+    "อยากให้เธอแต่งเพลงต้นฉบับออกมาอีก"
   ]
 }

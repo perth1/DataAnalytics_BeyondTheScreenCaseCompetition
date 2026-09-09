@@ -2,25 +2,25 @@
   "post_id": "0f32152a-a7b4-4aa6-9c63-40626cd167a8",
   "model": "claude-opus-5",
   "comment_count": 58,
-  "summary": "A Short in which the group sings while running on a treadmill with guest Violette Wautier. The reaction splits cleanly: praise for Violette's control as a trained singer, and genuine surprise at Dream, the member nobody expected to hold a steady tone. Surprise is the engagement mechanic here — the top comment thread is literally 'I wasn't shocked by Vee because she's a singer, I was shocked by Dream'. A large secondary cluster turns the comment section educational: viewers explain that treadmill singing is a real vocal-training method, citing Beyonce, K-pop trainees, army conscripts and their own singing teachers, and several add breath-support technique. A third cluster is self-deprecating relatability — viewers say they cannot even talk while walking. Almost no one asks for anything; this format converts to comments through recognition and knowledge-sharing rather than requests.",
+  "summary": "คลิปสั้นที่กลุ่มพิธีกรร้องเพลงไปพร้อมกับวิ่งบนลู่วิ่ง โดยมีวีโอเล็ต วอเทียร์ เป็นแขกรับเชิญ ปฏิกิริยาของผู้ชมแบ่งออกเป็นสองฝั่งชัดเจน คือคำชมความสามารถในการควบคุมเสียงของวีโอเล็ตในฐานะนักร้องมืออาชีพ กับความประหลาดใจอย่างแท้จริงต่อดรีม สมาชิกที่ไม่มีใครคาดคิดว่าจะร้องได้นิ่งขนาดนี้ ความประหลาดใจคือกลไกหลักที่สร้างเอนเกจเมนต์ในโพสต์นี้ เห็นได้จากคอมเมนต์อันดับต้นๆ ที่ระบุตรงๆ ว่า \"ไม่ตกใจวีเพราะเป็นนักร้องอยู่แล้ว แต่ตกใจดรีมมากกว่า\" กลุ่มคอมเมนต์รองขนาดใหญ่ทำให้ช่องคอมเมนต์กลายเป็นพื้นที่ให้ความรู้ โดยผู้ชมอธิบายว่าการร้องเพลงบนลู่วิ่งเป็นเทคนิคฝึกร้องที่มีอยู่จริง พร้อมยกตัวอย่างบียอนเซ่ เด็กฝึกเคป็อป ทหารเกณฑ์ และครูสอนร้องเพลงของตัวเอง หลายคนเสริมเรื่องเทคนิคการควบคุมลมหายใจ กลุ่มที่สามคือมุกถ่อมตัวเชิงเปรียบเทียบ ผู้ชมบอกว่าแค่เดินยังพูดไม่ทันเลย แทบไม่มีใครขอสิ่งใดเพิ่มเติม ฟอร์แมตนี้สร้างคอมเมนต์ผ่านการยอมรับความสามารถและการแบ่งปันความรู้ มากกว่าการเรียกร้อง",
   "themes": [
-    { "label": "Praise for Violette's live vocal control", "share": 38, "example": "วีร้องเพราะมาก. เสียงใส. แม้วิ่งอ่ะ" },
-    { "label": "Surprise at Dream's unexpected voice", "share": 22, "example": "วีไม่ตกใจเพราะเป็นนักร้องตกใจดรีมเสียงดีอ่ะ" },
-    { "label": "Viewers explaining the vocal-training technique", "share": 21, "example": "Beyonce ก็ฝึกร้องเพลงบนลู่วิ่งเเบบนี้เสียงเลยนิ่งมากพอเวลาร้อง" },
-    { "label": "Self-deprecating relatability", "share": 11, "example": "นี่แค่วิ่งยังหายใจไม่ทัน ไม่ใช้วิ่งสิ เดินด้วยซ้ำ" },
-    { "label": "Individual member bias declarations", "share": 8, "example": "รายการนี้ดีมีแต่คนสวยๆ แต่ชอบน้องก้อยมากสุดครับ ตลกดี โก๊ะๆดี" }
+    { "label": "คำชมความสามารถควบคุมเสียงร้องสดของวีโอเล็ต", "share": 38, "example": "วีร้องเพราะมาก. เสียงใส. แม้วิ่งอ่ะ" },
+    { "label": "ความประหลาดใจต่อเสียงร้องที่ไม่คาดคิดของดรีม", "share": 22, "example": "วีไม่ตกใจเพราะเป็นนักร้องตกใจดรีมเสียงดีอ่ะ" },
+    { "label": "ผู้ชมอธิบายเทคนิคการฝึกร้องเพลง", "share": 21, "example": "Beyonce ก็ฝึกร้องเพลงบนลู่วิ่งเเบบนี้เสียงเลยนิ่งมากพอเวลาร้อง" },
+    { "label": "มุกถ่อมตัวที่เข้าถึงง่าย", "share": 11, "example": "นี่แค่วิ่งยังหายใจไม่ทัน ไม่ใช้วิ่งสิ เดินด้วยซ้ำ" },
+    { "label": "การประกาศความชื่นชอบสมาชิกเป็นรายบุคคล", "share": 8, "example": "รายการนี้ดีมีแต่คนสวยๆ แต่ชอบน้องก้อยมากสุดครับ ตลกดี โก๊ะๆดี" }
   ],
   "sentiment_breakdown": { "positive": 89, "neutral": 10, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "A Short built on a verifiable demonstration of skill outperforms conversation-based clips — the hook needs no context and works for viewers who do not know the channel",
-    "Surprise is the mechanic: the strongest reaction is to the member the audience did NOT expect to perform well, not to the professional",
-    "The format invites the audience to contribute expertise (breath support, athlete-singer training), producing high comment volume at very low effort",
-    "The guest's own fanbase arrives with her — several commenters say they have followed Violette since her singing competition, not from this channel",
-    "Members are followed individually, not only as a trio; per-member bias declarations are common and would support member-led content"
+    "คลิปสั้นที่สร้างจากการพิสูจน์ทักษะที่จับต้องได้ ให้ผลตอบรับดีกว่าคลิปที่เน้นบทสนทนา เพราะจุดดึงดูดไม่ต้องอาศัยบริบท และเข้าถึงผู้ชมที่ไม่รู้จักช่องมาก่อนได้ด้วย",
+    "ความประหลาดใจคือกลไกหลัก โดยปฏิกิริยาที่แรงที่สุดเกิดกับสมาชิกที่ผู้ชมไม่ได้คาดหวังว่าจะทำได้ดี ไม่ใช่กับมืออาชีพ",
+    "ฟอร์แมตนี้เปิดโอกาสให้ผู้ชมมาร่วมแบ่งปันความรู้ความเชี่ยวชาญ (เช่น การควบคุมลมหายใจ การฝึกของนักร้อง-นักกีฬา) ทำให้เกิดปริมาณคอมเมนต์สูงโดยใช้ความพยายามในการผลิตต่ำมาก",
+    "ฐานแฟนคลับของแขกรับเชิญติดตามเธอมาด้วย โดยหลายคอมเมนต์ระบุว่าติดตามวีโอเล็ตมาตั้งแต่เวทีประกวดร้องเพลง ไม่ได้รู้จักผ่านช่องนี้",
+    "สมาชิกแต่ละคนมีฐานผู้ติดตามของตัวเอง ไม่ได้ถูกติดตามในฐานะกลุ่มสามคนเพียงอย่างเดียว การประกาศชื่นชอบสมาชิกเป็นรายบุคคลพบได้ทั่วไป และสนับสนุนแนวคิดคอนเทนต์ที่เน้นสมาชิกแต่ละคนเป็นหลัก"
   ],
   "content_requests": [
-    "More of the same treadmill/vocal-test format with other guests",
-    "A full-length version rather than a Short",
-    "Let Violette sing properly on the channel"
+    "อยากให้มีฟอร์แมตทดสอบเสียงบนลู่วิ่งแบบนี้กับแขกรับเชิญคนอื่นเพิ่มเติม",
+    "อยากให้มีเวอร์ชันเต็มแทนที่จะเป็นแค่คลิปสั้น",
+    "อยากให้วีโอเล็ตได้ร้องเพลงเต็มรูปแบบในช่องนี้"
   ]
 }

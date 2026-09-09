@@ -2,21 +2,21 @@
   "post_id": "25b5bc19-38a9-4ede-a569-14f9b86ffcce",
   "model": "claude-opus-5",
   "comment_count": 4,
-  "summary": "A street-food exploration episode. The top comment praises one host for enjoying eating; others ask for more episodes like this, note the hosts look better post-marriage, and the channel asks where to go next. At 400 comments on 885K views this is a low-engagement format, but notably higher than the cooking show, which suggests travel + food beats pure cooking, and that a host's obvious enjoyment of eating is a draw. The marriage milestone is noticed and appreciated.",
+  "summary": "เอพิโสดตะลุยชิมสตรีทฟู้ด คอมเมนต์อันดับต้นๆ ชื่นชมพิธีกรคนหนึ่งที่กินอาหารอย่างเอนจอย ส่วนคอมเมนต์อื่นๆ ขอให้ทำเอพิโสดแบบนี้อีก สังเกตว่าพิธีกรดูดีขึ้นหลังแต่งงาน และทางช่องถามว่าควรไปที่ไหนต่อ ด้วยยอดคอมเมนต์ 400 รายการจากยอดวิว 885,000 ครั้ง ถือเป็นรูปแบบที่มีการมีส่วนร่วมค่อนข้างต่ำ แต่สูงกว่ารายการทำอาหารอย่างมีนัยสำคัญ ซึ่งบ่งชี้ว่าการผสมผสานท่องเที่ยวกับอาหารเหนือกว่าการทำอาหารล้วนๆ และการที่พิธีกรเอนจอยกับการกินอย่างเห็นได้ชัดเป็นจุดดึงดูด หมุดหมายเรื่องการแต่งงานก็เป็นสิ่งที่ผู้ชมสังเกตเห็นและชื่นชม",
   "themes": [
-    { "label": "Praise for obvious enjoyment of eating", "share": 35, "example": "น้องดรีมทำถึง อารมณ์เอ็นจอยกินแหลก" },
-    { "label": "Requesting more eating-focused episodes", "share": 30, "example": "อยากให้ทำรายการแบบนี้บ่อยๆ ดูเอนจอยอีสติ้งกันมากกก" },
-    { "label": "Noting hosts look better post-marriage", "share": 22, "example": "หลังแต่งงานมา ทั้งน้องนัตตี้ทั้งน้องแมน ดูสวยดูหล่อ และมีเสน่ห์" },
-    { "label": "Asking where to explore next", "share": 13, "example": "รอบหน้าไปตะลุยกินที่ไหนดีคะะ" }
+    { "label": "การชื่นชมความเอนจอยในการกินอย่างเห็นได้ชัด", "share": 35, "example": "น้องดรีมทำถึง อารมณ์เอ็นจอยกินแหลก" },
+    { "label": "การเรียกร้องเอพิโสดแนวกินให้มากขึ้น", "share": 30, "example": "อยากให้ทำรายการแบบนี้บ่อยๆ ดูเอนจอยอีสติ้งกันมากกก" },
+    { "label": "การสังเกตว่าพิธีกรดูดีขึ้นหลังแต่งงาน", "share": 22, "example": "หลังแต่งงานมา ทั้งน้องนัตตี้ทั้งน้องแมน ดูสวยดูหล่อ และมีเสน่ห์" },
+    { "label": "การถามว่าจะไปตะลุยที่ไหนต่อ", "share": 13, "example": "รอบหน้าไปตะลุยกินที่ไหนดีคะะ" }
   ],
   "sentiment_breakdown": { "positive": 95, "neutral": 4, "mixed": 1, "negative": 0 },
   "audience_signals": [
-    "Food + travel beats pure food; context and location matter more than the food itself",
-    "Host physicality and apparent enjoyment are noticed and appreciated, especially post-life-event (marriage)",
-    "The audience tracks hosts' personal milestones and comments on visible changes"
+    "อาหารผสมผสานกับการท่องเที่ยวเหนือกว่าอาหารล้วนๆ บริบทและสถานที่มีความสำคัญมากกว่าตัวอาหารเอง",
+    "รูปลักษณ์ของพิธีกรและความเอนจอยที่แสดงออกเป็นสิ่งที่ผู้ชมสังเกตและชื่นชม โดยเฉพาะหลังเหตุการณ์สำคัญในชีวิต เช่น การแต่งงาน",
+    "ผู้ชมติดตามหมุดหมายส่วนตัวของพิธีกรและแสดงความเห็นต่อการเปลี่ยนแปลงที่สังเกตเห็นได้"
   ],
   "content_requests": [
-    "More street-food exploration episodes",
-    "Regular eating show format"
+    "เอพิโสดตะลุยชิมสตรีทฟู้ดเพิ่มเติม",
+    "รายการแนวกินอาหารแบบประจำ"
   ]
 }

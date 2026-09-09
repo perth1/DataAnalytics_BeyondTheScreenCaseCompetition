@@ -19,7 +19,7 @@ export function FormatSplit({ data }: { data: FormatDatum[] }) {
           <div className="flex items-baseline justify-between gap-3 text-xs">
             <span className="font-medium">{d.label}</span>
             <span className="text-muted-foreground tabular-nums">
-              {formatCompact(d.views)} views · {d.posts} posts ·{" "}
+              {formatCompact(d.views)} วิว · {d.posts} โพสต์ ·{" "}
               {formatPercent(d.share, 1)}
             </span>
           </div>
