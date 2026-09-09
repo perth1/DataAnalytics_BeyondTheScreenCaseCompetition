@@ -35,7 +35,10 @@ import {
 import { figure, pivot, RESEARCH_SOURCES } from "@/lib/market-research"
 import { formatCompact, formatNumber, formatPercent } from "@/lib/utils"
 
-export const dynamic = "force-dynamic"
+// No per-request input, and the cohort views are the most expensive reads in
+// the app, so the page is prerendered and refreshed in the background. Matches
+// READ_TTL in lib/cache.ts, which a segment config cannot import.
+export const revalidate = 300
 
 /**
  * The Thai audience market — which content each age group watches.

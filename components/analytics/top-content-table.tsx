@@ -9,9 +9,9 @@ import {
 } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 import { formatCompact, formatDate, formatPercent } from "@/lib/utils"
-import type { PostWithMetrics } from "@/lib/types"
+import type { PostCard } from "@/lib/types"
 
-export function TopContentTable({ posts }: { posts: PostWithMetrics[] }) {
+export function TopContentTable({ posts }: { posts: PostCard[] }) {
   return (
     <Table>
       <TableHeader>

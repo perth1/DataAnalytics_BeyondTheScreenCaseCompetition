@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/table"
 import { Badge } from "@/components/ui/badge"
 import { formatCompact, formatDate, formatPercent } from "@/lib/utils"
-import { getSummarySummary } from "@/lib/queries/analytics"
+import { fetchCommentSummary } from "@/app/actions/summary"
 import type { SeriesTop } from "@/lib/aggregate"
 import type { CommentSummary } from "@/lib/types"
 
@@ -35,7 +35,7 @@ export function SeriesTopList({ groups, analysed = [] }: SeriesTopListProps) {
     setSelectedPostId(postId)
     setLoading(true)
     try {
-      const summary = await getSummarySummary(postId)
+      const summary = await fetchCommentSummary(postId)
       setSummary(summary)
     } finally {
       setLoading(false)

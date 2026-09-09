@@ -100,6 +100,57 @@ export interface PostWithMetrics extends Post {
   theme_name: string | null
 }
 
+/**
+ * The post columns the analytics pages actually read.
+ *
+ * `v_post_latest_metrics` also carries `description`, `thumbnail_url`, `raw`
+ * and every join key. Nothing on the site renders them, but `select("*")` still
+ * paid for them: on a read of all 2.3k posts they were most of the payload.
+ * Queries name these columns explicitly, so this — not `PostWithMetrics` — is
+ * the shape the aggregation works from.
+ */
+export type PostRow = Pick<
+  PostWithMetrics,
+  | "id"
+  | "external_id"
+  | "platform"
+  | "title"
+  | "url"
+  | "published_at"
+  | "format"
+  | "hashtags"
+  | "is_viral"
+  | "category_slug"
+  | "category_name"
+  | "theme_slug"
+  | "theme_name"
+  | "views"
+  | "likes"
+  | "comments"
+  | "shares"
+  | "engagement_rate"
+>
+
+/**
+ * The fields a post table renders. Narrower than `PostRow` because these rows
+ * cross into client components, where every unread field is bytes of RSC
+ * payload in the HTML and nothing else.
+ */
+export type PostCard = Pick<
+  PostRow,
+  | "id"
+  | "external_id"
+  | "title"
+  | "url"
+  | "published_at"
+  | "views"
+  | "likes"
+  | "comments"
+  | "engagement_rate"
+  | "category_name"
+  | "theme_name"
+>
+
 export interface ThemePerformance {
   platform: Platform
   theme_slug: string

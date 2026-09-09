@@ -1,4 +1,5 @@
 import { createServerClient, isSupabaseConfigured } from "@/lib/supabase/server"
+import { cachedRead } from "@/lib/cache"
 import type {
   CohortSeries,
   CohortTerritory,
@@ -17,7 +18,7 @@ import type {
  * the wire. Comment text is never selected.
  */
 
-export async function getTerritoryDemand(
+async function readTerritoryDemand(
   platform?: Platform,
 ): Promise<TerritoryDemand[]> {
   if (!isSupabaseConfigured()) return []
@@ -30,7 +31,7 @@ export async function getTerritoryDemand(
   return (data ?? []) as TerritoryDemand[]
 }
 
-export async function getTerritorySupply(
+async function readTerritorySupply(
   platform?: Platform,
 ): Promise<TerritorySupply[]> {
   if (!isSupabaseConfigured()) return []
@@ -43,7 +44,7 @@ export async function getTerritorySupply(
   return (data ?? []) as TerritorySupply[]
 }
 
-export async function getCohortTerritories(
+async function readCohortTerritories(
   platform?: Platform,
 ): Promise<CohortTerritory[]> {
   if (!isSupabaseConfigured()) return []
@@ -56,7 +57,7 @@ export async function getCohortTerritories(
   return (data ?? []) as CohortTerritory[]
 }
 
-export async function getCohortSeries(
+async function readCohortSeries(
   platform?: Platform,
 ): Promise<CohortSeries[]> {
   if (!isSupabaseConfigured()) return []
@@ -69,7 +70,7 @@ export async function getCohortSeries(
   return (data ?? []) as CohortSeries[]
 }
 
-export async function getTerritoryMomentum(
+async function readTerritoryMomentum(
   platform?: Platform,
 ): Promise<TerritoryMomentum[]> {
   if (!isSupabaseConfigured()) return []
@@ -82,7 +83,7 @@ export async function getTerritoryMomentum(
   return (data ?? []) as TerritoryMomentum[]
 }
 
-export async function getSignalCoverage(
+async function readSignalCoverage(
   platform?: Platform,
 ): Promise<SignalCoverage[]> {
   if (!isSupabaseConfigured()) return []
@@ -91,3 +92,15 @@ export async function getSignalCoverage(
   const { data } = await query
   return (data ?? []) as SignalCoverage[]
 }
+
+/**
+ * Cached reads. These all hit pre-aggregated views over data that only moves
+ * when an ingest runs, so they are memoised behind the ingest tag instead of
+ * being recomputed in Postgres for every visitor.
+ */
+export const getTerritoryDemand = cachedRead("territory-demand", readTerritoryDemand)
+export const getTerritorySupply = cachedRead("territory-supply", readTerritorySupply)
+export const getCohortTerritories = cachedRead("cohort-territories", readCohortTerritories)
+export const getCohortSeries = cachedRead("cohort-series", readCohortSeries)
+export const getTerritoryMomentum = cachedRead("territory-momentum", readTerritoryMomentum)
+export const getSignalCoverage = cachedRead("signal-coverage", readSignalCoverage)

@@ -1,4 +1,4 @@
-import { formatCompact, formatPercent } from "@/lib/utils"
+import { formatCompact, formatNumber, formatPercent } from "@/lib/utils"
 
 export interface FormatDatum {
   label: string
@@ -19,7 +19,7 @@ export function FormatSplit({ data }: { data: FormatDatum[] }) {
           <div className="flex items-baseline justify-between gap-3 text-xs">
             <span className="font-medium">{d.label}</span>
             <span className="text-muted-foreground tabular-nums">
-              {formatCompact(d.views)} วิว · {d.posts} โพสต์ ·{" "}
+              {formatCompact(d.views)} วิว · {formatNumber(d.posts)} โพสต์ ·{" "}
               {formatPercent(d.share, 1)}
             </span>
           </div>

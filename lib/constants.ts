@@ -1,4 +1,15 @@
-import type { Platform } from "@/lib/types"
+import type { Platform, PostFormat } from "@/lib/types"
+
+/** Every native format the ingest can stamp on a post; guards `?format=` input. */
+export const POST_FORMATS: PostFormat[] = [
+  "long",
+  "short",
+  "reel",
+  "image",
+  "carousel",
+  "live",
+  "text",
+]
 
 export const BRAND = {
   name: "Beyond The Screen",

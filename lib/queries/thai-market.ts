@@ -1,4 +1,5 @@
 import { createServerClient, isSupabaseConfigured } from "@/lib/supabase/server"
+import { cachedRead } from "@/lib/cache"
 import type {
   MarketCategoryScale,
   MarketChannelReach,
@@ -20,7 +21,7 @@ import type {
  * evidence quotes — and never in bulk.
  */
 
-export async function getMarketCoverage(): Promise<MarketCoverage | null> {
+async function readMarketCoverage(): Promise<MarketCoverage | null> {
   if (!isSupabaseConfigured()) return null
   const { data } = await createServerClient()
     .from("v_market_coverage")
@@ -29,7 +30,7 @@ export async function getMarketCoverage(): Promise<MarketCoverage | null> {
   return (data as MarketCoverage) ?? null
 }
 
-export async function getCategoryScale(): Promise<MarketCategoryScale[]> {
+async function readCategoryScale(): Promise<MarketCategoryScale[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_category_scale")
@@ -38,7 +39,7 @@ export async function getCategoryScale(): Promise<MarketCategoryScale[]> {
   return (data ?? []) as MarketCategoryScale[]
 }
 
-export async function getThemeScale(): Promise<MarketThemeScale[]> {
+async function readThemeScale(): Promise<MarketThemeScale[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_theme_scale")
@@ -47,7 +48,7 @@ export async function getThemeScale(): Promise<MarketThemeScale[]> {
   return (data ?? []) as MarketThemeScale[]
 }
 
-export async function getCohortTotals(): Promise<MarketCohortTotal[]> {
+async function readCohortTotals(): Promise<MarketCohortTotal[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_cohort_totals")
@@ -56,7 +57,7 @@ export async function getCohortTotals(): Promise<MarketCohortTotal[]> {
   return (data ?? []) as MarketCohortTotal[]
 }
 
-export async function getCohortCategories(): Promise<MarketCohortCategory[]> {
+async function readCohortCategories(): Promise<MarketCohortCategory[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_cohort_category")
@@ -65,7 +66,7 @@ export async function getCohortCategories(): Promise<MarketCohortCategory[]> {
   return (data ?? []) as MarketCohortCategory[]
 }
 
-export async function getCohortThemes(): Promise<MarketCohortTheme[]> {
+async function readCohortThemes(): Promise<MarketCohortTheme[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_cohort_theme")
@@ -74,7 +75,7 @@ export async function getCohortThemes(): Promise<MarketCohortTheme[]> {
   return (data ?? []) as MarketCohortTheme[]
 }
 
-export async function getCohortFormats(): Promise<MarketCohortFormat[]> {
+async function readCohortFormats(): Promise<MarketCohortFormat[]> {
   if (!isSupabaseConfigured()) return []
   const { data } = await createServerClient()
     .from("v_market_cohort_format")
@@ -82,7 +83,7 @@ export async function getCohortFormats(): Promise<MarketCohortFormat[]> {
   return (data ?? []) as MarketCohortFormat[]
 }
 
-export async function getChannelReach(
+async function readChannelReach(
   limit = 15,
 ): Promise<MarketChannelReach[]> {
   if (!isSupabaseConfigured()) return []
@@ -99,7 +100,7 @@ export async function getChannelReach(
  * a claim like "senior viewers over-index on ธรรมะ" should be checkable
  * against the specific content that produced it.
  */
-export async function getCohortVideos(
+async function readCohortVideos(
   limitPerCohort = 5,
 ): Promise<MarketCohortVideo[]> {
   if (!isSupabaseConfigured()) return []
@@ -126,7 +127,7 @@ export async function getCohortVideos(
  * to a hard cap: the point is to show the reader what the evidence looks like,
  * not to ship the corpus to the browser.
  */
-export async function getCohortQuotes(
+async function readCohortQuotes(
   cohort: string,
   limit = 4,
 ): Promise<{ text: string; stated_age: number | null; video_id: string }[]> {
@@ -144,3 +145,19 @@ export async function getCohortQuotes(
     video_id: string
   }[]
 }
+
+/**
+ * Cached reads. These all hit pre-aggregated views over data that only moves
+ * when an ingest runs, so they are memoised behind the ingest tag instead of
+ * being recomputed in Postgres for every visitor.
+ */
+export const getMarketCoverage = cachedRead("market-coverage", readMarketCoverage)
+export const getCategoryScale = cachedRead("category-scale", readCategoryScale)
+export const getThemeScale = cachedRead("theme-scale", readThemeScale)
+export const getCohortTotals = cachedRead("cohort-totals", readCohortTotals)
+export const getCohortCategories = cachedRead("cohort-categories", readCohortCategories)
+export const getCohortThemes = cachedRead("cohort-themes", readCohortThemes)
+export const getCohortFormats = cachedRead("cohort-formats", readCohortFormats)
+export const getChannelReach = cachedRead("channel-reach", readChannelReach)
+export const getCohortVideos = cachedRead("cohort-videos", readCohortVideos)
+export const getCohortQuotes = cachedRead("cohort-quotes", readCohortQuotes)

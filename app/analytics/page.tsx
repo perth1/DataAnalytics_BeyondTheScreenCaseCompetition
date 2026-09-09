@@ -4,7 +4,7 @@ import { PageShell } from "@/components/layout/page-shell"
 import { PlatformNav } from "@/components/analytics/platform-nav"
 import { StatRow, StatTile } from "@/components/analytics/stat-tile"
 import { ChartFrame } from "@/components/analytics/chart-frame"
-import { CategoryBar } from "@/components/analytics/category-bar"
+import { CategoryBar } from "@/components/analytics/lazy-charts"
 import { PerformanceTable } from "@/components/analytics/performance-table"
 import { DataSources } from "@/components/analytics/data-sources"
 import { EmptyState } from "@/components/ui/empty-state"
@@ -12,28 +12,31 @@ import { Badge } from "@/components/ui/badge"
 import {
   getCategoryPerformance,
   getDataSnapshot,
-  getPosts,
+  getPlatformTotals,
   getThemePerformance,
 } from "@/lib/queries/analytics"
-import { sumTotals } from "@/lib/aggregate"
+import { EMPTY_TOTALS } from "@/lib/aggregate"
 import { BRAND, PLATFORMS } from "@/lib/constants"
 import { formatCompact, formatPercent } from "@/lib/utils"
 
-export const dynamic = "force-dynamic"
+// The page has no per-request input, so it is served from a prerender and
+// refreshed in the background rather than rebuilt for every visitor. Matches
+// READ_TTL in lib/cache.ts; a segment config has to be a literal, so the two
+// cannot share a constant.
+export const revalidate = 300
 
 export default async function AnalyticsPage() {
-  const perPlatform = await Promise.all(
-    PLATFORMS.map(async (platform) => ({
-      platform,
-      totals: sumTotals(await getPosts(platform.key)),
-    })),
-  )
-
-  const [categories, themes, snapshot] = await Promise.all([
+  const [totalsByPlatform, categories, themes, snapshot] = await Promise.all([
+    getPlatformTotals(),
     getCategoryPerformance(),
     getThemePerformance(),
     getDataSnapshot(),
   ])
+
+  const perPlatform = PLATFORMS.map((platform) => ({
+    platform,
+    totals: totalsByPlatform[platform.key] ?? EMPTY_TOTALS,
+  }))
   const grand = perPlatform.reduce(
     (acc, p) => ({
       posts: acc.posts + p.totals.posts,
